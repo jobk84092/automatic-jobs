@@ -1,0 +1,73 @@
+{
+   "accountSettings": {
+      "message": "Account Settings:"
+   },
+   "accountSuccessfullyConnected": {
+      "message": "Account Successfully Connected!"
+   },
+   "apiKey": {
+      "message": "Enter your API key to continue."
+   },
+   "balance": {
+      "message": "Balance"
+   },
+   "connect": {
+      "message": "Connect"
+   },
+   "createAccountToGetIt": {
+      "message": "\u003Ca href=\"#\" data-lang-link=\"$link$\" target=\"_blank\">Create account\u003C/a> to get API key",
+      "placeholders": {
+         "link": {
+            "content": "$1"
+         }
+      }
+   },
+   "enabledSolveAutomatically": {
+      "message": "Automatic CAPTCHA Solving"
+   },
+   "enabledSolveAutomaticallyOff": {
+      "message": "Turned off"
+   },
+   "enabledSolveAutomaticallyOn": {
+      "message": "Turned on"
+   },
+   "extDescription": {
+      "message": "Auto CAPTCHA Solver a CAPTCHAs.IO Extension"
+   },
+   "extName": {
+      "message": "Auto CAPTCHA Solver by CAPTCHAs.IO"
+   },
+   "extShortName": {
+      "message": "CAPTCHA Solver"
+   },
+   "login": {
+      "message": "Login"
+   },
+   "logout": {
+      "message": "Logout"
+   },
+   "markAsCaptchaSource": {
+      "message": "Mark as captcha source"
+   },
+   "normalManual": {
+      "message": "Location of image with captcha is saved. Now, please choose where to put answer."
+   },
+   "optionsPageTitle": {
+      "message": "Free Auto CAPTCHA Solver Settings"
+   },
+   "putCaptchaAnswerHere": {
+      "message": "Put captcha answer here"
+   },
+   "solveWith": {
+      "message": "Solve with CAPTCHAs.IO Auto CAPTCHA Solver"
+   },
+   "solved": {
+      "message": "Captcha Solved!"
+   },
+   "solving": {
+      "message": "Solving..."
+   },
+   "yourApiKey": {
+      "message": "Your API Key..."
+   }
+}

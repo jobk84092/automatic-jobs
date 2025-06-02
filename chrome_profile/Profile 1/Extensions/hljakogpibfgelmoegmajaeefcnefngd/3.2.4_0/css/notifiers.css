@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-family: "Mulish", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+.relative {
+  position: relative;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* body style */
+.mlt-extensions-body {
+  position: relative;
+  height: 100%;
+  background-color: #F1F4F7;
+}
+
+.mlt-extensions-wrapper {
+  height: 100vh;
+  max-width: 650px;
+  margin: auto;
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: end;
+  z-index: 9999999;
+  overflow: hidden;
+}
+
+.maintenance-img {
+  max-width: 300px;
+  display: block;
+  margin: auto;
+}
+
+.mlt-maintenance-title {
+  color: #2C3638;
+  font-weight: 700;
+  font-size: 1.23rem;
+  text-align: center;
+  margin: 25px 0px 5px 0px;
+  line-height: 25px;
+}
+
+.mlt-maintenance-subtitle {
+  text-align: center;
+  font-weight: 500;
+  line-height: 22px;
+  font-size: 0.938rem;
+}
+
+.footer p {
+  color: #3a3a3c;
+  font-size: 11px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-family: "Mulish", sans-serif;
+  text-align: center;
+}
+
+.footer span {
+  font-weight: bold;
+}
+
+/* background filter */
+.mlt-shape-top {
+  position: fixed;
+  left: 7rem;
+  top: 7rem;
+  height: 28.25rem;
+  width: 28.25rem;
+  border-radius: 9999px;
+  background-color: #C5D9FA;
+  -webkit-filter: blur(150px);
+  filter: blur(150px);
+}
+
+.mlt-shape-bottom {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  height: 24.625rem;
+  width: 24.625rem;
+  border-radius: 9999px;
+  background-color: #DDF0F4;
+  -webkit-filter: blur(100px);
+  filter: blur(100px);
+}

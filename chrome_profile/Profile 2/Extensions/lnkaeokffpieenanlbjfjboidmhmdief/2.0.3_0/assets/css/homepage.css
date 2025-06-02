@@ -1,0 +1,257 @@
+.homepage {
+	width: 100%;
+	height: 100%;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	cursor: default;
+	position: fixed;
+	z-index: 999999;
+	font-size: 14px;
+}
+.homepage .homepage_body {
+	width: 370px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	background: #fff;
+	box-shadow: 0 0 10px 0 rgba(227, 227, 227, 0.8);
+	border-radius: 10px;
+	padding: 20px;
+	padding-bottom: 0;
+	box-sizing: border-box;
+}
+.homepage .homepage_body .body {
+	margin-top: 20px;
+	position: relative;
+}
+.homepage_body .mask {
+	position: absolute;
+	width: 370px;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: -20px;
+	background-color: rgba(255, 255, 255, 0.7);
+	cursor: not-allowed;
+	height: calc(100% + 25px);
+	border-radius: 0 0 10px 10px;
+}
+.head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.head_logo {
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	font-weight: 600;
+}
+.head_logo img {
+	margin-right: 5px;
+}
+.head_logo p {
+	margin: 0;
+}
+.back_title {
+	font-weight: 500;
+	color: #000;
+	font-size: 14px;
+	line-height: 24px;
+}
+.back_div {
+	opacity: 0.6;
+	display: inherit;
+}
+.back_div:hover {
+	opacity: 0.9;
+}
+.head_tool .head_button {
+	border: 2px solid #3bba54;
+	/* width: 44px; */
+	min-width: 44px;
+	height: 20px;
+	border-radius: 4px;
+	font-size: 12px;
+	line-height: 21px;
+	margin-right: 20px;
+}
+.head_tool .head_button {
+	padding-left: 6px;
+	padding-right: 6px;
+	color: #3bba54;
+	font-weight: 600;
+}
+.homepage .homepage_body .head_tool .head_button:hover {
+	background-color: #3bba54;
+	color: white;
+}
+
+.head_tool {
+	display: flex;
+	position: relative;
+	align-items: center;
+}
+.head_tool > svg {
+	width: 18px;
+	height: 18px;
+	margin-right: 15px;
+	cursor: pointer;
+	transition: all 0.2s;
+	fill: #555;
+}
+.head_tool > svg:hover {
+	fill: #000;
+}
+.head_tool .head_portrait {
+	margin-right: 15px;
+	font-size: 0;
+}
+.head_tool .head_portrait img {
+	width: 20px;
+	height: 20px;
+	margin: 0;
+	object-fit: cover;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.head_tool .head_portrait svg {
+	width: 18px;
+	height: 18px;
+	pointer-events: none;
+	fill: currentColor;
+	color: #ccc;
+}
+.head_tool .head_portrait > div {
+	width: 20px;
+	height: 20px;
+	color: #fff;
+	border-radius: 50%;
+	margin-right: 15px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 22px;
+	overflow: hidden;
+	cursor: pointer;
+	margin: 0;
+}
+.size_div {
+	display: flex;
+}
+.user_box {
+	max-width: 270px;
+	height: 119px;
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	top: 34px;
+	z-index: 10;
+	box-sizing: border-box;
+	padding: 10px;
+}
+.user_box .user_info {
+	width: 100%;
+	height: 56px;
+	border-radius: 5px;
+	background: #f5f5f5;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+	padding: 5px;
+	cursor: pointer;
+}
+.user_box .user_info .info {
+	min-width: 100px;
+}
+.user_box .user_info .info > div:first-child {
+	display: flex;
+	align-items: center;
+}
+.user_box .user_info .info > div:first-child p {
+	color: #333333;
+	font-size: 14px;
+	font-weight: 600;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	max-width: 86px;
+	margin-right: 8px;
+}
+.user_box .user_info .info > div:first-child div {
+	padding: 0 2px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	background: #3bba54;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	line-height: 18px;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+.size_div span {
+	margin-right: 4px;
+}
+.user_box .user_info .info > div:nth-child(2) {
+	white-space: nowrap;
+	color: #666666;
+	font-size: 12px;
+	font-weight: 500;
+	/* margin-top: 4px;
+	margin-right: 4px; */
+}
+.user_box .user_info .info .size_strip {
+	width: 100%;
+	height: 4px;
+	background: #e6e6e6;
+	border-radius: 10px;
+	margin: 4px 0;
+	overflow: hidden;
+}
+.user_box .user_info .info .size_strip div {
+	width: 0%;
+	height: 100%;
+	background: #3bba54;
+}
+.user_box .user_avatar {
+	margin-right: 10px;
+	font-size: 14px;
+}
+.user_box .user_avatar img {
+	width: 46px;
+	height: 46px;
+	border-radius: 50%;
+	/* background: #2c67ff; */
+	margin: 0;
+}
+.user_box .user_avatar > div {
+	width: 46px;
+	height: 46px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	font-size: 20px;
+}
+.user_box .user_info_line {
+	width: 100%;
+	height: 1px;
+	background: #e6e6e6;
+	margin: 10px 0;
+}
+.user_box > span {
+	color: #333333;
+	font-size: 14px;
+	cursor: pointer;
+	display: block;
+	width: 110px;
+}
+.user_box > span:hover {
+	color: #3bba54;
+}

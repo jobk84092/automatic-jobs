@@ -1,0 +1,32 @@
+{
+   "action": {
+      "default_icon": "cheerpjAR_128x128_gray.png",
+      "default_popup": "popup.html",
+      "default_title": "CheerpJ Applet Runner Disabled"
+   },
+   "background": {
+      "service_worker": "bg.js"
+   },
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'"
+   },
+   "description": "Run Java applets without installing Java",
+   "icons": {
+      "128": "cheerpjAR_128x128.png",
+      "32": "cheerpjAR_32x32.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmAmP5Qr15PiaM4azoWz9lgJ2e4Fr9/Ohot4ukfO4+Atj+WPUtdS9TeuYPgRYvCS3n/xha3K05hAD7FJl038ShnCfxKeBUEckXcSv03hiZr55PgLf0bhb3sizIUgLid3yBub9CuE92cmGNh/xlhanlbOlP2ueCMZrR7Ypjtjl0ojQ5KuhGL65fm+I1OwZDdxAbrAICFBRBWNckr/53ewEyYSfLZMLyQhHs0zXe04CBrNANZSjwGWaKy/AiH0I7pZUuQ0nHY3nxaJk2oLEVIV2odqPSg02gvqoG2vWXuAzz/qX0jtOLGf9cGYj2tj2ip49OLtYK2Sl4T5Ns1j/Jj7dWQIDAQAB",
+   "manifest_version": 3,
+   "name": "CheerpJ Applet Runner",
+   "optional_host_permissions": [ "http://*/", "https://*/" ],
+   "permissions": [ "scripting", "activeTab", "storage", "declarativeNetRequestWithHostAccess" ],
+   "storage": {
+      "managed_schema": "storage_schema.json"
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2025.6",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "cheerpj/*", "init_applet.js" ]
+   } ]
+}

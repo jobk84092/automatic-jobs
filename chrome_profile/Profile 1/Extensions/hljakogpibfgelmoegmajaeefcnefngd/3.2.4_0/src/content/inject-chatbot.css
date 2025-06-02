@@ -1,0 +1,40 @@
+#myloft-chatbot-bubble-window {
+  --angle: 0deg;
+  position: fixed; 
+  flex-direction: column; 
+  justify-content: space-between;
+  box-shadow: rgba(150, 150, 150, 0.2) 0px 10px 30px 0px, rgba(150, 150, 150, 0.2) 0px 0px 0px 1px;
+  bottom: 5rem; 
+  right: 1rem; 
+  width: 384px;
+  min-width: 306px;
+  max-width: calc(100vw - 32px); 
+  height: 70vh;
+  max-height: calc(100vh - 96px); 
+  border-radius: 12px 12px 12px 0px; 
+  display: flex; 
+  z-index: 2147483647;
+  overflow: hidden; 
+  left: unset; 
+  background-color: #F3F4F6; 
+  user-select: none;
+  border: 3px solid #0000;
+  background: linear-gradient(#ffffff, #ffffff) padding-box, linear-gradient(var(--angle), #EB479D, #7169F0) border-box;
+  animation: 4s myloft-rotate linear infinite;
+}
+
+@keyframes myloft-rotate {
+  from {
+    --angle: 0deg;
+  }
+
+  to {
+    --angle: 360deg;
+  }
+}
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}

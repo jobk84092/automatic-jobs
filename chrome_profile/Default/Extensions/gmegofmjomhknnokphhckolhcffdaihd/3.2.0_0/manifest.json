@@ -1,0 +1,33 @@
+{
+   "author": "Benjamin Hollis",
+   "background": {
+      "service_worker": "background.js",
+      "type": "module"
+   },
+   "content_scripts": [ {
+      "js": [ "content.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_extensionDescription__",
+   "homepage_url": "https://jsonview.com/",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "icon128.png",
+      "256": "icon256.png",
+      "32": "icon.png",
+      "48": "icon48.png",
+      "64": "icon64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwDEeC8k5a2lzOH2DJ/bJdws3UQqivPsrZQo6YtXOEPihCgDLH+jnpiiTXcEMfGPSRBEIuLbXsJ78HToz4bjX/utk/4WhZHKIklPmLT9HP1drwX9IeTy18boFgW7hCl9SWxx/lNSIk1sxr8UAd7aRYGXuKzf683IOK36mo0rioPNi06iIxuNTEOaEo1ARzwwyPWRhcf27eteVRFmBVcjCG5tMoC4X53blhBueb9GWOHcmaMc+zSkyDPkSTB3lFGqrAv75p5H6442uSFxb1wM0n6AK8/JPfpwJamnuHZNkZb7rd9vT2q0JlyKGKq0z2/5zs3mEr1BVWGqLY/ZkZqn4FQIDAQAB",
+   "manifest_version": 3,
+   "name": "JSONView",
+   "permissions": [ "webRequest", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.2.0",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "viewer.css" ]
+   } ]
+}

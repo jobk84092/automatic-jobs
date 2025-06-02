@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap"
+        rel="stylesheet" />
+    <title>MyLOFT Domain Rule</title>
+    <link rel="stylesheet" href="/css/domain-rules.css" />
+
+</head>
+
+<body>
+    <div class="extensions-wrapper" id="extensions-wrapper">
+
+        <div class="extensions-inner">
+            <!-- institute logo & name -->
+            <div class="extensions-header">
+                <div class="extensions-brand-name">
+                    <img id="institute-logo" alt="institute-logo">
+                </div>
+                <div>
+                    <h2 class="text-11 font-800" id="institute-name"></h2>
+                </div>
+            </div>
+
+            <!-- domain rule title/name -->
+            <div class="stickey sticky-title">
+                <h1 class="text-16" id="domain-rule-title"></h1>
+            </div>
+
+            <!-- domain rule content/value -->
+            <div class="extensions-content">
+                <div class="extensions-inner-content">
+                    <div class="scrollbox">
+                        <div class="scrollbox-content scrollbox_delayed">
+                            <div id="domain-rule-content"></div>
+                        </div>
+                    </div>
+
+                    <div class="extensions-pagination-footer mb-8">
+                        <div class="relative">
+                            <!-- helpful dialog -->
+                            <div class="extensions-help-box hidden">
+                                <div>
+                                    <p class="help-title">Was it helpful?</p>
+                                </div>
+                                <div>
+                                    <button type="button" class="btn-sm" id="helpful-yes">Yes</button>
+                                    <button type="button" class="btn-sm" id="helpful-no">No</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- pagination -->
+                        <div class="extensions-pagination hidden" id="pagination-container">
+                            <button type="button" class="rounded-btn arrow" id="pagination-prev">&laquo;</button>
+                            <button type="button" class="rounded-btn arrow" id="pagination-next">&raquo;</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- close -->
+            <div class="extensions-footer-section">
+                <div class="extensions-footer-close">
+                    <button class="outline-btn" title="Slider won't be visible for the next 24 hours.">Don't show
+                        again</button>
+                    <button class="lg-button" id="extensions-wrapper-close" title="Close the Slider.">Close</button>
+                </div>
+            </div>
+
+            <!-- footer -->
+            <div class="text-11 font-700 text-gray-light text-decoration-none text-center mb-8">
+                Powered by <a class="text-11 font-700 text-gray-light text-decoration-none text-center link"
+                    href="https://app.myloft.xyz/" target="_blank">MyLOFT</a>
+            </div>
+
+        </div>
+    </div>
+    <script src="./domain-rules.js"></script>
+</body>
+
+</html>

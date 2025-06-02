@@ -1,0 +1,13 @@
+{
+   "detailedDescription": {
+      "message": "Firefox vždy, když narazí na dokument JSON (content-type=\"application/json\") vám pouze nabídne stažení souboru. S pomocí rozšíření JSONView jsou však dokumenty JSON zobrazeny v prohlížeči podobně jako dokumenty XML. Takový dokument je zformátován a zvýrazněn, pole a objekty mohou být minimalizovány. I když dokument JSON obsahuje chyby, JSONView zobrazí prostý text.\nJakmile nainstalujete JSONView, navštivte http://jsonview.com/example.json a uvidíte, jak funguje."
+   },
+   "errorParsing": {
+      "description": "The message shown when there was an error parsing your JSON",
+      "message": "Při zpracování JSON dokumentu nastala chyba. Tento dokument nemusí být správně uspořádán."
+   },
+   "extensionDescription": {
+      "description": "Description of the extension.",
+      "message": "Dokumenty JSON přímo v prohlížeči."
+   }
+}

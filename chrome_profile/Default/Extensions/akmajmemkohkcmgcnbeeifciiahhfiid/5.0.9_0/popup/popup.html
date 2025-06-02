@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;800&display=swap');
+    </style>
+    <link rel="stylesheet" href="/popup/popup.css">
+</head>
+<body>
+<div class="container">
+    <div class="main-loader"></div>
+
+    <header>
+        <a href="https://captchas.io" target="_blank" data-lang-link="/">
+            <img src="/assets/images/logo.png" style="margin-top: 18px; margin-bottom: 25px;">
+        </a>
+    </header>
+
+    <form id="settings-form" class="settings-container">
+        <div class="panel text-center">
+			<div class="auto-solver-label" data-lang="enabledSolveAutomatically"></div>
+
+			<div class="auto-solver">
+				<span style="display: none" class="auto-solver-on" data-lang="enabledSolveAutomaticallyOn"></span>
+				<span style="display: none" class="auto-solver-off"  data-lang="enabledSolveAutomaticallyOff"></span>
+			</div>
+
+            <div class="switch">
+                <input type="checkbox" name="isPluginEnabled" id="isPluginEnabled">
+                <label for="isPluginEnabled"></label>
+            </div>
+        </div>
+
+        <div class="panel mb-15 pb-5">
+            <table>
+                <tr>
+                    <td>
+                        <span data-lang="Images"></span>
+                    </td>
+                    <td>
+                        <input class="custom-checkbox" type="checkbox" name="enabledForNormal">
+						<label></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        reCaptcha V2
+                    </td>
+                    <td>
+                        <input class="custom-checkbox" type="checkbox" name="enabledForRecaptchaV2">
+						<label></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        reCaptcha V2 Invisible
+                    </td>
+                    <td>
+                        <input class="custom-checkbox" type="checkbox" name="enabledForInvisibleRecaptchaV2">
+						<label></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        reCaptcha V3
+                    </td>
+                    <td>
+                        <input class="custom-checkbox" type="checkbox" name="enabledForRecaptchaV3">
+						<label></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        hCaptcha
+                    </td>
+                    <td>
+                        <input class="custom-checkbox" type="checkbox" name="enabledForHCaptcha">
+						<label></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        GeeTest
+                    </td>
+                    <td>
+                        <input class="custom-checkbox" type="checkbox" name="enabledForGeetest">
+						<label></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ArkoseLabs
+                    </td>
+                    <td>
+                        <input class="custom-checkbox" type="checkbox" name="enabledForArkoselabs">
+						<label></label>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+
+	<div id="account-info" class="user-info">
+		<div class="user-info__balance">
+			<img src="/assets/images/balance.svg">
+			<span class="balance"></span> Threads
+		</div>
+		<div class="user-info__email">
+			<img src="/assets/images/user.svg">
+			<span class="email"></span>
+		</div>
+		<div class="user-info__logout">
+			<a href="#" class="logout"><img src="/assets/images/logout.svg"></a>
+		</div>
+	</div>
+
+    <div id="login-form" style="display: none;">
+        <div class="login-form-backdrop"></div>
+        <form>
+            <div class="login-form__header" data-lang="apiKey"></div>
+
+            <div class="login-form__api">
+                <input type="text" data-lang-placeholder="yourApiKey" tabindex="-1" name="apiKey">
+                <button type="submit"><img src="/assets/images/login.svg" alt="" width="30px"></button>
+                <div class="result">&nbsp;</div>
+            </div>
+
+            <div class="login-form__register">
+                <span data-lang="createAccountToGetIt" data-lang-string="/"></span>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- SCRIPTS -->
+<script src="/vendor/jquery/3.5.1/jquery.min.js"></script>
+<script src="/common/config.js"></script>
+<script src="/common/i18n.js"></script>
+<script src="/popup/popup.js"></script>
+</body>
+</html>

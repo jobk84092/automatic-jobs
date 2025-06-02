@@ -1,0 +1,76 @@
+body{
+    overflow: hidden;
+    min-height: 100px;
+}
+
+.ui.search>.results {
+    position: relative;
+}
+#myloft_popup_container {
+    display: none;
+}
+
+#myloft_popup_container.show {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    font-family: Helvetica, Ubuntu, Arial, sans-serif;
+    max-width: 350px;
+    overflow: hidden;
+}
+
+#loading_myloft.hide{
+    display: none;
+}
+
+#tagInput tags.tagify {
+    border-radius: 5px;
+}
+
+h3#myloft_title {
+    padding: 10px;
+}
+
+div#tagInput {
+    padding: 10px;
+}
+
+div#colInput {
+    padding: 10px;
+}
+
+#colInput .ui.icon.input {
+    width: 100%;
+}
+
+#colInput input.prompt {
+    border-radius: 5px;
+}
+
+#colInput .ui.icon.input {
+    width: 100%;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+#save_section {
+    text-align: right;
+    padding: 10px;
+}
+
+button#saveButton {
+    background: #253a69;
+}
+
+.tagify tag>div>* {
+    max-width: 260px;
+}
+.tagify{
+    width:100%;
+}
+#error{
+    color: #ff0000;
+    font-size: 12px;
+}

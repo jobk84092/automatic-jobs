@@ -1,0 +1,57 @@
+{
+   "action": {
+      "default_icon": "icon-16.png",
+      "default_title": "Automatically record & transcribe Google Meet for FREE. 500k+ users"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "commands": {
+      "pin-highlight": {
+         "description": "Create a highlight during a meeting",
+         "suggested_key": {
+            "default": "Ctrl+Period"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "js": [ "content-scripts/google-calendar.js" ],
+      "matches": [ "*://calendar.google.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "content-scripts/google-meet.js" ],
+      "matches": [ "*://meet.google.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "exclude_matches": [ "*://*.tldv.io/app/embed/*", "*://*.tldv.tech/app/embed/*", "*://*.zoom.us/*", "*://calendar.google.com/*", "*://meet.google.com/*" ],
+      "js": [ "content-scripts/multi-tabs.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Automatically record & transcribe Google Meet for FREE. 500k+ users",
+   "externally_connectable": {
+      "matches": [ "*://tldv.io/*", "*://tldv.tech/*" ]
+   },
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "icon-128.png",
+      "16": "icon-16.png",
+      "32": "icon-32.png",
+      "48": "icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlkFjXjhDDdF0R7hADtKGAhpHcFHyAwy/1J98Fkr9xlZEdmSCWfKyQ5PxbEb7vzQQkKoPgaWwb8p0aZZjFzy4fJOj+0bW0+UefYx4xDDPESgnj7qeTXu7gcQq0NekDhn72RlYGzW3nnf460fMCfa/96cuCGvo965PRAZs+Hgvq+ZZlx1ibADTVNc5lMx4SjRFBjTl1i/4nPz+Zay+lT+5Trzx74Oi0rwMQb8PxA7+VsEbE4U87u3xYirg0St+G9gfy7NU00aFnnR7pHAjGxz2RC61RkQecWC9hT/UhJU8iMbMeiyL0WaXHtfOfsk8LAjN7HmljdbzzCqnHyaCbmpZFQIDAQAB",
+   "manifest_version": 3,
+   "name": "Record, Transcribe & ChatGPT for Google Meet",
+   "optional_permissions": [ "clipboardWrite" ],
+   "permissions": [ "tabs", "storage", "alarms" ],
+   "short_name": "tl;dv",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.28.276",
+   "web_accessible_resources": [ {
+      "matches": [ "*://meet.google.com/*" ],
+      "resources": [ "content-scripts/google-meet.css" ]
+   }, {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "content-scripts/multi-tabs.css" ]
+   } ]
+}

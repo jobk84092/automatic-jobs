@@ -1,0 +1,750 @@
+{
+  "extName": {
+    "message": "Google Meet Breakout Rooms by Robert Hudek"
+  },
+  "extDesc": {
+    "message": "Completely Free and your Data is Private.  Google Classroom integration, Slider Control, Nicknames, Help tutorials"
+  },
+  "title": {
+    "message": "Breakout Rooms"
+  },
+  "myCourse": {
+    "message": "My Course"
+  },
+  "myCourseDesc": {
+    "message": "My course description"
+  },
+  "headline1a": {
+    "message": ""
+  },
+  "headline1b": {
+    "message": ""
+  },
+  "headline1c": {
+    "message": "Built with "
+  },
+  "headline1d": {
+    "message": "by Robert Hudek, v"
+  },
+  "headline1e": {
+    "message": "notes"
+  },
+  "toolTipRetile": {
+    "message": "Re-Tile"
+  },
+  "toolTipToolbar": {
+    "message": "Hide/Show Meet Toolbar"
+  },
+  "audioFixTitle": {
+    "message": "New method for audio"
+  },
+  "audioFixIntro": {
+    "message": "Please check the box below to use the new method for audio.  If you have any problems, please email me at robert@hudektech.com.  Thank you"
+  },
+  "audioFixCheckbox": {
+    "message": "Use this new method"
+  },
+  "audioFixRecommend": {
+    "message": "(Recommended) "
+  },
+  "meet": {
+    "message": "Start class"
+  },
+  "rooms": {
+    "message": "Rooms"
+  },
+  "courses": {
+    "message": "Courses"
+  },
+  "settings": {
+    "message": "Settings"
+  },
+  "btnStudentsReport": {
+    "message": "Students"
+  },
+  "btnRoomsReport": {
+    "message": "Classroom"
+  },
+  "broadcast": {
+    "message": "Broadcast"
+  },
+  "sliderDefault": {
+    "message": "Breakouts"
+  },
+  "defaultAccount": {
+    "message": "Your account is "
+  },
+  "startClass": {
+    "message": "Start class"
+  },
+  "assignBreakoutsAdhoc": {
+    "message": "Ad Hoc (now)"
+  },
+  "assignBreakoutsPre": {
+    "message": "Pre-Assign"
+  },
+  "adhoc0": {
+    "message": "Please note: Students are not automatically moved into the rooms.  The teacher must send the breakout room link to the students in the chat message.  Then the students will click on the link to enter the room."
+  },
+  "adhoc1": {
+    "message": "Step 1：Assign students"
+  },
+  "adhoc1a": {
+    "message": "Random：Please click 'Random' button.  You may repeatedly click on Random until you see a grouping you like, then you can manually drag and drop to further refine. "
+  },
+  "adhoc1b": {
+    "message": "Drag / Drop:  Manually drag and drop students into groups"
+  },
+  "adhoc1c": {
+    "message": "Remove (click): Click on student's name to remove them from grouping"
+  },
+  "adhoc1d": {
+    "message": "Remove (drag): Click and hold on a student's name to drag remove from group"
+  },
+  "adhoc11a": {
+    "message": "If you do not see any students, this may be because your main room has no students"
+  },
+  "adhoc11b": {
+    "message": "Here"
+  },
+  "adhoc12a": {
+    "message": "If your list is missing some students, that may be because your main room does not display all your students.  Please check in google meet settings button on bottom toolbar '...' for Change Layout and select Tile.  Also please move the settings slider to 49 students, all the way to the right"
+  },
+  "adhoc13a": {
+    "message": "Google Classroom Users，"
+  },
+  "adhoc13b": {
+    "message": "Please confirm that on the 'Class' tab the Main room is green color, and the 'nickname' for that link is the Google Classroom meet link final 10 characters.  "
+  },
+  "adhoc2": {
+    "message": "Step 2 and 3: Copy breakout room lnks and student assignments"
+  },
+  "adhoc2a": {
+    "message": "After you assign students, please click "
+  },
+  "adhoc2b": {
+    "message": "Here"
+  },
+  "adhoc2c": {
+    "message": "."
+  },
+  "btnRandom": {
+    "message": "Randomly Assign "
+  },
+  "lblStudents": {
+    "message": "students"
+  },
+  "lblBreakoutRooms": {
+    "message": "Breakout Rooms"
+  },
+  "lblBreakoutAssigns": {
+    "message": "Small Group"
+  },
+  "popupHelpAdhoc": {
+    "message": "Ad Hoc Assig"
+  },
+  "popupHelpAdhocStep2": {
+    "message": "Step 2: Copy links to Breakout Rooms"
+  },
+  "popupHelpAdhocStep2a": {
+    "message": "Please click"
+  },
+  "popupHelpAdhocStep2b": {
+    "message": "Here"
+  },
+  "popupHelpAdhocStep2c": {
+    "message": "to copy the Breakout Room links, then paste them into the Main Room chat message (command/control v)"
+  },
+  "popupHelpAdhocNumwords2a": {
+    "message": "This is only"
+  },
+  "popupHelpAdhocNumwords2b": {
+    "message": "characters, which is less than 500 characters maximum. OK to copy all at once"
+  },
+  "popupHelpAdhocNumwords2c": {
+    "message": "This is "
+  },
+  "popupHelpAdhocNumwords2d": {
+    "message": "characters, which is more than the 500 character maximum, which means you will need to copy / paste in sections to get under the 500 character maximum Google Meet chat message limitation for a single copy / paste.  You may need to copy in perhaps 2 or 3 sections.  Please highlight a few rows then copy / paste in in the Main Room chat, repeat for the remaining rows until everything is copied and pasted into the Main Room chat message. "
+  },
+  "popupHelpAdhocStep3": {
+    "message": "Step 3: Copy and paste the student assignments"
+  },
+  "popupHelpAdhocStep3a": {
+    "message": "Please click"
+  },
+  "popupHelpAdhocStep3b": {
+    "message": "Here"
+  },
+  "popupHelpAdhocStep3c": {
+    "message": "to copy the Breakout Room links, then paste them into the Main Room chat message (command/control v)"
+  },
+  "popupHelpAdhocNumwords3a": {
+    "message": "This is only "
+  },
+  "popupHelpAdhocNumwords3b": {
+    "message": "characters, which is less than 500 characters maximum. OK to copy all at once"
+  },
+  "popupHelpAdhocNumwords3c": {
+    "message": "This is "
+  },
+  "popupHelpAdhocNumwords3d": {
+    "message": "characters, which is more than the 500 character maximum, which means you will need to copy / paste in sections to get under the 500 character maximum Google Meet chat message limitation for a single copy / paste.  You may need to copy in perhaps 2 or 3 sections.  Please highlight a few rows then copy / paste in in the Main Room chat, repeat for the remaining rows until everything is copied and pasted into the Main Room chat message. "
+  },
+  "pre1": {
+    "message": "Step 1: Copy your pre-assgined list of student / breakout room assignments"
+  },
+  "pre1a": {
+    "message": "For example, from any text file you can copy the assignment list into the Main Room message chat."
+  },
+  "pre1b": {
+    "message": "Every time you copy / paste, please make sure that you do not exceed the Google Meet chat message limitation of 500 characters for a single copy / paste. If you list has more than 500 characters then you will need to copy / paste in sections to get under the 500 character limitation for a single copy/paste."
+  },
+  "pre2": {
+    "message": "Step 2: Copy / paste the Breakout Rooms links"
+  },
+  "pre2a": {
+    "message": "Pleas click"
+  },
+  "pre2b": {
+    "message": "Here"
+  },
+  "pre2c": {
+    "message": "then in the Main Room chat message paste (command / control v)"
+  },
+  "preNumwords2a": {
+    "message": "This is only "
+  },
+  "preNumwords2b": {
+    "message": "characters, which is less than 500 characters maximum. OK to copy all at once"
+  },
+  "preNumwords2c": {
+    "message": "This is "
+  },
+  "preNumwords2d": {
+    "message": "characters, which is more than the 500 character maximum, which means you will need to copy / paste in sections to get under the 500 character maximum Google Meet chat message limitation for a single copy / paste.  You may need to copy in perhaps 2 or 3 sections.  Please highlight a few rows then copy / paste in in the Main Room chat, repeat for the remaining rows until everything is copied and pasted into the Main Room chat message. "
+  },
+  "helpNickname": {
+    "message": "What is: Nickname, Code, URL? "
+  },
+  "helpNickname1a": {
+    "message": "Nickname："
+  },
+  "helpNickname1b": {
+    "message": "Nickname is a teacher freely chosen name, which is used to open a Meet.  Within a school this name must be unique to avoid confusion with another teacher's meet nickname which has the same name.  One method to avoid confusion is to have a name methodology, such as the teacher's name, followed by the course, and the day of the week, time.  An example is RHudek_Math1_050800. \n\n\rPlease note that Google Meet limitation is that nicknames must be in English."
+  },
+  "helpNickname1c": {
+    "message": "You must use English for Nicknames (Google Meet limitation)"
+  },
+  "helpNickname1d": {
+    "message": ""
+  },
+  "helpNickname2": {
+    "message": "Google Classroom teachers please note: "
+  },
+  "helpNickname2a": {
+    "message": " From the Google Classroom page, please enter the entire 'meet link'.  The extension will automatically recognize the last 10 characters as the Google Classroom 'nickname'."
+  },
+  "helpNickname3": {
+    "message": "For example, if the Google Classroom meet link is https://meet.google.com/lookup/g45j4fubqb, please copy the entire link and the extension will recognize the remaining g45j4fubqb as the 'nickname'"
+  },
+  "helpCode": {
+    "message": " Code： "
+  },
+  "helpCode1a": {
+    "message": "Code is a rarely used option.  The code is not freely defined by the teacher.  The code is a Google Meet assigned 12 character string in the format of 3 characters, '-', 4 characters, '-', and then 3 characters.  Example is abc-defg-hij. In this example, the meet link is https://meet.google.com/abc-defg-hij."
+  },
+  "helpUrl": {
+    "message": "URL： "
+  },
+  "helpUrl1a": {
+    "message": "URL is a very flexible option.  You can enter the google meet link (https://meet.google.com/abc-defg-hij) or any link you want to use for teaching.  For example, a teacher can pre-plan and store links for resources they want to use and open during class, such as https://en.wikipedia.org/wiki/Astronomy,  https://www.freecodecamp.org/， YouTube https://youtu.be/C4_uJmH9hmc"
+  },
+
+  "muteRemove": {
+    "message": "Mute, Remove Students"
+  },
+  "reports": {
+    "message": "Reports"
+  },
+  "dropdownCourse": {
+    "message": "Courses"
+  },
+  "dropdownBreakouts": {
+    "message": "Breakouts"
+  },
+  "default1": {
+    "message": "If the account is correct, then everything is OK"
+  },
+  "default2": {
+    "message": "If the account is not correct, then please do the following:"
+  },
+  "default3a": {
+    "message": "Click"
+  },
+  "default3b": {
+    "message": "Here"
+  },
+  "default3c": {
+    "message": "To manage your google account list order"
+  },
+  "default4": {
+    "message": "Logout of all your accounts"
+  },
+  "default5a": {
+    "message": "Your google meet account is the FIRST account in the list that you logged in to.  If the first account is not your desired google account for teaching then unfortunately you will need to logout of all your accounts and re-login.  Chrome should have saved your login and passwords for each of your accounts so hopefully it will not be too big of a hassle to re-log in.  "
+  },
+  "default5b": {
+    "message": "It is very important to use the same main google account (first account in list) to run your meets and breakout room extension, in order to maintain extension data consistency"
+  },
+  "default5c": {
+    "message": "Settings and opening of meets are according to your main google account (first account in list)"
+  },
+  "default6": {
+    "message": "Once you re-login with the correct order (first account is your main account), you can login to all your other google accounts"
+  },
+  "btnOpenMain": {
+    "message": "Open Main Room (or Google Classroom integration) "
+  },
+  "btnOpenMain1": {
+    "message": "Open Main Room (or Google Classroom integration) "
+  },
+  "btnOpenMainRam": {
+    "message": "Main Room"
+  },
+  "btnOpenBreakouts": {
+    "message": "Open Breakouts"
+  },
+  "btnOpenAll": {
+    "message": "Open All"
+  },
+  "checkRam": {
+    "message": "Normally do NOT check this box.  Only choose this option if your computer has limited RAM memory, such as less than 8G RAM. If you check this box, then all the breakouts are open but just one is visible on the teacher's computer in order to save memory.  The teacher may use the slider to move between rooms."
+  },
+  "btnRam": {
+    "message": "Open room window, use the slider to move to next room window"
+  },
+  "muteAllMain": {
+    "message": "Mute all students: Only in the Main Room"
+  },
+  "muteAllBreakouts": {
+    "message": "Mute all students: In All Breakout Rooms "
+  },
+  "muteAllRooms": {
+    "message": "Mute all students: Main room and All Breakouts"
+  },
+  "muteAllThis": {
+    "message": "Mute all students: Only in this room"
+  },
+  "removeAllThis": {
+    "message": "Remove all students：Only in this room"
+  },
+  "removeBreakouts": {
+    "message": "*** 討論完畢： 移除學生從所有討論室"
+  },
+  "hangupBreakouts": {
+    "message": "*** End Breakouts：Close all Breakouts"
+  },
+  "removeMain": {
+    "message": "*** Class Finished：Remove all students from Main Room"
+  },
+  "hangupMain": {
+    "message": "*** Class Finished：Close Main Room"
+  },
+  "reportsClipboard": {
+    "message": "Copy to Clipboard"
+  },
+  "reportsCsv": {
+    "message": "Download CSV files"
+  },
+  "reportsLinks": {
+    "message": "Breakout links"
+  },
+  "reportsAttendance": {
+    "message": "Student Attendance"
+  },
+  "reportsAssignments": {
+    "message": "Student / Breakout assignments"
+  },
+  "reportsGroups": {
+    "message": "Breakout Room members"
+  },
+  "instructRoomLinks": {
+    "message": "Help on how to enter classroom links"
+  },
+  "subHeadingRooms": {
+    "message": "Rooms"
+  },
+  "code": {
+    "message": "Code"
+  },
+  "url": {
+    "message": "URL"
+  },
+  "nickname": {
+    "message": "Nickname (English only)"
+  },
+  "nicknameHelplink": {
+    "message": "Help"
+  },
+  "genDisplay": {
+    "message": "Breakout Rooms layout"
+  },
+  "genTiles": {
+    "message": "Tiles: Independent windows"
+  },
+  "genTabs": {
+    "message": "Tabs: Window Tabs"
+  },
+  "genToolbarColor": {
+    "message": "Meet Toolbar 顏色"
+  },
+  "genSolid": {
+    "message": "Solid Color"
+  },
+  "genGrad": {
+    "message": "Gradient"
+  },
+  "genDropSolid": {
+    "message": "Solid Color"
+  },
+  "genDropEnd": {
+    "message": "Ends"
+  },
+  "genDropMid": {
+    "message": "Middle"
+  },
+  "rptYes": {
+    "message": "Yes"
+  },
+  "rptNo": {
+    "message": "No"
+  },
+  "rptTitleSSR": {
+    "message": "Student Status"
+  },
+  "rptStudent": {
+    "message": "Student"
+  },
+  "rptMain": {
+    "message": "Main Room"
+  },
+  "rptActualRoom": {
+    "message": "Actual Breakout"
+  },
+  "rptAssignRoom": {
+    "message": "Assigned Breakout"
+  },
+  "rptTitleBRSR": {
+    "message": "Breakout Status"
+  },
+  "rptBreakoutRoom": {
+    "message": "Breakouts"
+  },
+  "rptActualStudent": {
+    "message": "Actual Students"
+  },
+  "rptAssignStudent": {
+    "message": "Assigned Students"
+  },
+  "setTimer": {
+    "message": "Set Timer"
+  },
+  "timerHrs": {
+    "message": "Hours"
+  },
+  "timerMin": {
+    "message": "Minutes"
+  },
+  "timerSec": {
+    "message": "Seconds"
+  },
+  "timerStart": {
+    "message": "Start"
+  },
+  "timerStop": {
+    "message": "Stop"
+  },
+  "timerReset": {
+    "message": "Reset"
+  },
+  "enterCourses": {
+    "message": "Enter Courses"
+  },
+  "firstRoomMain": {
+    "message": "First row is Main Room, Second row is Breakouts"
+  },
+  "linksSaved": {
+    "message": "Links Saved"
+  },
+  "mainName": {
+    "message": "Main Room"
+  },
+  "roomsDupe": {
+    "message": "Cannot save: Error because Room name or links are not unique.  All rooms must have a name "
+  },
+  "roomsCreatingUrl": {
+    "message": "正在製作教室的連結並儲存"
+  },
+  "roomsSaved": {
+    "message": "Rooms saved"
+  },
+  "roomsNotYetSaved": {
+    "message": "Rooms not yet saved"
+  },
+  "roomsUndo": {
+    "message": "Undo"
+  },
+  "roomsNeedName": {
+    "message": "Cannot save: All rooms need a name (unique)"
+  },
+  "roomsHowStart": {
+    "message": "Simplest method: "
+  },
+  "roomsHowStart1": {
+    "message": "In the room links, do not enter anything. Click (blue) save button and the extension will request a link from Google and fill it in for you.  You only need to give each room a unique name, that's all !"
+  },
+  "roomsHowGc": {
+    "message": "Google Classroom Teachers： "
+  },
+  "roomsHowGc1": {
+    "message": "From your google classroom main page, copy the 'meet link' and paste it here as the main room link.  For example, if your Meet link is https://meet.google.com/lookup/g45j4fubqb then copy this entire link as the main room link and then extension will save the last 10 characters as your nickname  "
+  },
+  "roomsHowGc2": {
+    "message": "g45j4fubqb"
+  },
+  "roomsHowGc3": {
+    "message": "If you first open the main room using the extension, then it is automatically synced with Google Classroom.  If you first open the main room using Google Classroom, then you will need to click on the Open Main Room in order to synchronize the extension with Google Classroom. "
+  },
+  "roomsHowTypes": {
+    "message": "Nickname, Code, URLs： "
+  },
+  "roomsHowTypes1": {
+    "message": "Explanation for these 3 types: "
+  },
+  "roomsHowNick": {
+    "message": "Nickname： "
+  },
+  "roomsHowNick1": {
+    "message": "Nickanme example "
+  },
+  "roomsHowNick2": {
+    "message": "Nickname must not include a web address such as g.co/meet/ , meet.google.com/lookup/ . Nickname is freely chosen but must be unique within a school and must be in English (Google Meet requirement)"
+  },
+  "roomsHowNick3": {
+    "message": "Nickname is green color.  Nickname is a dynamic link because it will create a new URL link address each time it is opened. Nickname is only available if your google account has this function (depends on your school account with Google)"
+  },
+  "roomsHowGcnick": {
+    "message": "Google Classroom Nickname： "
+  },
+  "roomsHowGcnick1": {
+    "message": "Example is meet link address"
+  },
+  "roomsHowGcnick2": {
+    "message": "or last 10 characters for nickname"
+  },
+  "roomsHowGcnick3": {
+    "message": "At the link address input, you may enter the meet web link address or the last 10 characters for nickname, such as g45j4fubqb "
+  },
+  "roomsHowGcnick4": {
+    "message": "Google Classroom nickname is green color "
+  },
+  "roomsHowCode": {
+    "message": "Code： "
+  },
+  "roomsHowCode1": {
+    "message": "Code is always 12 characters of the form: 3 characters, -, 4 characters, -, 3 characters.  Example is "
+  },
+  "roomsHowCode2": {
+    "message": "Code is rarely used.  Code is not freely chosen and is automatically assigned by the Google Meet. For example, the website https://meet/google.com/new will give you a new link and you can use the last 12 characters of this link as your code. "
+  },
+  "roomsHowCode3": {
+    "message": "Code is a static link because it never changes. "
+  },
+  "roomsHowUrl": {
+    "message": "Meet Url"
+  },
+  "roomsHowUrl1": {
+    "message": "You may leave this blank (do not enter anything) and the extension will automatically fill it in for you.  This is the easiest method"
+  },
+  "roomsHowUrl2": {
+    "message": "Automatically"
+  },
+  "roomsHowUrl3": {
+    "message": "request from Google a link and fill it in for you. Or you can fill in a link if you already know the meet link or if you want to enter any URL.  "
+  },
+  "roomsHowUrl4": {
+    "message": "Meet URLs are static because they never change.  However, there is one exception.  In the general settings if you choose 'Automatically Request New Link' then every time you open a meet you will get a brank new, different link.  This general settings option is rarely used but it is available if you need it "
+  },
+  "roomsHowUrl5": {
+    "message": "Resource URL： "
+  },
+  "roomsHowUrl6": {
+    "message": "Resource URL please enter the entire web url address including the https://. An example is"
+  },
+  "roomsHowUrl7": {
+    "message": "Resource URL is very flexible, you may enter a science web site, math web site, or history web site and the extension will open it for you as a teaching resource. "
+  },
+  "courseEnter": {
+    "message": "Please enter your course name "
+  },
+  "courseCourse": {
+    "message": " Course"
+  },
+  "courseDesc": {
+    "message": " Course description"
+  },
+  "coursesDupe": {
+    "message": " Cannot save: Name is not unique. "
+  },
+  "coursesSaved": {
+    "message": " Saved"
+  },
+  "coursesNotYetSaved": {
+    "message": "Data changed but not saved"
+  },
+  "genSliderImg": {
+    "message": "Control slider background"
+  },
+  "genSliderPos": {
+    "message": "Image position"
+  },
+  "genSliderSize": {
+    "message": "Image size"
+  },
+  "genSliderTextColor": {
+    "message": "Text size"
+  },
+  "genSliderBackColor": {
+    "message": "Background color"
+  },
+  "genBroadImg": {
+    "message": "Broadcast background image"
+  },
+  "genBroadPos": {
+    "message": "Image position"
+  },
+  "genBroadSize": {
+    "message": "Image size"
+  },
+  "genBroadTextColor": {
+    "message": "Text color"
+  },
+  "genBroadBackColor": {
+    "message": "Background color"
+  },
+  "genAutoEnter": {
+    "message": "Allow 'outsiders' to enter the classroom"
+  },
+  "genAutoEnter1": {
+    "message": "If selected, 'outsiders' may automatically enter"
+  },
+  "genAutoEnter2": {
+    "message": "Recommend not selected "
+  },
+  "genAutoEnter3": {
+    "message": "For security concerns "
+  },
+  "genAutoJoin": {
+    "message": "This is a convenience option which allows you to enter the rooms once they are open.  Recommend checked on"
+  },
+  "genAutoJoinMain": {
+    "message": "Main Room"
+  },
+  "genAutoJoinBreak": {
+    "message": "Breakouts"
+  },
+  "genAutoNewUrl": {
+    "message": "For 'static' links such as the purple links, automatically create a new meet link each time it is opened. This option is not often selected."
+  },
+  "genAutoNewUrl1": {
+    "message": "Everytime you open a meet, automatically create a new meet link.  This not a common option but some teachers requested this for security concerns to always have a brand new link. Please be aware with this option you will need to FIRST open the main room in order to know the brand new link to inform the students via email or some other form of communication.  The new link will be stored in the Class tab AFTER it is opened. Again, this is not a common option but it is available if you need it"
+  },
+  "genAutoNewUrl2": {
+    "message": "Please note this option is only relevant for the 'static' links which are purple color in the Class tab"
+  },
+  "genAutoNewUrl3": {
+    "message": "This option does not affect the nickname links (green color) or the code links (blue color)"
+  },
+  "genAutoNewUrlMain": {
+    "message": "Main Room"
+  },
+  "genAutoNewUrlBreak": {
+    "message": "Breakouts"
+  },
+  "coursesExpimp": {
+    "message": "Export of Import all of the extension data"
+  },
+  "coursesExpimpWarn": {
+    "message": "Please note: Importing will overwrite all the extension contents"
+  },
+  "coursesExp1": {
+    "message": "Export all the extension data"
+  },
+  "coursesExp2": {
+    "message": "File（.txt)"
+  },
+  "coursesExp3": {
+    "message": "Export"
+  },
+  "coursesImp1": {
+    "message": "Import all the extension data"
+  },
+  "coursesImp2": {
+    "message": "File（.txt)"
+  },
+  "coursesImp3": {
+    "message": "Import"
+  },
+  "coursesBuiltWith": {
+    "message": "Created with ❤️ by Robert Hudek"
+  },
+  "roomsExpimp": {
+    "message": "Export Import this course's links"
+  },
+  "roomsPopupTitle": {
+    "message": "Course： "
+  },
+  "roomsExp1": {
+    "message": "Export this course's information"
+  },
+  "roomsExp2": {
+    "message": "File（.txt)"
+  },
+  "roomsExp3": {
+    "message": "Export"
+  },
+  "roomsImp1": {
+    "message": "Import this course's information"
+  },
+  "roomsImp2": {
+    "message": "File（.txt)"
+  },
+  "roomsImp3": {
+    "message": "Import"
+  },
+  "roomsBuiltWith": {
+    "message": "Created with ❤️ by Robert Hudek"
+  },
+  "errorAutoCreateLink": {
+    "message": "Problem with requesting a meet link.  Please confirm that you logged in to your correct google meet account, which is the first account in the google account list.  You may check this list by using this link:  https://accounts.google.com/SignoutOptions。If the first account in the list is not your main teaching account then please log out of all accounts (sorry, but that is the google process) and then login the first account using your main teaching account.  Then you can login your other accounts.  "
+  },
+  "errorNick1": {
+    "message": "Problem creating a link using your nickname: "
+  },
+  "errorNick2": {
+    "message": "Please verify if your google account has nickname functionality. For example google suite and google education have this functionality and other account types may as well.  Also, Please confirm that you logged in to your correct google meet account, which is the first account in the google account list.  You may check this list by using this link:  https://accounts.google.com/SignoutOptions。If the first account in the list is not your main teaching account then please log out of all accounts (sorry, but that is the google process) and then login the first account using your main teaching account.  Then you can login your other accounts. If your google account does not support nicknames, then please use the static type links (purple link types) in the Class tab. "
+  },
+  "errorBouncingBalls": {
+    "message": "There is a meet window that cannot be synched.  In this case, please close all your meet windows and also close the control panel extension window.  Then re-open the extension window and open all your meet windows again.  If you still have problems, then you may need to close Chrome and then re-open.  *** Please do NOT uninstall the extension because that is not necessary and doing so would delete your extension data.  Just close and re-open the windows.  "
+  },
+  "msgAllSync": {
+    "message": "Success： All the meet windows were synchronized"
+  },
+  "msgBreakoutSync": {
+    "message": "Success： All the breakouts were synchronized"
+  },
+  "msgMainSync": {
+    "message": "Success： Main room synchronized"
+  }
+}

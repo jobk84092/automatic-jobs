@@ -1,0 +1,282 @@
+body {
+	background-color: #1c1917;
+	background-image: linear-gradient(#9c213e77 , #1c1917 );
+}
+div#popupBody
+{
+	width: 300px;
+	color: #ffffff;
+	padding: 5px;
+}
+div#logoImage
+{
+	
+	width: 300px;
+}
+div#settings
+{
+	padding-bottom: 3px;
+}
+input#systemClipboard
+{
+	accent-color: #ff8d1c;
+}
+p.buttons > input
+{
+	width: 147px;
+}
+p.buttons > span
+{
+	width: 6px;
+	display: inline-block;
+}
+.switches
+{
+	background-color: rgba(225, 225, 225, 0.046);
+	border-radius: 8px;
+	margin: 15px 0px;
+	padding: 10px 15px 5px 15px;
+}
+.enableSwitch
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	color: white;
+	text-align: center;
+	font-size: 14px;
+	font-family: system-ui;
+	font-weight: 500;
+	flex-wrap: wrap;
+}
+.switch
+{
+	position: relative;
+	display: inline-block;
+	width: 60px;
+	height: 34px;
+}
+.switch input
+{
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+.slider
+{
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	border-radius: 12px;
+	padding: 4px;
+}
+.slider:before
+{
+	position: absolute;
+	content: "";
+	height: 26px;
+	width: 26px;
+	left: 4px;
+	bottom: 4px;
+	background-color: white;
+	border-radius: 8px
+}
+input:checked + .slider
+{
+	background-color:  #ff8d1c;
+}
+input:focus + .slider
+{
+	box-shadow: 0 0 1px  #ff8d1c;
+}
+input:checked + .slider:before
+{
+	-webkit-transform: translateX(26px);
+	-ms-transform: translateX(26px);
+	transform: translateX(26px);
+}
+.clipboardSwitch
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	color: white;
+	text-align: center;
+	font-size: 13px;
+	font-family: system-ui;
+	font-weight: 300;
+	flex-wrap: wrap;
+	height: 34px;
+}
+.switchSmall
+{
+	position: relative;
+	display: inline-block;
+	width: 30px;
+	height: 17px;
+}
+.switchSmall input
+{
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+.sliderSmall
+{
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	border-radius: 6px;
+	padding: 2px;
+}
+.sliderSmall:before
+{
+	position: absolute;
+	content: "";
+	height: 13px;
+	width: 13px;
+	left: 2px;
+	bottom: 2px;
+	background-color: white;
+	border-radius: 4px
+}
+input:checked + .sliderSmall
+{
+	background-color:  #ff8d1c;
+}
+input:focus + .sliderSmall
+{
+	box-shadow: 0 0 1px  #ff8d1c;
+}
+input:checked + .sliderSmall:before
+{
+	-webkit-transform: translateX(13px);
+	-ms-transform: translateX(13px);
+	transform: translateX(13px);
+}
+
+
+a {
+	color: #ff8d1c;
+	text-decoration: none;
+}
+a:hover {
+	cursor: pointer;
+	color: #ffffff;
+	text-decoration: underline;
+}
+.misc {
+	text-align: center;
+}
+ul.myUL {
+	display: inline-block;
+	text-align: left;
+	color: #ffffff;
+}
+ul { margin-top:0; margin-bottom:0 }
+div#licenseKeyContent {
+    font-size: 14px;
+    text-align: center;
+    padding: 0px 15px 10px;
+    color: white;
+    font-weight: 200;
+}
+div#infoContent {
+    font-size: 14px;
+    text-align: center;
+    padding: 0px 5px;
+    color: white;
+    font-weight: 200;
+}
+div#subLicenseKeyContent {
+	font-size: 12px;
+	text-align: center;
+	color: white;
+	font-weight: lighter;
+}
+svg{
+	width: 15px;
+	height: 15px;
+}
+#manageLicense {
+	border: none;
+	color: white;
+	text-align: center;
+	font-size: 14px;
+	font-family: system-ui;
+	margin: 4px 2px;
+	cursor: pointer;
+	transition-duration: 0.4s;
+	border-radius: 4px;
+	font-weight: 500;
+}
+#manageLicense:hover {
+	color: #b35900;
+}
+#manageLicense:hover .icon-stroke {
+	stroke: #b35900;
+}
+#manageLicense:hover .icon-stroke {
+	stroke: #b35900;
+}
+.icon-stroke {
+	stroke: white;
+	transition-duration: 0.4s;
+	stroke-width: 6;
+}
+#licenseChecklist {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	text-align: left;
+	max-width: 500px;
+	margin: 0 auto;
+}
+#licenseChecklist li {
+	margin: 5px 0;
+	display: flex;
+	align-items: center;
+}
+#licenseChecklist a {
+	text-decoration: none;
+	color: #e67300;
+	font-weight: 500;
+}
+#licenseChecklist a:hover {
+	text-decoration: underline;
+}
+button {
+    border: none;
+    color: white;
+    padding: 8px;
+    display: flex;
+    width: 100%;
+    font-size: 13px;
+    font-family: system-ui;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 8px;
+    font-weight: 500;
+    background-color: #e67300e4;
+    align-items: center;
+    justify-content: space-evenly;
+}
+hr.solid {
+	border-bottom: none;
+	opacity: 20%;
+}

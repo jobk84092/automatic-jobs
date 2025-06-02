@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <link type="text/css" rel="stylesheet" href="explore/explore.css">
+    <link type="text/css" rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <div class="holder">
+      <table class="header audio-list-table">
+        <tr>
+          <td rule="index" title="Item #">Item</td>
+          <td rule="url" title="Audio title"><a>Audio Title</a></td>
+          <td rule="title">Audio Downloader Prime</td>
+          <td rule="resolution" title="Bit rate (kbps)" id="resolution">Bit rate (kbps)</td>
+          <td rule="size" title="Size (MB)">Size (MB)</td>
+          <td rule="action" title="Click to copy download URL">Copy | Download | Remove</td>
+        </tr>
+      </table>
+    </div>
+    <div class="holder" id="container">
+      <table class="audio-list-table" id="audio-list-table"></table>
+    </div>
+    <div class="holder">
+      <table class="audio-list-controls" id="audio-list-controls">
+        <tr>
+          <td class="large" id="disable-addon">Disable ADP</td>
+          <td class="large" id="clear-audio-list">Clear list</td>
+          <td class="large" id="convert-to-mp3">Convert to MP3</td>
+          <td class="large" id="audio-joiner">Audio joiner</td>
+          <td class="large" id="open-settings">Options page</td>
+          <td class="small" id="theme" title="Dark | Light mode">
+            <svg width="12" height="12" viewBox="0 0 122.8799 122.8799">
+              <path d="M 63.550085,1.4875858 A 60.101027,60.101027 0 0 0 3.45,61.587666 60.101027,60.101027 0 0 0 63.550085,121.6899 60.101027,60.101027 0 0 0 119.56373,83.196612 50.463617,50.463617 0 0 1 102.0998,86.352622 50.463617,50.463617 0 0 1 51.637166,35.887862 50.463617,50.463617 0 0 1 65.189815,1.5691534 60.101027,60.101027 0 0 0 63.550085,1.4875858 Z"/>
+            </svg>
+          </td>
+          <td class="small" id="open-support" title="Open support page">
+            <svg height="13" width="13" viewBox="0 0 1792 1792">
+              <path d="M1088 1256v240q0 16-12 28t-28 12h-240q-16 0-28-12t-12-28v-240q0-16 12-28t28-12h240q16 0 28 12t12 28zm316-600q0 54-15.5 101t-35 76.5-55 59.5-57.5 43.5-61 35.5q-41 23-68.5 65t-27.5 67q0 17-12 32.5t-28 15.5h-240q-15 0-25.5-18.5t-10.5-37.5v-45q0-83 65-156.5t143-108.5q59-27 84-56t25-76q0-42-46.5-74t-107.5-32q-65 0-108 29-35 25-107 115-13 16-31 16-12 0-25-8l-164-125q-13-10-15.5-25t5.5-28q160-266 464-266 80 0 161 31t146 83 106 127.5 41 158.5z"/>
+            </svg>
+          </td>
+          <td class="small" id="make-donation" title="Make a donation">
+            <svg height="12" width="12" viewBox="-0.709 -11.555 141.732 141.732">
+              <path d="M140.314,37.654C140.314,16.858,123.402,0,102.537,0c-13.744,0-25.77,7.317-32.379,18.255C63.549,7.317,51.521,0,37.777,0 C16.912,0,0,16.858,0,37.654c0,10.821,4.588,20.57,11.922,27.438h-0.01l54.084,51.584c0.992,1.188,2.48,1.945,4.148,1.945 c1.545,0,2.936-0.653,3.92-1.696l54.346-51.833h-0.016C135.729,58.225,140.314,48.476,140.314,37.654"/>
+            </svg>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div id="explore"></div>
+    <!-- -->
+    <script type="text/javascript" src="explore/explore.js" async></script>
+    <script type="text/javascript" src="popup.js"></script>
+  </body>
+</html>

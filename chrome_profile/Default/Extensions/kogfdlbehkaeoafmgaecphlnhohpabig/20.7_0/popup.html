@@ -1,0 +1,2954 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Breakout Rooms</title>
+  <meta name="author" content="Robert Hudek, hudektech.com">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
+  <script src="js/jquery.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <link rel="stylesheet" href="css/popup.css">
+  <link rel="stylesheet" href="css/brands.css">
+  <link rel="stylesheet" href="css/fontawesome.min.css">
+  <link rel="stylesheet" href="css/solid.css">
+
+
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" /> -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+
+<body class="hide-scrollbar2 background">
+
+  <div class="container">
+
+    <!-- Test this out -->
+    <div id="fullscreen-overlay" class="no-display">
+      <div id="overlay-content">
+        <img src="img/please-wait.jpg" alt="Overlay Image">
+      </div>
+    </div>
+
+    <div class="row justify-content-betwen">
+      <h4 class="mt-2 col-8 flex-fill d-inline" style="text-shadow: 0.25px 0.25px 0.5px grey" data-msg-title><img
+          class="ml-1 mr-1 pb-2" src="img/icon512.png" style="width: 32px;" alt="">
+        Breakout Rooms </h4>
+
+      <!-- Buttons -->
+
+      <!-- <div class="mt-2 pr-4 pl-0 ml-0 col-1 d-inline">
+        <button id="popup-help" style="background-color:orange; box-shadow: 1px 1px 2px black; border-color: black;"
+          type="button" class="btn btn-sm ">
+          <i style="font-size: 16px; padding: 0;" class="fas fa-question"></i>
+        </button>
+      </div> -->
+
+
+      <div class="mt-2 pr-4 pl-0 ml-0 col-1 d-inline">
+        <a id="gmbr-help" href="https://hudektech.github.io/gmbr-help/" target="_blank">
+          <button id="popup-help" type="button" class="btn btn-sm ">
+            <i style="font-size: 16px; padding: 0;" class="fas fa-question"></i>
+          </button>
+        </a>
+      </div>
+
+      <div class="mt-2 pr-4 pl-0 ml-0 col-1 d-inline">
+        <button id="popup-hide-bar" data-hidden=false
+          style="background-color: white;color:cornflowerblue; box-shadow: 1px 1px 2px black; border-color: black;"
+          type="button" class="btn btn-sm copy-all-pre" data-toggle="tooltip" data-placement="bottom" title=""
+          data-original-title="Hide Meet Bottom Bar">
+          <i style="font-size: 16px; padding: 0;" class="fas fa-eye-slash" aria-hidden="true"></i>
+        </button>
+      </div>
+      <div class="mt-2 pr-4 pl-0 ml-0 col-1 d-inline">
+        <button id="popup-minimize" class="d-none"></button>
+        <button id="popup-retile" class="btn btn-sm copy-all-pre" type="button" data-toggle="tooltip"
+          data-placement="bottom" title="" data-original-title="Re-Tile">
+          <i style="font-size: 16px; padding: 0;" class="fas fa-clone"></i>
+        </button>
+      </div>
+      <div class="mt-2 pr-4 pl-0 ml-0 col-1 d-inline">
+        <button id="popup-refresh" class="d-none"></button>
+        <button id="popup-resize" class="btn btn-sm toggle-compress"
+          style="box-shadow: 1px 1px 2px black; border-color: black;" type="button" data-toggle="tooltip2"
+          data-placement="bottom" title="" data-original-title="Minimize/Maximize Control Panel">
+          <i style="font-size: 20px; padding: 0;" class="fas fa-angle-down"></i>
+          <!-- <i style="font-size: 20px; padding: 0;" class="fas fa-compress-alt"></i> -->
+        </button>
+      </div>
+    </div>
+
+    <!-- Tab Controls -->
+    <ul class="nav nav-tabs  " id="myTab" role="tablist">
+
+      <li class="nav-item">
+        <a class="nav-link active  " id="one-tab" data-toggle="tab" href="#one" role="tab" aria-controls="one"
+          aria-selected="false" data-msg-meet>
+          <i class="fas fa-user-friends"></i> Meet
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " id="two-tab" data-toggle="tab" href="#two" role="tab" aria-controls="two"
+          aria-selected="false" data-msg-rooms>
+          <i class="fas fa-desktop"></i> Rooms
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " id="three-tab" data-toggle="tab" href="#three" role="tab" aria-controls="three"
+          aria-selected="false" data-msg-courses>
+          <i class="fas fa-chalkboard-teacher"></i> Courses
+        </a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link " id="four-tab" data-toggle="tab" href="#four" role="tab" aria-controls="four"
+          aria-selected="false" data-msg-settings>
+          <i class="fas fa-cog"></i> Settings
+        </a>
+      </li>
+    </ul>
+
+
+    <!-- Tabs -->
+    <div class="tab-content mt-2" id="myTabContent">
+
+      <!-- Tab One: Meet -->
+      <!-- <div class="tab-pane fade" id="one" role="tabpanel" aria-labelledby="one-tab"> -->
+      <div id="one" class="tab-pane fade active show " role="tabpanel" aria-labelledby="one-tab">
+
+        <div id='meet-alert' class="mb-2 alert alert-info fade show " role="alert">
+          <div id="meet-tab-message" class="d-none">Go to utilHelper for #meet-tab-message and uncomment the d-none
+            string</div>
+
+          <p class="mb-0"><a target="_blank" rel="noopener noreferrer" href="https://www.hudektech.com"
+              data-msg-headline>
+              Built with <span style="color: red; font-size: 12px">&nbsp❤️&nbsp</span><span id="my-name"> by Robert
+                Hudek
+              </span> </a><span id="try-themes-version"></span>
+          </p>
+        </div>
+
+        <!-- Slider -->
+        <div class="slider-broadcast mt-2">
+
+          <div class="slider-section pb-3">
+            <!-- <div class="border-top mt-2 mb-2" style="border-width: 4px !important"></div> -->
+            <h5 id="slider-title" class="pt-2 text-center sub-title" data-msg-slider-default>Breakout Rooms</h5>
+            <div class="row">
+              <div id="slider-left" class="col-3 text-right ">
+                <i class="fas fa-angle-left slider-arrow"></i>
+              </div>
+              <div class="slidecontainer align-self-center col-6 ">
+                <input autofocus="" tabindex="0" type="range" min="0" max="0" step="1" value="0" class="slider"
+                  id="slider">
+              </div>
+              <div id="slider-right" class="col-3 text-left ">
+                <i class="fas fa-angle-right slider-arrow"></i>
+              </div>
+            </div>
+
+
+            <!-- This Room and Other Rooms -->
+            <div class="mt-2">
+              <!-- This Room A/V controls -->
+              <div class="row col-6 mx-auto" id="this-av">
+                <!-- <h6 class="col-12 text-center">This Room Audio/Video -->
+                </h6>
+                <div class="col-4 text-center">
+                  <button class="col-12 btn av btn-inset" id="thisSpk">
+                    <i class="av fas fa-volume-up"></i>
+                  </button>
+                </div>
+                <div class="col-4 text-center">
+                  <button class="col-12 btn av av-mute btn-inset" id="thisMic">
+                    <i class="av fas fa-microphone-slash"></i>
+                  </button>
+                </div>
+                <div class="col-4 text-center">
+                  <button class="col-12 btn av av-mute btn-inset" id="thisVid">
+                    <i class="av fas fa-video-slash"></i>
+                  </button>
+                </div>
+              </div>
+
+              <!-- All Other Rooms A/V -->
+              <div class="row col-6 ml-4 d-none">
+                <h6 class="col-12 text-center">All Other Rooms</h6>
+                <div class="col-4">
+                  <button class="col-12 btn av av-mute" id="thatSpk">
+                    <i class="av fas fa-volume-mute"></i>
+                  </button>
+                </div>
+                <div class="col-4">
+                  <button class="col-12 btn av av-mute" id="thatMic">
+                    <i class="av fas fa-microphone-slash"></i>
+                  </button>
+                </div>
+                <div class="col-4">
+                  <button class="col-12 btn av av-mute" id="thatVid">
+                    <i class="av fas fa-video-slash"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timer and Reports -->
+          <!-- 2023-08-30 Disable status-students and status-rooms due to v3 violation? -->
+          <div class="status-reports-section pb-2 pt-2 mx-auto row">
+
+            <div class="col-4 text-center" data-status-main>
+              <button class="col-12 btn status-reports-button " id="status-students" data-msg-btn-students-report>
+                Students
+              </button>
+            </div>
+            <div class="col-4 text-center" data-status-breakouts>
+              <button class="col-12 btn status-reports-button " id="status-timer">
+                0:00:00
+              </button>
+            </div>
+            <div class="col-4 text-center" data-status-breakouts>
+              <button class="col-12 btn status-reports-button " id="status-rooms" data-msg-btn-rooms-report>
+                Rooms
+              </button>
+            </div>
+
+          </div>
+          <!-- Broadcast -->
+          <div id="broadcast-section" class="broadcast-section pb-3">
+            <div id="broadcast-section-test" class="row text-center">
+              <h5 class="col-12 broadcast-label-off my-2 broadcast-section-text sub-title" data-msg-broadcast>
+                Broadcast to All Breakout Rooms
+              </h5>
+            </div>
+
+            <div class="row col-6 mx-auto">
+              <div class="col-4 text-center" data-broadcast-spk>
+                <button class="col-12 btn av av-mute btn-inset" id="broadSpk">
+                  <i class="av fas fa-volume-mute"></i>
+                </button>
+              </div>
+              <div class="col-4 text-center" data-broadcast-mic>
+                <button class="col-12 btn av av-mute btn-inset" id="broadMic">
+                  <i class="av fas fa-microphone-slash"></i>
+                </button>
+              </div>
+              <div class="col-4 text-center" data-broadcast-vid>
+                <button class="col-12 btn av av-mute btn-inset" id="broadVid">
+                  <i class="av fas fa-video-slash"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Google Account -->
+        <div class="text-center mt-4">
+          <button class="text-left btn col-12 flex-fill google-account btn-account" type="button" data-toggle="collapse"
+            data-target="#meet-google-account-help" aria-expanded="false" aria-controls="#meet-google-account-help">
+            <i id="meet-google-account" style="font-size:20px" class="fas fa-user shadow-lg">
+            </i><span class="my-breakout-span-normal" data-msg-default-account>&nbsp;Your Meet Account is</span>
+            <span data-span-meet-account-name></span>
+          </button>
+        </div>
+
+        <!-- Google account help -->
+        <div id="meet-google-account-help" class="collapse mt-4">
+          <div class="help-header">
+            <p data-msg-default-main-1>If this is the correct account, then you may leave this section.
+            </p>
+
+            <p data-msg-default-main-2>If this is not the correct account, then please follow the instructions below:
+            </p>
+
+            <ul>
+              <li><span data-msg-default-main-3a>Please click </span> <a id="rooms-goto-account" type="btn"
+                  href="https://accounts.google.com/SignoutOptions" target="_blank"
+                  class="btn btn-primary btn-sm btn-inset copy-all-pre" data-msg-default-main-3b>here</a>
+                <span data-msg-default-main-3c>to go to the google account page</span>
+              </li>
+              <li data-msg-default-main-4>Log out of ALL of your google accounts</li>
+              <li><span data-msg-default-main-5a>Your default account is the FIRST account that you log in to. Please
+                  log in to your desired account
+                  for running Google Meet. This will be your Google Suite account for Google Classroom users. When using
+                  this
+                  extension,</span> <span data-msg-default-main-5b>
+                  please consistenly use the same account</span><span data-msg-default-main-5c>in order to avoid
+                  creating
+                  links that are owned by
+                  different
+                  accounts which
+                  will cause the extension to behave unexpectedly. Your links (either manually created in Calendar or
+                  auto
+                  created
+                  in this extension) are all "owned" by the account that created them.</span></li>
+              <li data-msg-default-main-6>Once you first open your desired Google Meet account, then you can open your
+                other Google accounts.
+                Opening additional google accounts AFTER you first open your desired Google Meet account will not
+                affect
+                the operation of Google Meet or this extension</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Collapse Open Buttons -->
+        <div class="text-center mt-4">
+          <button id="meet-open-accordian" class="text-left btn col-12 flex-fill open-buttons-collapse btn-start-class"
+            type="button" data-toggle="collapse" data-target="#meet-open-buttons" aria-expanded="false"
+            aria-controls="#meet-open-buttons">
+            <i style="font-size:20px" class="fas fa-address-card shadow-lg"></i>
+            <span data-msg-start-class class="my-breakout-span-normal">&nbsp;Start
+              Class</span>
+          </button>
+        </div>
+        <!-- dcd -->
+        <div id="meet-open-buttons" class="collapse row  pl-3 pr-3 mt-4 justify-content-between mb-4">
+
+          <div id="meet2" class="ml-0 px-0 col-12 row">
+            <div id="drop1" class="col-3 dropdown ml-0 px-0 mb-4 ">
+              <button class="col-12 btn btn-dark dropdown-toggle dropdown-color" id="dropdownClassList"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-chalkboard-teacher"></i><span data-msg-dropdown-course
+                  class="my-breakout-span-normal">&nbsp;Course</span>
+              </button>
+              <div class=" dropdown-menu" aria-labelledby="dropdownClassList" id="dropdown-meet-class-hook"></div>
+            </div>
+            <h5 id="meet-room-class" class="col-9 mt-1 sub-title" data-class-id="0"></h5>
+
+
+            <!-- Number of Breakouts -->
+            <div class="col-3  dropdown ml-0 px-0 mb-4" id="drop2">
+              <button id="dropdownRoomList" class="col-12 btn btn-dark dropdown-toggle dropdown-color sub-title"
+                type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-list-ol"></i>
+                <span data-msg-dropdown-breakouts class="my-breakout-span-normal">&nbsp;Breakouts</span>
+              </button>
+
+              <div class="dropdown-menu" aria-labelledby="dropdownRoomList" id="dropdown-meet-room-hook"></div>
+            </div>
+
+            <h5 id="meet-room-number" class="col-9 mt-1 sub-title" data-meet-room-number="0"></h5>
+
+            <p class="d-inline yellow" for="warning-8-rooms" data-msg-warning-8-rooms>Google Meet microphone has limit
+              of 8 rooms
+              (main + 7
+              rooms)</p>
+            <div class="form-group col-12 ml-1 px-0">
+
+              <input id="low-memory-option" type="checkbox" style="transform: scale(1.5)">
+              <label class="d-inline" for="low-memory-option2" data-msg-check-ram>
+                &nbsp Low Memory RAM Option: Normally unchecked (off)
+              </label>
+              <a id="help-low-memory-option" class="red-help href-help"
+                href="https://hudektech.github.io/gmbr-help/#what-is-the-low-memory-ram-option" target="_blank"
+                data-zhtw-href="#什麼是低記憶體-ram-選" data-msg-check-ram2>Help</a>
+            </div>
+          </div>
+
+
+          <!-- // Spinner -->
+          <div class="mt-n2 mb-2 col-12 d-flex justify-content-center">
+            <div class="d-none spinner-grow text-primary" role="status">
+              <span class="sr-only">Loading...</span>
+            </div>
+            <div class="d-none spinner-grow text-secondary" role="status">
+              <span class="sr-only">Loading...</span>
+            </div>
+            <div class="d-none spinner-grow text-success" role="status">
+              <span class="sr-only">Loading...</span>
+            </div>
+            <div class="d-none spinner-grow text-danger" role="status">
+              <span class="sr-only">Loading...</span>
+            </div>
+          </div>
+
+          <button id="open-main" class="btn col-3 open-all" type="button">
+            <i class="shadow-lg" data-msg-btn-open-main>&nbsp Main Room</i>
+            <!-- <i class="fas fa-chalkboard shadow-lg">&nbsp Open Main Room</span></i> -->
+          </button>
+          <button id="open-breakouts" class="btn col-3 open-all" type="button">
+            <i class="shadow-lg" data-msg-btn-open-breakouts>&nbsp Breakouts
+              </span></i>
+          </button>
+          <button id="open-both" class="btn col-3 open-all" type="button">
+            <i class="shadow-lg" data-msg-btn-open-all>&nbsp Both</span></i>
+          </button>
+
+          <!-- <div class="form-group col-12 ml-1 px-0 mt-4">
+            <input type="checkbox" id="low-memory-option" style="transform: scale(1.5)">
+            <label class="d-inline" for="low-memory-option" data-msg-check-ram>
+              &nbsp Low Memory (RAM) Option: Only One Window Opened <br> Normally do NOT check if computer has
+              more
+              than 8G RAM
+            </label>
+            <span class="red" style="cursor: pointer" id="help-low-memory-option">Help</span>
+          </div> -->
+        </div>
+
+        <div class="d-none text-center mt-4">
+          <button class="text-left btn col-12 flex-fill open-buttons-collapse" type="button" data-toggle="collapse"
+            data-target="#meet-start-google2" aria-expanded="false" aria-controls="#meet-start-google2">
+            <i style="font-size:20px" class="fas fa-address-card shadow-lg">&nbsp Start
+              Class with Google Classroom</span></i>
+          </button>
+        </div>
+
+        <div id="meet-start-google" class="col-12 mt-3 collapse" class="collapse show">
+          <p>Step 1: In Google Classroom (GC), open your classroom by clicking on the google classroom link to create
+            an
+            automatically generated Meet. Alternatively, as a teacher you may open your GC
+            meet using your code. This GC created Meet is considered your "Main" room. The next step is to sync this
+            "Main" room with the extension by clicking a button.
+          </p>
+          <p>Step 2: Click <button id="btn-gc-sync" class="btn btn-primary btn-sm btn-inset copy-all-pre">here</button>
+            to sync
+            the
+            opened
+            GC "Main" room with this extension
+            . Clicking on this button will overwrite the Rooms tab/Main room link for course <span id="span-course"
+              class="span-course"></span> with the GC
+            Meet URL. Please make sure you have selected the correct course to avoid overwriting in the wrong course.
+            If
+            the selected course is incorrect, then please go to the Choose Course section above to select the
+            appropriate course before clicking on this button.
+          </p>
+
+          <div class="mt-n2 mb-2 col-12 d-flex justify-content-center">
+            <div class="d-none spinner-grow text-primary" role="status">
+              <span class="sr-only">Loading...</span>
+            </div>
+            <div class="d-none spinner-grow text-secondary" role="status">
+              <span class="sr-only">Loading...</span>
+            </div>
+            <div class="d-none spinner-grow text-success" role="status">
+              <span class="sr-only">Loading...</span>
+            </div>
+            <div class="d-none spinner-grow text-danger" role="status">
+              <span class="sr-only">Loading...</span>
+            </div>
+          </div>
+
+          <p>Step 3: Click <button class="btn btn-primary btn-sm btn-inset copy-all-pre"
+              id="open-breakouts2">here</button>
+            to open your requested <span id="span-num2" class="span-course"></span> breakout rooms.
+          </p>
+        </div>
+
+        <!-- Collapse Participants -->
+        <div class="text-center mt-4">
+          <button id="assign-ppts" class="text-left btn col-12 flex-fill ppt-collapse btn-assign-adhoc" type="button"
+            data-toggle="collapse" data-target="#meet-main-ppt-adhoc" aria-expanded="false"
+            aria-controls="#meet-main-ppt-adhoc">
+            <i style="font-size:20px" class="fas fa-sitemap shadow-lg"></i>
+            <span data-msg-assign-breakouts-adhoc class="my-breakout-span-normal">&nbsp;Assign
+              Breakouts - Ad
+              Hoc</span>
+          </button>
+        </div>
+
+        <div id="meet-main-ppt-adhoc" class="col-12 mt-3 collapse">
+          <p class="d-none"><span data-msg-adhoc-0>Please note that in Google Meet students cannot be "pushed" into
+              breakout rooms.
+              Students
+              voluntarily
+              enter
+              the
+              breakout rooms by clicking on the links you provide in the Main room chat.
+          </p>
+
+          <p data-msg-adhoc-1>Step 1: Assign Students to Breakouts</p>
+
+          <p>
+          <ul>
+            <li data-msg-adhoc-1a>Random grouping: Click on the Random button until you find a random grouping you
+              like
+            </li>
+            <li data-msg-adhoc-1b>Manually adjust: Click and hold on the name to drag and drop between groups</li>
+            <li data-msg-adhoc-1c>Exclude from Random assigment: Single click on the name toggles exclude</li>
+            <li data-msg-adhoc-1d>Exclude manually: Click and hold on the name to drag name to the left</li>
+          </ul>
+
+          </p>
+          <p class="d-none"><span data-msg-adhoc-11aa>If you do not see ANY of your students listed, it is likely
+              because
+              the Main room
+              is not
+              in sync with the
+              extension. Please click </span><a id="goto20" type="button" style="color:#ff4c68" data-msg-adhoc-11bb>
+              here</a>
+          </p>
+          <p style="padding-left: 2em;"><a class="href-help" target="_blank"
+              href="https://hudektech.github.io/gmbr-help/#why-cant-i-see-any-students-in-the-assign-participants-section"
+              data-zhtw-href="#為什麼在分組區域無法看任何的學生">
+              <span data-msg-adhoc-11a>(Click
+                for help) Why
+                can't I see any of my students?</span>
+            </a></p>
+          <p style="padding-left: 2em;"><a class="href-help" target="_blank"
+              href="https://hudektech.github.io/gmbr-help/#why-cant-i-see-all-of-my-students"
+              data-zhtw-href="#為什麼無法看所有的學生">
+              <span data-msg-adhoc-12a>(Click
+                for help) Why can't I see all of my
+                students?</span>
+            </a></p>
+
+          <p class="d-none"><span data-msg-adhoc-12a>If you do not see ALL of your students listed, it is likely due to
+              your
+              Main meet display
+              settings. To change the meet settings, please click on the '...' button on your meet bottom toolbar, and
+              select the layout and choose grid view, move the slider all the way to the right for 49 students
+          </p>
+          <p class="d-none"><span class="red" data-msg-adhoc-13a>For google classroom users, </span><span
+              data-msg-adhoc-13b>please
+              make sure your
+              Main
+              room link in the Rooms tab
+              is
+              your google
+              classroom "meet link" and that
+              you clicked on the button in the Start Class section to Open/Sync your Main Room</span></p>
+
+          <p data-msg-adhoc-2>Steps 2 and 3: Copy links and student assignments</p>
+          <ul>
+            <li>
+              <p class="mt-2"><span data-msg-adhoc-2a>Please
+                  click </span>
+                <button id="btn-ad-hoc" class="btn btn-sm btn-inset btn-primary copy-all-pre"
+                  data-msg-adhoc-2b>here</button>
+                <span data-msg-adhoc-2c> once you have the group
+                  assignments
+                  they way you want them</span>
+              </p>
+            </li>
+
+          </ul>
+          <div id="autosend-assignments-group" class="autosend-assignments-group">
+            <p data-msg-adhoc-autosend>New!!! Automatically send breakout assignments to meet chat</p>
+            <button id="btn-ad-hoc-autosend" class="btn btn-autosend" data-msg-btn-autosend>Send
+              breakout assignments to the chat
+            </button>
+            <button id="btn-autosend-ok" class="btn btn-autosend-ok"><span>2. </span>Close
+            </button>
+          </div>
+
+          <div id="meet-main-ppt-hook"> </div>
+        </div>
+
+
+        <div class="text-center mt-4">
+          <button id="assign-ppts-pre" class="text-left btn col-12 flex-fill ppt-collapse btn-assign-pre" type="button"
+            data-toggle="collapse" data-target="#meet-main-ppt-pre" aria-expanded="false"
+            aria-controls="#meet-main-ppt-pre">
+            <i style="font-size:20px" class="fas fa-sitemap shadow-lg"></i>
+            <span data-msg-assign-breakouts-pre class="my-breakout-span-normal">&nbsp;Assign
+              Breakouts - Pre
+              Assigned</span>
+          </button>
+        </div>
+
+        <div id="meet-main-ppt-pre" class="col-12 mt-3 collapse" class="collapse show">
+          <p class="d-none" data-msg-pre-0>Please note that in Google Meet students cannot be "pushed" into breakout
+            rooms. Students
+            voluntarily
+            enter
+            the
+            breakout rooms by clicking on the links you provide in the Main room chat. </p>
+          <p data-msg-pre-1>Step 1: Copy Pre-assigned Breakout Assignments</p>
+          <p data-msg-pre-1a>From MS word or some text editor, copy/paste into the Main room chat window your
+            pre-assigned
+            list of breakout groups with their
+            assigned students. Now the students know which breakout room they are
+            assigned to.
+          </p>
+          <p data-msg-pre-1b>Normally you can copy and paste the entire list all at once, however, please note that
+            there
+            is a 500
+            character limit for copy/paste into the chat. If the list is long
+            then you may want to copy in sections. First try copying the whole list and only if you notice that the
+            bottom portion is
+            clipped then copy and paste it in two or three sections.</p>
+
+          <div>
+            <p data-msg-pre-2>Step 2: Copy Breakout Room Links</p>
+            <p id="pre-assigned-list-groups-link-copy"><span data-msg-pre-2a> Click </span> <span id="btn-pre-assigned"
+                class="btn btn-sm btn-inset btn-primary copy-all-pre" data-msg-pre-2b>here</span><span data-msg-pre-2c>
+                to
+                copy the breakout room links to your clipboard and then paste (control or command V) them
+                into the Main chat</span>
+            </p>
+          </div>
+          <p id="pre-assigned-list-groups-link-length"></p>
+          <p id="pre-assigned-list-groups-link"></p>
+
+        </div>
+
+        <!-- Room Controls -->
+        <div class="text-center mt-4">
+          <button id="meet-room-controls2" class="text-left btn col-12 flex-fill room-ppt-controls btn-mute"
+            type="button" data-toggle="collapse" data-target="#meet-room-controls" aria-expanded="false"
+            aria-controls="#meet-room-controls">
+            <i id="room-part-controls-title" style="font-size:20px" class="fas fa-child"></i>
+            <span class="my-breakout-span-normal" data-msg-mute-remove>&nbsp;Mute and Remove Participants</span>
+
+          </button>
+        </div>
+
+        <div id="meet-room-controls" class="collapse room-control-section pb-3">
+
+
+          <div class="row col-12 mx-auto justify-content-center ">
+            <div class="col-12 pt-2 pb-2 copy-all-pre" data-mute-part>
+              <button id="mute-all-main" class="col-12 btn av av-mute copy-all-pre">
+                <i class="av fas fa-microphone-slash"></i>
+              </button>&nbsp <span data-msg-mute-all-main>Mute all: Main room</span>
+            </div>
+            <div class="col-12 pt-2 pb-2 copy-all-pre" data-mute-part>
+              <button id="mute-all-this" class="col-12 btn av av-mute copy-all-pre">
+                <i class="av fas fa-microphone-slash"></i>
+              </button>&nbsp <span data-msg-mute-all-this>Mute all: This Room (slider)</span>
+            </div>
+            <div class="col-12 pt-2 pb-2 copy-all-pre" data-mute-part>
+              <button id="mute-all-breakouts" class="col-12 btn av av-mute copy-all-pre">
+                <i class="av fas fa-microphone-slash"></i>
+              </button>&nbsp <span data-msg-mute-all-breakouts>Mute all: All Breakout Rooms</span>
+            </div>
+            <div class="col-12 pt-2 pb-2 copy-all-pre" data-mute-part>
+              <button id="mute-all-all" class="col-12 btn av av-mute copy-all-pre">
+                <i class="av fas fa-microphone-slash"></i>
+              </button>&nbsp <span data-msg-mute-all-rooms>Mute All: Main and all Breakout Rooms</span>
+            </div>
+
+
+            <div class="col-12 pt-2 pb-2" data-remove-part>
+              <button id="remove-all-this" class="col-12 btn av av-mute copy-all-pre">
+                <i class="av fas fa-ban"></i>
+              </button>&nbsp <span data-msg-remove-all-this>Remove all: This Room (Slider)</span>
+            </div>
+            <div class="col-12 pt-2 pb-2" data-remove-part>
+              <button id="remove-all-breakouts" class="col-12 btn av av-mute copy-all-pre">
+                <i class="av fas fa-ban"></i>
+              </button>&nbsp <span data-msg-remove-breakouts>Remove all: All
+                Breakout Rooms</span>
+            </div>
+            <div class="col-12 pt-2 pb-2" data-remove-part>
+              <button id="remove-all-main" class="col-12 btn av av-mute copy-all-pre">
+                <i class="av fas fa-ban"></i>
+              </button>&nbsp <span data-msg-remove-main>Remove All: Main room</span>
+            </div>
+            <div class="col-12 pt-2 pb-2" data-remove-part>
+              <button id="hangup-all-breakouts" class="col-12 btn av av-mute copy-all-pre">
+                <i class="av fas fa-ban"></i>
+              </button>&nbsp <span data-msg-hangup-breakouts>Close all Breakout Rooms</span>
+            </div>
+            <div class="col-12 pt-2 pb-2" data-remove-part>
+              <button id="hangup-main" class="col-12 btn av av-mute copy-all-pre">
+                <i class="av fas fa-ban"></i>
+              </button>&nbsp <span data-msg-hangup-main>Close the Main room</span>
+            </div>
+            <div class="d-none col-12 mr-0 pr-0" data-close-part>
+              <button id="close-room" class="col-12 btn av av-mute copy-all-pre">
+                <i class="av fas fa-recycle"></i>
+              </button>&nbsp Close Room
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Reports -->
+        <div class="text-center mt-4 mb-2">
+          <button class="mb-4 text-left btn col-12 flex-fill copy-buttons-collapse btn-reports" type="button"
+            data-toggle="collapse" data-target="#meet-copy-buttons" aria-expanded="false"
+            aria-controls="#meet-copy-buttons">
+            <!-- <i class="fas fa-clipboard"></i> -->
+            <i style="font-size:20px" class="fas fa-clipboard"></i>
+            <span data-msg-reports class="my-breakout-span-normal">&nbsp;Reports</span>
+          </button>
+        </div>
+
+        <div id="meet-copy-buttons" class="collapse row pl-3 pr-3 justify-content-between mb-4 ">
+          <div style="font-size: 18px" class="ml-0 pl-0 form-group col-12">
+            <h4 id="speaker-section-test" class="" data-msg-reports-clipboard>&nbsp Copy to Clipboard</h4>
+            <input class="ml-3 pl-0" style="transform: scale(1.5)" type="checkbox" id="copy-download-csv" checked="">
+            <label class=" d-inline" for="copy-download-csv" data-msg-reports-csv>&nbsp Also download as CSV</label>
+          </div>
+          <button id="copy-all-links" class="btn col-12 btn-outline-dark list-report text-left" type="button">
+            <i style="font-size: 20px" class="far fa-copy shadow-lg">
+              <span class="span-small" data-msg-reports-links>&nbsp All Breakout
+                Room Links</span>
+            </i>
+          </button>
+          <button id="copy-ppt-list" class="btn col-12 mt-2 btn-outline-dark btn-border list-report text-left"
+            type="button">
+            <i style="font-size: 20px" class="far fa-copy shadow-lg">
+              <span class="span-small" data-msg-reports-attendance>&nbsp Participant
+                Attendance</span>
+            </i>
+          </button>
+          <button id="copy-ppt-assignments" class="btn col-12 mt-2 btn-outline-dark list-report text-left"
+            type="button">
+            <i style="font-size: 20px" class="far fa-copy shadow-lg">
+              <span class="span-small" data-msg-reports-assignments>
+                &nbsp Breakout Assignments</span>
+            </i>
+          </button>
+          <button id="copy-breakout-groups" class="btn col-12 mb-4 mt-2 btn-outline-dark list-report text-left"
+            type="button">
+            <i style="font-size: 20px" class="far fa-copy shadow-lg">
+              <span class="span-small" data-msg-reports-groups>&nbsp Breakout Groups</span>
+            </i>
+          </button>
+
+        </div>
+
+        <!-- Collapse All Rooms Listing -->
+        <div class="text-center mt-4 d-none">
+          <button class="text-left btn col-12 flex-fill all-rooms-collapse" type="button" data-toggle="collapse"
+            data-target="#meet-all-rooms" aria-expanded="false" aria-controls="#meet-all-rooms">
+            <i style="font-size:20px" class="offset-1 fas fa-list-ol shadow-lg">&nbsp View All Rooms</span></i>
+          </button>
+        </div>
+
+        <!-- Hooks for Main and Breakout rooms -->
+        <div id="meet-all-rooms" class="collapse rooms-section pb-2 ">
+
+          <h5 class="col-12 mt-4 ">Main Room</h5>
+          <div class="col-12 mt-3 pl-0" id="meet-main-hook"></div>
+
+          <h5 class="mt-4 col-12">Breakout Rooms</h5>
+          <div class="col-12 mb-4" id="meet-rooms-hook"></div>
+        </div>
+
+      </div>
+
+      <!-- Tab Two: Rooms -->
+      <div id="two" class="tab-pane fade pb-2" role="tabpanel" aria-labelledby="two-tab">
+
+        <div id='rooms-alert' class="alert alert-info fade show" role="alert" data-msg-alert-rooms-enter>
+          The first room is your
+          Main room, the rest are Breakouts
+        </div>
+
+        <div class="row ml-0 pr-2">
+          <div class="dropdown ml-0 px-0 col-4" id="drop1">
+            <button class="btn btn-dark dropdown-toggle col-12 dropdown-color" id="dropdownClassList"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-chalkboard-teacher"></i><span data-msg-dropdown-course2
+                class="my-breakout-span-normal">&nbsp;Course</span>
+            </button>
+
+            <div class=" dropdown-menu" aria-labelledby="dropdownClassList" id="dropdown-rooms-class-hook">
+            </div>
+          </div>
+          <h5 id="setup-rooms-class" class="col-8 mt-1 sub-title" data-class-id="0"></h5>
+        </div>
+
+        <div class="border-top my-3"></div>
+
+        <div class="mt-2 ml-1 mr-1 row justify-content-between" id="btn-rooms">
+          <button type="submit" id="btn-rooms-add" class="col-1 btn btn-success btn-inset btn-rooms"
+            data-toggle="tooltip" title="Add">
+            <i class="fas fa-plus-circle"></i>
+          </button>
+          <button type="submit" id="btn-rooms-save" class="col-1 btn btn-primary btn-inset btn-rooms"
+            data-toggle="tooltip" title="Save and Create Links">
+            <i class="fas fa-save"></i>
+          </button>
+          <button type="submit" id="btn-rooms-recycle" class="col-1 btn btn-warning btn-inset btn-rooms"
+            data-toggle="tooltip" title="Clear Links">
+            <i class="fas fa-recycle"></i>
+          </button>
+          <button type="submit" id="btn-rooms-undo" class="col-1 btn btn-info btn-inset btn-rooms" data-toggle="tooltip"
+            title="Undo">
+            <i class="fas fa-undo"></i>
+          </button>
+          <button type="submit" id="btn-rooms-delete" class="col-1 btn btn-danger btn-inset btn-rooms"
+            data-toggle="tooltip" title="Delete">
+            <i class="fas fa-minus-circle"></i>
+          </button>
+          <button id="btn-rooms-export-import" class="btn btn-dark col-1 btn-inset btn-rooms" data-btn-type="export"
+            data-target="#rooms-export-import" data-toggle="modal">
+            <i class="fas fa-file-export" data-toggle="tooltip" title="Export Import"></i></button>
+        </div>
+
+        <div class="border-top my-3"></div>
+
+        <!-- Google Accounts -->
+        <div class="text-center mt-4">
+          <button class="text-left btn col-12 flex-fill google-account btn-account" type="button" data-toggle="collapse"
+            data-target="#rooms-google-account-help" aria-expanded="false" aria-controls="#rooms-google-account">
+            <i id="rooms-google-accoun-help" style="font-size:20px" class="fas fa-user shadow-lg"></i>
+            <span class="my-breakout-span-normal" data-msg-default-account2>&nbsp; Your Meet Account is </span>
+            <span data-span-rooms-account-name2></span>
+          </button>
+        </div>
+
+        <div id="rooms-google-account-help" class="collapse mt-4">
+          <div>
+            <h6 class="sub-title" data-msg-default-room-1>If this is the correct account, then you may leave this
+              section. Your account
+              setting
+              is correct.
+            </h6>
+
+            <h6 class="sub-title" data-msg-default-room-2>If this is not the correct account, then please follow the
+              instructions below:
+            </h6>
+
+            <ul>
+              <li><span data-msg-default-room-3a>Please click </span> <a type="btn" id="rooms-goto-account"
+                  href="https://accounts.google.com/SignoutOptions" target="_blank"
+                  class="btn btn-primary btn-sm btn-inset copy-all-pre" data-msg-default-room-3b>here</a>
+                <span data-msg-default-room-3c>to go to the google account page</span>
+              </li>
+              <li data-msg-default-room-4>Log out of ALL of your google accounts</li>
+              <li><span data-msg-default-room-5a>Your default account is the FIRST account that you log in to.
+                  Please log in to your desired
+                  account
+                  for running Google Meet. This will be your Google Suite account for Google Classroom users. When
+                  using
+                  this
+                  extension,</span><span data-msg-default-room-5b>
+                  please consistenly use the same account</span><span data-msg-default-room-5c>in order to avoid
+                  creating links that are owned
+                  by
+                  different
+                  accounts which
+                  will cause the extension to behave unexpectedly. Your links (either manually created in Calendar
+                  or
+                  auto
+                  created
+                  in this extension) are all "owned" by the account that created them.</span></li>
+              <li data-msg-default-room-6>Once you first open your desired Google Meet account, then you can open your
+                other Google
+                accounts.
+                Opening additional google accounts AFTER you first open your desired Google Meet account will not
+                affect
+                the operation of Google Meet or this extension</li>
+            </ul>
+          </div>
+        </div>
+        <!-- #rooms-google-account-help -->
+
+        <form class="mt-4 ml-0 mr-0">
+
+          <div class="d-none text-center mt-4">
+            <button id="rooms-announcement-btn" class="text-left btn col-12 flex-fill rooms-collapse mb-4 "
+              type="button" data-toggle="collapse" data-target="#rooms-announcement" aria-expanded="false"
+              aria-controls="#rooms-announcement">
+              <i style="font-size:20px" class="fas fa-info-circle shadow-lg"></i><span data-msg-instruct-room-links
+                class="my-breakout-span-normal">&nbsp;
+                Instructions on entering room
+                links</span>
+
+            </button>
+          </div>
+
+          <div id="rooms-announcement" class="row ml-2 collapse">
+
+            <p><span class="font-weight-bold" data-msg-rooms-how-start>Easy Start:</span><span
+                data-msg-rooms-how-start1>Simply
+                leave all the link fields blank and click save
+                after entering the room names. When you clck save, the system will automatically create static links for
+                you. The room names will be purple color to indicate that they have static links.</span></p>
+            <p><span class="font-weight-bold" data-msg-rooms-how-gc>Google Classroom Teachers:</span><span
+                data-msg-rooms-how-gc1> Please copy and paste your
+                "Meet link" from your google
+                classroom page into the link field for your Main room. An example of a Google Classroom meet link is
+                https://meet.google.com/lookup/g45j4fubqb. The prefix of https://meet.google.com/lookup/ is
+                automatically
+                stripped off for you by the extension once you paste it in the link field. You will then only see the
+                nickname portion which in this example is</span><span class="blue"
+                data-msg-rooms-how-gc2>g45j4fubqb</span>. </p>
+            <p data-msg-rooms-how-gc3>
+              The
+              sync is automatic if the main room is opened within the extension. If you open first in Google
+              Classroom,
+              then you will
+              sync in the Start section of the Meet tab by clicking on the Open/Sync Main room button there.</p>
+
+            <p><span class="font-weight-bold" data-msg-rooms-how-types>Nicknames, Codes and Urls:</span><span
+                data-msg-rooms-how-types1>There are three basic types of links:
+                Nicknames, Codes and URL links explained below</span> </p>
+
+            <ul>
+              <li class="pr-4">
+                <p><span class="font-weight-bold" data-msg-rooms-how-nick>Nickname:</span><span
+                    data-msg-rooms-how-nick1>
+                    An example of a nickname is</span><span class="blue">jsmith_algebra1</span><span
+                    data-msg-rooms-how-nick2>. Nicknames do not
+                    include any
+                    prefix such as g.co/meet/ or meet.google.com/lookup/ . Nicknames are user defined and can
+                    contain any string of characters with numbers.</span>
+                </p>
+                <p data-msg-rooms-how-nick3>
+                  Nicknames are color coded light green and are dynamic
+                  because they create different meet urls for each
+                  session. </p>
+
+                <p><span class="font-weight-bold" data-msg-rooms-how-gcnick>Google Classroom Nicknames:</span><span
+                    data-msg-rooms-how-gcnick1>An example of a Google Classroom
+                    Nickname is the full meet link</span>
+                  <span class="blue">https://meet.google.com/lookup/g45j4fubqb</span><span data-msg-rooms-how-gcnick2>
+                    or just the final 10 characters</span>
+                  <span class="blue">g45j4fubqb</span><span data-msg-rooms-how-gcnick3>. You may enter either the full
+                    meet link or just the 10
+                    character
+                    nickname. If you enter the full meet link the extension will strip out the nickname for you. In this
+                    example it is g45j4fubqb</span>
+                </p>
+                <p data-msg-rooms-how-gcnick4>Google Classroom nicknames are color coded light green and are
+                  dynamic because they create different meet urls for each session.
+                </p>
+
+              </li>
+              <li class="pr-4">
+                <p><span class="font-weight-bold" data-msg-rooms-how-code>Code:</span><span data-msg-rooms-how-code1>A
+                    code is 12 characters including the dashes in a 3-4-3
+                    format. An example of
+                    a code is</span><span class="blue">abc-defg-hij</span> .
+                </p>
+                <p data-msg-rooms-how-code2>Codes cannot be random characters that you create. They must refer to valid
+                  meets that are previously
+                  created through
+                  calender, the transaction https://meet.google.com/new, or through some other google meet function.</p>
+                <p data-msg-rooms-how-code3>Codes
+                  are static
+                  because they always call up the same meet url. Static
+                  meet urls may
+                  be desireable if you want
+                  to keep the same link for your sessions</p>
+
+              </li>
+              <li class="pr-4">
+                <p><span class="font-weight-bold" data-msg-rooms-how-url>Meet Url:</span><span
+                    data-msg-rooms-how-url1>The
+                    extension will </span> <span class="red" data-msg-rooms-how-url2>automatically</span><span
+                    data-msg-rooms-how-url3>create a
+                    brand new
+                    meet url for you if you leave the field blank and click save. There is no need to go to Calendar.
+                    Alternatively, you
+                    may enter a previously defined meet
+                    url in the format</span><span class="blue">https://meet.google.com/abc-defg-hij</span>
+                </p>
+                <p data-msg-rooms-how-url4>Meet Urls are static
+                  because
+                  they always
+                  call up the
+                  same meet url. In the Settings tab, you may choose to make meet urls dynamic by clicking
+                  the
+                  "Automatically create links each time the room is opened" checkbox. This will
+                  automatically generate a new meet url each time you open the room. If you check this checkbox
+                  for the main room, then you will need to email or otherwise notify the participants of the new main
+                  room
+                  meet url AFTER you open the room because it changes dynamically. This option may be more useful for
+                  breakouts room links. </p>
+
+              </li>
+              <li class="pr-4">
+                <p><span class="font-weight-bold" data-msg-rooms-how-url5>Resource Url:</span><span
+                    data-msg-rooms-how-url6> Resource Urls require the
+                    prefix
+                    https://. An example of a Resource Url is</span><span
+                    class="blue">https://en.wikipedia.org/wiki/Pluto</span>
+                </p>
+                <p data-msg-rooms-how-url7>This may be any web page that the teacher wants
+                  to use as a teaching resource, such as
+                  a science page, nature website, or a youtube to name a few examples.</p>
+              </li>
+
+            </ul>
+          </div>
+          <div class="row ml-1 mr-1 mb-2">
+            <div class="col-4 px-0 pl-2">
+              <h5 class="sub-title" type="text" data-msg-sub-heading-rooms>Rooms</h5>
+            </div>
+            <div class="col-8 px-0 pl-1">
+              <h5 class="text-left sub-title" type="text">
+                <div class="rooms-url-code-nickname">
+                  <span data-msg-url>URL </span>
+                  or <span data-msg-code>Code</span> or
+                  <span data-msg-nickname>Nickname</span>&nbsp&nbsp
+                  <a class="href-help" href="https://hudektech.github.io/gmbr-help/#setup-2-create-breakout-rooms"
+                    target="_blank" data-zhtw-href="#第二步創建討論室" data-msg-nickname-helplink> Help</a>
+                </div>
+              </h5>
+            </div>
+          </div>
+
+          <div id="list-rooms-hook" class="lines room-rows >">
+          </div>
+        </form>
+      </div>
+
+      <!-- Rooms Export Modal -->
+      <div class="modal" id="rooms-export-import">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title"><img class="ml-1 mr-2 pb-2" src="img/icon512.png" style="width: 32px" alt=""><span
+                  data-msg-rooms-expimp>Export
+                  and Import Breakout Room</span></h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="mt-0 pt-2 mb-0 container">
+              <h4 class="pl-3 mb-0"><span data-msg-rooms-popup-title>Course: </span><span
+                  data-impexp-rooms-popup-title></span> </h4>
+            </div>
+            <div class="modal-body">
+              <div class="tab-pane fade active show" id="rooms-export-popup" role="tabpanel"
+                aria-labelledby="export-tab">
+                <div class="card-body my-card-body mr-4 pr-4 border">
+                  <h4 class="card-text" data-msg-rooms-exp1>Export Breakout Rooms</h4>
+                  <form>
+                    <div>
+                      <label for="export-rooms" data-msg-rooms-exp2>Filename (.txt)</label>
+                    </div>
+                    <div>
+                      <input style="background-color: white" type="text" id="rooms-export-filename" size="35"
+                        value="myRooms.txt" required="">
+                    </div>
+                    <div>
+                      <button type="button" id="btn-rooms-export" class="btn btn-primary mt-3" data-msg-rooms-exp3>
+                        Export</button>
+                      <p style="display: inline-block;" class="ml-4" id="downloadMessage"></p>
+                    </div>
+                  </form>
+                </div>
+
+                <div class="card-body my-card-body mr-4 pr-4 mt-4 border">
+                  <h4 class="card-text" data-msg-rooms-imp1>Import Breakout Rooms</h4>
+                  <form>
+                    <div>
+                      <label for="import-rooms" data-msg-rooms-imp2>Filename (.txt)</label>
+                    </div>
+                    <div>
+                      <input type="file" id="rooms-import-filename" value="">
+                    </div>
+                    <div>
+                      <button style="display: inline-block;" type="button" id="btn-rooms-import"
+                        class="btn btn-primary mt-3" data-msg-rooms-imp3>
+                        Import</button>
+                      <p style="display: inline-block;" class="ml-4" id="roomsUploadMessage"></p>
+                    </div>
+                  </form>
+                </div>
+                <div class="mt-3" style="text-align: center">
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.hudektech.com">
+                    <p style="font-size: 12px" data-msg-rooms-built-with>Built with ❤️ by Robert Hudek</p>
+                  </a>
+                </div>
+
+
+              </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab Three: Classes -->
+      <div id="three" class=" tab-pane fade mt-2" role="tabpanel" data-classes aria-labelledby="three-tab">
+
+        <!-- <div class="border-top my-3"></div> -->
+
+        <div class="alert alert-info fade show" role="alert" id='classes-alert' data-msg-enter-courses>
+          Enter the list of your courses
+        </div>
+        <!-- <h4>My Meet Classes</h4> -->
+
+        <div id="btn-classes" class="row mt-4 justify-content-between ml-0 mr-0">
+          <button id="btn-classes-add" type="submit" class="col-2 btn btn-success btn-inset" data-toggle="tooltip"
+            title="Add">
+            <i class="fas fa-plus-circle"></i>
+          </button>
+          <button id="btn-classes-save" type="submit" class="col-2 btn btn-primary btn-inset" data-toggle="tooltip"
+            title="Save">
+            <i class="fas fa-save"></i>
+          </button>
+          <button id="btn-classes-undo" type="submit" class="col-2 btn btn-info btn-inset" data-toggle="tooltip"
+            title="Undo">
+            <i class="fas fa-undo"></i>
+          </button>
+          <!-- <button id="btn-classes-delete" type="submit" class="col-2 btn btn-danger btn-inset" data-btn-type="delete"
+            data-toggle="modal" data-target="#class-delete"> -->
+          <button id="btn-classes-delete" type="submit" class="col-2 btn btn-danger btn-inset" data-btn-type="delete"
+            data-toggle="tooltip" title="Delete">
+            <i class="fas fa-minus-circle"></i>
+          </button>
+          <button id="btn-classes-export-import" class="btn btn-dark col-2 btn-inset" data-btn-type="export"
+            data-toggle="modal" data-target="#classes-export-import"><i class="fas fa-file-export" data-toggle="tooltip"
+              title="Export / Import"></i></button>
+        </div>
+
+        <div class="border-top my-3"></div>
+        <div class="row ml-1 mr-1">
+          <div class="col-5 px-0">
+            <h5 class="pl-2 sub-title" type="text" data-msg-course-course>Courses</h5>
+          </div>
+          <div class="col-7 px-0">
+            <h5 class="pl-2 sub-title" type="text" data-msg-course-desc>Description</h5>
+          </div>
+        </div>
+        <div id="list-classes-hook" class="lines2">
+        </div>
+      </div>
+
+      <!-- Rooms Export Classes -->
+      <div class="modal" id="classes-export-import">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title"><img class="ml-1 mr-2 pb-2" src="img/icon512.png" style="width: 32px" alt=""><span
+                  data-msg-courses-expimp>Export
+                  and Import Everything</span></h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="mt-0 pt-2 mb-0 container">
+              <h4 class="pl-3 mb-0" data-impexp-classes-popup-title data-msg-courses-expimp-warn><i>
+                  Warning: Import replaces all data
+                </i>
+              </h4>
+            </div>
+            <div class="modal-body">
+              <div class="tab-pane fade active show" id="rooms-export-popup" role="tabpanel"
+                aria-labelledby="export-tab">
+                <div class="card-body my-card-body mr-4 pr-4 border">
+                  <h4 class="card-text" data-msg-courses-exp1>Export Everything - All Courses and All Breakout Rooms
+                  </h4>
+                  <form>
+                    <div>
+                      <label for="export-rooms" data-msg-courses-exp2>Filename (.txt)</label>
+                    </div>
+                    <div>
+                      <input style="background-color: white" type="text" id="classes-export-filename" size="35"
+                        value="myBreakout.txt" required="">
+                    </div>
+                    <div>
+                      <button type="button" id="btn-classes-export" class="btn btn-primary mt-3" data-msg-courses-exp3>
+                        Export</button>
+                      <p style="display: inline-block;" class="ml-4" id="downloadMessage"></p>
+                    </div>
+                  </form>
+                </div>
+
+                <div class="card-body my-card-body mr-4 pr-4 mt-4 border">
+                  <h4 class="card-text" data-msg-courses-imp1>Import Everything - All Courses and Breakout Rooms</h4>
+                  <form>
+                    <div>
+                      <label for="import-rooms" data-msg-courses-imp2>Filename (.txt)</label>
+                    </div>
+                    <div>
+                      <input type="file" id="classes-import-filename" value="">
+                    </div>
+                    <div>
+                      <button style="display: inline-block;" type="button" id="btn-classes-import"
+                        class="btn btn-primary mt-3" data-msg-courses-imp3>
+                        Import</button>
+                      <p style="display: inline-block;" class="ml-4" id="classesUploadMessage"></p>
+                    </div>
+                  </form>
+                </div>
+                <div class="mt-3" style="text-align: center">
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.hudektech.com">
+                    <p style="font-size: 12px" data-msg-courses-built-with>Built with ❤️ by Robert Hudek</p>
+                  </a>
+                </div>
+              </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab Four: General -->
+      <div id="four" class="tab-pane fade" role="tabpanel" aria-labelledby="four-tab">
+
+        <!-- Themes -->
+        <form id="toolbar-colors" class="border mt-2 settings-background">
+          <div class="container px-0 mx-0">
+            <h5 class="col-12 mt-3" data-msg-gen-themes>Color Themes </h5>
+            <div class="row ml-1">
+              <div class="dropdown col-3 mb-4" data-general-themes>
+                <button id="dropdown-predefined-themes"
+                  class="btn btn-sm btn-inset btn-dark dropdown-toggle dropdown-color" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  <i class="fas fa-indent"></i>
+                  <span class="my-breakout-span-normal">&nbsp;Themes</span>
+                </button>
+
+                <div id="dropdown-prefined-themes-hook" class="dropdown-menu " aria-labelledby="dropdownPreThemes"
+                  data-general-type="preThemes">
+                  <a class="dropdown-item active" href="#" data-general-theme-id="classic-light">Classic Light</a>
+                  <a class="dropdown-item" href="#" data-general-theme-id="classic-dark">Classic Dark</a>
+
+                  <a class="dropdown-item" href="#" data-general-theme-id="dracula-white-light">Dracula White Light</a>
+                  <a class="dropdown-item" href="#" data-general-theme-id="dracula-white-dark">Dracula White Dark</a>
+
+                  <a class="dropdown-item" href="#" data-general-theme-id="dracula-green-light">Dracula Green Light</a>
+                  <a class="dropdown-item" href="#" data-general-theme-id="dracula-green-dark">Dracula Green Dark</a>
+                  <a class="dropdown-item" href="#" data-general-theme-id="dracula-orange-light">Dracula Orange
+                    Light</a>
+                  <a class="dropdown-item" href="#" data-general-theme-id="dracula-orange-dark">Dracula Orange Dark</a>
+
+                  <a class="dropdown-item" href="#" data-general-theme-id="dracula-yellow-light">Dracula Yellow
+                    Light</a>
+                  <a class="dropdown-item" href="#" data-general-theme-id="dracula-yellow-dark">Dracula Yellow
+                    Dark</a>
+
+                  <a class="dropdown-item" href="#" data-general-theme-id="dracula-red-light">Dracula Red Light</a>
+                  <a class="dropdown-item" href="#" data-general-theme-id="dracula-red-dark">Dracula Red Dark</a>
+
+                  <a class="dropdown-item" href="#" data-general-theme-id="dracula-pink-light">Dracula Pink Light</a>
+                  <a class="dropdown-item" href="#" data-general-theme-id="dracula-pink-dark">Dracula Pink Dark</a>
+
+
+                  <a class="dropdown-item" href="#" data-general-theme-id="dracula-blue-light">Dracula Blue Light</a>
+                  <a class="dropdown-item" href="#" data-general-theme-id="dracula-blue-dark">Dracula Blue Dark</a>
+
+                  <!-- <a class="dropdown-item" href="#" data-general-theme-id="grey-dark">Grey Dark</a>
+                          <a class="dropdown-item" href="#" data-general-theme-id="grey-light">Grey Light</a> -->
+
+                  <a class="dropdown-item" href="#" data-general-theme-id="slate-orange-light">Slate Orange Light</a>
+                  <a class="dropdown-item" href="#" data-general-theme-id="slate-orange-dark">Slate Orange Dark</a>
+                  <a class="dropdown-item" href="#" data-general-theme-id="slate-yellow-light">Slate Yellow Light</a>
+                  <a class="dropdown-item" href="#" data-general-theme-id="slate-yellow-dark">Slate Yellow Dark</a>
+                  <a class="dropdown-item" href="#" data-general-theme-id="slate-blue-light">Slate Blue Light</a>
+                  <a class="dropdown-item" href="#" data-general-theme-id="slate-blue-dark">Slate Blue Dark</a>
+                  <a class="dropdown-item" href="#" data-general-theme-id="slate-red-light">Slate Red Light</a>
+                  <a class="dropdown-item" href="#" data-general-theme-id="slate-red-dark">Slate Red Dark</a>
+                  <a class="dropdown-item" href="#" data-general-theme-id="slate-pink-light">Slate Pink Light</a>
+                  <a class="dropdown-item" href="#" data-general-theme-id="slate-pink-dark">Slate Pink Dark</a>
+                  <a class="dropdown-item" href="#" data-general-theme-id="slate-white-light">Slate White Light</a>
+                  <a class="dropdown-item" href="#" data-general-theme-id="slate-white-dark">Slate White Dark</a>
+                  <a class="dropdown-item" href="#" data-general-theme-id="white-slate-light">White Slate Light</a>
+                  <a class="dropdown-item" href="#" data-general-theme-id="white-slate-dark">White Slate Dark</a>
+
+                  <!-- <a class="dropdown-item" href="#" data-general-theme-id="grey-white-dark">Grey White Dark</a>
+                          <a class="dropdown-item" href="#" data-general-theme-id="grey-white-light">Grey White Light</a> -->
+                  <a class="dropdown-item" href="#" data-general-theme-id="orange-orange-light">Orange Orange Light</a>
+                  <a class="dropdown-item" href="#" data-general-theme-id="orange-orange-dark">Orange Orange Dark</a>
+                  <a class="dropdown-item" href="#" data-general-theme-id="white-white-light">White White Light</a>
+                  <a class="dropdown-item" href="#" data-general-theme-id="white-white-dark">White White Dark</a>
+                  <a class="dropdown-item" href="#" data-general-theme-id="blue-yellow-light">Blue Yellow Light</a>
+                  <a class="dropdown-item" href="#" data-general-theme-id="blue-yellow-dark">Blue Yellow Dark</a>
+                  <!-- <a class="dropdown-item" href="#" data-general-theme-id="custom">Custom</a> -->
+                </div>
+              </div>
+              <h6 id="general-predefined-theme-sel" class="col-9 mt-1 d-inline mr-0 pr-0"
+                data-general-theme-id-sel="classic-light">
+                Classic
+                Light</h6>
+            </div>
+            <!-- <div class="row ml-1">
+                      <div class="col-6">
+        
+                        <button class="btn btn-primary btn-sm mt-4">Create custom theme</button>
+                      </div>
+                    </div> -->
+          </div>
+        </form>
+
+        <!-- Tile or Tab -->
+        <form id="tab-tile" class="border mt-2 settings-background">
+          <div class="container px-0 mx-0" data-general-click data-general-tabs-tiles>
+            <h5 class="col-12 mt-3" data-msg-gen-display>Breakout Rooms Display </h5>
+            <div class="form-group col-12" style="align-items:center" data-general-type="tiles">
+              <input type="radio" id="breakout-tiles" name="pic-radio">
+              <label for="breakout-tiles" class="radio control-label" data-msg-gen-tiles>Tiles: Separate
+                windows</label>
+            </div>
+            <div class="form-group row col-12" data-tab>
+              <div class="col-6 pr-0" data-general-type="tabs">
+                <input type="radio" id="breakout-tabs" name="pic-radio">
+                <label for="breakout-tabs" class="radio control-label" data-msg-gen-tabs>Tabs: Same window
+                </label>
+              </div>
+
+              <!-- New Stuff -->
+              <div class="row col-6">
+                <div class="dropdown">
+                  <button class="btn btn-sm btn-inset btn-dark dropdown-toggle dropdown-color" id="dropdownMaxTabsList"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-indent"></i>
+                    <span class="my-breakout-span-normal">&nbsp;Max</span>
+                  </button>
+
+                  <div class="dropdown-menu" id="dropdown-general-maxtabs-hook" aria-labelledby="dropdownMaxTabsList"
+                    data-general-type="maxTabs">
+                    <a class="dropdown-item" href="#" data-general-maxtabs="2">2</a>
+                    <a class="dropdown-item" href="#" data-general-maxtabs="3">3</a>
+                    <a class="dropdown-item" href="#" data-general-maxtabs="4">4</a>
+                    <a class="dropdown-item active" href="#" data-general-maxtabs="5">5</a>
+                    <a class="dropdown-item" href="#" data-general-maxtabs="6">6</a>
+                    <a class="dropdown-item" href="#" data-general-maxtabs="7">7</a>
+                    <a class="dropdown-item" href="#" data-general-maxtabs="8">8</a>
+                    <a class="dropdown-item" href="#" data-general-maxtabs="9">9</a>
+                    <a class="dropdown-item" href="#" data-general-maxtabs="10">10</a>
+                    <a class="dropdown-item" href="#" data-general-maxtabs="11">11</a>
+                    <a class="dropdown-item" href="#" data-general-maxtabs="12">12</a>
+                    <a class="dropdown-item" href="#" data-general-maxtabs="13">13</a>
+                    <a class="dropdown-item" href="#" data-general-maxtabs="14">14</a>
+                    <a class="dropdown-item" href="#" data-general-maxtabs="15">15</a>
+                    <a class="dropdown-item" href="#" data-general-maxtabs="0">No Limit</a>
+                  </div>
+                </div>
+                <h6 class="col-6 mt-1 d-inline mr-0 pr-0" data-general-maxtabs-sel="5" id="general-maxtabs-text">5
+                  Tabs
+                </h6>
+              </div>
+              <!-- End New Stuff -->
+
+            </div>
+          </div>
+        </form>
+
+        <!-- Simulate Students -->
+        <!-- Add the student simulation meets here -->
+        <form id="student-simulation-form" class="border mt-2 p-4 rounded settings-background">
+          <div class="container-fluid">
+            <h5 class="mb-3" data-msg-sim-1>Practice using the Extension</h5>
+
+            <p data-msg-sim-2>If you're new to this extension and want to get a feel for how it works, you can try it
+              out using
+              simulated students. This simulation can be done entirely on your computer using incognito mode for the
+              simulated
+              students.
+            </p>
+
+            <p><strong data-msg-sim-3>Reminder:</strong> <span class="p-inherit" data-msg-sim-4>
+                When using this extension to teach your class, only you,
+                as the teacher, need to install it. Students do not need to install the extension as they won't be using
+                it.
+              </span>
+            </p>
+
+            <hr>
+            <!-- Accordion Button -->
+            <div class="text-center mt-4">
+              <button id="simulation-setup-accordion" class="text-left btn col-12 flex-fill btn-info" type="button"
+                data-toggle="collapse" data-target="#simulationSetupInstructions" aria-expanded="false"
+                aria-controls="simulationSetupInstructions">
+                <i style="font-size:20px" class="fas fa-info-circle shadow-lg"></i>
+                <span data-msg-sim-5>&nbsp;Simulation Setup Instructions</span>
+              </button>
+            </div>
+
+            <!-- Accordion Content -->
+            <div id="simulationSetupInstructions" class="collapse mt-3" aria-labelledby="simulation-setup-accordion">
+              <div class="card card-body">
+                <p><strong data-msg-sim-6>Step 1:</strong><span class="p-inherit" data-msg-sim-7> Go to your Chrome
+                    extensions
+                    page at </span><code>chrome://extensions/</code>&nbsp</strong><span class="p-inherit"
+                    data-msg-sim-7a>
+                    Find the
+                    Google Meet Breakout extension, click on the Details button, and scroll down to turn on the "Allow
+                    in
+                    Incognito" option.</span>
+                </p>
+
+                <p><strong data-msg-sim-8>Note:</strong><span class="p-inherit" data-msg-sim-9> Once you're done
+                    practicing, you can turn off the "Allow
+                    in Incognito" setting. In
+                    normal use of this extension, you won't need to use incognito mode for your students. If you forget
+                    to turn
+                    it
+                    off, the extension will still work as expected, so no need to worry.</span>
+                </p>
+
+                <p><strong data-msg-sim-10>Step 2:</strong>
+                  <span class="p-inherit" data-msg-sim-11>
+                    On the Meet tab of this control panel, open the Main
+                    room and your Breakout Rooms
+                    (for example, 3 breakout rooms). If you haven’t created your breakout room links yet, go to the
+                    Rooms tab
+                    and create your rooms and links there.</span>
+                </p>
+
+                <p><strong data-msg-sim-12>Step 3:</strong>
+                  <span class="p-inherit" data-msg-sim-13>Select the number of
+                    simulated students. If you're
+                    just trying it out, we recommend
+                    opening 3 breakout rooms with a total of 6 simulated students, assigning 2 students to each breakout
+                    room.</span>
+                </p>
+
+                <p><strong data-msg-sim-14>Note:</strong>
+                  <span class="p-inherit" data-msg-sim-15>
+                    Google Meet has recently implemented a restriction that limits the number of active Meets with an
+                    operational microphone to 8 on a single computer. This means that on your computer, you can open 1
+                    Main
+                    room and up to 7 Breakout rooms and still have a working microphone in each of these rooms. You can,
+                    however, have as many students as you want in your Main room or Breakout Rooms, such as 50 or more
+                    students, without affecting the microphone functionality.</span>
+                </p>
+
+                <p data-msg-sim-16>For this simulation, which is all done on your one computer, if you open 1 Main room,
+                  3
+                  Breakouts, and 6
+                  simulated students, some of the simulated students will not have operational microphones, but this is
+                  perfectly fine for testing purposes. Since all the Meets are running on the same computer, you likely
+                  won’t be
+                  using your microphone due to potential feedback issues. However, you can still experiment with the
+                  control
+                  panel buttons and see how they control the different Meets.</p>
+                <p><strong data-msg-sim-17>Tip:</strong><span class="p-inherit" data-msg-sim-18>
+                    For these practice sessions, since you'll have many meetings
+                    open on your screen, we recommend
+                    selecting the Breakout Format as Tabs instead of the default Tiles. You can choose this using the
+                    radio button in
+                    the
+                    'Breakout Room Format' section just above. This will help organize your 'teacher' meetings on the
+                    left side of the
+                    screen in a single window with tabs, while the right side will display the simulated student
+                    meetings in a single
+                    window with multiple tabs. When teaching your actual class, you can select either Tiles or Tabs,
+                    depending on your
+                    preference, since your screen will only display your teacher meetings, giving you more space to work
+                    with.</span>
+                </p>
+              </div>
+            </div>
+
+
+            <!-- <p><strong>Step 1:</strong> Go to your Chrome extensions page at <code>chrome://extensions/</code>. Find the Google
+                                                                                                                                                                                                                                                                                                                                                              Meet Breakout extension, click on the <em>Details</em> button, and scroll down to turn on the "Allow in Incognito"
+                                                                                                                                                                                                                                                                                                                                                              option.</p>
+                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                            <p><strong>Note:</strong> Once you're done practicing, you can turn off the "Allow in Incognito" setting. In normal
+                                                                                                                                                                                                                                                                                                                                                              use of this extension, you won't need to use incognito mode for your students. If you forget to turn it off, the
+                                                                                                                                                                                                                                                                                                                                                              extension will still work as expected, so no need to worry.</p>
+                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                            <hr>
+                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                            <p><strong>Step 2:</strong> On the Meet tab of this control panel, open the Main room and your Breakout Rooms (for
+                                                                                                                                                                                                                                                                                                                                                              example, 3 breakout rooms). If you haven’t created your breakout room links yet, go to the Rooms tab and create
+                                                                                                                                                                                                                                                                                                                                                              your rooms and links there.</p>
+                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                            <p><strong>Step 3:</strong> Select the number of simulated students. If you're just trying it out, we recommend
+                                                                                                                                                                                                                                                                                                                                                              opening 3 breakout rooms with a total of 6 simulated students, assigning 2 students to each breakout room.</p>
+                                                                                                                                                                                                                                                                                                                                                            <p><strong>Note:</strong> Google Meet has recently implemented a restriction that limits the number of active Meets
+                                                                                                                                                                                                                                                                                                                                                              with
+                                                                                                                                                                                                                                                                                                                                                              an operational microphone to 8 on a single computer. This means that on your computer, you can open 1 Main room
+                                                                                                                                                                                                                                                                                                                                                              and up
+                                                                                                                                                                                                                                                                                                                                                              to 7 Breakout rooms and still have a working microphone in each of these rooms. You can, however, have as many
+                                                                                                                                                                                                                                                                                                                                                              students as you want in your Main room or Breakout Rooms, such as 50 or more students, without affecting the
+                                                                                                                                                                                                                                                                                                                                                              microphone functionality.</p>
+
+              <p>For this simulation, which is all done on your one computer, if you open 1 Main room, 3 Breakouts, and 6 simulated
+                students, some of the simulated students will not have operational microphones, but this is perfectly fine for testing
+                purposes. Since all the Meets are running on the same computer, you likely won’t be using your microphone due to
+                potential feedback issues. However, you can still experiment with the control panel buttons and see how they control
+                the different Meets.</p> -->
+            <!-- Dropdown to select number of students -->
+            <div class="form-group row">
+              <label for="student-count" class="col-form-label col-12 font-weight-bold">Number of Simulated
+                Students:</label>
+              <div class="col-12">
+                <select id="student-count" class="form-control">
+                  <!-- Options will be populated dynamically via JavaScript -->
+                </select>
+              </div>
+            </div>
+
+            <!-- Button to add students -->
+            <div class="form-group row mt-3">
+              <div class="col-12">
+                <button id="btn-simulate-students" type="button" class="btn btn-primary btn-block">
+                  Add Simulated Students to Main Room
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+
+
+        <!-- Toolbar Colors -->
+        <form id="toolbar-colors" class="border mt-2 settings-background">
+          <div class="container px-0 mx-0" data-general-click data-general-toolbar>
+            <h5 class="col-6 mt-3" data-msg-gen-toolbar-color>Meet Toolbar Color</h5>
+
+            <div class="form-group row col-12 ">
+              <div class="col-4 flex-fill" data-radio-toolbar-solid>
+                <input type="radio" id="toolbar-solid" name="pic-radio" checked>
+                <label for="toolbar-solid" class="radio control-label" data-msg-gen-solid>Solid </label>
+              </div>
+
+              <!-- Toolbar Solid -->
+              <div class="row col-4 flex-fill">
+                <div class="dropdown" id="dropdown-general-toolbar-solid">
+                  <button class="btn btn-sm btn-dark dropdown-toggle dropdown-color" id="dropdownToolbarSolid"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-palette"></i><span data-msg-gen-drop-solid
+                      class="my-breakout-span-normal">&nbsp;Solid Color</span>
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownToolbarSolid">
+                    <!-- <a class="dropdown-item" href="#" data-general-toolbar-solid></a> -->
+                  </div>
+                </div>
+                <h6 class="mt-1 d-inline mr-0 pr-0" id="general-toolbar-solid-color">
+                </h6>
+                <h6 class="col-12 flex-fill mt-1 d-inline mr-0 pr-0" id="general-toolbar-solid-color-ex">&nbsp
+                </h6>
+              </div>
+            </div>
+
+            <!-- Toolbar Gradient -->
+            <div class="form-group row col-12 ">
+              <div class="col-4 flex-fill" data-radio-toolbar-grad>
+                <input type="radio" id="toolbar-grad" name="pic-radio">
+                <label for="toolbar-grad" class="radio control-label" data-msg-gen-grad>Gradient
+                </label>
+              </div>
+
+              <!-- Toolbar Gradient Left -->
+              <div class="row col-4 flex-fill">
+                <div class="dropdown" id="dropdown-general-toolbar-grad-left">
+                  <button class="btn btn-sm btn-dark dropdown-toggle dropdown-color" id="dropdownToolbarGradLeft"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-palette"></i>
+                    <span data-msg-gen-drop-end class="my-breakout-span-normal">&nbsp;End Colors</span>
+                  </button>
+
+                  <div class="dropdown-menu" id="dropdown-general-toolbar-grad-left"
+                    aria-labelledby="dropdownToolbarGradLeft" data-general-type="toolbarColor">
+                  </div>
+                </div>
+                <h6 class="col-6 mt-1 d-inline mr-0 pl-0 pr-0" id="general-toolbar-grad-left">
+                </h6>
+                <h6 class="col-12 flex-fill mt-1 d-inline mr-0 pr-0" id="general-toolbar-grad-left-ex">&nbsp
+              </div>
+
+              <!-- Toolbar Gradient Right -->
+              <div class="row col-4 flex-fill">
+                <div class="dropdown" id="dropdown-general-toolbar-grad-right">
+                  <button class="btn btn-sm btn-dark dropdown-toggle dropdown-color " id="dropdownToolbarGradRight"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-palette"></i>
+                    <span data-msg-gen-drop-mid class="my-breakout-span-normal">&nbsp;Middle Color</span>
+                  </button>
+
+                  <div class="dropdown-menu" id="dropdown-general-toolbar-grad-right"
+                    aria-labelledby="dropdownToolbarGradRight">
+                  </div>
+                </div>
+                <h6 class="col-6 mt-1 d-inline mr-0 pl-0 pr-0" id="general-toolbar-grad-right">
+                </h6>
+                <h6 class="col-12 flex-fill mt-1 d-inline mr-0 pr-0" id="general-toolbar-grad-right-ex">&nbsp
+              </div>
+              <!-- End New Stuff -->
+            </div>
+
+          </div>
+        </form>
+
+
+        <form id="form-slider-style" class="d-none border mt-2 settings-background">
+          <div class="container px-0 mx-0">
+            <h5 class="col-12 mt-3" data-msg-gen-slider-img>Slider Background Image</h5>
+            <div class="form-group col-12">
+              <button id="slider-bg-url-save" class="col-1 btn btn-sm btn-success copy-all-pre" type="submit">
+                <i class="fas fa-save"></i>
+              </button>
+              <label class="d-inline" for="slider-bg-url">
+                URL
+              </label>
+              <input id="slider-bg-url" type="url" size="45">
+            </div>
+            <div class="form-group col-12">
+              <div id="slider-bg-position" class="btn-group">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false" data-msg-gen-slider-pos>
+                  Position
+                </button>
+                <div class="dropdown-menu" id="slider-bg-position">
+                  <a class="dropdown-item" href="#">Center Top</a>
+                  <a class="dropdown-item active" href="#">Center Center</a>
+                  <a class="dropdown-item" href="#">Center Bottom</a>
+                  <a class="dropdown-item" href="#">Left Top</a>
+                  <a class="dropdown-item" href="#">Left Center</a>
+                  <a class="dropdown-item" href="#">Left Bottom</a>
+                  <a class="dropdown-item" href="#">Right Top</a>
+                  <a class="dropdown-item" href="#">Right Center</a>
+                  <a class="dropdown-item" href="#">Right Bottom</a>
+                </div>
+              </div>
+
+              <div id="slider-bg-size" class="btn-group">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false" data-msg-gen-slider-size>
+                  Size
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item active" href="#">Cover</a>
+                  <a class="dropdown-item" href="#">Contain No-Repeat</a>
+                  <a class="dropdown-item" href="#">Contain Repeat</a>
+                </div>
+              </div>
+
+              <div id="slider-bg-fgcolor" class="btn-group">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false" data-msg-gen-slider-text-color>
+                  Text Color
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item " href="#">Black</a>
+                  <a class="dropdown-item" href="#">White</a>
+                  <a class="dropdown-item" href="#">Lime</a>
+                  <a class="dropdown-item" href="#">Red</a>
+                  <a class="dropdown-item active" href="#">Yellow</a>
+                  <a class="dropdown-item" href="#">Blue</a>
+                  <a class="dropdown-item" href="#">SlateBlue</a>
+                </div>
+              </div>
+
+              <div id="slider-bg-bgcolor" class="btn-group">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false" data-msg-gen-slider-back-color>
+                  Back Color
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Black</a>
+                  <a class="dropdown-item" href="#">White</a>
+                  <a class="dropdown-item" href="#">LightBlue</a>
+                  <a class="dropdown-item" href="#">LightGreen</a>
+                  <a class="dropdown-item" href="#">MaterialGreen</a>
+                  <a class="dropdown-item" href="#">Indigo</a>
+                  <a class="dropdown-item" href="#">DeepBlue</a>
+                  <a class="dropdown-item" href="#">MaterialBlue</a>
+                  <a class="dropdown-item" href="#">Lime</a>
+                  <a class="dropdown-item" href="#">Red</a>
+                  <a class="dropdown-item" href="#">Yellow</a>
+                  <a class="dropdown-item" href="#">Blue</a>
+                  <a class="dropdown-item" href="#">Teal</a>
+                  <a class="dropdown-item" href="#">DeepPink</a>
+                  <a class="dropdown-item" href="#">SlateBlue</a>
+                  <a class="dropdown-item active" href="#">DarkSlateBlue</a>
+                  <a class="dropdown-item" href="#">PaleGreen</a>
+                  <a class="dropdown-item" href="#">Aqua</a>
+                  <a class="dropdown-item" href="#">MediumSeaGreen</a>
+                  <a class="dropdown-item " href="#">LightGrey</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </form>
+
+        <form id="form-broadcast-style" class="d-none border mt-2 settings-background">
+          <div class="container px-0 mx-0">
+            <h5 class="col-12 mt-3" data-msg-gen-broad-img>Broadcast Background Image</h5>
+            <div class="form-group col-12">
+              <button type="submit" id="broadcast-bg-url-save" class="col-1 btn btn-sm btn-success copy-all-pre">
+                <i class="fas fa-save"></i>
+              </button>
+              <label class="d-inline" for="broadcast-bg-url">
+                URL
+              </label>
+              <input id="broadcast-bg-url" type="url" size="45">
+            </div>
+            <div class="form-group col-12">
+              <div id="broadcast-bg-position" class="btn-group">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false" data-msg-gen-broad-pos>
+                  Position
+                </button>
+                <div class="dropdown-menu" id="broadcast-bg-position">
+                  <a class="dropdown-item" href="#">Center Top</a>
+                  <a class="dropdown-item active" href="#">Center Center</a>
+                  <a class="dropdown-item" href="#">Center Bottom</a>
+                  <a class="dropdown-item" href="#">Left Top</a>
+                  <a class="dropdown-item" href="#">Left Center</a>
+                  <a class="dropdown-item" href="#">Left Bottom</a>
+                  <a class="dropdown-item" href="#">Right Top</a>
+                  <a class="dropdown-item" href="#">Right Center</a>
+                  <a class="dropdown-item" href="#">Right Bottom</a>
+                </div>
+              </div>
+
+              <div id="broadcast-bg-size" class="btn-group">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false" data-msg-gen-broad-size>
+                  Size
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item active" href="#">Cover</a>
+                  <a class="dropdown-item" href="#">Contain No-Repeat</a>
+                  <a class="dropdown-item" href="#">Contain Repeat</a>
+                </div>
+              </div>
+
+              <div id="broadcast-bg-fgcolor" class="btn-group">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false" data-msg-gen-broad-text-color>
+                  Text Color
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item " href="#">Black</a>
+                  <a class="dropdown-item active" href="#">White</a>
+                  <a class="dropdown-item" href="#">Lime</a>
+                  <a class="dropdown-item" href="#">Red</a>
+                  <a class="dropdown-item" href="#">Yellow</a>
+                  <a class="dropdown-item" href="#">Blue</a>
+                  <a class="dropdown-item" href="#">SlateBlue</a>
+                </div>
+              </div>
+
+              <div id="broadcast-bg-bgcolor" class="btn-group">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false" data-msg-gen-broad-back-color>
+                  Back Color
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Black</a>
+                  <a class="dropdown-item" href="#">White</a>
+                  <a class="dropdown-item" href="#">LightBlue</a>
+                  <a class="dropdown-item" href="#">LightGreen</a>
+                  <a class="dropdown-item" href="#">MaterialGreen</a>
+                  <a class="dropdown-item" href="#">Indigo</a>
+                  <a class="dropdown-item" href="#">DeepBlue</a>
+                  <a class="dropdown-item" href="#">MaterialBlue</a>
+                  <a class="dropdown-item" href="#">Lime</a>
+                  <a class="dropdown-item" href="#">Red</a>
+                  <a class="dropdown-item" href="#">Yellow</a>
+                  <a class="dropdown-item" href="#">Blue</a>
+                  <a class="dropdown-item" href="#">Teal</a>
+                  <a class="dropdown-item" href="#">DeepPink</a>
+                  <a class="dropdown-item" href="#">SlateBlue</a>
+                  <a class="dropdown-item active" href="#">DarkSlateBlue</a>
+                  <a class="dropdown-item" href="#">PaleGreen</a>
+                  <a class="dropdown-item" href="#">Aqua</a>
+                  <a class="dropdown-item" href="#">MediumSeaGreen</a>
+                  <a class="dropdown-item " href="#">LightGrey</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </form>
+
+        <!-- Auto allow outsiders -->
+        <form id='form-auto-outsiders' class="border mt-2 settings-background">
+          <div class="container px-0 mx-0">
+            <h5 class="col-12 mt-3" data-msg-gen-auto-enter>Automatically Allow "Outside" Participants Enter</h5>
+            <div class="form-group col-12">
+              <input type="checkbox" id="auto-enter">
+              <label class="d-inline" for="auto-enter"><span data-msg-gen-auto-enter1>Allow "Outside" participants
+                  automatically enter your rooms if they have the link.</span>
+                <span data-msg-gen-auto-enter2><strong>Recommend
+                    Unchecked
+                    (disallow)
+                  </strong></span><span data-msg-gen-auto-enter3>for privacy reasons</span>
+              </label>
+            </div>
+          </div>
+        </form>
+
+        <!-- // Auto Join -->
+        <form id="form-auto-join" class="border mt-2 settings-background">
+          <div class="container px-0 mx-0">
+            <h5 class="col-12 mt-3" data-msg-gen-auto-join>Automatically Join Meets created by this Extension</h5>
+            <div class="form-group col-12">
+              <input type="checkbox" id="auto-join-main" checked>
+              <label class="d-inline" for="auto-join-main" data-msg-gen-auto-join-main>
+                Main room
+              </label>
+            </div>
+            <div class="form-group col-12">
+              <input type="checkbox" id="auto-join-breakouts" checked>
+              <label class="d-inline" for="auto-join-breakouts" data-msg-gen-auto-join-break>
+                Breakout rooms
+              </label>
+            </div>
+          </div>
+        </form>
+
+        <!-- // Auto Refresh -->
+        <form id="form-auto-new-links" class="border mt-2  settings-background">
+          <div class="container px-0 mx-0">
+            <h5 class="col-12 mt-3" data-msg-gen-auto-new-url>Automatically Create New Meets Links
+            </h5>
+            <p class="col-12 mt-3"><span data-msg-gen-auto-new-url1>Automatically create new meet links every time the
+                room is
+                opened. Please note
+                that this setting
+                is not relevant for Nicknames and Codes (12 character abc-defg-hij) links</span> <span class="blue"
+                data-msg-gen-auto-new-url2></span><span data-msg-gen-auto-new-url3></span></p>
+            <div class="form-group col-12">
+              <input type="checkbox" id="auto-refresh-main">
+              <label class="d-inline" for="auto-refresh-main" data-msg-gen-auto-new-url-main>
+                Main room
+              </label>
+            </div>
+            <div class="form-group col-12">
+              <input type="checkbox" id="auto-refresh-breakouts">
+              <label class="d-inline" for="auto-refresh-breakouts" data-msg-gen-auto-new-url-break>
+                Breakout rooms
+              </label>
+            </div>
+          </div>
+        </form>
+
+
+        <form class="border mt-2 d-none settings-background">
+          <div class="container px-0 mx-0">
+            <h5 class="col-12 mt-3">Allow Simultaneous Non-Extension Meetings</h5>
+            <div class="form-group col-12">
+              <input type="checkbox" id="allow-simult" checked>
+              <label class="d-inline" for="allow-simult">
+                *** Experimental feature and default setting is Off (not checked). This is intended for Google
+                Classroom
+                users where the class first starts in the google classroom and then the teacher opens the main room
+                and breakout rooms. If you have google classroom and want to try this experimental feature then you
+                may
+                check it On, otherwise please do not check this box.
+              </label>
+            </div>
+          </div>
+        </form>
+
+        <!-- New Mute -->
+        <form class="d-none border mt-2 settings-background">
+          <div class="container px-0 mx-0">
+            <h5 class="col-12 mt-3" data-msg-audio-fix-title>New Fix for Audio Mute Problem between Rooms</h5>
+            <p class="col-12 mt-3"><span data-msg-audio-fix-intro>I finally came up with a solution that I
+                believe is solid and will
+                fix for
+                the random, intermittent
+                audio problems between rooms where some rooms were incorrectly muted or some rooms had their audio bleed
+                into other rooms. If this fix does not work for you then you can try to uncheck the box. If you uncheck
+                the box, please remember to then close all your meets and then reopen them because by unchecking you are
+                changing the functionality mid-session and the meet extension may get confused. If you
+                try this and if it does NOT work, please let me know at robert@hudektech.com. If it works then no need
+                to email me.
+              </span>
+            </p>
+            <div class="form-group col-12">
+              <input type="checkbox" id="new-mute">
+              <label class="d-inline" for="auto-enter"><span data-msg-audio-fix-checkbox>Enable this
+                  functionality</span>
+                <span><strong data-msg-audio-fix-recommend>Recommend checked
+                  </strong></span><span></span>
+              </label>
+            </div>
+          </div>
+        </form>
+
+
+        <!-- New stuff end -->
+      </div>
+    </div>
+
+    <!-- Modal Timer -->
+    <div id="my-timer" class="modal-help modal-timer">
+      <div class="modal-help-content modal-timer-content modal-background">
+        <h1 class="col-12 text-right close-help">&times;</h1>
+        <!-- <h1>hello</h1> -->
+        <div id="timer-set" class="row justify-content-between mb-4 pt-2 pb-2">
+          <div style="font-size: 18px" class="form-group col-12">
+            <div class="text-center mx-auto">
+
+              <h4 class="" data-msg-set-timer>Set Timer</h4>
+
+
+              <label class=" " for="setHrs" data-msg-timer-hrs>&nbsp Hours</label>
+              <input id="set-hrs" class=" " type="text" value="" style="max-width: 2rem;">
+
+              <label class=" " for="setMin" data-msg-timer-min>&nbsp Minutes</label>
+              <input id="set-min" class="" type="text" value="" style="max-width: 2rem">
+
+              <label class=" " for="setSec" data-msg-timer-sec>&nbsp Seconds</label>
+              <input id="set-sec" class="  " type="text" value="" style="max-width: 2rem">
+
+              <div class="col-12 col-sm-10 col-md-9 col-lg-9 mt-4 text-center mx-auto">
+                <button id="timer-start" class="col-3 col-lg-3 btn btn-success btn-inset"
+                  style="box-shadow: 1px 1px 2px grey" data-msg-timer-start>Start</button>
+                <button id="timer-stop" class="col-3 col-lg-3 mx-4 btn btn-danger btn-inset"
+                  style="box-shadow: 1px 1px 2px grey" data-msg-timer-stop>Stop</button>
+                <button id="timer-reset" class="col-3 col-lg-3 btn btn-primary btn-inset"
+                  style="box-shadow: 1px 1px 2px grey" data-msg-timer-reset>Reset</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-none row text-center">
+          <h4 id="show-hrs" class="col-4"></h4>
+          <h4 id="show-min" class="col-4"></h4>
+          <h4 id="show-sec" class="col-4"></h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Robbie's Stuff -->
+  <div id="my-low-memory-option" class="modal-help">
+
+    <!-- Modal content -->
+    <div class="modal-help-content">
+      <div class="help-header">
+        <h1 id="help-list" class="close-help">&times;</h1><br>
+        <h1>Low Memory RAM Option <a href="https://youtu.be/tKkSSghEyuo">Video</a></h1>
+        <p>If your computer lags significantly (or freezes up) when you open multiple breakout rooms it may be because
+          your computer's RAM memory is not sufficiently large. Most teachers report that they need about 16G RAM to
+          open more than a
+          few
+          breakout rooms. If this is the case, then consider clicking on the "Low Memory (RAM) Option" where you will
+          have
+          only 1
+          window open and within this one window you slide in and out of your main and breakout rooms.</p>
+        <p>With this option you still can create and manage a large number of breakout rooms but in
+          order to save memory
+          only one window is opened. Theoretically, you can use this method to manage 100 breakout rooms on just a tiny
+          memory chromebook. For example, you can manage 20 or more rooms with no
+          problem since only one window is opened. To move to the next room you
+          click on the slider control as you would in the normal, unchecked option. You will need to enter each
+          of the rooms to open them for students to enter, but once they are open they stay open for students even
+          though only one
+          room is displayed at a time on your computer. The window will display the breakout rooms one by one using the
+          slider
+          control.</p>
+        <p>There are a few things to be aware of. </p>
+        <ul>
+          <li>First, as you move the slider to the next breakout meet, the previous breakout meet was NOT closed. Just
+            your
+            meet window is closed. Your room is still open and the students will still be in the rooms.</li>
+          <li class="mt-2">Second, because it may take a minute or so to progressively slide into all of your breakout
+            room meets,
+            your students might be waiting for you to enter. So please make sure that once you ask your students to
+            click on the link to enter the breakouts that you as the teacher slide into each of those breakouts so you
+            can officially "open" your rooms and admit the students into their rooms</li>
+          <li class="mt-2">Third, in this low RAM method you only have one window so when you click on the slider you
+            will move out
+            of the
+            main room into the breakout rooms. However, you can always return to the main room by using the slider and
+            clicking all the way to the left, which is your first "room"</li>
+          <li class="mt-2">Fourth, in this low memory option you will not be able to broadcast into all the rooms since
+            they are not
+            all simultaneously opened. Also you will will not be able to record each room since only one room windows is
+            opened at a time. Additionally, you will not be able to remove participants from all breakouts in a single
+            click. You will need to go to <span class="font-weight-bold">each room</span> and click on the
+            remove participants button.
+            <p class="mt-2">Just like everything
+              in life, most things have a
+              trade-off. If you have a low
+              memory (RAM) computer you can still run breakouts but you will unfortunately have to give up something in
+              return. These three items are things that I'm aware of that you will lose with this option versus the
+              normal
+              option where you can open up all rooms simultaneously. I'm sure there are some other items not available
+              but
+              at least small computers can now run breakouts which was not previously possible</p>
+          </li>
+          <li>Fifth, if you really want to have a separate Main room that stays always open while you cycle through the
+            breakout rooms using the slider you can do that. When you open the main room, create a new tab in the chrome
+            browser and copy the meet url for the main room from your first tab into that second tab. That second tab
+            will stay stationary
+            while the first tab displays your breakout rooms as click on the slider.</li>
+        </ul>
+        <p>The process is as follows:</p>
+        <ul>
+          <li><span class="font-weight-bold">Step 1:</span> Click on the Low Memory (RAM) checkbox and then click on the
+            Open/Sync button. The checkbox
+            toggles the buttons to just one button for the low memory option. If you have Google Classroom, you may
+            first open your google
+            classroom meet and then click on the Open/Sync Open button to sync up the extension with GC.</li>
+          <li class="mt-2"><span class="font-weight-bold">Step 2:</span> Choose the number of breakout rooms you want,
+            assign
+            students, and then click on the Open/Sync
+            Breakouts button
+          </li>
+          <li class="mt-2"><span class="font-weight-bold">Step 3:</span> Click on the slider to move between breakout
+            rooms. Please
+            note that your students may be waiting
+            for you to enter the rooms to "open" them before they can enter, so you may want to cycle through all the
+            rooms first to admit the students. There will be a small delay as the next breakout meet is
+            opened in the breakout window</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Modal Help Box -->
+  <div id="my-help" class="modal-help">
+
+    <!-- Modal content -->
+    <div class="modal-help-content">
+      <div class="help-header">
+        <h1 id="help-list" class="close-help">&times;</h1><br>
+        <h1 class="text-center" data-msg-online-help>Online Help</h1>
+        <h1 class="mb-4 font-weight-bold" style="text-align: center;" target="_blank" rel="noopener noreferrer">
+          <a id="online-help-link" href="https://youtu.be/R6h9YXri2Mw" target="_blank"
+            rel="noopener noreferrer">Quickstart v17
+            Video</a>
+          </a>
+        </h1>
+      </div>
+
+      <ul class="help-list">
+        <h5>Setup</h5>
+        <a href="#01">
+          <li>Step 1: Enter your Courses</li>
+        </a>
+        <a href="#02">
+          <li>Step 2: Create Breakout Rooms (nicknames, codes, or urls)</li>
+        </a>
+        <a href="#03">
+          <li>Step 3: Customize your Settings</li>
+        </a>
+
+        <h5 class="mt-2">Operation</h5>
+        <a href="#04">
+          <li>Step 1: Choose your Course and Select
+            the number of Breakout Rooms</li>
+        </a>
+        <a href="#04a">
+          <li>Step 2: Start your Class</li>
+        </a>
+        <!-- <a href="#04b">
+            <li>Step 2B: Start your Class with Google Classroom</li>
+          </a> -->
+        <a href="#05a">
+          <li>Step 3A: Assign Breakouts - Ad Hoc</li>
+        </a>
+        <a href="#05b">
+          <li>Step 3B: Assign Breakouts - Pre Assigned</li>
+        </a>
+        <!-- <a href="#06">
+            <li>Step 3: Open Breakout Rooms</li>
+          </a> -->
+        <a href="#07">
+          <li>Step 4: Slider Move in/out of Rooms</li>
+        </a>
+        <a href="#08">
+          <li>Step 5: Broadcast to all Breakout Rooms</li>
+        </a>
+        <a href="#09">
+          <li>Step 6: Mute and Remove Students</li>
+        </a>
+
+        <h5 class="mt-2">Utilities</h5>
+        <a href="#17">
+          <li>Re-Tile</li>
+        </a>
+        <a href="#18">
+          <li>Minimize/Maximize Control Panel</li>
+        </a>
+        <a href="#10">
+          <li>Reports</li>
+        </a>
+        <a href="#11">
+          <li>Export/Import</li>
+        </a>
+
+        <h5 class="mt-2">FAQ</h5>
+        <a href="#51">
+          <li>How much memory (RAM) do I need to run the extension?</li>
+        </a>
+        <a href="#50">
+          <li>What is a Nickname, Code, or URL?</li>
+        </a>
+        <a href="#27">
+          <li>Why is the extension not working properly? Some functionality works but not others. It used to work
+            but
+            now it
+            doesn't?</li>
+        </a>
+        <a href="#23">
+          <li>Do students need to leave the main room when they go to the breakouts?</li>
+        </a>
+        <a href="#24">
+          <li>How can I close the breakout rooms when it is time to finish? And, is there a countdown timer?</li>
+        </a>
+        <a href="#20">
+          <li>Why can't I see any students in the Assign Participants section?</li>
+        </a>
+        <a href="#16">
+          <li>Why can't I see all of my students in the Assign Participants
+            section?</li>
+        </a>
+        <a href="#21">
+          <li>Clicking on the slider doesn't work. Why can't slide between rooms? </li>
+        </a>
+        <a href="#22">
+          <li>Why am I getting noisy feedback from the other rooms?</li>
+        </a>
+        <a href="#12">
+          <li>How can I create simulated students and practice?</li>
+        </a>
+        <a href="#25">
+          <li>Do all the rooms have to be Meets? Can I include jamboards or other resource links as a "room"?</li>
+        </a>
+        <a href="#13">
+          <li>How can I use this extension on multiple computers?</li>
+        </a>
+        <a href="#14">
+          <li>Do my students all need to use this extension?</li>
+        </a>
+        <a href="#15">
+          <li>Does this work with Google Classroom?</li>
+        </a>
+        <a href="#26">
+          <li>Will my extension data be overwritten with an updated version?</li>
+        </a>
+      </ul>
+
+
+      <h1 id="01"> <a href="#help-list"><i class="fas fa-caret-square-left">&nbsp</i></a>Enter your Courses</h1>
+      <p class="mb-1"><a href="https://youtu.be/1ChAsJfnjgE" target="_blank" rel="noopener noreferrer">Click here
+          for
+          video
+          tutorial</a></p>
+      <p>Breakout Rooms Extension is organized by courses. The first step is to enter your courses in the
+        "Courses"
+        tab.</p>
+      <p>The red delete button deletes from the bottom up so if you want to delete a course then use drag and drop
+        the
+        move the course to the bottom of the list and then click on the red delete button</p>
+      <p>Also in the Courses tab is the export/import button which is the far right hand side black button. This
+        will
+        export all of your data from the extension so that you can import it into a second computer</p>
+
+
+      <h1 id="02"><a href="#help-list"><i class="fas fa-caret-square-left">&nbsp</i></a>Create Breakout Rooms
+        (nicknames, codes, and urls)
+      </h1>
+      <p class="mb-1"><a href="https://youtu.be/eyl8b4RWJMc" target="_blank" rel="noopener noreferrer">Click here
+          for
+          video
+          tutorial (short version)</a></p>
+      <p class="mb-1"><a href="https://youtu.be/qEj7vM50uBQ" target="_blank" rel="noopener noreferrer">Click here
+          for
+          video
+          tutorial (long version)</a></p>
+      <p>As of version 16.2 and above, you may enter a <span style="color:red">nickname</span>, code, or a url for
+        the rooms. In
+        addition, you may directly enter the Google Classroom "meet link" which is
+        a lookup for the 10 character system generated nickname for your classroom. </p>
+      <p><span style="color:red"> Very important change for Google Classroom: </span> Please copy and paste your
+        "Meet link" from your google
+        classroom page into the link field for your Main room. An example of a Google Classroom meet link is
+        https://meet.google.com/lookup/g45j4fubqb. There is no separate Start Class with Google Classroom section.
+        The
+        sync is automatic if the main room is opened within the extension. If you open first in Google Classroom,
+        then you will
+        sync in the Start section of the Meet tab by clicking on the Open/Sync Main room button there.</p>
+      <p>Other than that, everything else is backward compatible and <span style="color: blue">you do not have to
+          use
+          nicknames or codes
+          unless you want to.</span> If you want to use the extension the same as in version 16.1 and
+        below then you may continue to do so. Just enter the meet urls as you have done before. You should
+        experience no change.</p>
+
+
+      <ul>
+        <li class="pr-4">
+          <p><span class="font-weight-bold">Nickname:</span> Nicknames are <span class="red">dynamic</span>
+            because their meet urls change for each
+            session. You may enter any value in the link field as your
+            nickname, but <span class="blue"> please enter the nickname itself and do </span><span
+              class="red">not</span><span class="blue">
+              include any prefix such as g.co/meet/ or meet.google.com/lookup/</span>. Nicknames are color coded light
+            green. Nicknames have the advantage that they expire soon after the session concludes with all
+            participants and the teacher exiting the room. In addition, for new sessions the nickname creates new
+            links. </p>
+          <p><span class="font-weight-bold">Google Classroom Nicknames:</span> Google Classroom nicknames are also
+            <span class="red">dynamic</span> because their meet urls change for each session. You may enter the
+            entire "meet
+            link" from the Google Classroom web page which looks up the 10
+            character system generated google classroom nickname. An example of a Google Classroom meet link is
+            https://meet.google.com/lookup/g45j4fubqb. In this example, the 10 character system generated nickname
+            is g45j4fubqb. You may enter either the full meet link or just the 10 character nickname. They both
+            work the same.
+          </p>
+          <p>You may also create user defined Google Classroom
+            nicknames. A user defined Google Classroom nickname is the lookup prefix followed by a
+            user defined nickname. An example is
+            https://meet.google.com/lookup/smith_algrebra_1. Alternatively you may more simply enter just the
+            nickname, smith_algebra_1</p>
+        </li>
+        <li class="pr-4">
+          <p><span class="font-weight-bold">Code:</span> Codes
+            are <span class="red">static</span>
+            because they always call up the same meet url. A code is a total of 12 characters which consists of
+            the 10
+            character meet code plus the
+            2 dashes, in a 3-4-3 format. A code is the 12 characters after the https://meet.google.com/ in the
+            meet url. Static
+            meet urls may
+            be desireable if you want
+            to keep the same link for your sessions</p>
+        </li>
+        <li class="pr-4">
+          <p><span class="font-weight-bold">Meet Url:</span> Meet Urls are <span class="red">static</span> because
+            they always
+            call up the
+            same meet url, however, there is a checkbox setting which can make these <span class="red">dynamic</span>
+            by
+            creating new meet
+            urls "on the fly" each time the room is opened. The meet url is the full
+            https://meet.google.com/abc-defg-hij
+            formatted address. You may leave the
+            field blank if you want the extension to automatically create one for you. There is no need to go to
+            the Calendar</p>
+
+          <p>To make meet urls dynamic you may click the
+            "Automatically create links each time the room is opened" checkbox in the Settings. This checkbox is
+            only relevant for meet urls. The checkbox is ignored for all other categories such as nicknames,
+            codes, and resource urls. </p>
+        </li>
+        <li class="pr-4">
+          <p><span class="font-weight-bold">Resource Url:</span> This may be any web page that the teacher wants
+            to use as a teaching resource, such as
+            a science page, nature website, or a youtube to name a few examples. </p>
+        </li>
+
+      </ul>
+
+
+      <h1 id="03"><a href="#help-list"><i class="fas fa-caret-square-left">&nbsp</i></a>Customize your Settings
+      </h1>
+      <p class="mb-1"><a href="https://youtu.be/BfOXuxOH_Zo" target="_blank" rel="noopener noreferrer">Click here
+          for
+          video
+          tutorial</a></p>
+      <p><span class="font-weight-bold">Tabs/Tiles:</span> This controls whether the breakout rooms each have their
+        own window (tiles) or if they are
+        separate tabs in a window (tabs). The tabs option can control the number of tabs within a window</p>
+      <p><span class="font-weight-bold">Colors:</span> Customize the bottom border of your Google Meet</p>
+      <p><span class="font-weight-bold">Automatically Allow Outside Participants to enter:</span> This allows
+        participants from outside your organization to automatically enter your room without your approval. If you
+        check this
+        box then if the participant has the link then they can automatically enter the room. This is the
+        equivalent of allowing yourself to
+        be
+        zoom bombed. It is a huge convenience to allow outside participants to enter breakout rooms if they have the
+        link
+        but
+        there is the possibility that an unrecognized person who has this link may enter. The default is Off (not
+        checked).
+        Recommendation is to leave it off to prevent outsiders from entering without your approval.
+      </p>
+
+      <!-- https://youtu.be/KjiwfC3LEFo?list=PLWEZfNL5GVdaQdwTRdaGqN4_Y88kpb0Vl&t=81 -->
+      <p><span class="font-weight-bold">Slider and Broadcast Background Images:</span>
+        <a href="https://youtu.be/KjiwfC3LEFo?list=PLWEZfNL5GVdaQdwTRdaGqN4_Y88kpb0Vl&t=81" target="_blank"
+          rel="noopener noreferrer">
+          Video
+          tutorial</a>
+        Choose an URL for an image or
+        leave it blank and just choose a background color ("Back Color"). Font colors can be changed for light and
+        dark background, as well as the position and size of the images
+      </p>
+      <!-- <p class="mb-1"><a href="https://youtu.be/BfOXuxOH_Zo" target="_blank" rel="noopener noreferrer">Click here for
+            video
+            tutorial</a></p>
+        <p> -->
+
+
+      <p class="mb-1"><span class="font-weight-bold">Automatically Join Meet:</span>
+        <a href="https://youtu.be/-AHaEjdP5vg" target="_blank" rel="noopener noreferrer">
+          Video
+          tutorial</a>
+        Only meets whose URL is listed in the rooms
+        tab may be eligible for an automatic join. For "eligible" meets, this automatic join function can be turned
+        on or off by clicking or leaving the checkbox for the Main room and Breakout rooms. All meets with URLs that
+        are not listed in the Rooms tab will not be automatically joined.
+      </p>
+
+      <p><span class="font-weight-bold">Automatically refresh room links when opened: </span><a
+          href="https://youtu.be/YU7cMYNKrww" target="_blank" rel="noopener noreferrer">
+          Video
+          tutorial</a>
+        If the checkbox is
+        selected then new room links will be created on-demand, whenever the Open button is clicked. This saves the
+        teacher the steps of going to the Rooms tab, blanking
+        out the
+        rooms' links, and clicking save in order to get a fresh set of room links. Now the teacher can choose to
+        have the rooms automatically generate brand new links when the Open room button is clicked.</p>
+      <p> There is a
+        checkbox for the Main room and the Breakout rooms, so each category is separately configureable. For
+        example, if the teacher wants to keep the Main room link static but have the Breakout rooms links
+        dynamically
+        refreshed each time, then the teacher can deselect (not check) the Main room checkbox but check the
+        Breakout rooms checkbox. </p>
+      </p>
+      </p>
+
+
+      <!-- Ops -->
+      <h1 id="04"><a href="#help-list"><i class="fas fa-caret-square-left">&nbsp</i></a>Choose your Course and
+        Select
+        the number of Breakout Rooms</h1>
+      <p class="mb-1"><a href="https://youtu.be/qqmS62uhUts" target="_blank" rel="noopener noreferrer">Click here
+          for
+          video
+          tutorial</a></p>
+      <p>Use the dropdowns for Course and Breakouts to choose your course and desired number of breakout rooms.
+        During
+        class you can change the number of breakout rooms. If you increase the number of breakout rooms then when
+        you
+        click on Open Breakout the extension will only open the breakouts that are not yet open. For example, if you
+        first start out the class with 3 breakouts and later decide to add 2 more, then you may change the number of
+        breakouts to 5 and click Open Breakouts. Just those 2 unopened rooms will be opened. To reorganize your
+        tiled
+        windows, after they are opened please click on the Red Re-tile button on the top right hand side of the
+        control panel</p>
+
+      <h1 id="04a"><a href="#help-list"><i class="fas fa-caret-square-left">&nbsp</i></a>Start your Class </h1>
+      <p class="mb-1"><a href="https://youtu.be/L9G-G0Tb0wI" target="_blank" rel="noopener noreferrer">Click here
+          for
+          video
+          tutorial</a></p>
+      <p>There are two basic user types: Google Classroom (GC) teachers and non-GC teachers . For the extension, the
+        only
+        difference between GC users and non-GC users is that GC
+        users must enter their Google Classroom "meet link" into
+        the extension Rooms tab for the Main room link in order for the extension to sync with GC. This is explained
+        below.
+      </p>
+      <p>Breakout rooms are created and opened the same way for GC users and non-GC users. Only the main room
+        process
+        is
+        different for GC
+        and non-GC users.</p>
+      <p><span class="font-weight-bold">1. Google Classroom Teachers</span> In the Rooms tab of this extension,
+        please
+        make sure that you
+        copy the "meet link" from your google classroom page into the Main room link field. An example of a "meet
+        link" is https://meet.google.com/lookup/g45j4fubqb.
+
+      <p class="font-weight-bold">Option A: Open the main room using the extension</p>
+      <p>If the GC teacher opens the main room directly in the extension then the main room is automatically linked.
+      </p>
+      <ul>
+        <li>Main room automatically synced. Nothing needs to be done</li>
+      </ul>
+
+
+      <p class="font-weight-bold">Option B: Open the main room by clicking on the meet link in Google Classroom</p>
+      <p>
+        If the GC teacher first opens their meet via google classroom by clicking on the "meet link" in
+        the Stream or the icon in their Classwork, then the opened meet tab name will not display
+        "Main" (or whatever you named your main room in the Rooms tab). This
+        means that your main room is not synced with the extension. No worries - it is a single click to sync it up.
+        In the Meet tab of the extension
+        in the Start Class section, click on the "Open/Sync Main Room" button. Now you should see the tab name
+        changed to "Main" which indicates that your main room is synced up. </p>
+      <ul>
+        <li>In the extension, sync the extension with the main room by going to the Meet tab in the Start Class
+          section, click on Open/Sync Meet room </li>
+      </ul>
+
+
+      <h1 id="05a"><a href="#help-list"><i class="fas fa-caret-square-left">&nbsp</i></a>Assign Breakouts - Ad
+        Hoc
+      </h1>
+      <p class="mb-1"><a href="https://youtu.be/8W3BOhwb1hU" target="_blank" rel="noopener noreferrer">Click here
+          for
+          video
+          tutorial</a></p>
+      <p>The instructions for assigning participants in the ad hoc mode (i.e., on the fly) are described in the Meet
+        tab, Assign Participants - Ad Hoc section. If you follow those instructions you should be able to see all of
+        your participants, assign then to groups, and copy/paste the links to the students in the Main chat. That
+        section also describes how to trouble shoot if your students do not appear in that section</p>
+
+
+      <h1 id="05b"><a href="#help-list"><i class="fas fa-caret-square-left">&nbsp</i></a>Assign Breakouts - Pre
+        Assigned</h1>
+      <p class="mb-1"><a href="https://youtu.be/PMSR5YD62PQ" target="_blank" rel="noopener noreferrer">Click here
+          for
+          video
+          tutorial</a></p>
+      <p>The instructions for assigning participants in the pre-assigned mode (i.e., from a MS word list you
+        prepared
+        before class) are described in the Meet
+        tab, Assign Participants - Pre Assign section. If you follow those instructions you should be able to see
+        all
+        of
+        your participants, assign then to groups, and copy/paste the links to the students in the Main chat. That
+        section also describes how to trouble shoot if your students do not appear in that section</p>
+
+
+      <h1 id="07"><a href="#help-list"><i class="fas fa-caret-square-left">&nbsp</i></a>Slider Move in/out of Rooms
+      </h1>
+      <p class="mb-1"><a href="https://youtu.be/pbqthcuvzKc" target="_blank" rel="noopener noreferrer">Click here
+          for
+          video
+          tutorial</a></p>
+      <p>To move between rooms, please either click on the right or left arrows next to the slider or click on the
+        blank space in the slider bar (the black portion). If you click on a blank space in the slider bar, the
+        yellow
+        dot will immediately move to that position. </p>
+      <p>To avoid inconsistencies, please use the audio visual buttons on the control panel rather than directly
+        clicking the buttons in the individual rooms. If the rooms and the control panel become out of sync, it is
+        easy to get back in sync. Just click on the right arrow and then the left arrow to go right and left, then
+        everything should be back in sync. The selected breakout room speaker/audio/video
+        controls
+        are below
+        the slider. For all other rooms, the speaker/audio/video controls of tab speaker, microphone, and video
+        are
+        turned off.</p>
+      <p>Occasionally if you grab the slider yellow dot and move the slider by directly moving the yellow dot, the
+        rooms can become out of sync. Multiple rooms may have their speaker, microphone, and video on. To get
+        back in sync again, it's simple. Just click on the slider right arrow and then click on the left arrow
+        slider.
+        This will move you right and then left, syncing all the other rooms back to off, off, off for speaker,
+        microphone,
+        and slider.</p>
+      <p>I recommend moving the slider by either clicking on the right and left arrows or by clicking on the slider
+        "blank" spot which will make the slider immediately move to that spot. I have never experienced an out of
+        sync
+        problem using these two methods.</p>
+
+
+      <h1 id="08"><a href="#help-list"><i class="fas fa-caret-square-left">&nbsp</i></a>Broadcast to All Breakout
+        Rooms
+      </h1>
+      <p class="mb-1"><a href="https://youtu.be/BywcEyeyCs4" target="_blank" rel="noopener noreferrer">Click here
+          for
+          video
+          tutorial</a></p>
+      <p>Click on the broadcast speaker/microphone/video controls to broadcast into all of the breakout rooms.
+      </p>
+
+
+      <h1 id="09"><a href="#help-list"><i class="fas fa-caret-square-left">&nbsp</i></a>Mute and Remove Participants
+      </h1>
+      <p class="mb-1"><a href="https://youtu.be/z6SlEL8Mj_A" target="_blank" rel="noopener noreferrer">Click here
+          for
+          video
+          tutorial</a></p>
+      <p>To mute the participants in a selected room, click on the first button. To remove participants from a
+        room,
+        click on the second button. To remove participants and close the room click on the last button.</p>
+
+      <!-- Utilities -->
+      <h1 id="17"><a href="#help-list"><i class="fas fa-caret-square-left">&nbsp</i></a>Re-Tile
+      </h1>
+      <p class="mb-1"><a href="https://youtu.be/tu59dut08hU" target="_blank" rel="noopener noreferrer">Click here
+          for
+          video
+          tutorial</a></p>
+      <p>This button will automatically re-tile all of your Google Meet Breakout Rooms windows - your main room
+        and
+        your breakout rooms. This is
+        super convenient because now you can move windows around, resize them, place one on top
+        of the other and then
+        with a single click on the "Re-Tile" button all the windows will snap back into place, in their
+        original order. Also, teachers may first open the main room and then open the breakouts. With the
+        "Re-tile"
+        button all the windows are tiled together so you can at a glance see all of them. In other cases, during
+        class
+        the teacher may decide to add or close breakouts. With a single click on the "Re-tile" button all the
+        rooms
+        are tiled together.
+      </p>
+
+
+      <h1 id="18"><a href="#help-list"><i class="fas fa-caret-square-left">&nbsp</i></a>Minimize/Maximize Control
+        Panel
+      </h1>
+      <p class="mb-1"><a href="https://youtu.be/0kG_qOnfj2E" target="_blank" rel="noopener noreferrer">Click here
+          for
+          video
+          tutorial</a></p>
+      <p>The control panel is the cockpit where the teacher has a large number of features and functions to manage
+        the
+        session. However, the control panel takes up valuable real estate on the screen and can often get in the
+        way.
+        Click on the Minimize/Maximize button to toggle between the full size and minimized size. Once the rooms
+        are
+        all open then the teacher may minimize the control panel and just use the slider to move between rooms.
+        Please
+        note that ALL of the features of the full-size control panel are still available in the minimized state.
+        All
+        the teacher has to do is
+        scroll down to see the rest of the functions, such as broadcast as one example.
+      </p>
+
+      <!-- <h1 id="30"><a href="#help-list"><i class="fas fa-caret-square-left">&nbsp</i></a>Remove Participants from All
+          Breakout Rooms
+        </h1>
+        <p class="mb-1"><a href="https://youtu.be/z6SlEL8Mj_A" target="_blank" rel="noopener noreferrer">Click here for
+            video
+            tutorial</a></p>
+        <p>All students can be removed from all breakout rooms with a single click of a button. Alternatively students
+          can be removed from a single room, the room the slider is currently positioned on. </p> -->
+
+      <h1 id="10"><a href="#help-list"><i class="fas fa-caret-square-left">&nbsp</i></a>Reports
+      </h1>
+      <p class="mb-1"><a href="https://youtu.be/WaNBaIAkKUY" target="_blank" rel="noopener noreferrer">Click here
+          for
+          video
+          tutorial</a></p>
+      <p>Click on the "Reports" button in the "Meet" tab to find a list of basic reports. They are copied to the
+        clip
+        board and are downloaded to your computer if the checkbox is checked.</p>
+
+      <h1 id="11"><a href="#help-list"><i class="fas fa-caret-square-left">&nbsp</i></a>Export/Import
+      </h1>
+      <p class="mb-1"><a href="https://youtu.be/GtCh2Mrx6Rk" target="_blank" rel="noopener noreferrer">Click here
+          for
+          video
+          tutorial</a></p>
+      <p>There are export/import of breakout room within the "Rooms" tab. To copy the entire project, all of the
+        courses and all of the breakout rooms, choose the export/import option within the "Courses" tab</p>
+
+      <!-- FAQ -->
+      <h1 id="51"><a href="#help-list"><i class="fas fa-caret-square-left">&nbsp</i></a>How much memory (RAM) do I
+        need
+        to run the extension?
+      </h1>
+      <p><span class="font-weight-bold">Normal Mode: </span> In the "normal" mode where you open up all the breakouts
+        simultaneously in either tab or tile mode, most teachers report that they need about 16G RAM to open more than
+        a
+        few rooms, such as 10. In the normal mode, please do NOT check the checkbox in the Meet tab, Sart Class
+        section.
+      </p>
+      <p><span class="font-weight-bold">Low Memory (RAM) Mode: </span> <a href="https://youtu.be/tKkSSghEyuo">Video
+          Demo</a> In the "low memory mode" mode even a tiny
+        computer such as a chromebook should be able to run and manage a very large number of breakouts, such as 50.
+        Theoretically it is unlimited because only one breakout room is displayed on your computer at a time. Even
+        though all the rooms are "open", your computer will display them one by one using the slider control For
+        additional help on this option please click on the red Help in the checkbox text.
+      </p>
+
+      <h1 id="50"><a href="#help-list"><i class="fas fa-caret-square-left">&nbsp</i></a><span
+          data-msg-help-nickname>What is a
+          Nickname, Code, or
+          URL?</span>
+      </h1>
+      <p><span class="font-weight-bold" data-msg-help-nickname1a>Nickname: </span><span data-msg-help-nickname1b>A
+          nickname is a user defined shortcut to call up a meet.
+          Nicknames are specific to an organization. An
+          example of a nickname is the teacher's name followed by the class, such as rhudek_webmagic1. You may enter
+          any
+          value in the link field as your
+          nickname, but please enter the nickname itself and</span> <span class="red" data-msg-help-nickname1c>do not
+          include any prefix</span><span data-msg-help-nickname1d>such as g.co/meet/ or meet.google.com/lookup/</span>
+      </p>
+
+      <p><span style="color: blue" data-msg-help-nickname2>Google Classroom users:</span><span
+          data-msg-help-nickname2a>You may enter the lookup link here in the rooms tab
+          and the extension
+          will strip out the nickname for
+          you. The "Meet link" on your Google Classroom page has a link of the format
+          https://meet.google.com/lookup/abcdefghij where the 10 characters after the lookup are your classroom's
+          nickname. That nickname is a random set of characters and has no meaning, but technically it is a
+          "nickname".
+          As a convenience, you may enter that full "Meet link" and the extension will strip out the nickname, or you
+          can alternatively enter the 10 characters after the lookup.</span></p>
+      <p data-msg-help-nickname3> As an example, my Google Classroom meet
+        link is
+        https://meet.google.com/lookup/g45j4fubqb. So for this
+        Google Classroom my nickname is g45j4fubqb. The nomenclature is very confusing here which is unfortunate.
+        Google Classroom says "Meet link" but this is actually a lookup for the meet since the meet url changes
+        often.
+        And
+        the 10 characters after the
+        lookup is your Google Classroom nickname even though that nickname has no semantic meaning. If you remember
+        that the 10 characters after the lookup is your GC nickname then you will be able to keep things straight
+      </p>
+      <p><span class="font-weight-bold" data-msg-help-code>Code: </span><span data-msg-help-code1a>A code is the 10
+          character meet code, separated by two -,
+          which
+          makes it a total of 12 characters. An example is abc-defg-hij. Please remember, the extension requires the
+          code to
+          include the two
+          - separators in order to differentiate it from a nickname.</span></p>
+      <p><span class="font-weight-bold" data-msg-help-url>Url: </span><span data-msg-help-url1a>A url can be the full
+          meet url, such as
+          https://meet.google.com/abc-defg-hij. Another example of a url is a
+          teaching resource such as a wikipedia page, https://en.wikipedia.org/wiki/Astronomy, or a free coding
+          bootcamp
+          page such as https://www.freecodecamp.org/</span></p>
+      <h1 id="27"><a href="#help-list"><i class="fas fa-caret-square-left">&nbsp</i></a>Why is the extension not
+        working properly? Some functionality works but not others. It used to work but
+        now it
+        doesn't?
+      </h1>
+      <ul>
+        <p>It may be because the new version did not updated completely on your system. That is not because of
+          anything
+          you did or did not do. Sometimes that happens to me as well for version updates. Here are some suggestions
+          that work for me to get the extension woken up and working properly </p>
+        <li>Deactivate/Activate the extension: The extensions can be found by this path: chrome browser/window
+          menu/extensions.
+          Next turn the
+          slider off, wait 2 seconds, then turn the slider on. This
+          does not
+          delete your data. It is similar to restarting your computer but for your extension</li>
+        <li>Refresh the control panel (command/control r)</li>
+        <li>Refresh the window (command/control r)</li>
+        <li>
+          Give the extension an "exercise", force it to go through functions. Make it wake up. Create a dummy class,
+          with 3 or so auto created meet urls, open it, slide through the rooms. Do it twice (three times)</li>
+        <li>Worst case scenario, Uninstall/install extension: First go to the Courses tab, far right hand side black
+          button Export
+          your data. Uninstall, Install, Import your data through the Courses tab.</li>
+        <li>Restart your computer</li>
+      </ul>
+      <h1 id="20"><a href="#help-list"><i class="fas fa-caret-square-left">&nbsp</i></a>Why can't I see any students
+        in
+        the Assign Participants section?
+      </h1>
+      <p>The main reason is that the extension and Google Meet are not in sync. There are several suggestions for
+        getting them in sync. If
+        your opened Google Meet Main room tab name does not display the name of your Main room (typically "Main")
+        then that
+        means your Meet
+        and this extension are not synced together. In rare cases even though the tab name does display the name of
+        the Main room, the extension is still not in sync.</p>
+      <p>Please remember that you must be the owner of that Google Meet in order for this to work. You as the
+        teacher
+        need to be the owner of the main room and all the breakout rooms. Also you must use the exact same primary
+        google account for creating and using the extension. Your primary account is the FIRST account that you log
+        in
+        to google with. It is the first account in the list <a href="https://accounts.google.com/SignoutOptions"
+          target="_blank">here</a> . To change your primary account,
+        please log out of all of your google accounts and then log in FIRST with your primary account then your
+        other
+        google accounts.</p>
+      <p>Option 1: In the Start Class section, click on the Open/Sync Main Room button. That should sync up the
+        extension with the Main room.
+      <p>Option 2 is to refresh both the control panel and the main meet
+        window (control or command
+        R).</p>
+      <p>Option 3 is to close all the meet
+        windows including the control panel and open them all up again. This just takes a few seconds and no
+        students will be removed from the rooms in the process.</p>
+      </p>
+      <p>After syncing up the extension with the Main room, you will need to close and open the Assign Participants
+        section to refresh the list of students. Hopefully now you will see your student list. </p>
+      <p>If you still do not see
+        your students after trying all the above suggestions, please document your steps in an email to me at
+        robert@hudektech.com. It is also very helpful to me if you make a screencast video of your steps including
+        all
+        the URLs and your control panel settings. You may upload that screen cast to Youtube and set it to unlisted
+        and send me the link, or you may upload it to your google drive as unlisted but please give me permissions
+        to
+        view that one video. I will investigate it and get back to you</p>
+
+      <h1 id="16"><a href="#help-list"><i class="fas fa-caret-square-left">&nbsp</i></a>Why can't I see all of my
+        students in the Assign Participants - Ad Hoc section of "Meet" tab?
+      </h1>
+      <p>It is likely due to the settings in your Main room. Please verify the settings in the Google Meet itself
+        (not
+        this extension's settings) by clicking on the "..." button on the bottom right hand side of the Google Main
+        room Meet. A popup will appear
+        and click on the Change Layout. Next select Tiled. </p>
+      <p>This extension needs to be able to "see" all the participants on the screen in order to read them and
+        populate them in the Assign Participants section. To expand the view to 49 students please click on the "..."
+        button on the Google Meet bottom toolbar and select the grid view, then move the slider to the far right for
+        49
+        students
+      </p>
+      <h1 id="23"><a href="#help-list"><i class="fas fa-caret-square-left">&nbsp</i></a>Do students need to leave
+        the
+        main room when they go to the breakouts?
+      </h1>
+      <p>The short answer is no they do not need to leave the main room. When I teach using this extension most of
+        my
+        students stay in the main room as well as open their assigned
+        breakout room. In that case they are simultaneously in two rooms, the main room and their assigned breakout
+        room. The only time that is a problem is if a student forgets and leaves their microphone on in the main
+        room,
+        because then it would cause feedback to the other rooms. </p>
+      <p>On occasion I would have to ask them to please mute
+        their mic in the main room or I can actually mute it for them using the Room Participants Control section
+        "Mute All Participants" button. Please also remember that if you as the teacher have your microphone on in
+        the
+        main room and speak, that will be heard in all the students main room which feeds back in to their breakout
+        rooms (if they have 2 windows open, their main and their breakout room). </p>
+      <p>The good news is that if you
+        use the slider you should never accidentally have your microphone on in multiple rooms because the slider
+        automatically mutes
+        all the other rooms and only turns on the microphone in the current slider positioned room. The only time
+        your
+        microphone would be on in multiple rooms is if you either manually turn on the microphone in the room itself
+        (not going through the control panel) or if the slider gets out of sync which may happen if you grab the
+        yellow dot and move it directly. I recommend using the arrows or clicking in a blank position the slider
+        bar.
+        If your slider does get out of sync it is very easy to get back in sync - just click on the right arrow and
+        then the left arrow to reset everything.</p>
+      <p>I usually will make a broadcast announcement 5 minutes prior to closing of the breakouts, and when time is
+        up
+        I will also make a broadcast announcement asking them to leave their breakouts and "go back" to the main
+        room.
+        The "go back" is in quotes here because most are already in the main room as well, they never left it.
+        However, some students do leave the main room and then re-enter the main room when they leave the breakouts.
+        I
+        never noticed any difference in the teaching experience, so I let
+        the students do it either way: 1) exit the main room and go to the breakouts or 2) still stay in the main
+        room but also go to the breakout. You may have a different experience so feel free to manage it whichever
+        way
+        you feel best.
+      </p>
+
+      <h1 id="24"><a href="#help-list"><i class="fas fa-caret-square-left">&nbsp</i></a>How can I close the breakout
+        rooms when it is time to finish? And, is there a countdown timer?
+      </h1>
+      <p>*** Please note that I am not 100% sure of this 40 second window described below. This is just what I heard
+        and read on
+        Google Meet forums. I advise everyone to test this out for themselves if this is important to you. I cannot
+        guarantee it will work this way because I have not tested this 40 second prevent re-entry scenario ****</p>
+      <p>There are several ways to close the breakouts when time is up, however, you should first make sure that all
+        the students have left the room. I believe for the teachers google suite there is a 40 second time
+        requirement
+        where the room must be completely vacant for 40 seconds before you can safely close it and no students may
+        re-enter the room. If you need to control the room and not allow students to meet on their own in these
+        breakouts, then you will
+        need to wait at least 40 seconds before you close it. *** Note that I have not tested this myself. This is
+        based on what I read on Google Meet forums ***</p>
+      <p>You may close the breakout rooms directly by closing the window like any
+        other window or you can click on the "Close Room" button in the Room Participants Control section. If
+        students are lingering and not leaving after you asked them to, you may remove them using the "Remove All
+        Participants" button. After they are removed (and you wait more than 40 seconds if you need to ensure they
+        cannot re-enter) then you may close the room</p>
+      <p>There is no timer function but that is something I will investigate as a possible future features. In my
+        experience, the broadcast works great and it was never a problem communicating 5 minutes left and then
+        time's
+        up</p>
+
+
+      <h1 id="21"><a href="#help-list"><i class="fas fa-caret-square-left">&nbsp</i></a>Clicking on the slider
+        doesn't
+        work. Why can't I slide between rooms?
+      </h1>
+      <p>The reason is that the extension is not synced with Google Meet. The options for fixing this problem are
+        identical with the FAQ for "Why can't I see any of my students in the Assign Participants sections?" Please
+        click
+        <a href="#20" style="color:#ff4c68">here</a> to view those reasons and options for solving the problem
+      </p>
+
+      <h1 id="22"><a href="#help-list"><i class="fas fa-caret-square-left">&nbsp</i></a>Why am I getting noisy
+        feedback from the other rooms?
+      </h1>
+      <p>One reason is because the other rooms have their microphone and speaker are on. If you have feedback,
+        please
+        look at your other rooms and make sure that the microphone and speaker are off for all the rooms other than
+        the one breakout room that your are currently in. Please control the
+        speaker, microphone, and video from the
+        control panel.</p>
+      <p>Occasionally if you grab the slider yellow dot and move the slider by directly moving the yellow dot, the
+        rooms can become out of sync. Multiple rooms may have their speaker, microphone, and video on. To get
+        back in sync again, it's simple. Just click on the slider right arrow and then click on the left arrow
+        slider.
+        This will move you right and then left, syncing all the other rooms back to off, off, off for speaker,
+        microphone,
+        and slider.</p>
+      <p>I recommend moving the slider by either clicking on the right and left arrows or by clicking on the slider
+        "blank" spot which will make the slider immediately move to that spot. I have never experienced an out of
+        sync
+        problem using these two methods.</p>
+      <p>When students enter their breakouts, they should mute themselves in the main room. Students who have their
+        microphones on in both the main room and the breakout rooms will cause feedback. Even if a student mutes
+        themeselves in the main room, if other students leave their microphone on in the main room then everyone may
+        also experience
+        feedback. </p>
+      <p>As a teacher I recommend that you make sure all the students mute themselves in the main room when
+        they go to their breakouts to prevent this type of feedback. There is an option in the Room Participant
+        Control section to mute all the students. You will need to maximize the Main screen (full length) if you use
+        that function because the extension needs to "see" all the students in the Meet list.</p>
+      <p>If you followed the advice above and still are experiencing noisy feedback problems, please document your
+        steps and email me at robert@hudektech.com. Everytime I experience feedback these options worked for me,
+        however, if you still have feedback problems I really want to know about it. The first step for me is to
+        understand how you got there, so if you can consider making a screencast video of your steps so I can
+        actually
+        see it then that is a huge help. You can make an unlisted Youtube and email me the link or make an unlisted
+        Google drive screencast video and send me the link (with permissions to view that one video). Thank you</p>
+
+      <h1 id="12"><a href="#help-list"><i class="fas fa-caret-square-left">&nbsp</i></a>How can I simulate
+        students to
+        practice using the extension?
+      </h1>
+      <p>If you have a Google suite account then you can create simulated students by using Chrome incognito and
+        enter
+        any name you choose. If you do not have a Google suite account then you will need to use (extra) Google
+        accounts to simulate students</p>
+
+
+      <h1 id="25"><a href="#help-list"><i class="fas fa-caret-square-left">&nbsp</i></a>Do all the rooms have to be
+        Meets? Can I include jamboards or other resource links as a "room"?
+      </h1>
+
+      <p>Yes, you can! As of version 15.9 and above, "rooms" may include non-Meet links such as any resource you may
+        want to
+        use for teaching materials during class. Examples are a youtube video, an online news article, or a science
+        web page which you want to cover during class. Just create a "room" for those resources, give the resource a
+        name such as "Astronomy", and enter the appropriate url link value such as
+        https://solarsystem.nasa.gov/asteroids-comets-and-meteors/overview/. Please remember that your link must
+        start
+        with either https:// or http:// otherwise it will be considered invalid and a new google meet link will be
+        created and stored in it's place. </p>
+      <p>Resource "rooms" can be a useful way of staging your resources that you want to cover during class. You can
+        then open them as needed by increasing the number of breakout "rooms" and then click open. The resource
+        rooms
+        can be retiled the same as a Meet breakout room, but they are not available on the
+        slider because there the slider is meant for entering a meet room which audio/visual controls.</p>
+
+      <p>Even if a teacher does not want to use breakout rooms for a teaching session, the teacher can still use
+        this
+        feature to stage resources and call them up as needed. In this case, let's say the teacher is only going to
+        open the Main room, but the teacher may stage all the rest of the rooms as resources that will be discussed
+        during class. So in this way the "Breakout Rooms" extension can be useful for teachers who actually never
+        use
+        breakout rooms. The breakout rooms for these teachers is really a staging, opening, and retiling of
+        resources
+        that will be taught in class</p>
+      <p>The rooms can be moved up and down in the Rooms tab by dragging and dropping. The resources are opened by
+        the
+        number of breakout rooms selected on the Meet tab. So if a teacher wants a split screen with the main room
+        on
+        one side and the resource on the other, the teacher can do that by selecting "1" as the number of breakouts
+        and then open all rooms (just one in this case, the resource). After the resource is covered, the teacher
+        can
+        go back to the Rooms tab, drag and drop the next resource and open all, then retile. The new resource will
+        open and snap into place on the right hand side. Teachers can progress through the list of their in this
+        manner. </p>
+      <p>Another option for grouping your resources is to create a "course" to hold your resources. This way if you
+        are teaching in the main room only (no breakouts), you can switch the course on the Meet tab to the resource
+        "course" and open it's breakouts. You can then present your screen or these tabs in your main room.
+        Actually,
+        the possibilities are almost endless. Explore
+        and try out this new feature to see what works best for you. I think you may find it quite useful to
+        organize
+        and present your additional online teaching materials</p>
+
+
+
+
+      <h1 id="13"><a href="#help-list"><i class="fas fa-caret-square-left">&nbsp</i></a>How can I use this
+        extension
+        on multiple computers?
+      </h1>
+      <p>Use the export/import option in the "Courses" tab to download your data from your first computer. Go to
+        your
+        second computer and import this file. Now the two computers are in sync</p>
+
+      <h1 id="14"><a href="#help-list"><i class="fas fa-caret-square-left">&nbsp</i></a>Do all students need this
+        extension installed in order to use it?
+      </h1>
+      <p>Only the teacher needs this extension installed. However, students may install it if they wish to. There
+        are some customized color settings that students may like. Also, students may also need this breakout
+        functionality on their own if they manage their own subgroups</p>
+
+      <h1 id="15"><a href="#help-list"><i class="fas fa-caret-square-left">&nbsp</i></a>Does this work with Google
+        Classroom?
+      </h1>
+      <p>Yes, and there is a special workflow for integrating with Google Classroom which is described step by step
+        in
+        the Start Class with Google Classroom section on the meet tab of this extension</p>
+      <!-- <p><a href="https://youtu.be/9xp865N4lkU" target="_blank" rel="noopener noreferrer">Click here for video
+            tutorial</a></p> -->
+
+      <h1 id="26"><a href="#help-list"><i class="fas fa-caret-square-left">&nbsp</i></a>Will my extension data be
+        overwritten with a new updated version?
+      </h1>
+      <p>It shouldn't be be overwritten and I try my best to avoid those situations. To protect yourself I advise
+        everyone to download their data periodically
+        using the Export function in the Course tab which will download all the relevant data from the extension to
+        your
+        computer download folder. If something goes wrong the new version and you need to re-install the extension,
+        you can import the data using the Import function and that should (not guaranteed) re-install your previous
+        data. Although I cannot guarantee that your data
+        will not be overwritten
+        and I also cannot guarantee that an
+        export/import will always work, the export/import I believe is a good practice in case something
+        unexpected
+        happens.</p>
+    </div>
+
+  </div>
+
+
+  <!-- Modal Help Box -->
+  <div id="modal-ad-hoc" class="modal-help">
+    <!-- Modal content -->
+    <div class="modal-help-content">
+      <div class="help-header">
+        <h1 id="close-ad-hoc" class="close-help">&times;</h1><br>
+        <h1 data-msg-popup-help-adhoc>Ad Hoc Breakout Rooms</h1>
+      </div>
+
+      <div><span class="font-weight-bold popup-dark-font" data-msg-popup-help-adhoc-step2>Step 2: Copy Breakout Room
+          Links</span>
+        <p id="ad-hoc-list-groups-link-copy"><span data-msg-popup-help-adhoc-step2a> Click </span><span
+            id="btn-ad-hoc-list-groups-link-copy" class="btn btn-sm btn-primary copy-all-pre"
+            data-msg-popup-help-adhoc-step2b>here</span><span data-msg-popup-help-adhoc-step2c> to
+            copy the breakout room links to your clipoard and paste (control or command V)
+            them into the Main chat
+        </p></span>
+      </div>
+      <p id="ad-hoc-list-groups-link-length"></p>
+      <p id="ad-hoc-list-groups-link"></p>
+
+      <!-- <p id="ad-hoc-list-groups-ppt-copy"><span class="font-weight-bold">Step 3:</span> </span> Click <span
+            id="ad-hoc-list-groups-ppt-copy-btn" class="btn btn-sm btn-primary">here</span> to copy the students'
+          links below and paste (control or command
+          V) into the Main
+          chat </p> -->
+
+      <div><span class="font-weight-bold popup-dark-font" data-msg-popup-help-adhoc-step3>Step 3: Copy Breakout Rooms
+          Assigned
+          Students</span>
+        <p id="ad-hoc-list-groups-ppt-copy"><span data-msg-popup-help-adhoc-step3a> Click </span><span
+            id="btn-ad-hoc-list-groups-ppt-copy" class="btn btn-sm btn-primary copy-all-pre"
+            data-msg-popup-help-adhoc-step3b>here</span><span data-msg-popup-help-adhoc-step3c> to
+            copy the breakout rooms assigned students and paste (control or command
+            V) into the Main
+            chat</span>
+        </p>
+      </div>
+      <p id="ad-hoc-list-groups-ppt-length"></p>
+      <p id="ad-hoc-list-groups-ppt"></p>
+    </div>
+  </div>
+
+
+  <!-- <div class="help-header">
+        <h1 id="help-list" class="close-help">&times;</h1><br>
+        <h1>Google Meet Breakout Rooms Help</h1>
+      </div> -->
+
+  </div>
+
+
+  <!-- Sounds -->
+  <audio id="mySoundOne">
+    <source src="../media/soundOne.mp4" type="audio/mpeg">
+  </audio>
+  <audio id="mySoundZero">
+    <source src="../media/soundZero.mp4" type="audio/mpeg">
+  </audio>
+  <!-- <audio src="../media/soundZero.mp3" type="audio/mp3" autostart="false" width="0" height="0" id="mySoundZero"
+    enablejavascript="true"></audio> -->
+
+  <!-- <script type="module" src="popup3.js"></script> -->
+  <script src="js/themes.js"></script>
+  <script src="js/general.js"></script>
+  <script src="js/intl.js"></script>
+  <script src="background/bgContext.js"></script>
+  <script src="background/bgWinTab.js"></script>
+  <script src="background/bgEvents.js"></script>
+  <script src="js/utilHelper.js"></script>
+  <script src="js/utilMeetTab.js"></script>
+  <script src="js/utilToolTip.js"></script>
+  <script src="js/utilCore.js"></script>
+  <script src="js/utilDb.js"></script>
+  <script src="js/utilSlider.js"></script>
+  <script src="js/sortable.js"></script>
+  <script src="js/handlers.js"></script>
+  <script src="js/meet.js"></script>
+  <script src="js/rooms.js"></script>
+  <script src="js/classrooms.js"></script>
+  <script src="js/exportImport.js"></script>
+  <script src="js/help.js"></script>
+  <script src="js/events.js"></script>
+
+
+</body>
+
+</html>

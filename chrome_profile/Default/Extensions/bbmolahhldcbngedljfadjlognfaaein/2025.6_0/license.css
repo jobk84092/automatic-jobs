@@ -1,0 +1,404 @@
+button#removeLicense, button#goBack {
+	border: solid 1px #e67300e4;
+	color: white;
+	padding: 13px 15px;
+	padding: 0px 15px;
+	text-align: center;
+	font-size: 14px;
+	font-family: system-ui;
+	margin: 4px 2px;
+	cursor: pointer;
+	transition-duration: 0.4s;
+	border-radius: 4px;
+	font-weight: 500;
+	background-color: transparent;
+}
+div#licenseSpinner {
+	padding-top: 50px;
+}
+input#licenseKeyInput, 
+textarea#licenseTokenInput {
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    width: 60%;
+    padding: 13px 35px;
+    box-sizing: border-box;
+}
+textarea#licenseTokenInput {
+    height: 70px;
+	min-width: 500px;
+    display: none;
+	padding: 10px 13px;
+	resize: none;
+}
+p#licenseText {
+	font-family: system-ui;
+	display: inline-block;
+	max-height: 200px;
+	width: 500px;
+	font-size: 17px;
+	text-align: center;
+	font-weight: 300;
+}
+#licenseDetails {
+	font-family: system-ui;
+	display: inline-block;
+	width: 100%;
+	font-size: 17px;
+	text-align: center;
+	font-weight: 200;
+	background-color: rgba(225, 225, 225, 0.046);
+	border-radius: 5px;
+	position: relative;
+	padding: 10px;
+}
+#licenseChecklist {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	text-align: left;
+	max-width: 500px;
+	margin: 0 auto;
+}
+#licenseChecklist li {
+	font-size: 14px;
+	margin: 5px 0;
+	display: flex;
+	align-items: center;
+}
+#licenseChecklist a {
+	text-decoration: none;
+	color: #e67300;
+	font-weight: 700;
+}
+#licenseChecklist a:hover {
+	text-decoration: underline;
+}
+div#licenseKeyButtons {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 15px;
+}
+#goBackIcon {
+	transform: rotate(180deg);
+}
+.toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    margin-bottom: 1rem;
+    font-size: 0;
+}
+.toggle input {
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -9999px;
+}
+.toggle label {
+    padding: 0.5rem 1rem;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    border: 1px solid #e67300e4;
+    transition: all 0.2s ease-in-out;
+	flex: 0 0 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.toggle label:first-of-type {
+    border-radius: 6px 0 0 6px;
+}
+.toggle label:last-of-type {
+    border-radius: 0 6px 6px 0;
+}
+.toggle input:hover + label {
+    border-color: #75410e;
+}
+.toggle input:checked + label {
+    background-color: #e67300e4;
+    color: white;
+    z-index: 1;
+}
+.help-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.help-tooltip {
+    position: absolute;
+    background-color: #333333ee;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    max-width: 240px;
+    white-space: normal;
+    word-wrap: break-word;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+.help-tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 8px;
+    border-style: solid;
+    border-color: #333333ee transparent transparent transparent;
+}
+.help-button {
+	height: 30px !important;
+	width: 30px !important;
+	padding: 5px !important; 
+	position: relative;
+    border-radius: 50%;
+	left: 15px;
+	background-color: transparent !important;
+	border: 1.5px solid #e67300e4;
+}
+button.help-button:hover {
+	background-color: #b35900 !important;
+}
+
+/*  */
+html {
+	width: 100%;
+	height: 100%;
+}
+body {
+	background-color: #1c1917;
+	background-image: linear-gradient(#9c213e77 , #1c1917 );
+	color: white;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-between;
+}
+div#loaderBody {
+	width: 550px;
+	height: 475px;
+	display: flex;
+	vertical-align: middle;
+	text-align: center;
+	flex-direction: column;
+	align-items: center;
+}
+p{
+	font-family: system-ui;
+}
+p#url{
+	font-family: 'Courier New', monospace;
+	font-size: 16px;
+	border-radius: 4px;
+	padding: 20px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	background-color: rgba(225, 225, 225, 0.046);
+	min-width: 300px;
+}
+p#downloadUrl{
+	font-family: 'Courier New', monospace;
+	margin: 20px;
+	font-size: 17px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+button {
+	border: none;
+	color: white;
+	padding: 13px 35px;
+	text-align: center;
+	height: 46px;
+	font-size: 14px;
+	font-family: system-ui;
+	margin: 4px 2px;
+	cursor: pointer;
+	transition-duration: 0.4s;
+	border-radius: 4px;
+	font-weight: 500;
+	background-color: #e67300e4;
+}
+button:hover {
+	background-color: #b35900;
+}
+svg{
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	position: relative;
+	top: 0.15em;
+}
+.cheerpjlogo{
+	width: 100%;
+	padding-top: 30px;
+}
+footer{
+	align-items: center;
+	width: 100%;
+	padding-bottom: 20px ;
+	bottom: 0;
+	font-family: system-ui;
+	font-weight: 300;
+}
+a {
+	color: #c1b4a6;
+	text-decoration: none;
+}
+a:hover {
+	cursor: pointer;
+	color: #ff8d1c;
+}
+a#readDocs {
+	border: solid 1px #c1b4a6;
+	color: #e67300e4;
+	padding: 13px 15px;
+	text-align: center;
+	font-size: 14px;
+    font-family: system-ui;
+	margin: 4px 2px;
+	cursor: pointer;
+	transition-duration: 0.4s;
+	border-radius: 4px;
+	font-weight: 500;
+	background-color: transparent;
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+	font-weight: bold;
+}
+a#readDocs:hover {
+	border: solid 1px #e67300e4;
+}
+div#footerLinks{
+	max-width: 50%;
+	display: flex;
+	justify-content:space-evenly;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25%;
+	padding-right: 25%;
+	text-align: center;
+	position: relative;
+	font-size: 14px;
+}
+div#footerLogo{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+img#ltlogo{
+	width: 1.5em;
+	height: 1.5em;
+	display: inline-block;
+}
+p#footerText{
+	margin-left: 12px;
+	font-size: 14px;
+	color: #c1b4a6;
+	display: inline-block;
+}
+
+hr.solid {
+	max-width: 70%;
+	border-top: 1px solid #454442;
+	border-bottom: none;
+}
+.checkBoxContainer{
+	font-weight: lighter;
+	font-family: system-ui;
+	font-size: 15px;
+	margin: 10px;
+	display: block;
+}
+input[type=checkbox] {
+	accent-color: #e67300e4;
+}
+div#fetchperm {
+	background-color: #4f5055;
+	text-align: center;
+	width: 550px;
+	display: none;
+	position: fixed;
+	padding: 15px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 9999;
+	border: 1px solid #ccc;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+}
+div#progress {
+	border: none;
+	color: white;
+	border-radius: 5px;
+	background-color: #964b00;
+	margin: 4px 2px;
+}
+div#progressinner {
+	background-color: #e67300;
+	height: 34px;
+	border-radius: 5px;
+	width: 0%;
+}
+div#errors {
+	display: none;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 30px;
+	font-size: large;
+	background-color: #b35900;
+	align-items: center;
+	justify-content: space-between;
+}
+div#errorText {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+div#errorClose {
+	display: flex;
+	margin-right: 10px;
+	align-items: center;
+}
+div#errorClose:hover {
+	cursor: pointer;
+	transform: scale(1.15);
+}
+div#activateLicense {
+	display: none;
+	font-family: system-ui;
+	display: inline-block;
+	font-size: 17px;
+	text-align: center;
+	font-weight: 350;
+	padding: 15px;
+	width: 600px;
+}
+p#subActivateLicense {
+	font-size: 14px;
+	margin: 0;
+	font-weight: 100;
+}

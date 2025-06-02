@@ -1,0 +1,29 @@
+{
+  "extName": {
+    "message": "Google Meet Breakout Rooms by Robert Hudek"
+  },
+  "extDesc": {
+    "message": "Completely Free and your Data is Private.  Google Classroom integration, Slider Control, Nicknames, Help tutorials"
+  },
+  "title": {
+    "message": "Breakout Rooms"
+  },
+  "headlineTryThemes": {
+    "message": "New"
+  },
+  "meet": {
+    "message": "Meet"
+  },
+  "rooms": {
+    "message": "Rooms"
+  },
+  "courses": {
+    "message": "Courses"
+  },
+  "defaultAccount": {
+    "message": "Your Meet Account is "
+  },
+  "settings": {
+    "message": "Settings"
+  }
+}

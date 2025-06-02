@@ -1,0 +1,869 @@
+{
+   "adhoc0": {
+      "message": "Bitte beachten Sie, dass Lehrer den Link an die Schüler senden müssen, damit diese freiwillig dem Gruppenraum beitreten können."
+   },
+   "adhoc1": {
+      "message": "Erster Schritt: Schüler in Gruppen einteilen, es gibt mehrere Möglichkeiten"
+   },
+   "adhoc11a": {
+      "message": "Warum sehe ich keine Schüler im Gruppenbereich?"
+   },
+   "adhoc11b": {
+      "message": "Hier"
+   },
+   "adhoc12a": {
+      "message": "Warum sehe ich nicht alle Schüler?"
+   },
+   "adhoc12b": {
+      "message": "Hier"
+   },
+   "adhoc13a": {
+      "message": "Google Classroom-Nutzer,"
+   },
+   "adhoc13b": {
+      "message": "Stellen Sie sicher, dass der Link zum Hauptraum im Tab 'Raumeinstellungen' grün ist und dass der 'Spitzname' die letzten 10 Zeichen des Google Classroom Meet-Links ist. Dann klicken Sie auf die Schaltfläche 'Hauptraum starten'."
+   },
+   "adhoc1a": {
+      "message": "Zufällige Gruppeneinteilung: Klicken Sie auf die Schaltfläche 'Zufällig'. Sie können die Schaltfläche mehrmals anklicken, um eine zufällige Gruppenbildung zu sehen, die Ihnen gefällt. Wenn Sie die Gruppen anpassen möchten, können Sie Personen zwischen den Gruppen per Drag & Drop verschieben (zweite Methode)."
+   },
+   "adhoc1b": {
+      "message": "Manuelle Anpassung: Halten Sie den Namen des Schülers fest und ziehen Sie ihn zwischen den Gruppen hin und her."
+   },
+   "adhoc1c": {
+      "message": "Von der zufälligen Gruppeneinteilung ausschließen: Klicken Sie auf den Namen des Schülers, um die Ausschlussoption umzuschalten."
+   },
+   "adhoc1d": {
+      "message": "Manueller Ausschluss: Halten Sie den Namen des Schülers fest und ziehen Sie ihn nach links."
+   },
+   "adhoc2": {
+      "message": "Schritte 2 und 3: Kopieren Sie den Link zum Gruppenraum und die Liste der Schülergruppen"
+   },
+   "adhoc2a": {
+      "message": "Nachdem Sie die Gruppeneinteilung abgeschlossen haben, klicken Sie auf"
+   },
+   "adhoc2b": {
+      "message": "Hier"
+   },
+   "adhoc2c": {
+      "message": "."
+   },
+   "adhocAutosend": {
+      "message": "Neue Funktion! Gruppenaufgaben automatisch in den Meet-Chat senden"
+   },
+   "assignBreakoutsAdhoc": {
+      "message": "Ad-hoc-Gruppenzuordnung"
+   },
+   "assignBreakoutsPre": {
+      "message": "Vorgeplante Gruppenzuordnung"
+   },
+   "audioFixCheckbox": {
+      "message": "Neue Lösung aktivieren"
+   },
+   "audioFixFallback": {
+      "message": "Wie wählt man diese Lösung freiwillig?"
+   },
+   "audioFixFallback1": {
+      "message": "Bitte ankreuzen (leer)"
+   },
+   "audioFixFallback2": {
+      "message": "Wenn bereits Meet-Sitzungen geöffnet sind, müssen diese geschlossen werden (möglicherweise keine vorhanden)"
+   },
+   "audioFixFallback3": {
+      "message": "Schließen Sie die geöffneten Meet-Sitzungen und starten Sie sie neu (möglicherweise keine vorhanden)"
+   },
+   "audioFixFirst": {
+      "message": "Wie wählt man diese Lösung freiwillig?"
+   },
+   "audioFixIntro": {
+      "message": "Ich empfehle, diese Option anzukreuzen (standardmäßig aktiviert), also lassen Sie sie angekreuzt (X). Wenn Sie diese Lösung aktivieren (ankreuzen) und feststellen, dass der Lautsprecher unzuverlässig wird oder schwer zu steuern ist, senden Sie bitte eine E-Mail an robert@hudektech.com, um mich zu informieren. Ohne Ankreuzen (o) wird die alte Lösung verwendet (nicht empfohlen). Wenn Sie die Einstellung auf gekreuzt (x oder o) ändern möchten, beachten Sie, dass Sie alle Meet-Sitzungen schließen und neu starten müssen, da das Ankreuzen die Lautsprechermethode ändert, was dazu führen kann, dass die Meet-Erweiterung den aktuellen Status des Lautsprechers (an oder aus) nicht erkennt. Nochmals, es wird empfohlen, das Ankreuzen (X) beizubehalten und nichts zu ändern."
+   },
+   "audioFixOptin": {
+      "message": "Wie wählt man diese Lösung freiwillig?"
+   },
+   "audioFixOptin1": {
+      "message": "Bitte ankreuzen (x)"
+   },
+   "audioFixOptin2": {
+      "message": "Wenn bereits Meet-Sitzungen geöffnet sind, müssen diese geschlossen werden (möglicherweise keine vorhanden)"
+   },
+   "audioFixOptin3": {
+      "message": "Schließen Sie die geöffneten Meet-Sitzungen und starten Sie sie neu (möglicherweise keine vorhanden)"
+   },
+   "audioFixRecommend": {
+      "message": "(Empfohlen)"
+   },
+   "audioFixSecond": {
+      "message": "Wenn nach der Verwendung der neuen Lösung Lautsprecherprobleme auftreten, kann die ursprüngliche Lösung wiederhergestellt werden"
+   },
+   "audioFixTitle": {
+      "message": "Neue Lösung für zufällige Lautsprecherprobleme"
+   },
+   "audioHeadline": {
+      "message": "Wie man Lautsprecherproblemen vorbeugt, hier klicken"
+   },
+   "broadcast": {
+      "message": "An alle Gruppenräume senden"
+   },
+   "btnAutosend": {
+      "message": "1. In den Chat senden"
+   },
+   "btnOpenAll": {
+      "message": "Alle"
+   },
+   "btnOpenBreakouts": {
+      "message": "Gruppenräume"
+   },
+   "btnOpenMain": {
+      "message": "Hauptraum"
+   },
+   "btnOpenMain1": {
+      "message": "Hauptraum"
+   },
+   "btnOpenMainRam": {
+      "message": "Hauptraum"
+   },
+   "btnRam": {
+      "message": "Video öffnen, Schiebereglersteuerung für Videos verwenden"
+   },
+   "btnRandom": {
+      "message": "Zufällige Gruppeneinteilung"
+   },
+   "btnRoomsReport": {
+      "message": "Räume"
+   },
+   "btnStudentsReport": {
+      "message": "Schüler"
+   },
+   "checkRam": {
+      "message": "Option für niedrigen Arbeitsspeicher (RAM): Normalerweise nicht aktiviert, bei weniger als 8 GB RAM."
+   },
+   "checkRam2": {
+      "message": "Anleitung"
+   },
+   "checkRamOld": {
+      "message": "Option für niedrigen Arbeitsspeicher (RAM): Normalerweise nicht aktiviert. Wenn der Arbeitsspeicher (RAM) weniger als 8 GB beträgt, kann diese Option aktiviert werden. Wenn diese Option aktiviert ist, werden der Hauptraum und die Gruppenräume geöffnet, aber Sie können nur ein Fenster gleichzeitig anzeigen. Die Schiebereglersteuerung wird synchronisiert, um das aktuelle Video zu schließen und das nächste Video zu öffnen."
+   },
+   "code": {
+      "message": "Code"
+   },
+   "courseCourse": {
+      "message": " Kurs"
+   },
+   "courseDesc": {
+      "message": " Kursbeschreibung"
+   },
+   "courseEnter": {
+      "message": "Bitte geben Sie Ihre Kursliste ein"
+   },
+   "courses": {
+      "message": "Kurzeinstellungen"
+   },
+   "coursesBuiltWith": {
+      "message": "Erstellt mit ❤️ von 胡浩洋"
+   },
+   "coursesDupe": {
+      "message": "Speichern fehlgeschlagen: Der Name ist bereits vorhanden und muss eindeutig sein."
+   },
+   "coursesExp1": {
+      "message": "Alle Daten dieser Erweiterung exportieren"
+   },
+   "coursesExp2": {
+      "message": "Datei (.txt)"
+   },
+   "coursesExp3": {
+      "message": "Exportieren"
+   },
+   "coursesExpimp": {
+      "message": "Alle Daten dieser Erweiterung exportieren oder importieren"
+   },
+   "coursesExpimpWarn": {
+      "message": "Wichtiger Hinweis: Beim Importieren werden alle bestehenden Daten dieser Erweiterung ersetzt."
+   },
+   "coursesImp1": {
+      "message": "Alle Daten dieser Erweiterung importieren"
+   },
+   "coursesImp2": {
+      "message": "Datei (.txt)"
+   },
+   "coursesImp3": {
+      "message": "Importieren"
+   },
+   "coursesNotYetSaved": {
+      "message": "Änderungen noch nicht gespeichert"
+   },
+   "coursesSaved": {
+      "message": "Gespeichert"
+   },
+   "default1": {
+      "message": "Wenn das oben angegebene Konto korrekt ist, müssen Sie nichts tun."
+   },
+   "default2": {
+      "message": "Wenn das Konto nicht korrekt ist, folgen Sie den Anweisungen unten."
+   },
+   "default3a": {
+      "message": "Bitte klicken Sie auf"
+   },
+   "default3b": {
+      "message": "Hier"
+   },
+   "default3c": {
+      "message": "Um die Reihenfolge der Google-Konten zu verwalten"
+   },
+   "default4": {
+      "message": "Melden Sie sich von allen Konten ab"
+   },
+   "default5a": {
+      "message": "Ihr Google Meet-Konto ist das erste Konto, mit dem Sie sich anmelden. Wenn das Konto, das Sie verwenden möchten, nicht das erste ist, müssen Sie sich von allen Konten abmelden und dann erneut anmelden, wobei das erste Konto, das Sie anmelden, Ihr gewünschtes Google Meet-Konto ist."
+   },
+   "default5b": {
+      "message": "Es ist wichtig, dass Sie das gleiche Konto verwenden, um das Meeting zu planen und zu starten."
+   },
+   "default5c": {
+      "message": "Das Konto, das das Meeting plant und startet, gilt als der Besitzer des Google Meet-Kontos."
+   },
+   "default6": {
+      "message": "Melden Sie sich in der richtigen Reihenfolge erneut an, und Sie können das Meeting planen und starten."
+   },
+   "defaultAccount": {
+      "message": "Dein Konto ist "
+   },
+   "dropdownBreakouts": {
+      "message": "Anzahl der Gruppenräume"
+   },
+   "dropdownCourse": {
+      "message": "Kurs"
+   },
+   "enterCourses": {
+      "message": "Bitte geben Sie Ihren Kurs ein"
+   },
+   "errorAutoCreateLink": {
+      "message": "Ein Fehler ist aufgetreten, die automatische Anforderung eines Meet-Links bei Google war nicht erfolgreich. Bitte überprüfen Sie, ob Sie bei Ihrem Google-Konto angemeldet sind. Wenn Sie bereits angemeldet sind, melden Sie sich ab und erneut an: https://accounts.google.com/SignoutOptions. Dies wird alle Ihre derzeit angemeldeten Konten abmelden (entschuldigung!), und stellen Sie sicher, dass das erste Konto, bei dem Sie sich erneut anmelden, Ihr Lehrer-Google-Konto ist. Die Anmelde-Reihenfolge ist wichtig; das erste Konto ist Ihr Google Meet-Konto."
+   },
+   "errorBouncingBalls": {
+      "message": "Ein Meet-Fenster konnte nicht synchronisiert werden. Schließen Sie alle derzeit geöffneten Meet-Fenster, einschließlich dieses Steuerpanels, und öffnen Sie das Steuerpanel erneut, starten Sie dann den Hauptraum und die Gruppenräume neu. Machen Sie sich keine Sorgen, das Schließen von Meet-Fenstern löscht oder stört die Schüler nicht. Wenn Sie viele geöffnete Fenster haben, könnten einige Meet-Fenster übersehen werden. In diesem Fall ist es am einfachsten, alle Ihre derzeit geöffneten Fenster zu schließen und erneut zu öffnen, da die Erweiterung nicht synchronisieren kann, wenn auch nur ein altes Meet-Fenster geöffnet bleibt. *** Sie müssen die Erweiterung nicht deinstallieren und neu installieren. Schließen Sie einfach alle geöffneten Meet-Fenster, öffnen Sie das Steuerpanel erneut und verwenden Sie es, um den Hauptraum und die Gruppenräume zu starten."
+   },
+   "errorNick1": {
+      "message": "Ein Fehler ist aufgetreten, um den Spitznamen-Link automatisch zu erstellen:"
+   },
+   "errorNick2": {
+      "message": "Bitte überprüfen Sie, ob Sie bei Ihrem Google-Konto angemeldet sind. Wenn Sie bereits angemeldet sind und sicherstellen, dass Ihr Google-Konto Google Suite, Education usw. bietet, die die Spitznamenfunktion unterstützen – kostenlose Google-Konten haben diese Funktion normalerweise nicht. Wenn Ihr Konto diese Funktion unterstützt und Sie bereits angemeldet sind, melden Sie sich ab und erneut an: https://accounts.google.com/SignoutOptions. Dies wird alle Ihre derzeit angemeldeten Konten abmelden (entschuldigung!), und stellen Sie sicher, dass das erste Konto, bei dem Sie sich erneut anmelden, Ihr Lehrer-Google-Konto ist. Die Anmelde-Reihenfolge ist wichtig; das erste Konto ist Ihr Google Meet-Konto. Wenn Ihr Google-Konto keine Spitznamenfunktion bietet, erstellen Sie bitte nur statische (dunkelblau) oder Code-Links (hellblau)."
+   },
+   "extDesc": {
+      "message": "Nur der Lehrer muss es installieren. Komplett kostenlos und Ihre Daten sind privat. "
+   },
+   "extName": {
+      "message": "Google Meet Gruppen von 胡浩洋"
+   },
+   "firstRoomMain": {
+      "message": "Die erste Zeile ist der Hauptraum, ab der zweiten Zeile sind es die Gruppenräume"
+   },
+   "genAutoEnter": {
+      "message": "Erlauben Sie externen Personen, automatisch den Raum zu betreten."
+   },
+   "genAutoEnter1": {
+      "message": "Wenn aktiviert, können externe Personen über den Raumlink automatisch beitreten."
+   },
+   "genAutoEnter2": {
+      "message": "Es wird empfohlen, dies aus Sicherheitsgründen nicht zu aktivieren (standardmäßig deaktiviert)."
+   },
+   "genAutoEnter3": {
+      "message": "Aus Sicherheitsgründen"
+   },
+   "genAutoJoin": {
+      "message": "Für von dieser Erweiterung verwaltete Räume wird beim Start automatisch die Schaltfläche 'Beitreten' gedrückt. Dies ist eine praktische Funktion."
+   },
+   "genAutoJoinBreak": {
+      "message": "Gruppenräume"
+   },
+   "genAutoJoinMain": {
+      "message": "Hauptraum"
+   },
+   "genAutoNewUrl": {
+      "message": "Für 'Statische' Raumlinks (dunkelblau) automatisch neue URLs erstellen"
+   },
+   "genAutoNewUrl1": {
+      "message": "Bei jedem Meeting-Start automatisch neue Meet-URLs generieren. Dies ist eine sichere Methode, kann aber den Prozess der Raumverwaltung komplizierter machen. Sie müssen das Meeting zuerst starten, um die neue URL zu erfahren, und dann die Schüler benachrichtigen."
+   },
+   "genAutoNewUrl2": {
+      "message": "Bitte beachten Sie: Diese Option gilt nur für 'Statische' Raumlinks (dunkelblau) im Tab 'Raumeinstellungen'."
+   },
+   "genAutoNewUrl3": {
+      "message": "Andere Raumlink-Typen (grüne Spitznamen, hellblaue Codes) werden von dieser Option nicht beeinflusst."
+   },
+   "genAutoNewUrlBreak": {
+      "message": "Gruppenräume"
+   },
+   "genAutoNewUrlMain": {
+      "message": "Hauptraum"
+   },
+   "genBroadBackColor": {
+      "message": "Hintergrundfarbe"
+   },
+   "genBroadImg": {
+      "message": "Hintergrundbild für Broadcast"
+   },
+   "genBroadPos": {
+      "message": "Bildposition"
+   },
+   "genBroadSize": {
+      "message": "Bildgröße"
+   },
+   "genBroadTextColor": {
+      "message": "Textfarbe"
+   },
+   "genDisplay": {
+      "message": "Gruppenraumformat"
+   },
+   "genDropEnd": {
+      "message": "Beide Enden"
+   },
+   "genDropMid": {
+      "message": "Mitte"
+   },
+   "genDropSolid": {
+      "message": "Unifarbe"
+   },
+   "genGrad": {
+      "message": "Verlaufsfarbe"
+   },
+   "genSliderBackColor": {
+      "message": "Hintergrundfarbe"
+   },
+   "genSliderImg": {
+      "message": "Hintergrundbild für Schiebereglersteuerung"
+   },
+   "genSliderPos": {
+      "message": "Bildposition"
+   },
+   "genSliderSize": {
+      "message": "Bildgröße"
+   },
+   "genSliderTextColor": {
+      "message": "Textfarbe"
+   },
+   "genSolid": {
+      "message": "Unifarbe"
+   },
+   "genTabs": {
+      "message": "Registerkarten: Fensterregisterkarten"
+   },
+   "genTiles": {
+      "message": "Kacheln: Unabhängige Fenster"
+   },
+   "genToolbarColor": {
+      "message": "Meet-Toolbar-Farbe"
+   },
+   "hangupBreakouts": {
+      "message": "*** Diskussion beendet: Alle Gruppenräume schließen"
+   },
+   "hangupMain": {
+      "message": "*** Unterricht beendet: Hauptraum schließen"
+   },
+   "headline1a": {
+      "message": "Kostenlose Nutzung, keine Datenweitergabe,"
+   },
+   "headline1b": {
+      "message": "胡浩洋"
+   },
+   "headline1c": {
+      "message": "erstellt von"
+   },
+   "headline1d": {
+      "message": "Erstellt von,"
+   },
+   "headline1e": {
+      "message": "Anmerkung"
+   },
+   "headlineTryThemes": {
+      "message": "Probiere neue Themen"
+   },
+   "helpCode": {
+      "message": " Code: "
+   },
+   "helpCode1a": {
+      "message": "Der Code besteht aus insgesamt 12 Zeichen: drei Zeichen, ein '-,' vier Zeichen, ein '-,' drei Zeichen. Ein Beispiel wäre: abc-defg-hij. Bitte beachten Sie die beiden Bindestriche. Dieser Code ist das, was nach der Google Meet-URL 'https://meet.google.com/' steht, z. B.: https://meet.google.com/sik-akes-ilq?user=0. Hier lautet der Code sik-akes-ilq"
+   },
+   "helpNickname": {
+      "message": "Was sind: Spitzname, Code, URL?"
+   },
+   "helpNickname1a": {
+      "message": "Spitzname:"
+   },
+   "helpNickname1b": {
+      "message": "Ein Spitzname ist ein Name, den Lehrer frei wählen können, um ein Meeting einfach zu starten. Innerhalb einer Organisation (z. B. einer Schule) muss der Spitzname einzigartig sein. Seien Sie vorsichtig, dass Sie nicht den Spitznamen eines anderen Lehrers verwenden, da dies dessen Meeting stören könnte. Um doppelte Spitznamen zu vermeiden, kann die Schule ein Format für die Erstellung von Spitznamen festlegen: vollständiger Name, Kurs, frei. Zum Beispiel: huhaoyang_math1_050810. Da zwei Schulen unterschiedliche Organisationen sind, wird es keine Konflikte geben.\n\n\rBitte beachten Sie: Spitznamen müssen auf Englisch verwendet werden."
+   },
+   "helpNickname1c": {
+      "message": "Sie müssen Englisch für Spitznamen verwenden"
+   },
+   "helpNickname1d": {
+      "message": "Geben Sie außerdem keine URL-Präfixe in den Spitznamen ein. Zum Beispiel ist g.co/meet/ oder meet.google.com/lookup/ im Spitznamen nicht erlaubt. Ausnahme: Google Classroom-Lehrer können den gesamten Meet-Link eingeben, wie unten erklärt."
+   },
+   "helpNickname2": {
+      "message": "Bitte beachten Sie Google Classroom-Lehrer:"
+   },
+   "helpNickname2a": {
+      "message": " Hier können Lehrer den gesamten Google Classroom 'Meet-Link' eingeben, und die Erweiterung wird automatisch die letzten 10 Zeichen des Meet-Links extrahieren, was Ihr Google Classroom-systemdefinierter Spitzname ist."
+   },
+   "helpNickname3": {
+      "message": "Zum Beispiel lautet mein Google Classroom-Meet-Link https://meet.google.com/lookup/g45j4fubqb. Ich kopiere und füge diesen gesamten Link ein, und die Erweiterung extrahiert automatisch die letzten 10 Zeichen: g45j4fubqb. Das ist mein zufällig zugewiesener Google Classroom-Spitzname, g45j4fubqb"
+   },
+   "helpUrl": {
+      "message": "URL:"
+   },
+   "helpUrl1a": {
+      "message": "URL ist sehr vielseitig einsetzbar. Ein Beispiel wäre die vollständige URL eines Google Meet-Links: https://meet.google.com/abc-defg-hij. Oder vielleicht eine Website, die Lehrer im Unterricht verwenden möchten, wie https://en.wikipedia.org/wiki/Astronomy, oder https://www.freecodecamp.org/, oder YouTube https://youtu.be/C4_uJmH9hmc"
+   },
+   "instructRoomLinks": {
+      "message": "Anleitung zum Eingeben von Raumlinks"
+   },
+   "lblBreakoutAssigns": {
+      "message": "Gruppeneinteilung"
+   },
+   "lblBreakoutRooms": {
+      "message": "Gruppenräume"
+   },
+   "lblStudents": {
+      "message": "Schüler"
+   },
+   "linksSaved": {
+      "message": "Raumlink gespeichert"
+   },
+   "mainName": {
+      "message": "Hauptraum"
+   },
+   "meet": {
+      "message": "Viel Spaß beim Unterricht"
+   },
+   "msgAllSync": {
+      "message": "Erfolgreich: Alle Meet-Fenster synchronisiert"
+   },
+   "msgBreakoutSync": {
+      "message": "Erfolgreich: Alle Gruppenräume synchronisiert"
+   },
+   "msgMainSync": {
+      "message": "Erfolgreich: Hauptraum synchronisiert"
+   },
+   "muteAllBreakouts": {
+      "message": "Alle Schüler stummschalten: In allen Gruppenräumen"
+   },
+   "muteAllMain": {
+      "message": "Alle Schüler stummschalten: Im Hauptraum"
+   },
+   "muteAllRooms": {
+      "message": "Alle Schüler stummschalten: Im Hauptraum und in allen Gruppenräumen"
+   },
+   "muteAllThis": {
+      "message": "Alle Schüler stummschalten: In diesem Raum"
+   },
+   "muteRemove": {
+      "message": "Stummschalten, Schüler entfernen"
+   },
+   "myCourse": {
+      "message": "Mein Kurs"
+   },
+   "myCourseDesc": {
+      "message": "Mein eigener Kurs"
+   },
+   "myName": {
+      "message": "胡浩洋"
+   },
+   "nickname": {
+      "message": "Spitzname English"
+   },
+   "nicknameHelplink": {
+      "message": "Anleitung"
+   },
+   "onlineVideoHref": {
+      "message": "https://youtu.be/5oGmIL3pmP4"
+   },
+   "onlineVideoTitle": {
+      "message": "Anleitungsvideo (Chinesische Version v17.3)"
+   },
+   "popupHelpAdhoc": {
+      "message": "Ad-hoc-Gruppeneinteilung"
+   },
+   "popupHelpAdhocNumwords2a": {
+      "message": "Diese Kopie hat nur"
+   },
+   "popupHelpAdhocNumwords2b": {
+      "message": "Zeichen, das ist unter dem Limit von 500 Zeichen für das einmalige Kopieren und Einfügen, daher können Sie alles auf einmal kopieren und einfügen."
+   },
+   "popupHelpAdhocNumwords2c": {
+      "message": "Diese Kopie hat"
+   },
+   "popupHelpAdhocNumwords2d": {
+      "message": "Zeichen, das überschreitet das Limit von 500 Zeichen für das einmalige Kopieren und Einfügen, daher müssen Sie es in Abschnitten kopieren und einfügen. Markieren Sie einige Zeilen und kopieren und fügen Sie sie in den Hauptraum-Chat ein. Jede Kopie sollte unter 500 Zeichen bleiben."
+   },
+   "popupHelpAdhocNumwords3a": {
+      "message": "Diese Kopie hat nur"
+   },
+   "popupHelpAdhocNumwords3b": {
+      "message": "Zeichen, das ist unter dem Limit von 500 Zeichen für das einmalige Kopieren und Einfügen, daher können Sie alles auf einmal kopieren und einfügen."
+   },
+   "popupHelpAdhocNumwords3c": {
+      "message": "Diese Kopie hat"
+   },
+   "popupHelpAdhocNumwords3d": {
+      "message": "Zeichen, das überschreitet das Limit von 500 Zeichen für das einmalige Kopieren und Einfügen, daher müssen Sie es in Abschnitten kopieren und einfügen. Markieren Sie einige Zeilen und kopieren und fügen Sie sie in den Hauptraum-Chat ein. Jede Kopie sollte unter 500 Zeichen bleiben."
+   },
+   "popupHelpAdhocStep2": {
+      "message": "Zweiter Schritt: Kopieren und Einfügen des Gruppenraum-Links"
+   },
+   "popupHelpAdhocStep2a": {
+      "message": "Bitte klicken Sie auf"
+   },
+   "popupHelpAdhocStep2b": {
+      "message": "Hier"
+   },
+   "popupHelpAdhocStep2c": {
+      "message": "Um den Link zum Gruppenraum zu kopieren und ihn im Hauptraum-Chat einzufügen (Befehl/Strg V)"
+   },
+   "popupHelpAdhocStep3": {
+      "message": "Dritter Schritt: Kopieren und Einfügen der Schülergruppeneinteilung"
+   },
+   "popupHelpAdhocStep3a": {
+      "message": "Bitte klicken Sie auf"
+   },
+   "popupHelpAdhocStep3b": {
+      "message": "Hier"
+   },
+   "popupHelpAdhocStep3c": {
+      "message": "Um die Gruppeneinteilung der Schüler zu kopieren und sie im Hauptraum-Chat einzufügen (Befehl/Strg V)"
+   },
+   "pre1": {
+      "message": "Erster Schritt: Kopieren Sie die Liste der vorab geplanten Gruppen"
+   },
+   "pre1a": {
+      "message": "Zum Beispiel aus einer MS Word-Datei die Liste der Gruppen kopieren und in den Hauptraum-Chat einfügen. Auf diese Weise wissen die Schüler, welcher Chatraum für ihre Gruppe ist."
+   },
+   "pre1b": {
+      "message": "Beim Kopieren und Einfügen beachten Sie bitte, dass der Google Meet-Chat ein Limit von 500 Zeichen hat, daher müssen Sie möglicherweise mehrmals kopieren und einfügen."
+   },
+   "pre2": {
+      "message": "Zweiter Schritt: Kopieren Sie den Gruppenraum-Link"
+   },
+   "pre2a": {
+      "message": "Bitte klicken Sie auf"
+   },
+   "pre2b": {
+      "message": "Hier"
+   },
+   "pre2c": {
+      "message": "Und fügen Sie den Link in den Hauptraum-Chat ein."
+   },
+   "preNumwords2a": {
+      "message": "Diese Kopie hat nur"
+   },
+   "preNumwords2b": {
+      "message": "Zeichen, das ist unter dem Limit von 500 Zeichen für das einmalige Kopieren und Einfügen, daher können Sie alles auf einmal kopieren und einfügen."
+   },
+   "preNumwords2c": {
+      "message": "Diese Kopie hat"
+   },
+   "preNumwords2d": {
+      "message": "Zeichen, das überschreitet das Limit von 500 Zeichen für das einmalige Kopieren und Einfügen, daher müssen Sie es in Abschnitten kopieren und einfügen. Markieren Sie einige Zeilen und kopieren und fügen Sie sie in den Hauptraum-Chat ein. Jede Kopie sollte unter 500 Zeichen bleiben."
+   },
+   "removeAllThis": {
+      "message": "Alle Schüler entfernen: Aus diesem Raum"
+   },
+   "removeBreakouts": {
+      "message": "*** Diskussion beendet: Schüler aus allen Gruppenräumen entfernen"
+   },
+   "removeMain": {
+      "message": "*** Unterricht beendet: Schüler aus dem Hauptraum entfernen"
+   },
+   "reports": {
+      "message": "Berichte"
+   },
+   "reportsAssignments": {
+      "message": "Zuweisung von Schülergruppen"
+   },
+   "reportsAttendance": {
+      "message": "Anwesenheitsliste"
+   },
+   "reportsClipboard": {
+      "message": "In die Zwischenablage kopieren"
+   },
+   "reportsCsv": {
+      "message": "CSV-Datei gleichzeitig herunterladen"
+   },
+   "reportsGroups": {
+      "message": "Gruppen von Schülern"
+   },
+   "reportsLinks": {
+      "message": "Links zu Gruppenmeetings"
+   },
+   "rooms": {
+      "message": "Raumeinstellungen"
+   },
+   "roomsBuiltWith": {
+      "message": "Erstellt mit ❤️ von 胡浩洋"
+   },
+   "roomsCreatingUrl": {
+      "message": "Erstelle und speichere Raumlink"
+   },
+   "roomsDupe": {
+      "message": "Speichern fehlgeschlagen: Raumname oder Link sind doppelt vorhanden. Beide müssen eindeutig sein."
+   },
+   "roomsExp1": {
+      "message": "Gruppenraumdaten dieses Kurses exportieren"
+   },
+   "roomsExp2": {
+      "message": "Datei (.txt)"
+   },
+   "roomsExp3": {
+      "message": "Exportieren"
+   },
+   "roomsExpimp": {
+      "message": "Gruppenraumdaten dieses Kurses exportieren oder importieren"
+   },
+   "roomsHowCode": {
+      "message": "Code:"
+   },
+   "roomsHowCode1": {
+      "message": "Der Code besteht aus 12 Zeichen im folgenden Format: drei Zeichen, ein '-,' vier Zeichen, ein '-,' drei Zeichen. Ein Beispiel wäre"
+   },
+   "roomsHowCode2": {
+      "message": "Der Code wird nicht von Ihnen zufällig erstellt, sondern von Google Meet generiert. Wenn Sie diese URL verwenden: https://meet/google.com/new wird ein neues Meet gestartet, und der 12-stellige Code wird in der URL angezeigt."
+   },
+   "roomsHowCode3": {
+      "message": "Der Code ist statisch, da er immer das gleiche Meet-Meeting startet."
+   },
+   "roomsHowGc": {
+      "message": "Google Classroom-Lehrer:"
+   },
+   "roomsHowGc1": {
+      "message": "Kopieren Sie den Meet-Link von der Google Classroom-Startseite und fügen Sie ihn in das Link-Feld hier ein. Zum Beispiel ist mein Meet-Link https://meet.google.com/lookup/g45j4fubqb. Nachdem Sie den Link eingefügt haben, entfernt die Erweiterung den Teil https://meet.google.com/lookup/ und lässt die letzten 10 Zeichen übrig. In meinem Beispiel bleiben die Zeichen "
+   },
+   "roomsHowGc2": {
+      "message": "g45j4fubqb"
+   },
+   "roomsHowGc3": {
+      "message": "Wenn der Hauptraum über diese Erweiterung gestartet wird, synchronisiert sich die Erweiterungssoftware mit Google Classroom. Wenn der Hauptraum über die Google Classroom-Website gestartet wird, müssen Sie im Tab 'Viel Spaß beim Unterricht', im Abschnitt 'Unterricht starten', auf die Schaltfläche 'Hauptraum starten' klicken, damit Google Classroom mit der Erweiterungssoftware synchronisiert wird."
+   },
+   "roomsHowGcnick": {
+      "message": "Google Classroom-Spitzname:"
+   },
+   "roomsHowGcnick1": {
+      "message": "Beispiel für den vollständigen Meet-Link"
+   },
+   "roomsHowGcnick2": {
+      "message": "Oder die letzten 10 Zeichen"
+   },
+   "roomsHowGcnick3": {
+      "message": "Im Link-Feld können Sie den vollständigen Meet-Link oder die letzten 10 Zeichen eingeben. Wenn Sie den vollständigen Link eingeben, entfernt die Erweiterungssoftware den vorderen Teil und lässt die letzten 10 Zeichen übrig. In diesem Beispiel sind das g45j4fubqb."
+   },
+   "roomsHowGcnick4": {
+      "message": "Google Classroom-Spitznamenräume sind grün, weil sie dynamisch sind und sich bei jedem Start ändern."
+   },
+   "roomsHowNick": {
+      "message": "Spitzname:"
+   },
+   "roomsHowNick1": {
+      "message": "Ein Beispiel für einen Spitznamen ist"
+   },
+   "roomsHowNick2": {
+      "message": "Spitznamen dürfen keine URL-Präfixe enthalten, wie g.co/meet/ oder meet.google.com/lookup/. Spitznamen sind frei wählbar und können Zahlen enthalten, aber Spitznamen müssen auf Englisch sein (müssen englische Spitznamen verwenden, keine chinesischen Zeichen)."
+   },
+   "roomsHowNick3": {
+      "message": "Spitznamenräume sind grün. Spitznamenräume sind dynamisch und ändern sich bei jedem Start."
+   },
+   "roomsHowStart": {
+      "message": "Einfachste Methode: "
+   },
+   "roomsHowStart1": {
+      "message": "Lassen Sie das Link-Feld leer. Klicken Sie auf die (blaue) Schaltfläche 'Speichern' und das System wird automatisch einen Meet-Link bei Google anfordern und hier speichern. Sie müssen nur den Raumnamen eingeben. Dieser automatische Link ist ein statischer Link, der sich nicht ändert."
+   },
+   "roomsHowTypes": {
+      "message": "Spitzname, Code, URLs:"
+   },
+   "roomsHowTypes1": {
+      "message": "Es gibt drei Arten von Links, wie unten erklärt."
+   },
+   "roomsHowUrl": {
+      "message": "Meet-URL"
+   },
+   "roomsHowUrl1": {
+      "message": "Wenn das Link-Feld leer bleibt, wird die Erweiterungssoftware"
+   },
+   "roomsHowUrl2": {
+      "message": "Automatisch"
+   },
+   "roomsHowUrl3": {
+      "message": "Eine URL bei Google anfordern und speichern. Sie können auch eine vollständige URL direkt im Format eingeben:"
+   },
+   "roomsHowUrl4": {
+      "message": "Meet-URLs sind statisch, da sie immer dasselbe Meeting starten. Im Tab 'Allgemeine Einstellungen' gibt es jedoch ein Kontrollkästchen 'Neue URL automatisch starten'. Wenn Sie diese Option auswählen, wird bei jedem Start automatisch eine neue URL generiert. Wenn Sie diese Option wählen, achten Sie darauf, die Schüler nach dem Start über die neue URL zu informieren. Diese Option ist möglicherweise besser für Gruppenräume als für den Hauptraum geeignet."
+   },
+   "roomsHowUrl5": {
+      "message": "Daten-URL:"
+   },
+   "roomsHowUrl6": {
+      "message": "Daten-URLs erfordern eine vollständige URL, einschließlich https://. Ein Beispiel wäre"
+   },
+   "roomsHowUrl7": {
+      "message": "Daten-URLs sind sehr flexibel und können auf wissenschaftliche Websites, mathematische Websites, historische Websites, Musikseiten usw. verweisen."
+   },
+   "roomsImp1": {
+      "message": "Gruppenraumdaten dieses Kurses importieren"
+   },
+   "roomsImp2": {
+      "message": "Datei (.txt)"
+   },
+   "roomsImp3": {
+      "message": "Importieren"
+   },
+   "roomsNeedName": {
+      "message": "Speichern fehlgeschlagen: Jeder Raum benötigt einen Namen"
+   },
+   "roomsNotYetSaved": {
+      "message": "Achtung: Änderungen noch nicht gespeichert"
+   },
+   "roomsPopupTitle": {
+      "message": "Kurs: "
+   },
+   "roomsSaved": {
+      "message": "Raum und Link gespeichert"
+   },
+   "roomsUndo": {
+      "message": "Rückgängig gemacht"
+   },
+   "rptActualRoom": {
+      "message": "Tatsächlicher Gruppenraum"
+   },
+   "rptActualStudent": {
+      "message": "Tatsächlicher Schüler"
+   },
+   "rptAssignRoom": {
+      "message": "Zugewiesener Gruppenraum"
+   },
+   "rptAssignStudent": {
+      "message": "Zugewiesener Schüler"
+   },
+   "rptBreakoutRoom": {
+      "message": "Gruppenraum"
+   },
+   "rptMain": {
+      "message": "Im Hauptraum"
+   },
+   "rptNo": {
+      "message": "Nein"
+   },
+   "rptStudent": {
+      "message": "Schüler"
+   },
+   "rptTitleBRSR": {
+      "message": "Gruppenraumstatus"
+   },
+   "rptTitleSSR": {
+      "message": "Schülerstatus"
+   },
+   "rptYes": {
+      "message": "Ja"
+   },
+   "setTimer": {
+      "message": "Timer einstellen"
+   },
+   "settings": {
+      "message": "Allgemeine Einstellungen"
+   },
+   "sim1": {
+      "message": "Üben Sie die Verwendung der Erweiterung"
+   },
+   "sim10": {
+      "message": "Schritt 2:"
+   },
+   "sim11": {
+      "message": "Öffnen Sie auf der Meet-Registerkarte dieses Kontrollpanels den Hauptraum und Ihre Breakout-Räume (z. B. 3 Breakout-Räume). Wenn Sie Ihre Breakout-Raums-Links noch nicht erstellt haben, gehen Sie zur Registerkarte „Räume“ und erstellen Sie dort Ihre Räume und Links."
+   },
+   "sim12": {
+      "message": "Schritt 3:"
+   },
+   "sim13": {
+      "message": "Wählen Sie die Anzahl der simulierten Schüler aus. Wenn Sie es nur ausprobieren möchten, empfehlen wir, 3 Breakout-Räume mit insgesamt 6 simulierten Schülern zu öffnen, wobei Sie 2 Schüler jedem Breakout-Raum zuweisen."
+   },
+   "sim14": {
+      "message": "Hinweis:"
+   },
+   "sim15": {
+      "message": "Google Meet hat kürzlich eine Einschränkung eingeführt, die die Anzahl der aktiven Meets mit funktionierendem Mikrofon auf 8 auf einem einzelnen Computer beschränkt. Das bedeutet, dass Sie auf Ihrem Computer 1 Hauptraum und bis zu 7 Breakout-Räume öffnen können, wobei in jedem dieser Räume ein funktionierendes Mikrofon vorhanden ist. Sie können jedoch beliebig viele Schüler in Ihrem Hauptraum oder Ihren Breakout-Räumen haben, z. B. 50 oder mehr Schüler, ohne die Mikrofonfunktion zu beeinträchtigen."
+   },
+   "sim16": {
+      "message": "Bei dieser Simulation, die vollständig auf einem einzigen Computer durchgeführt wird, haben einige der simulierten Schüler kein funktionierendes Mikrofon, wenn Sie 1 Hauptraum, 3 Breakout-Räume und 6 simulierte Schüler öffnen, aber das ist für Testzwecke völlig in Ordnung. Da alle Meetings auf demselben Computer laufen, werden Sie wahrscheinlich Ihr Mikrofon aufgrund möglicher Rückkopplungsprobleme nicht verwenden. Sie können jedoch weiterhin mit den Schaltflächen des Kontrollpanels experimentieren und sehen, wie sie die verschiedenen Meetings steuern."
+   },
+   "sim17": {
+      "message": "Tipp:"
+   },
+   "sim18": {
+      "message": "Für diese Übungseinheiten empfehlen wir, das Breakout-Format als „Tabs“ anstelle des Standardformats „Tiles“ auszuwählen, da viele Meetings auf Ihrem Bildschirm geöffnet sind. Sie können dies mit der Optionsschaltfläche im Bereich „Breakout-Raumformat“ direkt darüber auswählen. Dies hilft, Ihre „Lehrer“-Meetings auf der linken Seite des Bildschirms in einem einzigen Fenster mit Tabs zu organisieren, während auf der rechten Seite die Meetings der simulierten Schüler in einem einzigen Fenster mit mehreren Tabs angezeigt werden. Beim Unterrichten Ihrer eigentlichen Klasse können Sie entweder „Tiles“ oder „Tabs“ wählen, je nach Ihren Vorlieben, da auf Ihrem Bildschirm nur Ihre Lehrer-Meetings angezeigt werden, wodurch Sie mehr Platz haben."
+   },
+   "sim2": {
+      "message": "Wenn Sie neu bei dieser Erweiterung sind und ein Gefühl dafür bekommen möchten, wie sie funktioniert, können Sie es mit simulierten Schülern ausprobieren. Diese Simulation kann vollständig auf Ihrem Computer durchgeführt werden."
+   },
+   "sim3": {
+      "message": "Erinnerung:"
+   },
+   "sim4": {
+      "message": "Wenn Sie diese Erweiterung für den Unterricht verwenden, müssen nur Sie als Lehrer sie installieren. Die Schüler müssen die Erweiterung nicht installieren, da sie sie nicht verwenden werden."
+   },
+   "sim5": {
+      "message": "Anweisungen zur Simulationseinrichtung"
+   },
+   "sim6": {
+      "message": "Schritt 1:"
+   },
+   "sim7": {
+      "message": "Gehen Sie zu Ihrer Chrome-Erweiterungsseite"
+   },
+   "sim7a": {
+      "message": "Suchen Sie die Google Meet Breakout-Erweiterung, klicken Sie auf die Schaltfläche „Details“ und scrollen Sie nach unten, um die Option „Im Inkognito-Modus zulassen“ zu aktivieren."
+   },
+   "sim8": {
+      "message": "Hinweis:"
+   },
+   "sim9": {
+      "message": "Sobald Sie mit dem Üben fertig sind, können Sie die Einstellung „Im Inkognito-Modus zulassen“ deaktivieren. Bei normaler Verwendung dieser Erweiterung müssen Sie den Inkognito-Modus für Ihre Schüler nicht verwenden."
+   },
+   "sliderDefault": {
+      "message": "Gruppen"
+   },
+   "startClass": {
+      "message": "Unterricht beginnen"
+   },
+   "subHeadingRooms": {
+      "message": "Räume"
+   },
+   "timerHrs": {
+      "message": "Stunden"
+   },
+   "timerMin": {
+      "message": "Minuten"
+   },
+   "timerReset": {
+      "message": "Zurücksetzen"
+   },
+   "timerSec": {
+      "message": "Sekunden"
+   },
+   "timerStart": {
+      "message": "Start"
+   },
+   "timerStop": {
+      "message": "Stopp"
+   },
+   "title": {
+      "message": "Gruppen"
+   },
+   "toolTipRetile": {
+      "message": "Fensterlayout neu anordnen"
+   },
+   "toolTipToolbar": {
+      "message": "Meet-Toolbar unten ein-/ausblenden"
+   },
+   "url": {
+      "message": "URL"
+   },
+   "warning8Rooms": {
+      "message": "Das Google Meet-Mikrofon hat eine Begrenzung auf 7 Breakout-Räume"
+   }
+}

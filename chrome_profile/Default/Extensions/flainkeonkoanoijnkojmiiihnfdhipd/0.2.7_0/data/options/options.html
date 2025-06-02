@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Options - Audio Downloader Prime</title>
+    <link type="text/css" rel="stylesheet" href="options.css">
+  </head>
+  <body class="flex">
+    <div class="option-logo"></div>
+    <div id="content" class="flex">
+      <div class="option-item highlight">
+        <span>Audio Downloader Prime uses the default browser's download location.</span>
+        <span>To change the default download location, please head to settings page and change the default location.</span>
+      </div>
+      <div class="option-item">
+        <span>1. Trigger download if audio size is more than </span><input id="audio-max-size" type="number"></input><span> Bytes.</span>
+        <div class="information"><p>Default value is 307200 Bytes.</p></div>
+      </div>
+      <div class="option-item">
+        <span>2. Check this box to show the resolution (bitrates) for each audio item in the toolbar-popup UI </span><input id="show-resolution" type="checkbox"></input>
+        <div class="information">
+          <p>This option will show the bitrates resolution for each captured audio. (disabled by default)</p>
+          <p>If the audio does not have a valid resolution, it shows the duration instead.</p>
+          <p>Note: enabling this option may cause the browser to crash unexpectedly, so please proceed with caution.</p>
+        </div>
+      </div>
+      <div class="option-item">
+        <span>3. Open support page whenever the addon is upgraded </span><input id="open-wpage" type="checkbox"></input>
+        <div class="information"><p>Uncheck this box to NOT open the support page on every update. (default is to open)</p></div>
+      </div>
+      <div class="option-item">
+        <span>4. Use webpage's exact address (tab URL) to list all captured Audio(s) </span><input id="captured-list-use-url" type="checkbox"></input>
+        <div class="information">
+          <p>When this option is checked, the addon uses the exact URL for any webpage to list all captured Audios in the toolbar-popup UI. (default is NOT active)</p>
+          <p>If you <b>disable</b> this option, the addon uses webpage DOMAIN instead, to list all captured Audios.</p>
+          <p>In other words, once you use page URL, the Addon lists the Audios for that exact URL only (therefore the Audio list is small).</p>
+          <p>But, when using page DOMAIN, the Addon lists all the Audios currently captured for the <b>whole</b> domain name (and therefore the audio list may become long).</p>
+        </div>
+      </div>
+      <div>
+        <details>
+          <summary class="highlight">Audio Formats Table</summary>
+          <div class="information">
+            <p>Enter a desired value for audio format (.Ext) and (Description), then press Enter or Click on the (+) button to add it to the Table. <b>Note</b>: audio format (extension) should be in the form of: <b>\.ext</b></p>
+            <table type="manual">
+              <thead><tr><td>Extension</td><td>Description</td><td>Add</td></tr></thead>
+              <tbody>
+                <tr id="input-field">
+                  <td type="ext-item"><input title="Enter a valid extension" placeholder="\.ext"></input></td>
+                  <td type="ext-item"><input title="Enter a description" placeholder="description"></input></td>
+                  <td id="input-field-add" type="ext-item-add" title="Add Header Item">✓</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="information">
+            <p>You can <b>disable</b> or <b>delete</b> any audio formats below.</p>
+          </div>
+          <table id="ext-value-table">
+            <thead>
+              <tr>
+                <td>#</td>
+                <td>Ext</td>
+                <td>Description</td>
+                <td title="Activate or inactivate this audio format">Activate</td>
+                <td title="Remove this audio format">Remove</td>
+              </tr>
+            </thead>
+            <tbody id="ext-value-tbody"></tbody>
+          </table>
+        </details>
+      </div>
+    </div>
+    <script type="text/javascript" src="options.js"></script>
+  </body>
+</html>

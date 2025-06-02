@@ -1,0 +1,277 @@
+{
+   "Pop_Bate_Tip": {
+      "message": "Your items created during the beta testing will be remained and will not be deleted. To create additional items, please upgrade your account to Basic or Pro plan."
+   },
+   "Pop_Bate_other_Tip": {
+      "message": "You have a maxium of {name} GB with your current plan. Once reached this limit, you will no longer be able to upload any additional items."
+   },
+   "Pop_Window_Button_Title": {
+      "message": "Gemoo Snapへ"
+   },
+   "Pop_Window_Limite_free_Title": {
+      "message": "You've reached the storage limit. To create unlimited images, please upgrade your account."
+   },
+   "Pop_Window_Limite_free_count_Title_middle": {
+      "message": "You've reached the image limit. To create unlimited images, please upgrade your account."
+   },
+   "Pop_Window_Limite_pro_Title_frist": {
+      "message": "You've reached the storage limit and are unable to create additional items."
+   },
+   "Pop_Window_Limite_pro_Title_last": {
+      "message": "to get more storage space."
+   },
+   "Pop_Window_Limite_pro_Title_middle": {
+      "message": "Contact us"
+   },
+   "Pop_Window_SubTitle": {
+      "message": "ブラウザの制限により、このページでのスクリーンショットはサポートされていません。Gemoo Snap（デスクトップ版）をダウンロードしてキャプチャしてください。"
+   },
+   "Pop_Window_Title": {
+      "message": "画像の作成に失敗"
+   },
+   "Pop_upgrade_btn": {
+      "message": "Upgrade Now"
+   },
+   "aboutUsCopyright": {
+      "message": "Copyright © 2022@ Gemoo Inc. All rights reserved."
+   },
+   "aboutUsDes": {
+      "message": "Gemoo Snapでスクリーンショットを素早く簡単に作成、注釈、美化することができます。画像とテキストであなたのアイデアを表現し、コミュニケーションに役立ています。デスクトップ、ウェブ、Chromeの拡張機能を提供していますから、リンクをクリックして詳細情報を確認します。"
+   },
+   "aboutUsHelp": {
+      "message": "ヘルプ"
+   },
+   "aboutUsHome": {
+      "message": "Gemooホームページ"
+   },
+   "aboutUsProduct": {
+      "message": "商品概要"
+   },
+   "aboutUsRate": {
+      "message": "評価"
+   },
+   "aboutUsTitle": {
+      "message": "Gemoo Snap"
+   },
+   "aboutUsVersion": {
+      "message": "バージョン:"
+   },
+   "capture_guide_1": {
+      "message": "Click the"
+   },
+   "capture_guide_2": {
+      "message": "to capture"
+   },
+   "cloudPop_one": {
+      "message": "Access your images from anywhere."
+   },
+   "cloudPop_three": {
+      "message": "Save storage space on your device while not worrying about losing important materials."
+   },
+   "cloudPop_two": {
+      "message": "Save and share your images through links."
+   },
+   "createAccount": {
+      "message": "アカウント作成"
+   },
+   "emailErr1": {
+      "message": "メールアドレスを入力"
+   },
+   "emailErr2": {
+      "message": "無効なメールアドレス"
+   },
+   "emailPlaceholder": {
+      "message": "メールアドレス"
+   },
+   "errPageDes": {
+      "message": "ネットワークに接続されていないため、スクリーンショットを撮ることができません。ネットワーク接続を再確認してください。"
+   },
+   "errPageTitle": {
+      "message": "接続に失敗しました"
+   },
+   "erraPageBtn": {
+      "message": "再試行"
+   },
+   "everywhere": {
+      "message": "Access cloud images from anywhere"
+   },
+   "extDescription": {
+      "description": "Title string",
+      "message": "フルページ、表示部分、選択範囲をキャプチャ"
+   },
+   "extName": {
+      "description": "Title string",
+      "message": "Gemoo Snap - ChatGPT Screenshot"
+   },
+   "forgotPwd": {
+      "message": "パスワードを忘れた？"
+   },
+   "gemooCloud": {
+      "message": "Cloud"
+   },
+   "gemooEdit": {
+      "message": "編集モード"
+   },
+   "gemooLocal": {
+      "message": "Local"
+   },
+   "gemooPage": {
+      "message": "詳細モード"
+   },
+   "gemooSnap": {
+      "message": "Gemoo Snap"
+   },
+   "got_it": {
+      "message": "Got it"
+   },
+   "homepageBeta": {
+      "message": "ベータ"
+   },
+   "homepageLogOut": {
+      "message": "サインアウト"
+   },
+   "hoverAbout": {
+      "message": "Gemooについて"
+   },
+   "hoverAccount": {
+      "message": "アカウント"
+   },
+   "hoverClose": {
+      "message": "リマインダーを閉じる"
+   },
+   "hoverHome": {
+      "message": "Gemooライブラリ"
+   },
+   "install_guide_ct": {
+      "message": "Click the icon above to pin Gemoo Snap for easy access."
+   },
+   "install_guide_tt": {
+      "message": "Gemoo Snap has been installed successfully!"
+   },
+   "loginApple": {
+      "message": "Appleで新規登録"
+   },
+   "maskText": {
+      "message": "キャプチャを完了して次に進んでください。"
+   },
+   "menuCardPath": {
+      "message": "スクリーンショットの保存先:"
+   },
+   "menuTool1": {
+      "message": "フルページ"
+   },
+   "menuTool2": {
+      "message": "選択してスクロール"
+   },
+   "menuTool3": {
+      "message": "選択要素"
+   },
+   "menuTool4": {
+      "message": "表示ページ部分"
+   },
+   "menuTool5": {
+      "message": "デスクトップスクショ"
+   },
+   "menuTool6": {
+      "message": "今後の新機能にご期待"
+   },
+   "msgBoxCancle": {
+      "message": "キャンセル"
+   },
+   "msgBoxErr": {
+      "message": "アップロード失敗"
+   },
+   "msgBoxLoadingUp": {
+      "message": "アップロード中"
+   },
+   "msgBoxOk": {
+      "message": "OK"
+   },
+   "msgPurchaseBoxErr": {
+      "message": "You've reached your item limit Upgrade forunlimited items."
+   },
+   "notAccount": {
+      "message": "まだアカウントを持っていませんか?"
+   },
+   "passwordErr": {
+      "message": "パスワードが必要"
+   },
+   "passwordPlaceholder": {
+      "message": "パスワード"
+   },
+   "rePassword": {
+      "message": "パスワードを保存"
+   },
+   "relieveCard": {
+      "message": "そこから削除"
+   },
+   "saveImageTo": {
+      "message": "Save images to: "
+   },
+   "saveLocation": {
+      "message": "保存先:"
+   },
+   "siginIn": {
+      "message": "サインイン"
+   },
+   "siginInErr": {
+      "message": "サインインできませんでした。後で再試行してください。."
+   },
+   "signGoogle": {
+      "message": "Googleで新規登録"
+   },
+   "signGoogleErr": {
+      "message": "不明なエラー"
+   },
+   "snapLoginDes": {
+      "message": "Gemoo Snapを利用するにはGemooアカウントにサインインしてください。"
+   },
+   "snapLoginOr": {
+      "message": "または"
+   },
+   "snapLoginTitle": {
+      "message": "Gemooにサインイン"
+   },
+   "toolTip_arrow": {
+      "message": "Arrow"
+   },
+   "toolTip_back": {
+      "message": "Undo"
+   },
+   "toolTip_blur": {
+      "message": "Mosaic"
+   },
+   "toolTip_cancel": {
+      "message": "Cancel"
+   },
+   "toolTip_circle": {
+      "message": "Circle"
+   },
+   "toolTip_clear": {
+      "message": "Clear"
+   },
+   "toolTip_confirm": {
+      "message": "Done"
+   },
+   "toolTip_copy": {
+      "message": "Copy to clipboard"
+   },
+   "toolTip_line": {
+      "message": "Brush"
+   },
+   "toolTip_rectangle": {
+      "message": "Rectangle"
+   },
+   "toolTip_reselect": {
+      "message": "Reselect"
+   },
+   "toolTip_text": {
+      "message": "Text"
+   },
+   "toolTip_tolocal": {
+      "message": "Done"
+   },
+   "toolTip_triangle": {
+      "message": "Triangle"
+   }
+}

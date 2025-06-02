@@ -1,0 +1,869 @@
+{
+   "adhoc0": {
+      "message": "Catatan: Guru perlu mengirimkan tautan kepada siswa, dan siswa dapat bergabung dengan ruang breakout secara sukarela dengan mengklik tautan tersebut."
+   },
+   "adhoc1": {
+      "message": "Langkah 1: Kelompokkan siswa, ada beberapa cara"
+   },
+   "adhoc11a": {
+      "message": "(Klik di sini untuk penjelasan) Mengapa saya tidak dapat melihat siswa di area pengelompokan?"
+   },
+   "adhoc11b": {
+      "message": "Di sini"
+   },
+   "adhoc12a": {
+      "message": "(Klik di sini untuk penjelasan) Mengapa saya tidak dapat melihat semua siswa?"
+   },
+   "adhoc12b": {
+      "message": "Di sini"
+   },
+   "adhoc13a": {
+      "message": "Pengguna Google Classroom,"
+   },
+   "adhoc13b": {
+      "message": "Pastikan tautan ruang utama berwarna hijau di tab 'Pengaturan Ruang Kelas' dan 'Nama Panggilan' adalah 10 karakter terakhir dari tautan meet Google Classroom. Kemudian klik tombol 'Inisiasi Ruang Utama'."
+   },
+   "adhoc1a": {
+      "message": "Pengelompokan Acak: Klik tombol 'Acak'. Anda dapat terus mengklik tombol sampai menemukan pengelompokan yang Anda suka. Anda juga dapat menyesuaikan grup secara manual dengan menyeret dan melepaskan siswa antar grup (metode kedua)."
+   },
+   "adhoc1b": {
+      "message": "Penyesuaian Manual: Tahan nama siswa dan seret ke antar grup."
+   },
+   "adhoc1c": {
+      "message": "Keluarkan dari Pengelompokan Acak: Klik nama siswa untuk beralih pengecualian."
+   },
+   "adhoc1d": {
+      "message": "Pengecualian Manual: Tahan nama siswa dan seret ke kiri."
+   },
+   "adhoc2": {
+      "message": "Langkah 2 dan 3: Salin tautan ruang breakout dan daftar grup siswa"
+   },
+   "adhoc2a": {
+      "message": "Setelah Anda mengelompokkan siswa dengan benar, klik"
+   },
+   "adhoc2b": {
+      "message": "Di sini"
+   },
+   "adhoc2c": {
+      "message": "."
+   },
+   "adhocAutosend": {
+      "message": "Baru!!! Kirim tugas breakout secara otomatis ke obrolan meet"
+   },
+   "assignBreakoutsAdhoc": {
+      "message": "Breakout Ad-hoc"
+   },
+   "assignBreakoutsPre": {
+      "message": "Breakout yang Telah Ditentukan"
+   },
+   "audioFixCheckbox": {
+      "message": "Gunakan solusi baru"
+   },
+   "audioFixFallback": {
+      "message": "Bagaimana cara ikut serta dalam solusi ini?"
+   },
+   "audioFixFallback1": {
+      "message": "Harap centang (kosong)"
+   },
+   "audioFixFallback2": {
+      "message": "Tutup sesi Meet yang terbuka (jika ada)"
+   },
+   "audioFixFallback3": {
+      "message": "Mulai ulang sesi Meet yang ditutup (jika ada)"
+   },
+   "audioFixFirst": {
+      "message": "Bagaimana cara ikut serta dalam solusi ini?"
+   },
+   "audioFixIntro": {
+      "message": "Saya merekomendasikan untuk meninggalkan opsi ini tercentang (keadaan default). Jika Anda mengalami ketidakstabilan speaker atau masalah lain setelah mengaktifkan opsi ini, harap email robert@hudektech.com. Tidak tercentang (o) menggunakan solusi lama (tidak disarankan). Jika Anda mengubah status (x atau o), ingatlah untuk memulai ulang semua sesi Meet karena pengaturan ini mengubah mode speaker, yang dapat menyebabkan ekstensi salah mengidentifikasi status speaker (nyala atau mati). Sekali lagi, saya merekomendasikan untuk tetap tercentang (X)."
+   },
+   "audioFixOptin": {
+      "message": "Bagaimana cara ikut serta dalam solusi ini?"
+   },
+   "audioFixOptin1": {
+      "message": "Harap centang (x)"
+   },
+   "audioFixOptin2": {
+      "message": "Tutup sesi Meet yang terbuka (jika ada)"
+   },
+   "audioFixOptin3": {
+      "message": "Mulai ulang sesi Meet yang ditutup (jika ada)"
+   },
+   "audioFixRecommend": {
+      "message": "(Direkomendasikan)"
+   },
+   "audioFixSecond": {
+      "message": "Jika Anda mengalami masalah dengan solusi baru, Anda dapat kembali ke solusi asli"
+   },
+   "audioFixTitle": {
+      "message": "Solusi baru untuk masalah gagap pada speaker secara acak"
+   },
+   "audioHeadline": {
+      "message": "Cara memperbaiki masalah gagap pada speaker, klik di sini"
+   },
+   "broadcast": {
+      "message": "Siaran ke semua ruang breakout"
+   },
+   "btnAutosend": {
+      "message": "1. Kirim ke obrolan"
+   },
+   "btnOpenAll": {
+      "message": "Semua"
+   },
+   "btnOpenBreakouts": {
+      "message": "Breakout"
+   },
+   "btnOpenMain": {
+      "message": "Utama"
+   },
+   "btnOpenMain1": {
+      "message": "Utama"
+   },
+   "btnOpenMainRam": {
+      "message": "Utama"
+   },
+   "btnRam": {
+      "message": "Buka video, gunakan slider untuk membuka video secara bergantian"
+   },
+   "btnRandom": {
+      "message": "Pengelompokan Acak"
+   },
+   "btnRoomsReport": {
+      "message": "Ruang Kelas"
+   },
+   "btnStudentsReport": {
+      "message": "Siswa"
+   },
+   "checkRam": {
+      "message": "Opsi RAM rendah: Untuk RAM di bawah 8G"
+   },
+   "checkRam2": {
+      "message": "Instruksi"
+   },
+   "checkRamOld": {
+      "message": "Opsi RAM rendah: Biasanya tidak dipilih. Jika RAM di bawah 8G, Anda dapat memilihnya. Setelah dipilih, ruang utama dan ruang breakout akan tetap terbuka, tetapi hanya satu jendela yang dapat dilihat pada satu waktu. Menggunakan slider akan menyinkronkan menutup video saat ini dan membuka video berikutnya"
+   },
+   "code": {
+      "message": "Kode"
+   },
+   "courseCourse": {
+      "message": " Kursus"
+   },
+   "courseDesc": {
+      "message": " Deskripsi Kursus"
+   },
+   "courseEnter": {
+      "message": "Silakan masukkan daftar kursus Anda"
+   },
+   "courses": {
+      "message": "Kursus"
+   },
+   "coursesBuiltWith": {
+      "message": "Dibuat dengan ❤️ oleh 胡浩洋"
+   },
+   "coursesDupe": {
+      "message": " Tidak dapat menyimpan: Nama duplikat, nama perlu unik"
+   },
+   "coursesExp1": {
+      "message": "Ekspor semua data ekstensi ini"
+   },
+   "coursesExp2": {
+      "message": "File (.txt)"
+   },
+   "coursesExp3": {
+      "message": "Ekspor"
+   },
+   "coursesExpimp": {
+      "message": "Ekspor atau impor semua data ekstensi ini"
+   },
+   "coursesExpimpWarn": {
+      "message": "Catatan khusus: Mengimpor akan menggantikan semua data yang ada dari ekstensi ini"
+   },
+   "coursesImp1": {
+      "message": "Impor semua data ekstensi ini"
+   },
+   "coursesImp2": {
+      "message": "File (.txt)"
+   },
+   "coursesImp3": {
+      "message": "Impor"
+   },
+   "coursesNotYetSaved": {
+      "message": "Perubahan belum disimpan"
+   },
+   "coursesSaved": {
+      "message": " Disimpan"
+   },
+   "default1": {
+      "message": "Jika akun di atas benar, tidak perlu tindakan lebih lanjut"
+   },
+   "default2": {
+      "message": "Jika akun salah, silakan ikuti petunjuk di bawah"
+   },
+   "default3a": {
+      "message": "Silakan klik"
+   },
+   "default3b": {
+      "message": "di sini"
+   },
+   "default3c": {
+      "message": "untuk mengatur urutan akun Google"
+   },
+   "default4": {
+      "message": "Keluar dari semua akun"
+   },
+   "default5a": {
+      "message": "Akun Google Meet Anda adalah akun pertama yang Anda masuki. Jika akun yang ingin Anda gunakan bukan yang pertama, Anda harus terlebih dahulu keluar dari semua akun, lalu masuk lagi, kali ini membuat akun pertama yang ingin Anda gunakan untuk Google Meet"
+   },
+   "default5b": {
+      "message": "Penting untuk menggunakan akun yang sama untuk mengatur dan memulai rapat"
+   },
+   "default5c": {
+      "message": "Akun yang digunakan untuk mengatur dan memulai rapat dianggap sebagai pemilik akun Google Meet"
+   },
+   "default6": {
+      "message": "Masuk lagi dengan urutan yang benar, dan Anda dapat mengatur dan memulai rapat"
+   },
+   "defaultAccount": {
+      "message": "Akun Anda adalah"
+   },
+   "dropdownBreakouts": {
+      "message": "Breakouts"
+   },
+   "dropdownCourse": {
+      "message": "Kursus"
+   },
+   "enterCourses": {
+      "message": "Silakan masukkan kursus Anda"
+   },
+   "errorAutoCreateLink": {
+      "message": "Ada masalah saat mengajukan tautan meet dari Google secara otomatis. Harap pastikan Anda masuk ke akun Google Anda. Jika sudah masuk, silakan gunakan tautan ini untuk keluar dan masuk lagi: https://accounts.google.com/SignoutOptions. Ini akan mengeluarkan Anda dari semua akun yang sedang masuk (maaf atas ketidaknyamanannya), lalu pastikan akun pertama yang Anda masuk adalah akun Google pengajaran Anda. Urutan masuk penting; akun pertama yang Anda masuk akan menjadi akun Google Meet Anda."
+   },
+   "errorBouncingBalls": {
+      "message": "Ada jendela meet yang tidak dapat sinkron. Harap tutup semua jendela meet yang sedang terbuka, termasuk panel kontrol ini, lalu buka kembali panel kontrol ini, dan inisiasi ulang ruang utama dan ruang breakout. Jangan khawatir, menutup jendela meet tidak akan menghapus atau mengganggu siswa di dalamnya. Jika Anda memiliki banyak jendela terbuka, Anda mungkin tidak menemukan semua jendela meet. Dalam kasus ini, metode termudah adalah menutup semua jendela yang terbuka dan membuka kembali, karena jika jendela meet lama tetap ada, ekstensi tetap tidak akan dapat berlatih sinkronisasi. ***Tidak perlu menghapus ekstensi dan mengunduh ulang. Hanya tutup semua jendela meet yang sedang terbuka terlebih dahulu, lalu buka kembali panel kontrol ini, dan gunakan panel kontrol ini untuk membuka ruang utama dan ruang breakout."
+   },
+   "errorNick1": {
+      "message": "Ada masalah saat secara otomatis menghasilkan tautan untuk nama panggilan:"
+   },
+   "errorNick2": {
+      "message": "Harap pastikan Anda masuk ke akun Google Anda. Jika sudah masuk, dan dikonfirmasi bahwa akun Google Anda adalah Google Suite, Education, dll., yang menyediakan fitur nama panggilan (akun Google gratis umum tidak menyediakan fitur nama panggilan). Jika akun Anda menyediakan fitur ini dan sudah masuk, silakan gunakan tautan ini untuk keluar dan masuk lagi: https://accounts.google.com/SignoutOptions. Ini akan mengeluarkan Anda dari semua akun yang sedang masuk (maaf atas ketidaknyamanannya), lalu pastikan akun pertama yang Anda masuk adalah akun Google pengajaran Anda. Urutan masuk penting; akun pertama yang Anda masuk akan menjadi akun Google Meet Anda. Jika akun Google Anda tidak menyediakan fitur nama panggilan, harap buat hanya tautan statis (biru tua) atau kode (biru muda)"
+   },
+   "extDesc": {
+      "message": "Hanya guru yang perlu menginstal. Sepenuhnya Gratis dan Data Anda Privat. "
+   },
+   "extName": {
+      "message": "Google Meet Breakout oleh Robert Hudek"
+   },
+   "firstRoomMain": {
+      "message": "Baris pertama adalah ruang utama, baris setelahnya adalah ruang breakout"
+   },
+   "genAutoEnter": {
+      "message": "Izinkan 'orang luar' untuk otomatis masuk ke ruangan"
+   },
+   "genAutoEnter1": {
+      "message": "Jika dipilih, orang luar dapat secara otomatis bergabung melalui tautan ruang"
+   },
+   "genAutoEnter2": {
+      "message": "Biasanya disarankan untuk tidak memilih (biarkan kosong)"
+   },
+   "genAutoEnter3": {
+      "message": "Demi alasan keamanan"
+   },
+   "genAutoJoin": {
+      "message": "Untuk ruangan yang dikelola oleh ekstensi ini, secara otomatis tekan tombol 'Bergabung' saat dimulai. Ini adalah fitur yang nyaman"
+   },
+   "genAutoJoinBreak": {
+      "message": "Ruang Breakout"
+   },
+   "genAutoJoinMain": {
+      "message": "Ruang Utama"
+   },
+   "genAutoNewUrl": {
+      "message": "Otomatis ubah tautan ruang 'statis' (biru tua)"
+   },
+   "genAutoNewUrl1": {
+      "message": "Setiap kali rapat dimulai, tautan URL meet baru akan dihasilkan secara otomatis. Opsi ini adalah metode yang aman tetapi proses pengelolaan ruang akan menjadi sedikit lebih rumit. Anda perlu memulai rapat terlebih dahulu untuk mengetahui tautannya, lalu memberi tahu (mengirimkan kepada) siswa tautan baru tersebut. Biasanya, fitur ini lebih cocok untuk ruang breakout. Jika dipilih untuk ruang utama, Anda perlu memulai ruang utama terlebih dahulu, mengetahui tautan baru, dan mengirimkan tautan baru kepada siswa (melalui email, SMS, dll.), sehingga mereka tahu cara masuk ke ruang utama (apa URL-nya)."
+   },
+   "genAutoNewUrl2": {
+      "message": "Harap dicatat: Opsi ini hanya berlaku untuk tautan tipe 'statis' (biru tua) di tab pengaturan ruang."
+   },
+   "genAutoNewUrl3": {
+      "message": "Tautan ruang tipe lain (nama panggilan hijau, kode biru muda) tidak terpengaruh oleh opsi ini."
+   },
+   "genAutoNewUrlBreak": {
+      "message": "Ruang Breakout"
+   },
+   "genAutoNewUrlMain": {
+      "message": "Ruang Utama"
+   },
+   "genBroadBackColor": {
+      "message": "Warna latar belakang"
+   },
+   "genBroadImg": {
+      "message": "Gambar latar belakang siaran"
+   },
+   "genBroadPos": {
+      "message": "Posisi gambar"
+   },
+   "genBroadSize": {
+      "message": "Ukuran gambar"
+   },
+   "genBroadTextColor": {
+      "message": "Warna teks"
+   },
+   "genDisplay": {
+      "message": "Format Ruang Breakout"
+   },
+   "genDropEnd": {
+      "message": "Ujung"
+   },
+   "genDropMid": {
+      "message": "Tengah"
+   },
+   "genDropSolid": {
+      "message": "Warna Solid"
+   },
+   "genGrad": {
+      "message": "Gradasi"
+   },
+   "genSliderBackColor": {
+      "message": "Warna latar belakang"
+   },
+   "genSliderImg": {
+      "message": "Gambar latar belakang kontrol slider"
+   },
+   "genSliderPos": {
+      "message": "Posisi gambar"
+   },
+   "genSliderSize": {
+      "message": "Ukuran gambar"
+   },
+   "genSliderTextColor": {
+      "message": "Warna teks"
+   },
+   "genSolid": {
+      "message": "Warna Solid"
+   },
+   "genTabs": {
+      "message": "Tabs: Tab jendela"
+   },
+   "genTiles": {
+      "message": "Tiles: Jendela independen"
+   },
+   "genToolbarColor": {
+      "message": "Warna Toolbar Meet"
+   },
+   "hangupBreakouts": {
+      "message": "Tutup semua Ruang Breakout"
+   },
+   "hangupMain": {
+      "message": "Tutup ruang utama"
+   },
+   "headline1a": {
+      "message": "Gratis digunakan, tidak ada kebocoran data,"
+   },
+   "headline1b": {
+      "message": "Robert"
+   },
+   "headline1c": {
+      "message": "dibuat oleh,"
+   },
+   "headline1d": {
+      "message": "diberi anotasi,"
+   },
+   "headline1e": {
+      "message": "catatan"
+   },
+   "headlineTryThemes": {
+      "message": "Coba tema baru"
+   },
+   "helpCode": {
+      "message": " Kode: "
+   },
+   "helpCode1a": {
+      "message": "Kode terdiri dari 12 karakter: tiga karakter, sebuah '-', empat karakter, sebuah '-', dan tiga karakter. Contohnya adalah: abc-defg-hij. Catatan untuk menjaga dua tanda hubung. Kode ini adalah 12 karakter setelah 'https://meet.google.com/' di URL Google Meet, misalnya: https://meet.google.com/sik-akes-ilq?user=0. Di sini, kodenya adalah sik-akes-ilq"
+   },
+   "helpNickname": {
+      "message": "Apa itu: Nama Panggilan, Kode, URL?"
+   },
+   "helpNickname1a": {
+      "message": "Nama Panggilan:"
+   },
+   "helpNickname1b": {
+      "message": "Nama panggilan adalah nama yang dipilih secara bebas oleh guru, digunakan untuk memulai Meet dengan mudah. Di dalam organisasi (seperti sekolah), 'nama panggilan' adalah nama unik, jadi berhati-hatilah agar tidak menggunakan nama yang sudah digunakan oleh guru lain, jika tidak akan mengganggu Meet guru tersebut. Untuk menghindari duplikasi nama panggilan, sekolah dapat menetapkan aturan untuk membuat nama panggilan: nama lengkap, kursus, atau pilihan bebas. Misalnya: huhaoyang_math1_050810. Dua sekolah yang berbeda organisasi tidak akan bertentangan satu sama lain.\n\n\rCatatan: Nama panggilan harus dalam bahasa Inggris."
+   },
+   "helpNickname1c": {
+      "message": "Anda harus menggunakan bahasa Inggris untuk nama panggilan"
+   },
+   "helpNickname1d": {
+      "message": "Juga, jangan memasukkan awalan URL apa pun di nama panggilan. Misalnya, g.co/meet/ atau meet.google.com/lookup/ di nama panggilan tidak diizinkan. Pengecualian adalah guru Google Classroom dapat memasukkan tautan meet lengkap, dijelaskan di bawah"
+   },
+   "helpNickname2": {
+      "message": "Catatan untuk guru Google Classroom: "
+   },
+   "helpNickname2a": {
+      "message": " Di sini guru dapat memasukkan seluruh 'tautan meet' dari Google Classroom, dan ekstensi akan secara otomatis menyaring 10 karakter terakhir dari tautan meet ini, yang merupakan 'nama panggilan' yang ditetapkan secara acak dari sistem Google Classroom."
+   },
+   "helpNickname3": {
+      "message": "Misalnya, tautan meet Google Classroom saya adalah https://meet.google.com/lookup/g45j4fubqb. Saya menyalin dan menempelkan seluruh URL ini, dan ekstensi akan secara otomatis menyaring dan mempertahankan 10 karakter terakhir: g45j4fubqb. Ini adalah 'nama panggilan' yang ditetapkan secara acak oleh Google Classroom, g45j4fubqb"
+   },
+   "helpUrl": {
+      "message": "URL: "
+   },
+   "helpUrl1a": {
+      "message": "URL sangat fleksibel. Contohnya adalah URL Google Meet lengkap: https://meet.google.com/abc-defg-hij. Atau mungkin situs web yang ingin digunakan guru di kelas, seperti: https://en.wikipedia.org/wiki/Astronomy, atau https://www.freecodecamp.org/, atau YouTube https://youtu.be/C4_uJmH9hmc"
+   },
+   "instructRoomLinks": {
+      "message": "Instruksi tentang cara memasukkan tautan ruang"
+   },
+   "lblBreakoutAssigns": {
+      "message": "Grup"
+   },
+   "lblBreakoutRooms": {
+      "message": "Ruang Breakout"
+   },
+   "lblStudents": {
+      "message": "Siswa"
+   },
+   "linksSaved": {
+      "message": "Tautan ruang disimpan"
+   },
+   "mainName": {
+      "message": "Utama"
+   },
+   "meet": {
+      "message": "Meet"
+   },
+   "msgAllSync": {
+      "message": "Sukses: Semua jendela meet berhasil disinkronkan (Semua berhasil disinkronkan)"
+   },
+   "msgBreakoutSync": {
+      "message": "Sukses: Semua ruang breakout berhasil disinkronkan (Breakouts berhasil disinkronkan)"
+   },
+   "msgMainSync": {
+      "message": "Sukses: Ruang utama berhasil disinkronkan (Ruang utama disinkronkan)"
+   },
+   "muteAllBreakouts": {
+      "message": "Bisukan: Semua Ruang Breakout"
+   },
+   "muteAllMain": {
+      "message": "Bisukan: Ruang utama"
+   },
+   "muteAllRooms": {
+      "message": "Bisukan: Ruang Utama dan Semua Ruang Breakout"
+   },
+   "muteAllThis": {
+      "message": "Bisukan: Ruangan ini (slider)"
+   },
+   "muteRemove": {
+      "message": "Bisukan, Hapus Siswa"
+   },
+   "myCourse": {
+      "message": "Kursus Saya"
+   },
+   "myCourseDesc": {
+      "message": "Kursus saya sendiri"
+   },
+   "myName": {
+      "message": "Robert Hudek"
+   },
+   "nickname": {
+      "message": "Nama Panggilan"
+   },
+   "nicknameHelplink": {
+      "message": "Bantuan"
+   },
+   "onlineVideoHref": {
+      "message": "https://youtu.be/5oGmIL3pmP4"
+   },
+   "onlineVideoTitle": {
+      "message": "Video Instruksional (Chinese v17.3)"
+   },
+   "popupHelpAdhoc": {
+      "message": "Breakout Ad-hoc"
+   },
+   "popupHelpAdhocNumwords2a": {
+      "message": "Salinan ini hanya memiliki"
+   },
+   "popupHelpAdhocNumwords2b": {
+      "message": "karakter, yang di bawah batas 500 karakter untuk salin-tempel sekaligus, sehingga Anda dapat menyalin-tempel sekaligus."
+   },
+   "popupHelpAdhocNumwords2c": {
+      "message": "Salinan ini memiliki"
+   },
+   "popupHelpAdhocNumwords2d": {
+      "message": "karakter, yang melebihi batas 500 karakter untuk salin-tempel sekaligus, sehingga Anda perlu menyalin dan menempel beberapa baris sekaligus ke dalam obrolan ruang utama, setiap kali tidak lebih dari 500 karakter."
+   },
+   "popupHelpAdhocNumwords3a": {
+      "message": "Salinan ini hanya memiliki"
+   },
+   "popupHelpAdhocNumwords3b": {
+      "message": "karakter, yang di bawah batas 500 karakter untuk salin-tempel sekaligus, sehingga Anda dapat menyalin dan menempel sekaligus"
+   },
+   "popupHelpAdhocNumwords3c": {
+      "message": "Salinan ini memiliki"
+   },
+   "popupHelpAdhocNumwords3d": {
+      "message": "karakter, yang melebihi batas 500 karakter untuk salin-tempel sekaligus, sehingga Anda perlu menyalin dan menempel dalam bagian: sorot beberapa baris, salin dan tempel di obrolan ruang utama. Setiap kali tidak melebihi 500 karakter."
+   },
+   "popupHelpAdhocStep2": {
+      "message": "Langkah 2: Salin dan tempel tautan ruang breakout"
+   },
+   "popupHelpAdhocStep2a": {
+      "message": "Klik"
+   },
+   "popupHelpAdhocStep2b": {
+      "message": "Di sini"
+   },
+   "popupHelpAdhocStep2c": {
+      "message": "untuk menyalin tautan ruang breakout, lalu tempel di obrolan ruang utama (command/control v)."
+   },
+   "popupHelpAdhocStep3": {
+      "message": "Langkah 3: Salin dan tempel pengelompokan siswa"
+   },
+   "popupHelpAdhocStep3a": {
+      "message": "Klik"
+   },
+   "popupHelpAdhocStep3b": {
+      "message": "Di sini"
+   },
+   "popupHelpAdhocStep3c": {
+      "message": "Untuk menyalin pengelompokan siswa, lalu tempel di obrolan ruang utama (command/control v)"
+   },
+   "pre1": {
+      "message": "Langkah 1: Salin daftar grup yang telah diatur sebelumnya"
+   },
+   "pre1a": {
+      "message": "Misalnya, salin daftar grup dari dokumen MS Word dan tempel di obrolan ruang utama. Dengan cara ini, siswa akan mengetahui ruang obrolan yang ditetapkan"
+   },
+   "pre1b": {
+      "message": "Untuk setiap salin dan tempel, perhatikan bahwa obrolan Google Meet memiliki batas 500 karakter, sehingga Anda mungkin perlu menyalin dan menempel beberapa kali"
+   },
+   "pre2": {
+      "message": "Langkah 2: Salin tautan ruang breakout"
+   },
+   "pre2a": {
+      "message": "Silakan klik"
+   },
+   "pre2b": {
+      "message": "di sini"
+   },
+   "pre2c": {
+      "message": "kemudian tempel di obrolan ruang utama"
+   },
+   "preNumwords2a": {
+      "message": "Salinan ini hanya memiliki"
+   },
+   "preNumwords2b": {
+      "message": "karakter, yang di bawah batas 500 karakter untuk salin-tempel sekaligus, sehingga Anda dapat menyalin dan menempel sekaligus"
+   },
+   "preNumwords2c": {
+      "message": "Salinan ini memiliki"
+   },
+   "preNumwords2d": {
+      "message": "karakter, yang melebihi batas 500 karakter untuk salin-tempel sekaligus, sehingga Anda perlu menyalin dan menempel dalam bagian: sorot beberapa baris, salin dan tempel di obrolan ruang utama. Setiap kali tidak melebihi 500 karakter."
+   },
+   "removeAllThis": {
+      "message": "Hapus: Ruangan ini (slider)"
+   },
+   "removeBreakouts": {
+      "message": "Hapus: Semua Ruang Breakout"
+   },
+   "removeMain": {
+      "message": "Hapus: Ruang utama"
+   },
+   "reports": {
+      "message": "Laporan"
+   },
+   "reportsAssignments": {
+      "message": "Penugasan grup siswa"
+   },
+   "reportsAttendance": {
+      "message": "Daftar hadir"
+   },
+   "reportsClipboard": {
+      "message": "Salin ke Papan Klip"
+   },
+   "reportsCsv": {
+      "message": "Unduh file CSV secara bersamaan"
+   },
+   "reportsGroups": {
+      "message": "Kelompok siswa"
+   },
+   "reportsLinks": {
+      "message": "Tautan ruang breakout"
+   },
+   "rooms": {
+      "message": "Ruang"
+   },
+   "roomsBuiltWith": {
+      "message": "Dibuat dengan ❤️ oleh 胡浩洋"
+   },
+   "roomsCreatingUrl": {
+      "message": "Membuat dan menyimpan tautan ruang"
+   },
+   "roomsDupe": {
+      "message": "Tidak dapat menyimpan: Nama ruang atau tautan duplikat. Semua harus unik"
+   },
+   "roomsExp1": {
+      "message": "Ekspor data untuk kursus ini"
+   },
+   "roomsExp2": {
+      "message": "File (.txt)"
+   },
+   "roomsExp3": {
+      "message": "Ekspor"
+   },
+   "roomsExpimp": {
+      "message": "Ekspor atau impor data ruang breakout untuk kursus ini"
+   },
+   "roomsHowCode": {
+      "message": "Kode: "
+   },
+   "roomsHowCode1": {
+      "message": "Kode terdiri dari 12 karakter, dalam format ini: tiga karakter, sebuah '-', empat karakter, sebuah '-', dan tiga karakter. Contohnya adalah"
+   },
+   "roomsHowCode2": {
+      "message": "Kode tidak dibuat secara acak oleh Anda, tetapi oleh Google Meet. Misalnya, jika Anda menggunakan URL ini: https://meet.google.com/new, sebuah meet baru akan dimulai, dan di URL Anda dapat melihat 12 karakter ini, yang merupakan kode Anda"
+   },
+   "roomsHowCode3": {
+      "message": "Kode bersifat statis karena selalu memulai URL meet yang sama."
+   },
+   "roomsHowGc": {
+      "message": "Guru Google Classroom: "
+   },
+   "roomsHowGc1": {
+      "message": "Silakan salin tautan meet dari halaman beranda Google Classroom, lalu tempel di bidang tautan di sini. Misalnya, tautan Meet saya adalah https://meet.google.com/lookup/g45j4fubqb. Setelah menempel di bidang tautan, ekstensi akan menghapus karakter sebelum https://meet.google.com/lookup/, meninggalkan 10 karakter terakhir. Dalam contoh saya, itu meninggalkan"
+   },
+   "roomsHowGc2": {
+      "message": "g45j4fubqb"
+   },
+   "roomsHowGc3": {
+      "message": "Jika ruang utama dimulai oleh ekstensi ini, ekstensi dan Google Classroom akan sudah disinkronkan. Jika ruang utama dimulai di halaman web Google Classroom, Anda harus menekan tombol 'Inisiasi Ruang Utama' di tab 'Kelas Bahagia' di bawah 'Mulai Kelas' di ekstensi, yang akan menyinkronkan ekstensi dengan Google Classroom."
+   },
+   "roomsHowGcnick": {
+      "message": "Nama Panggilan Google Classroom: "
+   },
+   "roomsHowGcnick1": {
+      "message": "Contohnya adalah URL meet lengkap"
+   },
+   "roomsHowGcnick2": {
+      "message": "atau 10 karakter terakhir"
+   },
+   "roomsHowGcnick3": {
+      "message": "Di bidang tautan, Anda dapat memasukkan tautan meet lengkap, atau 10 karakter terakhir. Jika Anda memasukkan URL lengkap, ekstensi akan menghapus karakter sebelum, hanya menyisakan 10 karakter terakhir. Dalam contoh ini, itu adalah g45j4fubqb"
+   },
+   "roomsHowGcnick4": {
+      "message": "Nama panggilan Google Classroom berwarna hijau karena dinamis, mengubah URL setiap kali dimulai"
+   },
+   "roomsHowNick": {
+      "message": "Nama Panggilan: "
+   },
+   "roomsHowNick1": {
+      "message": "Contoh nama panggilan adalah"
+   },
+   "roomsHowNick2": {
+      "message": "Nama panggilan tidak dapat mengandung awalan URL, seperti g.co/meet/ atau meet.google.com/lookup/. Nama panggilan dipilih dengan bebas, dapat mencakup angka, tetapi harus dalam bahasa Inggris (harus menggunakan nama panggilan bahasa Inggris, tidak ada karakter Cina)"
+   },
+   "roomsHowNick3": {
+      "message": "Nama panggilan ruang berwarna hijau. Nama panggilan dinamis, mengubah URL setiap kali dimulai"
+   },
+   "roomsHowStart": {
+      "message": "Cara termudah: "
+   },
+   "roomsHowStart1": {
+      "message": "Di bidang tautan, biarkan kosong. Klik tombol simpan (biru), sistem akan secara otomatis mengajukan tautan meet dari Google dan menyimpannya di sini. Anda hanya perlu mengisi nama ruang. Tautan otomatis ini adalah tautan statis yang tidak akan berubah"
+   },
+   "roomsHowTypes": {
+      "message": "Nama Panggilan, Kode, URL: "
+   },
+   "roomsHowTypes1": {
+      "message": "Ada tiga jenis tautan, dijelaskan di bawah ini"
+   },
+   "roomsHowUrl": {
+      "message": "URL Meet"
+   },
+   "roomsHowUrl1": {
+      "message": "Jika Anda meninggalkan bidang tautan kosong, ekstensi akan"
+   },
+   "roomsHowUrl2": {
+      "message": "secara otomatis"
+   },
+   "roomsHowUrl3": {
+      "message": "mengajukan URL tautan dari Google dan menyimpannya. Atau Anda dapat langsung memasukkan URL lengkap dalam format ini:"
+   },
+   "roomsHowUrl4": {
+      "message": "URL Meet bersifat statis karena selalu memulai URL yang sama tanpa berubah. Namun, di tab 'Desain Umum', ada kotak centang 'Auto Initiate New URL', jika opsi ini dipilih, URL baru akan dihasilkan secara otomatis setiap kali dimulai. Jika Anda memilih opsi ini, pastikan untuk memberi tahu siswa tentang URL baru setelah dimulai. Opsi ini lebih cocok untuk ruang breakout daripada ruang utama"
+   },
+   "roomsHowUrl5": {
+      "message": "URL Data: "
+   },
+   "roomsHowUrl6": {
+      "message": "URL Data memerlukan URL lengkap, termasuk https://. Contohnya adalah"
+   },
+   "roomsHowUrl7": {
+      "message": "URL Data sangat fleksibel dan dapat berupa situs web sains, situs web matematika, situs web sejarah, situs web musik, dll."
+   },
+   "roomsImp1": {
+      "message": "Impor data untuk kursus ini"
+   },
+   "roomsImp2": {
+      "message": "File (.txt)"
+   },
+   "roomsImp3": {
+      "message": "Impor"
+   },
+   "roomsNeedName": {
+      "message": "Tidak dapat menyimpan: Setiap ruang membutuhkan nama"
+   },
+   "roomsNotYetSaved": {
+      "message": "Catatan: Perubahan belum disimpan"
+   },
+   "roomsPopupTitle": {
+      "message": "Kursus: "
+   },
+   "roomsSaved": {
+      "message": "Ruang dan tautan disimpan"
+   },
+   "roomsUndo": {
+      "message": "Dikembalikan"
+   },
+   "rptActualRoom": {
+      "message": "Ruang breakout sebenarnya"
+   },
+   "rptActualStudent": {
+      "message": "Siswa sebenarnya"
+   },
+   "rptAssignRoom": {
+      "message": "Ruang breakout yang ditugaskan"
+   },
+   "rptAssignStudent": {
+      "message": "Siswa yang ditugaskan"
+   },
+   "rptBreakoutRoom": {
+      "message": "Ruang Breakout"
+   },
+   "rptMain": {
+      "message": "Di ruang utama"
+   },
+   "rptNo": {
+      "message": "Tidak"
+   },
+   "rptStudent": {
+      "message": "Siswa"
+   },
+   "rptTitleBRSR": {
+      "message": "Status Ruang Breakout"
+   },
+   "rptTitleSSR": {
+      "message": "Status Siswa"
+   },
+   "rptYes": {
+      "message": "Ya"
+   },
+   "setTimer": {
+      "message": "Atur Timer"
+   },
+   "settings": {
+      "message": "Umum"
+   },
+   "sim1": {
+      "message": "Latihan menggunakan Ekstensi"
+   },
+   "sim10": {
+      "message": "Langkah 2:"
+   },
+   "sim11": {
+      "message": "Di tab Meet pada panel kontrol ini, buka Ruang Utama dan Ruang Breakout Anda (misalnya, 3 ruang breakout). Jika Anda belum membuat tautan ruang breakout, buka tab 'Ruang' dan buat ruang serta tautan di sana."
+   },
+   "sim12": {
+      "message": "Langkah 3:"
+   },
+   "sim13": {
+      "message": "Pilih jumlah siswa simulasi. Jika Anda hanya mencoba, kami menyarankan untuk membuka 3 ruang breakout dengan total 6 siswa simulasi, menugaskan 2 siswa di setiap ruang breakout."
+   },
+   "sim14": {
+      "message": "Catatan:"
+   },
+   "sim15": {
+      "message": "Google Meet baru-baru ini menerapkan pembatasan yang membatasi jumlah pertemuan aktif dengan mikrofon yang berfungsi menjadi 8 pada satu komputer. Ini berarti di komputer Anda, Anda dapat membuka 1 Ruang Utama dan hingga 7 Ruang Breakout dan masih memiliki mikrofon yang berfungsi di masing-masing ruangan ini. Namun, Anda dapat memiliki sebanyak mungkin siswa di Ruang Utama atau Ruang Breakout Anda, misalnya 50 siswa atau lebih, tanpa memengaruhi fungsi mikrofon."
+   },
+   "sim16": {
+      "message": "Untuk simulasi ini, yang semuanya dilakukan pada satu komputer, jika Anda membuka 1 Ruang Utama, 3 Ruang Breakout, dan 6 siswa simulasi, beberapa siswa simulasi tidak akan memiliki mikrofon yang berfungsi, tetapi ini sepenuhnya dapat diterima untuk tujuan pengujian. Karena semua pertemuan dijalankan pada komputer yang sama, Anda mungkin tidak akan menggunakan mikrofon Anda karena masalah umpan balik potensial. Namun, Anda masih dapat bereksperimen dengan tombol panel kontrol dan melihat bagaimana mereka mengontrol berbagai pertemuan."
+   },
+   "sim17": {
+      "message": "Tip:"
+   },
+   "sim18": {
+      "message": "Untuk sesi latihan ini, karena Anda akan memiliki banyak pertemuan yang terbuka di layar Anda, kami sarankan untuk memilih format Ruang Breakout sebagai 'Tab' daripada 'Kotak' yang default. Anda dapat memilihnya menggunakan tombol radio di bagian 'Format Ruang Breakout' tepat di atas. Ini akan membantu mengatur pertemuan 'guru' Anda di sisi kiri layar dalam satu jendela dengan tab, sementara sisi kanan akan menampilkan pertemuan siswa simulasi dalam satu jendela dengan beberapa tab. Saat mengajar kelas Anda yang sebenarnya, Anda dapat memilih 'Kotak' atau 'Tab', tergantung pada preferensi Anda, karena hanya pertemuan guru yang akan ditampilkan di layar Anda, memberi Anda lebih banyak ruang kerja."
+   },
+   "sim2": {
+      "message": "Jika Anda baru menggunakan ekstensi ini dan ingin memahami cara kerjanya, Anda bisa mencobanya menggunakan siswa simulasi. Simulasi ini dapat dilakukan sepenuhnya di komputer Anda."
+   },
+   "sim3": {
+      "message": "Pengingat:"
+   },
+   "sim4": {
+      "message": "Saat menggunakan ekstensi ini untuk mengajar kelas Anda, hanya Anda, sebagai guru, yang perlu menginstalnya. Siswa tidak perlu menginstal ekstensi ini karena mereka tidak akan menggunakannya."
+   },
+   "sim5": {
+      "message": "Instruksi Pengaturan Simulasi"
+   },
+   "sim6": {
+      "message": "Langkah 1:"
+   },
+   "sim7": {
+      "message": "Buka halaman ekstensi Chrome Anda"
+   },
+   "sim7a": {
+      "message": "Temukan ekstensi Google Meet Breakout, klik tombol 'Detail', dan gulir ke bawah untuk mengaktifkan opsi 'Izinkan dalam Mode Penyamaran'."
+   },
+   "sim8": {
+      "message": "Catatan:"
+   },
+   "sim9": {
+      "message": "Setelah selesai berlatih, Anda dapat mematikan pengaturan 'Izinkan dalam Mode Penyamaran'. Dalam penggunaan normal ekstensi ini, Anda tidak perlu menggunakan mode penyamaran untuk siswa Anda."
+   },
+   "sliderDefault": {
+      "message": "Breakout"
+   },
+   "startClass": {
+      "message": "Mulai Kelas"
+   },
+   "subHeadingRooms": {
+      "message": "Ruang"
+   },
+   "timerHrs": {
+      "message": "Jam"
+   },
+   "timerMin": {
+      "message": "Menit"
+   },
+   "timerReset": {
+      "message": "Setel Ulang"
+   },
+   "timerSec": {
+      "message": "Detik"
+   },
+   "timerStart": {
+      "message": "Mulai"
+   },
+   "timerStop": {
+      "message": "Jeda"
+   },
+   "title": {
+      "message": "Breakout"
+   },
+   "toolTipRetile": {
+      "message": "Ubah tata letak jendela"
+   },
+   "toolTipToolbar": {
+      "message": "Sembunyikan/Tampilkan bilah alat bawah Meet"
+   },
+   "url": {
+      "message": "URL"
+   },
+   "warning8Rooms": {
+      "message": "Mikrofon Google Meet memiliki batas 7 ruang breakout"
+   }
+}

@@ -1,0 +1,343 @@
+{
+   "Pop_Bate_Tip": {
+      "message": "Your items created during the beta testing will be remained and will not be deleted. To create additional items, please upgrade your account to Basic or Pro plan."
+   },
+   "Pop_Bate_other_Tip": {
+      "message": "You have a maxium of {name} GB with your current plan. Once reached this limit, you will no longer be able to upload any additional items."
+   },
+   "Pop_Window_Button_Title": {
+      "message": "Download Gemoo Snap"
+   },
+   "Pop_Window_Limite_free_Title": {
+      "message": "You've reached the storage limit. To create unlimited images, please upgrade your account."
+   },
+   "Pop_Window_Limite_free_count_Title_middle": {
+      "message": "You've reached the image limit. To create unlimited images, please upgrade your account."
+   },
+   "Pop_Window_Limite_pro_Title_frist": {
+      "message": "You've reached the storage limit and are unable to create additional items."
+   },
+   "Pop_Window_Limite_pro_Title_last": {
+      "message": "to get more storage space."
+   },
+   "Pop_Window_Limite_pro_Title_middle": {
+      "message": "Contact us"
+   },
+   "Pop_Window_SubTitle": {
+      "message": "Due to browser limitations, it's not supported to take a screenshot on this page, please go to another page to retry."
+   },
+   "Pop_Window_Title": {
+      "message": "Unable to take a screenshot"
+   },
+   "Pop_upgrade_btn": {
+      "message": "Upgrade Now"
+   },
+   "aboutUsCopyright": {
+      "message": "Copyright © 2023@ Gemoo Inc. All rights reserved."
+   },
+   "aboutUsDes": {
+      "message": "Take, annotate, and beautify screenshots quickly and easily through Gemoo Snap, express your ideas with images and text in communication. We provide desktop, web and Chrome extensions, you can click the link to see the details!"
+   },
+   "aboutUsHelp": {
+      "message": "Help"
+   },
+   "aboutUsHome": {
+      "message": "Gemoo Homepage"
+   },
+   "aboutUsProduct": {
+      "message": "Product Overview"
+   },
+   "aboutUsRate": {
+      "message": "Rate us"
+   },
+   "aboutUsTitle": {
+      "message": "Gemoo Snap"
+   },
+   "aboutUsVersion": {
+      "message": "Version:"
+   },
+   "air_tip_copy": {
+      "message": "Copy"
+   },
+   "air_tip_download": {
+      "message": "Download"
+   },
+   "basic_space_limit_ct": {
+      "message": "Your cloud storage space has reached the limit of Basic plan. You can upgrade to the Pro plan to expand your cloud storage space to 100GB, allowing you to create more new images."
+   },
+   "basic_space_limit_tt": {
+      "message": "Your Storage Capacity Has Been Exceeded"
+   },
+   "button_ok": {
+      "message": "OK"
+   },
+   "capture_guide_1": {
+      "message": "Click the"
+   },
+   "capture_guide_2": {
+      "message": "to capture"
+   },
+   "cloudPop_one": {
+      "message": "Access your images from anywhere."
+   },
+   "cloudPop_three": {
+      "message": "Save storage space on your device while not worrying about losing important materials."
+   },
+   "cloudPop_two": {
+      "message": "Save and share your images through links."
+   },
+   "createAccount": {
+      "message": "Create an account"
+   },
+   "emailErr1": {
+      "message": "Enter your email address"
+   },
+   "emailErr2": {
+      "message": "Invalid email"
+   },
+   "emailPlaceholder": {
+      "message": "Email Address"
+   },
+   "errPageDes": {
+      "message": "Unable to take a screenshot due to no network connection. Please check the network connection again."
+   },
+   "errPageTitle": {
+      "message": "Failed to connect"
+   },
+   "erraPageBtn": {
+      "message": "Retry"
+   },
+   "everywhere": {
+      "message": "Access cloud images from anywhere"
+   },
+   "extDescription": {
+      "description": "Title string",
+      "message": "Screenshot ChatGPT, Full Page, or Selected Area"
+   },
+   "extName": {
+      "description": "Title string",
+      "message": "Gemoo Snap - ChatGPT Screenshot"
+   },
+   "forgotPwd": {
+      "message": "Forgot password?"
+   },
+   "free_num_limit_ct": {
+      "message": "Free users can only create up to 50 images. To create unlimited images, please upgrade your account."
+   },
+   "free_num_limit_tt": {
+      "message": "You've reached the image limit"
+   },
+   "free_space_limit_ct": {
+      "message": "You have no sufficient space to create new images. To get more storage space and create unlimited images, please upgrade your account."
+   },
+   "free_space_limit_tt": {
+      "message": "You've reached the storage limit"
+   },
+   "gemooCloud": {
+      "message": "Cloud"
+   },
+   "gemooEdit": {
+      "message": "Edit page"
+   },
+   "gemooLocal": {
+      "message": "Local"
+   },
+   "gemooPage": {
+      "message": "Image page"
+   },
+   "gemooSnap": {
+      "message": "Gemoo Snap"
+   },
+   "got_it": {
+      "message": "Got it"
+   },
+   "homepageBeta": {
+      "message": "Beta"
+   },
+   "homepageLogOut": {
+      "message": "Sign out"
+   },
+   "hoverAbout": {
+      "message": "About"
+   },
+   "hoverAccount": {
+      "message": "Account"
+   },
+   "hoverClose": {
+      "message": "Close the reminder"
+   },
+   "hoverHome": {
+      "message": "Gemoo library"
+   },
+   "img_upload_feat_1": {
+      "message": "Access your images from anywhere."
+   },
+   "img_upload_feat_2": {
+      "message": "Save and share your images through links."
+   },
+   "img_upload_feat_3": {
+      "message": "Save storage space on your device while not worrying about losing important materials."
+   },
+   "img_upload_feat_4": {
+      "message": "100% Safety"
+   },
+   "img_upload_feat_5": {
+      "message": "3GB of free storage space"
+   },
+   "img_upload_title": {
+      "message": "Benefits of Uploading Images"
+   },
+   "install_guide_ct": {
+      "message": "Click the icon above to pin Gemoo Snap for easy access."
+   },
+   "install_guide_tt": {
+      "message": "Gemoo Snap has been installed successfully!"
+   },
+   "limit_upgrade": {
+      "message": "Upgrade Now"
+   },
+   "loginApple": {
+      "message": "Sign in with Apple"
+   },
+   "maskText": {
+      "message": "Please complete your capture to continue."
+   },
+   "menuCardPath": {
+      "message": "The screenshot will be saved to:"
+   },
+   "menuTool1": {
+      "message": "Full Page"
+   },
+   "menuTool2": {
+      "message": "Select & Scroll"
+   },
+   "menuTool3": {
+      "message": "Element Capture"
+   },
+   "menuTool4": {
+      "message": "Visible Page Area"
+   },
+   "menuTool5": {
+      "message": "Desktop Screenshot"
+   },
+   "menuTool6": {
+      "message": "More to Come"
+   },
+   "msgBoxCancle": {
+      "message": "Cancel"
+   },
+   "msgBoxErr": {
+      "message": "Failed to upload"
+   },
+   "msgBoxLoadingUp": {
+      "message": "Uploading"
+   },
+   "msgBoxOk": {
+      "message": "OK"
+   },
+   "msgPurchaseBoxErr": {
+      "message": "You've reached your item limit Upgrade forunlimited items."
+   },
+   "notAccount": {
+      "message": "Don't have an account yet?"
+   },
+   "passwordErr": {
+      "message": "Password required"
+   },
+   "passwordPlaceholder": {
+      "message": "Password"
+   },
+   "pro_space_limit_ct_1": {
+      "message": "You have no sufficient space to create new images."
+   },
+   "pro_space_limit_ct_2": {
+      "message": "Contact us"
+   },
+   "pro_space_limit_ct_3": {
+      "message": "to get more storage space."
+   },
+   "pro_space_limit_tt": {
+      "message": "You've reached the storage limit"
+   },
+   "rePassword": {
+      "message": "Remember Password"
+   },
+   "relieveCard": {
+      "message": "Remove from it"
+   },
+   "saveImageTo": {
+      "message": "Save images to: "
+   },
+   "saveLocation": {
+      "message": "Save to:"
+   },
+   "siginIn": {
+      "message": "Sign in"
+   },
+   "siginInErr": {
+      "message": "Failed to sign in, please retry later."
+   },
+   "signGoogle": {
+      "message": "Sign in with Google"
+   },
+   "signGoogleErr": {
+      "message": "Unknown Error"
+   },
+   "snapLoginDes": {
+      "message": "Sign in your Gemoo account to use Gemoo Snap"
+   },
+   "snapLoginOr": {
+      "message": "OR"
+   },
+   "snapLoginTitle": {
+      "message": "Sign in to Gemoo"
+   },
+   "toolTip_arrow": {
+      "message": "Arrow"
+   },
+   "toolTip_back": {
+      "message": "Undo"
+   },
+   "toolTip_blur": {
+      "message": "Mosaic"
+   },
+   "toolTip_cancel": {
+      "message": "Cancel"
+   },
+   "toolTip_circle": {
+      "message": "Circle"
+   },
+   "toolTip_clear": {
+      "message": "Clear"
+   },
+   "toolTip_confirm": {
+      "message": "Done"
+   },
+   "toolTip_copy": {
+      "message": "Copy to clipboard"
+   },
+   "toolTip_line": {
+      "message": "Brush"
+   },
+   "toolTip_rectangle": {
+      "message": "Rectangle"
+   },
+   "toolTip_reselect": {
+      "message": "Reselect"
+   },
+   "toolTip_text": {
+      "message": "Text"
+   },
+   "toolTip_tolocal": {
+      "message": "Edit"
+   },
+   "toolTip_triangle": {
+      "message": "Triangle"
+   },
+   "upload_err_content": {
+      "message": "The image has failed to upload. You can try to upload again."
+   },
+   "upload_now": {
+      "message": "Upload Now"
+   }
+}

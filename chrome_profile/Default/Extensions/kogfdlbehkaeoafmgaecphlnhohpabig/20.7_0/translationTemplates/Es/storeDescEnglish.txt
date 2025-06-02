@@ -1,0 +1,45 @@
+Completely Free and your Data is Private. Google Classroom integration, Slider Control, Nicknames, Help tutorials
+
+Welcome to Google Meet Breakout Rooms Extension
+
+***** Only the teacher needs to install this extension *****
+
+Three Minute Demonstration: https://youtu.be/HY5eZw-gsKU
+
+The Google Meet Breakout Rooms Extension has 5 key features:
+
+1)  See All Students:  The teacher can always see ALL of the students in ALL of the breakout rooms.
+
+2）Free:  The extension is completely free to use.  I am a software engineer and created this for my personal use as a teacher and then improved it for all teachers to use.  
+
+3)  Private:  Your breakout rooms data is privately stored in your personal computer's chrome browser.  Your breakout rooms data is NOT shared with anyone and it is NOT stored on a server.  Even the creator of this extension has no knowledge of any of your data.
+
+4)  Hassle-free:  ONLY the teacher needs to install the extension.  
+
+5) Online Help:  The online help menu is completely updated and now has screen shots of every step of the way for setup and operation.  
+
+*** 3 minute demo video https://www.youtube.com/watch?v=HY5eZw-gsKU
+
+*** Tutorial https://www.youtube.com/watch?v=mLag62gSUMY
+
+This software is created by Robert Hudek and all rights are reserved.  No part of this extension may be copied without the express written consent of Robert Hudek at Hudek Tech LLc.  This extension is not affiliated with Google, Inc.
+
+Functions: 
+
+1) Breakout rooms may be viewed in either tab or tiled mode
+2) A slider may be used to quickly move between rooms
+3) Breakout assignments may be created at any time or in advance if desired
+4) Teachers may broadcast their video and audio to all the breakout rooms
+5) Customize themes!
+6) Can use Google Meet Nicknames (if your Google subscription supports nicknames)
+7) Basic reporting
+8) Mute and Remove Students buttons
+9) Import, Export functions
+10) Google classroom integration
+
+*** Spanish: A big thank you to Hazel Diaz (you may include your school or email if you like, totally optional up to you) for translation into Spanish
+
+*** Slovak: A big thank you to Lenka Zustiaková from SOŠ GaHS, Farského 9 in Petržalka (www.farskeho.sk) for the translation into Slovak.
+
+*** Ukrainian: A big thank you to Igor Kozachuk (email: disk.igor@gmail.com) for the translation into Ukrainian
+

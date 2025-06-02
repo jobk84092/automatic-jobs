@@ -1,0 +1,882 @@
+[
+  {
+    "title": "NairobiKenya",
+    "url": "/job/nairobi",
+    "source": "Fuzu"
+  },
+  {
+    "title": "MombasaKenya",
+    "url": "/job/mombasa",
+    "source": "Fuzu"
+  },
+  {
+    "title": "MigoriKenya",
+    "url": "/job/migori",
+    "source": "Fuzu"
+  },
+  {
+    "title": "NakuruKenya",
+    "url": "/job/nakuru",
+    "source": "Fuzu"
+  },
+  {
+    "title": "EmbuKenya",
+    "url": "/job/embu",
+    "source": "Fuzu"
+  },
+  {
+    "title": "KisiiKenya",
+    "url": "/job/kisii",
+    "source": "Fuzu"
+  },
+  {
+    "title": "KajiadoKenya",
+    "url": "/job/kajiado",
+    "source": "Fuzu"
+  },
+  {
+    "title": "KiambuKenya",
+    "url": "/job/kiambu",
+    "source": "Fuzu"
+  },
+  {
+    "title": "MeruKenya",
+    "url": "/job/meru",
+    "source": "Fuzu"
+  },
+  {
+    "title": "SamburuKenya",
+    "url": "/job/samburu",
+    "source": "Fuzu"
+  },
+  {
+    "title": "NyeriKenya",
+    "url": "/job/nyeri",
+    "source": "Fuzu"
+  },
+  {
+    "title": "KisumuKenya",
+    "url": "/job/kisumu",
+    "source": "Fuzu"
+  },
+  {
+    "title": "NyahururuKenya",
+    "url": "/job/nyahururu",
+    "source": "Fuzu"
+  },
+  {
+    "title": "TavetaKenya",
+    "url": "/job/taveta",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Murang\u2019aKenya",
+    "url": "/job/murang-a",
+    "source": "Fuzu"
+  },
+  {
+    "title": "BungomaKenya",
+    "url": "/job/bungoma",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Homa BayKenya",
+    "url": "/job/homa-bay",
+    "source": "Fuzu"
+  },
+  {
+    "title": "KakamegaKenya",
+    "url": "/job/kakamega",
+    "source": "Fuzu"
+  },
+  {
+    "title": "KituiKenya",
+    "url": "/job/kitui",
+    "source": "Fuzu"
+  },
+  {
+    "title": "EldoretKenya",
+    "url": "/job/eldoret",
+    "source": "Fuzu"
+  },
+  {
+    "title": "MachakosKenya",
+    "url": "/job/machakos",
+    "source": "Fuzu"
+  },
+  {
+    "title": "KilifiKenya",
+    "url": "/job/kilifi",
+    "source": "Fuzu"
+  },
+  {
+    "title": "NarokKenya",
+    "url": "/job/narok",
+    "source": "Fuzu"
+  },
+  {
+    "title": "ThikaKenya",
+    "url": "/job/thika",
+    "source": "Fuzu"
+  },
+  {
+    "title": "WoteKenya",
+    "url": "/job/wote",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Ol KalouKenya",
+    "url": "/job/ol-kalou",
+    "source": "Fuzu"
+  },
+  {
+    "title": "BometKenya",
+    "url": "/job/bomet",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Makueni BomaKenya",
+    "url": "/job/makueni-boma",
+    "source": "Fuzu"
+  },
+  {
+    "title": "GarissaKenya",
+    "url": "/job/garissa",
+    "source": "Fuzu"
+  },
+  {
+    "title": "ItenKenya",
+    "url": "/job/iten",
+    "source": "Fuzu"
+  },
+  {
+    "title": "KerichoKenya",
+    "url": "/job/kericho",
+    "source": "Fuzu"
+  },
+  {
+    "title": "ManderaKenya",
+    "url": "/job/mandera",
+    "source": "Fuzu"
+  },
+  {
+    "title": "SiayaKenya",
+    "url": "/job/siaya",
+    "source": "Fuzu"
+  },
+  {
+    "title": "KutusKenya",
+    "url": "/job/kutus",
+    "source": "Fuzu"
+  },
+  {
+    "title": "LagosNigeria",
+    "url": "/job/lagos",
+    "source": "Fuzu"
+  },
+  {
+    "title": "AbujaNigeria",
+    "url": "/job/abuja",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Port HarcourtNigeria",
+    "url": "/job/port-harcourt",
+    "source": "Fuzu"
+  },
+  {
+    "title": "IbadanNigeria",
+    "url": "/job/ibadan",
+    "source": "Fuzu"
+  },
+  {
+    "title": "NigeriaNigeria",
+    "url": "/job/federal-republic-of-nigeria",
+    "source": "Fuzu"
+  },
+  {
+    "title": "AbeokutaNigeria",
+    "url": "/job/abeokuta",
+    "source": "Fuzu"
+  },
+  {
+    "title": "KanoNigeria",
+    "url": "/job/kano",
+    "source": "Fuzu"
+  },
+  {
+    "title": "KadunaNigeria",
+    "url": "/job/kaduna",
+    "source": "Fuzu"
+  },
+  {
+    "title": "YolaNigeria",
+    "url": "/job/yola",
+    "source": "Fuzu"
+  },
+  {
+    "title": "KampalaUganda",
+    "url": "/job/kampala",
+    "source": "Fuzu"
+  },
+  {
+    "title": "MbararaUganda",
+    "url": "/job/mbarara",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Accounting, finance, banking, insurance",
+    "url": "/job/accounting-finance",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Administrative, clerical",
+    "url": "/job/administrative-clerical",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Agriculture, fishing, forestry, wildlife",
+    "url": "/job/agriculture-fishing-forestry",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Business, strategic management",
+    "url": "/job/business-strategic-management",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Construction",
+    "url": "/job/construction",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Customer support, client care",
+    "url": "/job/customer-support-client-care",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Design, arts",
+    "url": "/job/design-arts",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Electrical engineering",
+    "url": "/job/electrical-engineering",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Energy, power",
+    "url": "/job/energy-power",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Engineering, architecture",
+    "url": "/job/engineering-architecture",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Food, nutrition",
+    "url": "/job/food-nutrition",
+    "source": "Fuzu"
+  },
+  {
+    "title": "General management, leadership",
+    "url": "/job/general-management-leadership",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Government, community development, public services",
+    "url": "/job/government-community-development-public-services",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Human resources",
+    "url": "/job/human-resources",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Information technology, software development, data",
+    "url": "/job/computers-software-development",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Installation, maintenance, repair",
+    "url": "/job/installation-maintenance-repair",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Manufacturing, operations, quality",
+    "url": "/job/manufacturing-operations-quality",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Mechanical engineering",
+    "url": "/job/mechanical-engineering",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Media, communications, languages",
+    "url": "/job/media-communications-languages",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Medical, health",
+    "url": "/job/medical-health",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Project, program management",
+    "url": "/job/project-program-management",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Research, academy",
+    "url": "/job/research-academy",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Restaurant, hospitality, travel",
+    "url": "/job/restaurant-hospitality-travel",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Sales, marketing, promotion",
+    "url": "/job/sales-marketing-promotion",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Security",
+    "url": "/job/security",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Skilled, manual labor",
+    "url": "/job/skilled-manual-labor",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Sports, beauty, wellbeing",
+    "url": "/job/health-sports-beauty",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Teaching, training",
+    "url": "/job/teaching-training",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Telecommunications",
+    "url": "/job/telecommunication",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Transportation, logistics, driving",
+    "url": "/job/transportation-logistics-driving",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Aeronautics",
+    "url": "/job/aeronautics",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Agriculture, fishing, forestry",
+    "url": "/job/agriculture-fishing",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Automotive",
+    "url": "/job/automotive",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Banking, microfinance, insurance",
+    "url": "/job/banking-microfinance",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Beauty, cosmetics",
+    "url": "/job/beauty-cosmetics",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Communications, media, radio, tv",
+    "url": "/job/communications-media",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Computers, software development and services",
+    "url": "/job/computers-software",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Construction, renovation, maintenance",
+    "url": "/job/construction-renovation",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Consulting, business support, auditing",
+    "url": "/job/consulting-business",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Data/Research",
+    "url": "/job/data-research",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Education, academic",
+    "url": "/job/education-academic",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Electronics",
+    "url": "/job/electronics",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Energy, utilities, environment",
+    "url": "/job/energy-utilities",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Engineering, architecture",
+    "url": "/job/engineering-architecture",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Entertainment, events",
+    "url": "/job/entertainment-events",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Finance & FinTech",
+    "url": "/job/finance-fintech",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Financial Services",
+    "url": "/job/financial-services",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Governmental",
+    "url": "/job/governmental",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Health care, medical",
+    "url": "/job/health-care",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Housekeeping, maintenance",
+    "url": "/job/housekeeping-maintenance",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Human resources, talent development, recruiting",
+    "url": "/job/human-resources",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Legal, accounting",
+    "url": "/job/legal-accounting",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Manufacturing",
+    "url": "/job/manufacturing",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Marketing, advertising",
+    "url": "/job/marketing-advertising",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Non-profit, social work",
+    "url": "/job/non-profit-social",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Outsourcing, leasing",
+    "url": "/job/outsourcing-leasing",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Raw materials, oil, chemicals",
+    "url": "/job/raw-materials",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Real estate",
+    "url": "/job/real-estate",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Restaurant, hospitality, travel",
+    "url": "/job/restaurant-hospitality",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Retail, wholesale, FMCG",
+    "url": "/job/retail-wholesale",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Security",
+    "url": "/job/security",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Telecommunications",
+    "url": "/job/telecommunications",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Transportation, logistics, storage",
+    "url": "/job/transportation-logistics",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Entry and Basic-level",
+    "url": "/job/basic",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Mid-level",
+    "url": "/job/middle",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Senior-level",
+    "url": "/job/senior",
+    "source": "Fuzu"
+  },
+  {
+    "title": "GIZ TZOnly onFuzuReceptionistDar es Salaam, Tanzania, United Republic of4 days remaining",
+    "url": "/jobs/receptionist-giz-tz",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Kingdom Sourcing LimitedOnly onFuzuBusiness Development ManagerNairobi, Kenya28 days remaining",
+    "url": "/kenya/jobs/business-development-manager-kingdom-sourcing-limited-2e8ca041",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Optica LimitedOnly onFuzuProject Officer : Expansion And RenovationsNairobi, Kenya22 days remaining",
+    "url": "/kenya/jobs/project-officer-expansion-and-renovations-optica-limited-d9b4a7cf",
+    "source": "Fuzu"
+  },
+  {
+    "title": "GIZ TZOnly onFuzuIT Governance AdvisorDodoma, Tanzania, United Republic of5 days remaining",
+    "url": "/jobs/it-governance-advisor-giz-tz",
+    "source": "Fuzu"
+  },
+  {
+    "title": "GIZ TZOnly onFuzuDriverDar es Salaam, Tanzania, United Republic of4 days remaining",
+    "url": "/jobs/driver-giz-tz",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Nestle.Only onFuzuRefrigeration TechnicianAccra, Ghana4 days remaining",
+    "url": "/jobs/refrigeration-technician-nestle-5c676442-e5aa-40a2-9823-140408fa14ed",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Nestle.Only onFuzuRegional Strategic BuyerAccra, Ghana4 days remaining",
+    "url": "/jobs/regional-strategic-buyer-nestle-5c676442-e5aa-40a2-9823-140408fa14ed",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Nestle.Only onFuzuMechanical TechnicianAccra, Ghana4 days remaining",
+    "url": "/jobs/mechanical-technician-nestle-5c676442-e5aa-40a2-9823-140408fa14ed",
+    "source": "Fuzu"
+  },
+  {
+    "title": "GIZ KEOnly onFuzuTechnical Intern - AgsysNairobi, Kenya10 days remaining",
+    "url": "/kenya/jobs/technical-intern-agsys-giz-10cb36f4",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Nestle.Only onFuzuFactory Supply ManagerPretoria, South Africa4 days remaining",
+    "url": "/jobs/factory-supply-manager-nestle-5c676442-e5aa-40a2-9823-140408fa14ed",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Nairobi,",
+    "url": "https://www.fuzu.com/kenya/job/nairobi",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Lagos,",
+    "url": "https://www.fuzu.com/nigeria/job/lagos",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Kampala,",
+    "url": "https://www.fuzu.com/uganda/job/kampala",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Abuja,",
+    "url": "https://www.fuzu.com/nigeria/job/abuja",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Mombasa,",
+    "url": "https://www.fuzu.com/kenya/job/mombasa",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Migori,",
+    "url": "https://www.fuzu.com/kenya/job/migori",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Nakuru,",
+    "url": "https://www.fuzu.com/kenya/job/nakuru",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Embu,",
+    "url": "https://www.fuzu.com/kenya/job/embu",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Kisii,",
+    "url": "https://www.fuzu.com/kenya/job/kisii",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Kajiado,",
+    "url": "https://www.fuzu.com/kenya/job/kajiado",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Kiambu,",
+    "url": "https://www.fuzu.com/kenya/job/kiambu",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Meru,",
+    "url": "https://www.fuzu.com/kenya/job/meru",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Samburu,",
+    "url": "https://www.fuzu.com/kenya/job/samburu",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Nyeri,",
+    "url": "https://www.fuzu.com/kenya/job/nyeri",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Kisumu,",
+    "url": "https://www.fuzu.com/kenya/job/kisumu",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Nyahururu,",
+    "url": "https://www.fuzu.com/kenya/job/nyahururu",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Taveta,",
+    "url": "https://www.fuzu.com/kenya/job/taveta",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Murang\u2019a,",
+    "url": "https://www.fuzu.com/kenya/job/murang-a",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Bungoma,",
+    "url": "https://www.fuzu.com/kenya/job/bungoma",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Homa Bay,",
+    "url": "https://www.fuzu.com/kenya/job/homa-bay",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Kakamega,",
+    "url": "https://www.fuzu.com/kenya/job/kakamega",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Kitui,",
+    "url": "https://www.fuzu.com/kenya/job/kitui",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Port Harcourt,",
+    "url": "https://www.fuzu.com/nigeria/job/port-harcourt",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Eldoret,",
+    "url": "https://www.fuzu.com/kenya/job/eldoret",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Machakos,",
+    "url": "https://www.fuzu.com/kenya/job/machakos",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Kilifi,",
+    "url": "https://www.fuzu.com/kenya/job/kilifi",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Narok,",
+    "url": "https://www.fuzu.com/kenya/job/narok",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Thika,",
+    "url": "https://www.fuzu.com/kenya/job/thika",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Ibadan,",
+    "url": "https://www.fuzu.com/nigeria/job/ibadan",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Nigeria,",
+    "url": "https://www.fuzu.com/nigeria/job/federal-republic-of-nigeria",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Wote,",
+    "url": "https://www.fuzu.com/kenya/job/wote",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Ol Kalou,",
+    "url": "https://www.fuzu.com/kenya/job/ol-kalou",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Bomet,",
+    "url": "https://www.fuzu.com/kenya/job/bomet",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Makueni Boma,",
+    "url": "https://www.fuzu.com/kenya/job/makueni-boma",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Mbarara,",
+    "url": "https://www.fuzu.com/uganda/job/mbarara",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Abeokuta,",
+    "url": "https://www.fuzu.com/nigeria/job/abeokuta",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Garissa,",
+    "url": "https://www.fuzu.com/kenya/job/garissa",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Kano,",
+    "url": "https://www.fuzu.com/nigeria/job/kano",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Kaduna,",
+    "url": "https://www.fuzu.com/nigeria/job/kaduna",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Iten,",
+    "url": "https://www.fuzu.com/kenya/job/iten",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Kericho,",
+    "url": "https://www.fuzu.com/kenya/job/kericho",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Yola,",
+    "url": "https://www.fuzu.com/nigeria/job/yola",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Mandera,",
+    "url": "https://www.fuzu.com/kenya/job/mandera",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Siaya,",
+    "url": "https://www.fuzu.com/kenya/job/siaya",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Jobs in Kutus",
+    "url": "https://www.fuzu.com/kenya/job/kutus",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Nigeria",
+    "url": "https://www.fuzu.com/nigeria/job",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Uganda",
+    "url": "https://www.fuzu.com/uganda/job",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Dar es Salaam,",
+    "url": "https://www.fuzu.com/job?page=1&filters[town_id]=188399",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Tanzania, United Republic of",
+    "url": "https://www.fuzu.com/job?page=1&filters[country_id]=230",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Administrative, clerical",
+    "url": "https://www.fuzu.com/job/administrative-clerical",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Transportation, logistics, storage",
+    "url": "https://www.fuzu.com/job/transportation-logistics",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Entry and Basic-level",
+    "url": "https://www.fuzu.com/job/basic",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Dar es Salaam",
+    "url": "https://www.fuzu.com/job/dar-es-salaam",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Administrative, clerical Dar es Salaam",
+    "url": "https://www.fuzu.com/job/administrative-clerical/dar-es-salaam",
+    "source": "Fuzu"
+  },
+  {
+    "title": "Why Do Successful People Love to Do These 5 Things Before Job Interviews? Let\u2019s Find Out",
+    "url": "https://www.fuzu.com/forum/article/why-do-successful-people-love-to-do-these-5-things-before-job-interviews-let-s-find-out",
+    "source": "Fuzu"
+  }
+]

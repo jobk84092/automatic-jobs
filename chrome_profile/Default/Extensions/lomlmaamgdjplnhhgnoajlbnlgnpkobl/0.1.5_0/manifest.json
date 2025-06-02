@@ -1,0 +1,39 @@
+{
+   "action": {
+      "default_icon": {
+         "16": "data/icons/16.png",
+         "32": "data/icons/32.png",
+         "48": "data/icons/48.png",
+         "64": "data/icons/64.png"
+      },
+      "default_title": "Video Popout"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "commands": {
+      "_execute_action": {
+      }
+   },
+   "description": "Pop-out and load any video element to a floating window.",
+   "homepage_url": "https://mybrowseraddon.com/video-popout.html",
+   "host_permissions": [ "*://*/*" ],
+   "icons": {
+      "128": "data/icons/128.png",
+      "16": "data/icons/16.png",
+      "32": "data/icons/32.png",
+      "48": "data/icons/48.png",
+      "64": "data/icons/64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAniuDyMP33LmEiyHT2jzhM9TQBzEzC83c1crBVY8CNt9vAJ+W2gDyDz/0/Lq2syIkB7On6ixS3mF66d9xvD2DH806RtUucrqKB7T7Y6nqJdkPxxRHoWfSCIhlRWbj7iRn3LUt3Fx6LkRUNhFYYd/8Y83C5H/GeTBL7wYn9yAHrBrdiqFVvW2FH8tbpF4juB8ccHyU6+/YV+2oP7W005zNUewl341HFrKqU6TDd+Qg6hpvAyNIkNsDt1U0WVaooKtHlRHnqkF1b/rlFY2yNSf2lBbtH9rvZQnlOzuIo7SDcKp25Ovw0OfSn67MWipurYfUTHp7z+bREezA27s9zKhIkwIDAQAB",
+   "manifest_version": 3,
+   "name": "Video Popout",
+   "offline_enabled": true,
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "data/options/options.html"
+   },
+   "permissions": [ "storage", "scripting", "notifications" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1.5"
+}

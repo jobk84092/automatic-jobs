@@ -1,0 +1,38 @@
+Welcome to Google Meet Breakout Rooms Extension
+
+***** Only the teacher needs to install this extension *****
+
+The Google Meet Breakout Rooms Extension has 4 key features:
+
+1) View All Students:  The teacher can always see all of the students in all of the breakout rooms.
+
+2）Free:  The extension is completely free to use
+
+3) Private:  Your breakout rooms data is privately stored in your computer's chrome browser.  Your breakout rooms data is not shared with anyone and it is not stored on a server.  Even the creator of this extension has no knowledge of any of your breakout rooms data.
+
+4) Easy Start Up:  Only the teacher needs to install the extension.  Please do not ask your students to install this extension because it is unnecessary and potentially confusing for the students.  The teacher uses this extension to manage the main classroom and all the breakout rooms.   Students may have other extensions installed as desired but the students should not install this extension since it is unnecessary.
+
+This software is created by Robert Hudek and all rights are reserved.  This extension is not affiliated with Google, Inc.
+
+
+Functions: 
+
+1) Breakout rooms may be viewed in either tab or tiled mode
+2) A slider may be used to quickly move between rooms
+3) Breakout assignments may be created at any time or in advance if desired
+4) Teachers may broadcast their video and audio to all the breakout rooms
+5) Customize colors on control panel
+6) Can use Google Meet Nicknames (if your Google subscription supports nicknames)
+7) Basic reporting
+8) Mute and Remove Students buttons
+9) Import, Export functions
+10) Google classroom integration
+
+*** English Quickstart video https://youtu.be/R6h9YXri2Mw
+
+*** A big thank you to Igor Kozachuk (email: disk.igor@gmail.com) for the Ukrainian translation
+
+*** A big thank you to Lenke Zustiakovej for assitance in translating to Slovakian
+
+
+

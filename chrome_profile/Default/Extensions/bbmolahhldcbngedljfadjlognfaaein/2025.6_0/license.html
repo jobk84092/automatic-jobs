@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" width="100%" height="100%">
+	<head>
+		<meta charset="utf-8">
+		<title>CheerpJ Applet Runner</title>
+		<link rel="stylesheet" href="license.css">
+		<link rel="icon" type="image/x-icon" href="cheerpjAR_32x32.png">
+		<script src="license.js"></script>
+	</head>
+	<body>
+		<div></div>
+		<div id="loaderBody">
+			<div>
+				<a href="https://cheerpj.com/" target=”_blank”>
+					<img src="assets/AR_logo.png" alt="CheerpJ Logo" class="cheerpjlogo">
+				</a>
+			</div>
+			<div id="licensed">
+				<div id="licenseDetails">
+					<p id="owner">Licensed to: <span style="font-weight: 500;" id="ownerName"></span></p>
+					<p id="status">Status: <span style="font-weight: 500;" id="licenseStatus"></span></p>
+					<p id="statusMessage"></p>
+				</div>
+				<div id="licenseKeyButtons">
+					<button id="removeLicense">Unlink License</button>
+					<button id="manageSubscription">Manage Subscription</button>
+					<button id="continueToApp">Continue<svg id="arrowIcon" width="800px" height="800px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+							<path d="m 4 2 c 0 -0.265625 0.105469 -0.519531 0.292969 -0.707031 c 0.390625 -0.390625 1.023437 -0.390625 1.414062 0 l 6 6 c 0.1875 0.1875 0.292969 0.441406 0.292969 0.707031 s -0.105469 0.519531 -0.292969 0.707031 l -6 6 c -0.390625 0.390625 -1.023437 0.390625 -1.414062 0 c -0.1875 -0.1875 -0.292969 -0.441406 -0.292969 -0.707031 s 0.105469 -0.519531 0.292969 -0.707031 l 5.292969 -5.292969 l -5.292969 -5.292969 c -0.1875 -0.1875 -0.292969 -0.441406 -0.292969 -0.707031 z m 0 0" fill="white"/>
+						</svg>
+					</button>
+				</div>
+			</div>
+			<div id="unlicensed">
+				<div id="activateLicense">
+					You can use the CheerpJ Applet Runner for free for Personal Use only.<br />
+					<p id="subActivateLicense">For any other use, including by private and public-sector organisations, see the <a
+							href="https://labs.leaningtech.com/docs/cheerpj-applet-runner/licensing" target=”_blank”>licensing
+							page</a>.</p>
+				</div>
+				<ul id="licenseChecklist">
+					<li>📖 &nbsp; <a href="https://labs.leaningtech.com/docs/cheerpj-applet-runner/licensing" target="_blank">Licensing Page</a></li>
+					<li>🔗 &nbsp; <a href="https://labs.leaningtech.com/payment-applet" target="_blank">Purchase a License</a></li>
+					<li>🔑 &nbsp; Click Enter License to validate your license key.</li>
+				</ul>
+
+				<div id="licenseKeyButtons">
+					<button id="continueToApp">Continue Without a License</button>
+					<button id="editLicense">Enter License</button>
+				</div>
+			</div>
+			<div id="validate">
+				<p id="licenseText">
+					Enter your license key to activate the extension. If you don't have a license key, you can get it from <a id='licenseKeyLink' href='https://labs.leaningtech.com/payment-applet'>here</a>.
+				</p>
+				<div class="toggle">
+					<input type="radio" name="keyOrToken" value="key" id="key" checked="checked" />
+					<label for="key">Key</label>
+					<input type="radio" name="keyOrToken" value="token" id="token" />
+					<label for="token">Token</label>
+					<button id="help-button" class="help-button">?</button>
+					<div id="helpTooltip" class="help-tooltip">
+						A License Key is a standard way to activate the extension, while a License Token is for evaluations or organizational offline activation.
+					</div>
+				</div>
+					<input type="text" id="licenseKeyInput" placeholder="XXXX-XXXX-XXXX-XXXX">
+					<textarea id="licenseTokenInput" placeholder="eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwbGFjZWhvbGRlciIsIm5hbWUiOiJKb2UgRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.signature"></textarea>
+					<button id="validateLicense">Validate</button>
+					<br/>
+				<div id="licenseKeyButtons">
+					<button id="goBack"><svg id="goBackIcon" width="800px" height="800px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+							<path d="m 4 2 c 0 -0.265625 0.105469 -0.519531 0.292969 -0.707031 c 0.390625 -0.390625 1.023437 -0.390625 1.414062 0 l 6 6 c 0.1875 0.1875 0.292969 0.441406 0.292969 0.707031 s -0.105469 0.519531 -0.292969 0.707031 l -6 6 c -0.390625 0.390625 -1.023437 0.390625 -1.414062 0 c -0.1875 -0.1875 -0.292969 -0.441406 -0.292969 -0.707031 s 0.105469 -0.519531 0.292969 -0.707031 l 5.292969 -5.292969 l -5.292969 -5.292969 c -0.1875 -0.1875 -0.292969 -0.441406 -0.292969 -0.707031 z m 0 0" fill="white"/>
+						</svg>Go Back</button>
+					<button id="continueToApp">Continue Without a License<svg id="arrowIcon" width="800px" height="800px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+							<path d="m 4 2 c 0 -0.265625 0.105469 -0.519531 0.292969 -0.707031 c 0.390625 -0.390625 1.023437 -0.390625 1.414062 0 l 6 6 c 0.1875 0.1875 0.292969 0.441406 0.292969 0.707031 s -0.105469 0.519531 -0.292969 0.707031 l -6 6 c -0.390625 0.390625 -1.023437 0.390625 -1.414062 0 c -0.1875 -0.1875 -0.292969 -0.441406 -0.292969 -0.707031 s 0.105469 -0.519531 0.292969 -0.707031 l 5.292969 -5.292969 l -5.292969 -5.292969 c -0.1875 -0.1875 -0.292969 -0.441406 -0.292969 -0.707031 z m 0 0" fill="white"/>
+						</svg>
+					</button>
+				</div>
+			</div>
+			<div id="loading">
+				<div id="licenseSpinner">
+					<img src="assets/spinner.svg" alt="License check in progress" width="300"/>
+				</div>
+				<br/><br/>
+			</div>
+		</div>
+		<footer id="footer">
+			<hr class="solid">
+			<div id="footerLogo">
+				<img id="ltlogo" src="assets/tower.svg" alt="Leaning Technologies logo"/>
+				<a href="https://leaningtech.com/" target=”_blank”>
+					<p id="footerText">© 2023-2025 Leaning Technologies</p>
+				</a>
+			</div>
+			<div id="footerLinks">
+				<a href="https://cheerpj.com/" target=”_blank”>cheerpj.com</a>
+			</div>
+		</footer>
+		<div id="errors">
+			<div id="errorText"></div>
+			<div id="errorClose">&#x2716</div>
+		</div>
+		</body>
+</html>

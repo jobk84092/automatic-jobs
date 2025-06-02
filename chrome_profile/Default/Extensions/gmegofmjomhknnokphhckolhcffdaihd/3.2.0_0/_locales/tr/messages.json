@@ -1,0 +1,14 @@
+{
+   "detailedDescription": {
+      "description": "Longer description for the extension in the stores.",
+      "message": "Normally when encountering a JSON document (content type \"application/json\"), the browser simply shows plain text. With the JSONView extension, JSON documents are formatted, highlighted, and arrays and objects can be collapsed. Even if the JSON document contains errors, JSONView will still show the raw text.\nOnce you've got JSONView installed, check out http://jsonview.com/example.json to see the extension in action!"
+   },
+   "errorParsing": {
+      "description": "The message shown when there was an error parsing your JSON",
+      "message": "There was an error parsing the JSON document. The document may not be well-formed."
+   },
+   "extensionDescription": {
+      "description": "Description of the extension.",
+      "message": "JSON belgelerini tarayıcınızda açın."
+   }
+}

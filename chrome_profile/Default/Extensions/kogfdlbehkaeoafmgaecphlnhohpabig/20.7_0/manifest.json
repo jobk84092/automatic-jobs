@@ -1,0 +1,34 @@
+{
+   "action": {
+      "default_title": "Breakout Rooms"
+   },
+   "background": {
+      "service_worker": "backgroundOpen.js"
+   },
+   "content_scripts": [ {
+      "css": [ "css/myContentCss.css", "css/fontawesome.min.css" ],
+      "js": [ "js/utilCore.js", "js/utilHelper.js", "js/utilDb.js", "content/contentHandler.js", "content/contentEvents.js" ],
+      "matches": [ "https://meet.google.com/*" ],
+      "run_at": "document_idle"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_extDesc__",
+   "host_permissions": [ "https://g.co/meet/*", "https://*.google.com/*" ],
+   "icons": {
+      "128": "img/icon128.png",
+      "16": "img/icon16.png",
+      "48": "img/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmu0fhYBbNax9C7ERWfsrjYL7twhrotCmxM41i6puWiU0J8Ppcc1kugBCuGiikZ12zilIqRqZSCAYgiMcO9JyT67Auu5+n3C69zzZhjU+yRZz2/lCoysMfu1s8Pf+r70cbWQ2FlW+9Td3XWDH2y6Rg0tR4r4eod0syMV2B5pyR7jVwLPNQ90m+1L8jHHU1R1usuz36+Ts2rgaJQlG9+H7eSJpx1GG26TRFXo345NO+LxNPumbe4jlg0MACKQut28fGO9bqslBwZuM+/ryt7GFK4N+aizorS9yXAzElJHKhNAeHmzjpVL4kUGmUTuHmWT1Djt3RaXyMrjhhnt4y45+BwIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_extName__",
+   "permissions": [ "storage", "activeTab", "contextMenus", "downloads", "scripting" ],
+   "short_name": "__MSG_extName__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "20.7",
+   "web_accessible_resources": [ {
+      "extension_ids": [  ],
+      "matches": [ "https://meet.google.com/*" ],
+      "resources": [ "img/*.*", "js/sortable.js", "js/utilCore.js", "js/utilHelper.js", "js/utilToolTip.js", "js/utilDb.js", "js/utilSlider.js", "js/utilBreakout.js", "js/utilMeetTab.js", "content/contentHandler.js", "content/contentEvents.js" ]
+   } ]
+}

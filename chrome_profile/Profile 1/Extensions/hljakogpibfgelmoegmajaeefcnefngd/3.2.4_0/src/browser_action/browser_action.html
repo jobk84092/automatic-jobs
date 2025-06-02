@@ -1,0 +1,49 @@
+<!doctype html>
+
+<head>
+	<script src="../bg/ua-detect.min.js"></script>
+	<script src="../bg/fingerprint.min.js"></script>
+	<script src="./browser_action.js"></script>
+	<link rel="stylesheet" type="text/css" href="../../semantic/semantic.min.css">
+	<script src="../../semantic/jquery.min.js"></script>
+	<script src="../../semantic/semantic.min.js"></script>
+	<script src="./../tagify/tagify.js"></script>
+	<script src="./../tagify/tagify.polyfills.min.js"></script>
+	<script src="../../semantic/jquery.tagify.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../../semantic/tagify.css">
+	<link rel="stylesheet" type="text/css" href="../../css/browser-action.css">
+	<link href="./../tagify//tagify.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div id="loading_myloft">
+		<div class="ui segment">
+			<p></p>
+			<div class="ui active dimmer">
+				<div class="ui loader"></div>
+			</div>
+		</div>
+	</div>
+	<div id="myloft_popup_container">
+
+		<h3 id="myloft_title"></h3>
+		<div id="tagInput">
+			<input name="tag_input" data-i18n="placeholder=add_tags" placeholder="Add Tags ++">
+			<span id="error"> Please enter a valid tag of min 2 and max 32 characters</span>
+		</div>
+		<div id="colInput">
+			<div class="ui category search">
+				<div class="ui icon input">
+					<input class="prompt" data-i18n="placeholder=select_collection" type="text"
+						placeholder="Search and Select a Collection...">
+				</div>
+				<div class="results"></div>
+			</div>
+		</div>
+		<div id="save_section">
+			<button data-i18n="browser_action_save_button" id="saveButton" class="ui primary button">
+				Save
+			</button>
+		</div>
+	</div>
+</body>

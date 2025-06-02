@@ -1,0 +1,564 @@
+{
+  "extName": {
+    "message": "Google Meet Breakout Rooms by Robert Hudek"
+  },
+  "extDesc": {
+    "message": "Completely Free and your Data is Private.  Google Classroom integration, Slider Control, Nicknames, Help tutorials"
+  },
+  "title": {
+    "message": "Breakout Rooms"
+  },
+  "myCourse": {
+    "message": "My Course"
+  },
+  "myCourseDesc": {
+    "message": "My course description"
+  },
+  "toolTipRetile": {
+    "message": "Re-Tile"
+  },
+  "toolTipToolbar": {
+    "message": "Hide/Show Meet Toolbar"
+  },
+  "meet": {
+    "message": "Start class"
+  },
+  "rooms": {
+    "message": "Rooms"
+  },
+  "courses": {
+    "message": "Courses"
+  },
+  "settings": {
+    "message": "Settings"
+  },
+  "btnStudentsReport": {
+    "message": "Students"
+  },
+  "btnRoomsReport": {
+    "message": "Classroom"
+  },
+  "broadcast": {
+    "message": "Broadcast"
+  },
+  "sliderDefault": {
+    "message": "Breakouts"
+  },
+  "defaultAccount": {
+    "message": "Your account is "
+  },
+  "startClass": {
+    "message": "Start class"
+  },
+  "assignBreakoutsAdhoc": {
+    "message": "Ad Hoc (now)"
+  },
+  "assignBreakoutsPre": {
+    "message": "Pre-Assign"
+  },
+  "adhoc1": {
+    "message": "Step 1：Assign students"
+  },
+  "adhoc1a": {
+    "message": "Random：Please click 'Random' button.  You may repeatedly click on Random until you see a grouping you like, then you can manually drag and drop to further refine. "
+  },
+  "adhoc1b": {
+    "message": "Drag / Drop:  Manually drag and drop students into groups"
+  },
+  "adhoc1c": {
+    "message": "Remove (click): Click on student's name to remove them from grouping"
+  },
+  "adhoc1d": {
+    "message": "Remove (drag): Click and hold on a student's name to drag remove from group"
+  },
+  "adhoc11a": {
+    "message": "(click here) Why can't I see any of my students?"
+  },
+  "adhoc11b": {
+    "message": "Here"
+  },
+  "adhoc12a": {
+    "message": "(click here) Why can't I see all of my students?"
+  },
+  "adhoc2": {
+    "message": "Step 2 and 3: Copy breakout room lnks and student assignments"
+  },
+  "adhoc2a": {
+    "message": "After you assign students, please click "
+  },
+  "adhoc2b": {
+    "message": "Here"
+  },
+  "adhoc2c": {
+    "message": "."
+  },
+  "btnRandom": {
+    "message": "Randomly Assign "
+  },
+  "lblStudents": {
+    "message": "students"
+  },
+  "lblBreakoutRooms": {
+    "message": "Breakout Rooms"
+  },
+  "lblBreakoutAssigns": {
+    "message": "Small Group"
+  },
+  "popupHelpAdhoc": {
+    "message": "Ad Hoc Assig"
+  },
+  "popupHelpAdhocStep2": {
+    "message": "Step 2: Copy links to Breakout Rooms"
+  },
+  "popupHelpAdhocStep2a": {
+    "message": "Please click"
+  },
+  "popupHelpAdhocStep2b": {
+    "message": "Here"
+  },
+  "popupHelpAdhocStep2c": {
+    "message": "to copy the Breakout Room links, then paste them into the Main Room chat message (command/control v)"
+  },
+  "popupHelpAdhocNumwords2a": {
+    "message": "This is only"
+  },
+  "popupHelpAdhocNumwords2b": {
+    "message": "characters, which is less than 500 characters maximum. OK to copy all at once"
+  },
+  "popupHelpAdhocNumwords2c": {
+    "message": "This is "
+  },
+  "popupHelpAdhocNumwords2d": {
+    "message": "characters, which is more than the 500 character maximum, which means you will need to copy / paste in sections to get under the 500 character maximum Google Meet chat message limitation for a single copy / paste.  You may need to copy in perhaps 2 or 3 sections.  Please highlight a few rows then copy / paste in in the Main Room chat, repeat for the remaining rows until everything is copied and pasted into the Main Room chat message. "
+  },
+  "popupHelpAdhocStep3": {
+    "message": "Step 3: Copy and paste the student assignments"
+  },
+  "popupHelpAdhocStep3a": {
+    "message": "Please click"
+  },
+  "popupHelpAdhocStep3b": {
+    "message": "Here"
+  },
+  "popupHelpAdhocStep3c": {
+    "message": "to copy the Breakout Room links, then paste them into the Main Room chat message (command/control v)"
+  },
+  "popupHelpAdhocNumwords3a": {
+    "message": "This is only "
+  },
+  "popupHelpAdhocNumwords3b": {
+    "message": "characters, which is less than 500 characters maximum. OK to copy all at once"
+  },
+  "popupHelpAdhocNumwords3c": {
+    "message": "This is "
+  },
+  "popupHelpAdhocNumwords3d": {
+    "message": "characters, which is more than the 500 character maximum, which means you will need to copy / paste in sections to get under the 500 character maximum Google Meet chat message limitation for a single copy / paste.  You may need to copy in perhaps 2 or 3 sections.  "
+  },
+  "pre1": {
+    "message": "Step 1: Copy your pre-assgined list of student / breakout room assignments"
+  },
+  "pre1a": {
+    "message": "For example, from any text file you can copy the assignment list into the Main Room message chat."
+  },
+  "pre1b": {
+    "message": "Every time you copy / paste, please make sure that you do not exceed the Google Meet chat message limitation of 500 characters for a single copy / paste. If you list has more than 500 characters then you will need to copy / paste in sections to get under the 500 character limitation for a single copy/paste."
+  },
+  "pre2": {
+    "message": "Step 2: Copy / paste the Breakout Rooms links"
+  },
+  "pre2a": {
+    "message": "Please click"
+  },
+  "pre2b": {
+    "message": "Here"
+  },
+  "pre2c": {
+    "message": "then in the Main Room chat message paste (command / control v)"
+  },
+  "preNumwords2a": {
+    "message": "This is only "
+  },
+  "preNumwords2b": {
+    "message": "characters, which is less than 500 characters maximum. OK to copy all at once"
+  },
+  "preNumwords2c": {
+    "message": "This is "
+  },
+  "preNumwords2d": {
+    "message": "characters, which is more than the 500 character maximum, which means you will need to copy / paste in sections to get under the 500 character maximum Google Meet chat message limitation for a single copy / paste.  You may need to copy in perhaps 2 or 3 sections.  "
+  },
+
+  "muteRemove": {
+    "message": "Mute, Remove Students"
+  },
+  "reports": {
+    "message": "Reports"
+  },
+  "dropdownCourse": {
+    "message": "Courses"
+  },
+  "dropdownBreakouts": {
+    "message": "Breakouts"
+  },
+  "default1": {
+    "message": "If the account is correct, then everything is OK"
+  },
+  "default2": {
+    "message": "If the account is not correct, then please do the following:"
+  },
+  "default3a": {
+    "message": "Click"
+  },
+  "default3b": {
+    "message": "Here"
+  },
+  "default3c": {
+    "message": "To manage your google account list order"
+  },
+  "default4": {
+    "message": "Logout of all your accounts"
+  },
+  "default5a": {
+    "message": "Your google meet account is the FIRST account in the list that you logged in to.  If the first account is not your desired google account for teaching then unfortunately you will need to logout of all your accounts and re-login.  Chrome should have saved your login and passwords for each of your accounts so hopefully it will not be too big of a hassle to re-log in.  "
+  },
+  "default5b": {
+    "message": "It is very important to use the same main google account (first account in list) to run your meets and breakout room extension, in order to maintain extension data consistency"
+  },
+  "default5c": {
+    "message": "Settings and opening of meets are according to your main google account (first account in list)"
+  },
+  "default6": {
+    "message": "Once you re-login with the correct order (first account is your main account), you can login to all your other google accounts"
+  },
+  "btnOpenMain": {
+    "message": "Open Main Room (or Google Classroom integration) "
+  },
+  "btnOpenMain1": {
+    "message": "Open Main Room (or Google Classroom integration) "
+  },
+  "btnOpenMainRam": {
+    "message": "Main Room"
+  },
+  "btnOpenBreakouts": {
+    "message": "Open Breakouts"
+  },
+  "btnOpenAll": {
+    "message": "Open All"
+  },
+  "checkRam": {
+    "message": "Low memory (RAM) option: Normally do not check this box, for RAM less than 8G"
+  },
+  "checkRam2": {
+    "message": "Help"
+  },
+  "btnRam": {
+    "message": "Open room window, use the slider to move to next room window"
+  },
+  "muteAllMain": {
+    "message": "Mute all students: Only in the Main Room"
+  },
+  "muteAllBreakouts": {
+    "message": "Mute all students: In All Breakout Rooms "
+  },
+  "muteAllRooms": {
+    "message": "Mute all students: Main room and All Breakouts"
+  },
+  "muteAllThis": {
+    "message": "Mute all students: Only in this room"
+  },
+  "removeAllThis": {
+    "message": "Remove all students：Only in this room"
+  },
+  "removeBreakouts": {
+    "message": "*** 討論完畢： 移除學生從所有討論室"
+  },
+  "hangupBreakouts": {
+    "message": "*** End Breakouts：Close all Breakouts"
+  },
+  "removeMain": {
+    "message": "*** Class Finished：Remove all students from Main Room"
+  },
+  "hangupMain": {
+    "message": "*** Class Finished：Close Main Room"
+  },
+  "reportsClipboard": {
+    "message": "Copy to Clipboard"
+  },
+  "reportsCsv": {
+    "message": "Download CSV files"
+  },
+  "reportsLinks": {
+    "message": "Breakout links"
+  },
+  "reportsAttendance": {
+    "message": "Student Attendance"
+  },
+  "reportsAssignments": {
+    "message": "Student / Breakout assignments"
+  },
+  "reportsGroups": {
+    "message": "Breakout Room members"
+  },
+  "instructRoomLinks": {
+    "message": "Help on how to enter classroom links"
+  },
+  "subHeadingRooms": {
+    "message": "Rooms"
+  },
+  "code": {
+    "message": "Code"
+  },
+  "url": {
+    "message": "URL"
+  },
+  "nickname": {
+    "message": "Nickname (English only)"
+  },
+  "nicknameHelplink": {
+    "message": "Help"
+  },
+  "genDisplay": {
+    "message": "Breakout Rooms layout"
+  },
+  "genTiles": {
+    "message": "Tiles: Independent windows"
+  },
+  "genTabs": {
+    "message": "Tabs: Window Tabs"
+  },
+  "genToolbarColor": {
+    "message": "Meet Toolbar 顏色"
+  },
+  "genSolid": {
+    "message": "Solid Color"
+  },
+  "genGrad": {
+    "message": "Gradient"
+  },
+  "genDropSolid": {
+    "message": "Solid Color"
+  },
+  "genDropEnd": {
+    "message": "Ends"
+  },
+  "genDropMid": {
+    "message": "Middle"
+  },
+  "rptYes": {
+    "message": "Yes"
+  },
+  "rptNo": {
+    "message": "No"
+  },
+  "rptTitleSSR": {
+    "message": "Student Status"
+  },
+  "rptStudent": {
+    "message": "Student"
+  },
+  "rptMain": {
+    "message": "Main Room"
+  },
+  "rptActualRoom": {
+    "message": "Actual Breakout"
+  },
+  "rptAssignRoom": {
+    "message": "Assigned Breakout"
+  },
+  "rptTitleBRSR": {
+    "message": "Breakout Status"
+  },
+  "rptBreakoutRoom": {
+    "message": "Breakouts"
+  },
+  "rptActualStudent": {
+    "message": "Actual Students"
+  },
+  "rptAssignStudent": {
+    "message": "Assigned Students"
+  },
+  "setTimer": {
+    "message": "Set Timer"
+  },
+  "timerHrs": {
+    "message": "Hours"
+  },
+  "timerMin": {
+    "message": "Minutes"
+  },
+  "timerSec": {
+    "message": "Seconds"
+  },
+  "timerStart": {
+    "message": "Start"
+  },
+  "timerStop": {
+    "message": "Stop"
+  },
+  "timerReset": {
+    "message": "Reset"
+  },
+  "enterCourses": {
+    "message": "Enter Courses"
+  },
+  "firstRoomMain": {
+    "message": "First row is Main Room, Second row is Breakouts"
+  },
+  "linksSaved": {
+    "message": "Links Saved"
+  },
+  "mainName": {
+    "message": "Main Room"
+  },
+  "roomsDupe": {
+    "message": "Cannot save: Error because Room name or links are not unique.  All rooms must have a name "
+  },
+  "roomsCreatingUrl": {
+    "message": "Creating URL ..."
+  },
+  "roomsSaved": {
+    "message": "Rooms saved"
+  },
+  "roomsNotYetSaved": {
+    "message": "Rooms not yet saved"
+  },
+  "roomsUndo": {
+    "message": "Undo"
+  },
+  "roomsNeedName": {
+    "message": "Cannot save: All rooms need a name (unique)"
+  },
+  "courseEnter": {
+    "message": "Please enter your course name "
+  },
+  "courseCourse": {
+    "message": " Course"
+  },
+  "courseDesc": {
+    "message": " Course description"
+  },
+  "coursesDupe": {
+    "message": " Cannot save: Name is not unique. "
+  },
+  "coursesSaved": {
+    "message": " Saved"
+  },
+  "coursesNotYetSaved": {
+    "message": "Data changed but not saved"
+  },
+  "genAutoEnter": {
+    "message": "Allow 'outsiders' to enter the classroom"
+  },
+  "genAutoEnter1": {
+    "message": "If selected, 'outsiders' may automatically enter"
+  },
+  "genAutoEnter2": {
+    "message": "Recommend not selected "
+  },
+  "genAutoEnter3": {
+    "message": "For security concerns "
+  },
+  "genAutoJoin": {
+    "message": "This is a convenience option which allows you to enter the rooms once they are open.  Recommend checked on"
+  },
+  "genAutoJoinMain": {
+    "message": "Main Room"
+  },
+  "genAutoJoinBreak": {
+    "message": "Breakouts"
+  },
+  "genAutoNewUrl": {
+    "message": "For 'static' links such as the purple links, automatically create a new meet link each time it is opened. This option is not often selected."
+  },
+  "genAutoNewUrl1": {
+    "message": "Normally do not check this box - this not a common option. If checked on, everytime you open a meet, automatically create a new meet link.  Please be aware with this option you will need to FIRST open the main room in order to know the brand new link to inform the students via email or some other form of communication.  The new link will be stored in the Class tab AFTER it is opened."
+  },
+  "genAutoNewUrl2": {
+    "message": "Please note this option is only relevant for the URL links which are dark blue color in the Class tab"
+  },
+  "genAutoNewUrl3": {
+    "message": "This option does not affect the nickname links (green color) or the code links (light blue color)"
+  },
+  "genAutoNewUrlMain": {
+    "message": "Main Room"
+  },
+  "genAutoNewUrlBreak": {
+    "message": "Breakouts"
+  },
+  "coursesExpimp": {
+    "message": "Export of Import all of the extension data"
+  },
+  "coursesExpimpWarn": {
+    "message": "Please note: Importing will overwrite all the extension contents"
+  },
+  "coursesExp1": {
+    "message": "Export all the extension data"
+  },
+  "coursesExp2": {
+    "message": "File（.txt)"
+  },
+  "coursesExp3": {
+    "message": "Export"
+  },
+  "coursesImp1": {
+    "message": "Import all the extension data"
+  },
+  "coursesImp2": {
+    "message": "File（.txt)"
+  },
+  "coursesImp3": {
+    "message": "Import"
+  },
+  "coursesBuiltWith": {
+    "message": "Created with ❤️ by Robert Hudek"
+  },
+  "roomsExpimp": {
+    "message": "Export Import this course's links"
+  },
+  "roomsPopupTitle": {
+    "message": "Course： "
+  },
+  "roomsExp1": {
+    "message": "Export this course's information"
+  },
+  "roomsExp2": {
+    "message": "File（.txt)"
+  },
+  "roomsExp3": {
+    "message": "Export"
+  },
+  "roomsImp1": {
+    "message": "Import this course's information"
+  },
+  "roomsImp2": {
+    "message": "File（.txt)"
+  },
+  "roomsImp3": {
+    "message": "Import"
+  },
+  "roomsBuiltWith": {
+    "message": "Created with ❤️ by Robert Hudek"
+  },
+  "errorAutoCreateLink": {
+    "message": "Problem with requesting a meet link.  Please confirm that you logged in to your correct google meet account, which is the first account in the google account list.  You may check this list by using this link:  https://accounts.google.com/SignoutOptions。If the first account in the list is not your main teaching account then please log out of all accounts (sorry, but that is the google process) and then login the first account using your main teaching account.  Then you can login your other accounts.  "
+  },
+  "errorNick1": {
+    "message": "Problem creating a link using your nickname: "
+  },
+  "errorNick2": {
+    "message": "Please verify if your google account has nickname functionality. For example google suite and google education have this functionality and other account types may as well.  Also, Please confirm that you logged in to your correct google meet account, which is the first account in the google account list.  You may check this list by using this link:  https://accounts.google.com/SignoutOptions。If the first account in the list is not your main teaching account then please log out of all accounts (sorry, but that is the google process) and then login the first account using your main teaching account.  Then you can login your other accounts. If your google account does not support nicknames, then please use the static type links (purple link types) in the Class tab. "
+  },
+  "errorBouncingBalls": {
+    "message": "There is a meet window that cannot be synced.  In this case, please close all your meet windows and also close the control panel extension window.  Then re-open the extension window and open all your meet windows again.  If you still have problems, then you may need to close Chrome and then re-open.  *** Please do NOT uninstall the extension because that is not necessary and doing so would delete your extension data.  Just close and re-open the windows.  "
+  },
+  "msgAllSync": {
+    "message": "Success： All the meet windows were synchronized"
+  },
+  "msgBreakoutSync": {
+    "message": "Success： All the breakouts were synchronized"
+  },
+  "msgMainSync": {
+    "message": "Success： Main room synchronized"
+  }
+}

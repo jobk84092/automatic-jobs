@@ -1,0 +1,147 @@
+p,
+h3 {
+	margin: 0;
+	padding: 0;
+}
+.err_page {
+	padding: 0 35px;
+	text-align: center;
+	margin-top: 48px;
+}
+.err_page img {
+	margin-bottom: 30px;
+	margin-left: 60px;
+}
+.err_page h3 {
+	font-size: 16px;
+	font-weight: 600;
+}
+.err_page > p {
+	margin: 10px 0 30px 0;
+	color: #666666;
+	font-size: 14px;
+}
+.err_page button {
+	margin-bottom: 80px;
+	width: 120px;
+	height: 30px;
+	border-radius: 5px;
+	cursor: pointer;
+	background: #3bba54;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 600;
+	border: 0;
+	user-select: none;
+	transition: all 0.2s;
+}
+.err_page button:hover {
+	background-color: #1caa38;
+}
+.err_page button:active {
+	background-color: #008c1c;
+}
+/* loading */
+.err_page .bar {
+	display: inline-block;
+	width: 10px;
+	height: 4px;
+	border-radius: 5px;
+}
+.err_page .el1 {
+	background-color: #fff;
+	animation: el1_a 0.5s ease-in-out 0s,
+		el1_a_b 1.5s ease-in-out 0.5s infinite normal;
+}
+.err_page .btn_loading {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.err_page .btn_loading .el1 {
+	background-color: #fff;
+}
+.err_page .el2 {
+	margin-right: 6px;
+	margin-left: 6px;
+	background-color: #fff;
+	animation: el2_a 0.5s ease-in-out 0s,
+		el2_a_b 1.5s ease-in-out 0.5s infinite normal;
+}
+.err_page .btn_loading .el2 {
+	background-color: #fff;
+}
+.err_page .el3 {
+	background-color: #fff;
+	animation: el3_a 0.5s ease-in-out 0s,
+		el3_a_b 1.5s ease-in-out 0.5s infinite normal;
+}
+.err_page .btn_loading .el3 {
+	background-color: #fff;
+}
+@keyframes el1_a {
+	from {
+		width: 6px;
+	}
+	to {
+		width: 26px;
+	}
+}
+@keyframes el2_a {
+	from {
+		width: 6px;
+	}
+	to {
+		width: 26px;
+	}
+}
+@keyframes el3_a {
+	from {
+		width: 6px;
+	}
+	to {
+		width: 6px;
+	}
+}
+@keyframes el1_a_b {
+	0% {
+		width: 26px;
+	}
+	33% {
+		width: 6px;
+	}
+	66% {
+		width: 6px;
+	}
+	100% {
+		width: 26px;
+	}
+}
+@keyframes el2_a_b {
+	0% {
+		width: 6px;
+	}
+	33% {
+		width: 26px;
+	}
+	66% {
+		width: 6px;
+	}
+	100% {
+		width: 6px;
+	}
+}
+@keyframes el3_a_b {
+	0% {
+		width: 6px;
+	}
+	33% {
+		width: 6px;
+	}
+	66% {
+		width: 26px;
+	}
+	100% {
+		width: 6px;
+	}
+}

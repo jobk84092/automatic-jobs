@@ -1,0 +1,275 @@
+@font-face {
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'Oswald';
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(../fonts/Oswald.woff2) format('woff2');
+}
+
+body {
+  margin: 0 auto;
+  padding: 0 10px;
+  min-width: 600px;
+  max-width: 1200px;
+  overflow-y: scroll;
+  align-items: center;
+}
+
+body, table {
+  color: #333;
+  font-size: 13px;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+  font-family: Oswald, sans-serif;
+}
+
+body > * {
+  width: 100%;
+  max-width: 1200px;
+}
+
+p {
+  margin: 1em;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.note {
+  padding: 0;
+  font-size: 90%;
+  margin: 5px 0 0 0;
+  color: #707070 !important;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  border-spacing: 0 1px;
+}
+
+table tr {
+  background-color: #fff;
+  outline: solid 1px rgba(0,0,0,0.05);
+}
+
+table thead tr {
+  height: 28px;
+  background-color: rgba(0,0,0,0.1);
+}
+
+table tr td {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  color: #333;
+  height: 38px;
+  border-width: 0;
+  transition: 300ms ease all;
+}
+
+table tr td[type='number'] {
+  width: 38px;
+  text-align: center;
+}
+
+table tr td[type='name'], tr td[type='value'] {
+  display: block;
+  min-width: 90px;
+  overflow: hidden;
+  padding-left: 5px;
+  line-height: 20px;
+}
+
+table tr td[type='check'] {
+  cursor: pointer;
+  text-align: center;
+}
+
+table tr td[type='toggle'] {
+  width: 70px;
+  cursor: pointer;
+  text-align: center;
+  background-color: #4A86C5;
+}
+
+table tr td[type='toggle'][state='active'] {
+  color: #fff;
+  background-color: #4A86C5;
+}
+
+table tr td[type='close'] {
+  width: 70px;
+  cursor: pointer;
+  font-size: 12px !important;
+}
+
+table tr td[type="ext-item-add"]:hover {background-color: #000000}
+table tr td[type='toggle'][state='inactive'] {background-color: #d6d6d6}
+table tr td[type='toggle'][state='active']:hover {background-color: #3b6da2}
+table tr[state='inactive'] td, table tr[state='inactive'] td a {color: #bf2222 !important}
+
+table tr td[type="ext-item"] input {
+  width: 100%;
+  padding: 0 10px;
+  box-sizing: border-box;
+  height: calc(100% - 10px);
+  border: solid 1px rgba(0,0,0,0.1);
+}
+
+table tr td[type='close']:hover {
+  color: #fff !important;
+  background-color: #C75050;
+}
+
+table tr td[type="ext-item"] {
+  border: 0;
+  margin: 0;
+  height: 52px;
+  padding: 0 5px;
+}
+
+table tr td[type="ext-item-add"] {
+  width: 42px;
+  color: #fff;
+  margin: 10px;
+  font-size: 13px;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 100%;
+  background-color: #666;
+  border: solid 5px #fff;
+}
+
+table tr td[type='toggle'],
+table tr td[type="ext-item-add"] {
+  user-select: none;
+}
+
+input {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  height: 20px;
+  outline: none;
+  vertical-align: middle;
+  border-radius: 0 !important;
+}
+
+details {
+  border: 0;
+  padding: 0;
+  margin: auto;
+  outline: none;
+}
+
+summary {
+  color: #333;
+  height: 22px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 13px;
+  user-select: none;
+  line-height: 22px;
+}
+
+summary:focus {
+  outline: none;
+}
+
+.information {
+  color: #6B6E70;
+  padding: 5px 0;
+  text-align: justify;
+}
+
+.option-logo {
+  padding: 0;
+  width: 100%;
+  height: 128px;
+  margin: 0 auto;
+  background: url("../icons/128.png") no-repeat center center;
+  background-size: 64px;
+}
+
+.option-item {
+  padding: 10px;
+  line-height: 22px;
+  margin: 0 0 10px 0;
+}
+
+.option-item p {
+  color: #555;
+  margin: 0 5px;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.option-item table[type='manual'] {
+  margin: 10px auto 0 auto;
+}
+
+.highlight {
+  background-color: #e2dfac;
+}
+
+#content {
+  padding: 0 10px;
+}
+
+#audio-max-size {
+  color: #333;
+  height: 42px;
+  width: 200px;
+  margin: 0 5px;
+  padding: 0 5px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  border: solid 1px rgba(0,0,0,0.25);
+}
+
+#download-button {
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  color: #fff;
+  height: 29px;
+  font: inherit;
+  cursor: pointer;
+  line-height: 29px;
+  text-align: center;
+  border-radius: 2px;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #333333;
+}
+
+#download-button-input {
+  margin: 0;
+  width: 0;
+  height: 0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#ext-value-table {border-spacing: 0 5px}
+#download-button:hover {background-color: #000000}
+
+#open-wpage, 
+#show-resolution, 
+#captured-list-use-url {
+  margin: 0;
+  float: right;
+}
+
+#ext-value-table tr td[type='description'] {
+  padding: 0 10px;
+  text-align: justify;
+}

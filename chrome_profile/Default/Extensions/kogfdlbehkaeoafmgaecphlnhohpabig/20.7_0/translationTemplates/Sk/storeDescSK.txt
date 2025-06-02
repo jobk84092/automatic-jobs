@@ -1,0 +1,36 @@
+Vitajte v rozšírení Google Meet Breakout Rooms
+
+***** Toto rozšírenie musí nainštalovať iba učiteľ *****
+
+Rozšírenie Google Meet Breakout Rooms má 4 kľúčové funkcie:
+
+1) Zobraziť všetkých študentov: Učiteľ môže vždy vidieť všetkých študentov vo všetkých oddelených miestnostiach.
+
+2) Zadarmo: Rozšírenie je úplne zadarmo
+
+3) Súkromné: Údaje o vašich oddelených miestnostiach sú súkromne uložené v prehliadači Chrome vášho počítača. Údaje o vašich oddelených miestnostiach sa s nikým nezdieľajú a nie sú uložené na serveri. Dokonca ani tvorca tohto rozšírenia nevie o žiadnych údajoch o vašich oddelených miestnostiach.
+
+4) Jednoduché spustenie: Rozšírenie musí nainštalovať iba učiteľ. Nežiadajte svojich študentov, aby si nainštalovali toto rozšírenie, pretože je zbytočné a pre študentov potenciálne mätúce. Učiteľ používa toto rozšírenie na správu hlavnej triedy a všetkých oddelených miestností. Študenti môžu mať nainštalované ďalšie rozšírenia podľa potreby, ale študenti by si toto rozšírenie nemali inštalovať, pretože je zbytočné.
+
+Tento softvér vytvoril Robert Hudek a všetky práva sú vyhradené. Toto rozšírenie nie je prepojené so spoločnosťou Google, Inc.
+
+
+Funkcie:
+
+1) Oddelené miestnosti je možné zobraziť v režime kariet alebo dlaždicovom režime
+2) Na rýchly pohyb medzi miestnosťami možno použiť posúvač
+3) Priebežné úlohy môžu byť vytvorené kedykoľvek alebo vopred, ak je to potrebné
+4) Učitelia môžu vysielať svoje video a audio do všetkých oddelených miestností
+5) Prispôsobte farby na ovládacom paneli
+6) Môžete používať prezývky Google Meet (ak vaše predplatné Google podporuje prezývky)
+7) Základné výkazníctvo
+8) Tlačidlá Stlmiť a Odstrániť študentov
+9) Funkcie Import, Export
+10) Integrácia triedy Google
+
+*** Video rýchleho spustenia v angličtine https://youtu.be/R6h9YXri2Mw
+
+*** Veľké ďakujem Lenke Zustiakovej zo SOŠ GaHS, Farského 9 v Petržalke (www.farskeho.sk) za pomoc pri preklade do slovenčiny.
+
+
+

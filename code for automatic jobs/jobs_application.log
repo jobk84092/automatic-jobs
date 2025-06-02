@@ -1,0 +1,1443 @@
+2025-06-02 15:31:02,972 - INFO - Starting job application process
+2025-06-02 15:31:02,972 - INFO - ====== WebDriver manager ======
+2025-06-02 15:31:03,147 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-02 15:31:03,380 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-02 15:31:03,615 - INFO - Driver [/Users/jobkimani/.wdm/drivers/chromedriver/mac64/137.0.7151.55/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-06-02 15:31:03,618 - ERROR - Error setting up Chrome driver: [Errno 8] Exec format error: '/Users/jobkimani/.wdm/drivers/chromedriver/mac64/137.0.7151.55/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-02 15:35:26,682 - INFO - Starting job application process
+2025-06-02 15:35:29,595 - ERROR - Error setting up Chrome driver: Message: Service /opt/homebrew/bin/chromedriver unexpectedly exited. Status code was: -9
+
+2025-06-02 15:36:02,487 - INFO - Starting job application process
+2025-06-02 15:36:15,505 - WARNING - Field fullname not found on page
+2025-06-02 15:36:25,717 - WARNING - Field email not found on page
+2025-06-02 15:36:35,935 - WARNING - Field phone not found on page
+2025-06-02 15:36:35,948 - WARNING - Resume upload field not found
+2025-06-02 15:36:35,967 - WARNING - Cover letter field not found
+2025-06-02 15:36:46,308 - ERROR - Failed to apply to ERP Developer junior: Message: 
+
+2025-06-02 15:36:57,675 - WARNING - Field fullname not found on page
+2025-06-02 15:37:07,914 - WARNING - Field email not found on page
+2025-06-02 15:37:18,139 - WARNING - Field phone not found on page
+2025-06-02 15:37:18,148 - WARNING - Resume upload field not found
+2025-06-02 15:37:18,154 - WARNING - Cover letter field not found
+2025-06-02 15:37:28,497 - ERROR - Failed to apply to Junior Marketing Analyst: Message: 
+
+2025-06-02 15:37:28,501 - ERROR - Failed to apply to Information technology, software development, data: Message: invalid argument
+  (Session info: chrome=137.0.7151.55)
+Stacktrace:
+0   chromedriver                        0x0000000100514708 cxxbridge1$str$ptr + 2729312
+1   chromedriver                        0x000000010050c96c cxxbridge1$str$ptr + 2697156
+2   chromedriver                        0x000000010005e59c cxxbridge1$string$len + 90048
+3   chromedriver                        0x0000000100048e00 cxxbridge1$string$len + 2084
+4   chromedriver                        0x0000000100047110 chromedriver + 192784
+5   chromedriver                        0x0000000100047b94 chromedriver + 195476
+6   chromedriver                        0x000000010006178c cxxbridge1$string$len + 102832
+7   chromedriver                        0x00000001000e7b38 cxxbridge1$string$len + 652636
+8   chromedriver                        0x00000001000e70c4 cxxbridge1$string$len + 649960
+9   chromedriver                        0x0000000100099bc0 cxxbridge1$string$len + 333284
+10  chromedriver                        0x00000001004d8298 cxxbridge1$str$ptr + 2482416
+11  chromedriver                        0x00000001004db52c cxxbridge1$str$ptr + 2495364
+12  chromedriver                        0x00000001004b9ae0 cxxbridge1$str$ptr + 2357560
+13  chromedriver                        0x00000001004dbdb4 cxxbridge1$str$ptr + 2497548
+14  chromedriver                        0x00000001004aadec cxxbridge1$str$ptr + 2296900
+15  chromedriver                        0x00000001004fbc4c cxxbridge1$str$ptr + 2628260
+16  chromedriver                        0x00000001004fbdd8 cxxbridge1$str$ptr + 2628656
+17  chromedriver                        0x000000010050c5b8 cxxbridge1$str$ptr + 2696208
+18  libsystem_pthread.dylib             0x0000000182665c0c _pthread_start + 136
+19  libsystem_pthread.dylib             0x0000000182660b80 thread_start + 8
+
+2025-06-02 15:37:28,503 - ERROR - Failed to apply to Data/Research: Message: invalid argument
+  (Session info: chrome=137.0.7151.55)
+Stacktrace:
+0   chromedriver                        0x0000000100514708 cxxbridge1$str$ptr + 2729312
+1   chromedriver                        0x000000010050c96c cxxbridge1$str$ptr + 2697156
+2   chromedriver                        0x000000010005e59c cxxbridge1$string$len + 90048
+3   chromedriver                        0x0000000100048e00 cxxbridge1$string$len + 2084
+4   chromedriver                        0x0000000100047110 chromedriver + 192784
+5   chromedriver                        0x0000000100047b94 chromedriver + 195476
+6   chromedriver                        0x000000010006178c cxxbridge1$string$len + 102832
+7   chromedriver                        0x00000001000e7b38 cxxbridge1$string$len + 652636
+8   chromedriver                        0x00000001000e70c4 cxxbridge1$string$len + 649960
+9   chromedriver                        0x0000000100099bc0 cxxbridge1$string$len + 333284
+10  chromedriver                        0x00000001004d8298 cxxbridge1$str$ptr + 2482416
+11  chromedriver                        0x00000001004db52c cxxbridge1$str$ptr + 2495364
+12  chromedriver                        0x00000001004b9ae0 cxxbridge1$str$ptr + 2357560
+13  chromedriver                        0x00000001004dbdb4 cxxbridge1$str$ptr + 2497548
+14  chromedriver                        0x00000001004aadec cxxbridge1$str$ptr + 2296900
+15  chromedriver                        0x00000001004fbc4c cxxbridge1$str$ptr + 2628260
+16  chromedriver                        0x00000001004fbdd8 cxxbridge1$str$ptr + 2628656
+17  chromedriver                        0x000000010050c5b8 cxxbridge1$str$ptr + 2696208
+18  libsystem_pthread.dylib             0x0000000182665c0c _pthread_start + 136
+19  libsystem_pthread.dylib             0x0000000182660b80 thread_start + 8
+
+2025-06-02 15:37:28,505 - ERROR - Failed to apply to Entry and Basic-level: Message: invalid argument
+  (Session info: chrome=137.0.7151.55)
+Stacktrace:
+0   chromedriver                        0x0000000100514708 cxxbridge1$str$ptr + 2729312
+1   chromedriver                        0x000000010050c96c cxxbridge1$str$ptr + 2697156
+2   chromedriver                        0x000000010005e59c cxxbridge1$string$len + 90048
+3   chromedriver                        0x0000000100048e00 cxxbridge1$string$len + 2084
+4   chromedriver                        0x0000000100047110 chromedriver + 192784
+5   chromedriver                        0x0000000100047b94 chromedriver + 195476
+6   chromedriver                        0x000000010006178c cxxbridge1$string$len + 102832
+7   chromedriver                        0x00000001000e7b38 cxxbridge1$string$len + 652636
+8   chromedriver                        0x00000001000e70c4 cxxbridge1$string$len + 649960
+9   chromedriver                        0x0000000100099bc0 cxxbridge1$string$len + 333284
+10  chromedriver                        0x00000001004d8298 cxxbridge1$str$ptr + 2482416
+11  chromedriver                        0x00000001004db52c cxxbridge1$str$ptr + 2495364
+12  chromedriver                        0x00000001004b9ae0 cxxbridge1$str$ptr + 2357560
+13  chromedriver                        0x00000001004dbdb4 cxxbridge1$str$ptr + 2497548
+14  chromedriver                        0x00000001004aadec cxxbridge1$str$ptr + 2296900
+15  chromedriver                        0x00000001004fbc4c cxxbridge1$str$ptr + 2628260
+16  chromedriver                        0x00000001004fbdd8 cxxbridge1$str$ptr + 2628656
+17  chromedriver                        0x000000010050c5b8 cxxbridge1$str$ptr + 2696208
+18  libsystem_pthread.dylib             0x0000000182665c0c _pthread_start + 136
+19  libsystem_pthread.dylib             0x0000000182660b80 thread_start + 8
+
+2025-06-02 15:37:28,508 - ERROR - Failed to apply to GIZ KEOnly onFuzuTechnical Intern - AgsysNairobi, Kenya10 days remaining: Message: invalid argument
+  (Session info: chrome=137.0.7151.55)
+Stacktrace:
+0   chromedriver                        0x0000000100514708 cxxbridge1$str$ptr + 2729312
+1   chromedriver                        0x000000010050c96c cxxbridge1$str$ptr + 2697156
+2   chromedriver                        0x000000010005e59c cxxbridge1$string$len + 90048
+3   chromedriver                        0x0000000100048e00 cxxbridge1$string$len + 2084
+4   chromedriver                        0x0000000100047110 chromedriver + 192784
+5   chromedriver                        0x0000000100047b94 chromedriver + 195476
+6   chromedriver                        0x000000010006178c cxxbridge1$string$len + 102832
+7   chromedriver                        0x00000001000e7b38 cxxbridge1$string$len + 652636
+8   chromedriver                        0x00000001000e70c4 cxxbridge1$string$len + 649960
+9   chromedriver                        0x0000000100099bc0 cxxbridge1$string$len + 333284
+10  chromedriver                        0x00000001004d8298 cxxbridge1$str$ptr + 2482416
+11  chromedriver                        0x00000001004db52c cxxbridge1$str$ptr + 2495364
+12  chromedriver                        0x00000001004b9ae0 cxxbridge1$str$ptr + 2357560
+13  chromedriver                        0x00000001004dbdb4 cxxbridge1$str$ptr + 2497548
+14  chromedriver                        0x00000001004aadec cxxbridge1$str$ptr + 2296900
+15  chromedriver                        0x00000001004fbc4c cxxbridge1$str$ptr + 2628260
+16  chromedriver                        0x00000001004fbdd8 cxxbridge1$str$ptr + 2628656
+17  chromedriver                        0x000000010050c5b8 cxxbridge1$str$ptr + 2696208
+18  libsystem_pthread.dylib             0x0000000182665c0c _pthread_start + 136
+19  libsystem_pthread.dylib             0x0000000182660b80 thread_start + 8
+
+2025-06-02 15:37:39,001 - WARNING - Field fullname not found on page
+2025-06-02 15:37:49,208 - WARNING - Field email not found on page
+2025-06-02 15:37:59,426 - WARNING - Field phone not found on page
+2025-06-02 15:37:59,437 - WARNING - Resume upload field not found
+2025-06-02 15:37:59,444 - WARNING - Cover letter field not found
+2025-06-02 15:38:09,663 - ERROR - Failed to apply to Entry and Basic-level: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100514708 cxxbridge1$str$ptr + 2729312
+1   chromedriver                        0x000000010050c96c cxxbridge1$str$ptr + 2697156
+2   chromedriver                        0x000000010005e728 cxxbridge1$string$len + 90444
+3   chromedriver                        0x00000001000a59b8 cxxbridge1$string$len + 381916
+4   chromedriver                        0x00000001000e70c4 cxxbridge1$string$len + 649960
+5   chromedriver                        0x0000000100099bc0 cxxbridge1$string$len + 333284
+6   chromedriver                        0x00000001004d8298 cxxbridge1$str$ptr + 2482416
+7   chromedriver                        0x00000001004db52c cxxbridge1$str$ptr + 2495364
+8   chromedriver                        0x00000001004b9ae0 cxxbridge1$str$ptr + 2357560
+9   chromedriver                        0x00000001004dbdb4 cxxbridge1$str$ptr + 2497548
+10  chromedriver                        0x00000001004aadec cxxbridge1$str$ptr + 2296900
+11  chromedriver                        0x00000001004fbc4c cxxbridge1$str$ptr + 2628260
+12  chromedriver                        0x00000001004fbdd8 cxxbridge1$str$ptr + 2628656
+13  chromedriver                        0x000000010050c5b8 cxxbridge1$str$ptr + 2696208
+14  libsystem_pthread.dylib             0x0000000182665c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000182660b80 thread_start + 8
+
+2025-06-02 15:38:09,668 - ERROR - Failed to apply to Senior Business Analyst - Agricultural Service at Bridge Talent Management: Message: invalid argument
+  (Session info: chrome=137.0.7151.55)
+Stacktrace:
+0   chromedriver                        0x0000000100514708 cxxbridge1$str$ptr + 2729312
+1   chromedriver                        0x000000010050c96c cxxbridge1$str$ptr + 2697156
+2   chromedriver                        0x000000010005e59c cxxbridge1$string$len + 90048
+3   chromedriver                        0x0000000100048e00 cxxbridge1$string$len + 2084
+4   chromedriver                        0x0000000100047110 chromedriver + 192784
+5   chromedriver                        0x0000000100047b94 chromedriver + 195476
+6   chromedriver                        0x000000010006178c cxxbridge1$string$len + 102832
+7   chromedriver                        0x00000001000e7b38 cxxbridge1$string$len + 652636
+8   chromedriver                        0x00000001000e70c4 cxxbridge1$string$len + 649960
+9   chromedriver                        0x0000000100099bc0 cxxbridge1$string$len + 333284
+10  chromedriver                        0x00000001004d8298 cxxbridge1$str$ptr + 2482416
+11  chromedriver                        0x00000001004db52c cxxbridge1$str$ptr + 2495364
+12  chromedriver                        0x00000001004b9ae0 cxxbridge1$str$ptr + 2357560
+13  chromedriver                        0x00000001004dbdb4 cxxbridge1$str$ptr + 2497548
+14  chromedriver                        0x00000001004aadec cxxbridge1$str$ptr + 2296900
+15  chromedriver                        0x00000001004fbc4c cxxbridge1$str$ptr + 2628260
+16  chromedriver                        0x00000001004fbdd8 cxxbridge1$str$ptr + 2628656
+17  chromedriver                        0x000000010050c5b8 cxxbridge1$str$ptr + 2696208
+18  libsystem_pthread.dylib             0x0000000182665c0c _pthread_start + 136
+19  libsystem_pthread.dylib             0x0000000182660b80 thread_start + 8
+
+2025-06-02 15:38:09,670 - ERROR - Failed to apply to Policy Analyst – Advocacy and Systems Strengthening at Food For Education: Message: invalid argument
+  (Session info: chrome=137.0.7151.55)
+Stacktrace:
+0   chromedriver                        0x0000000100514708 cxxbridge1$str$ptr + 2729312
+1   chromedriver                        0x000000010050c96c cxxbridge1$str$ptr + 2697156
+2   chromedriver                        0x000000010005e59c cxxbridge1$string$len + 90048
+3   chromedriver                        0x0000000100048e00 cxxbridge1$string$len + 2084
+4   chromedriver                        0x0000000100047110 chromedriver + 192784
+5   chromedriver                        0x0000000100047b94 chromedriver + 195476
+6   chromedriver                        0x000000010006178c cxxbridge1$string$len + 102832
+7   chromedriver                        0x00000001000e7b38 cxxbridge1$string$len + 652636
+8   chromedriver                        0x00000001000e70c4 cxxbridge1$string$len + 649960
+9   chromedriver                        0x0000000100099bc0 cxxbridge1$string$len + 333284
+10  chromedriver                        0x00000001004d8298 cxxbridge1$str$ptr + 2482416
+11  chromedriver                        0x00000001004db52c cxxbridge1$str$ptr + 2495364
+12  chromedriver                        0x00000001004b9ae0 cxxbridge1$str$ptr + 2357560
+13  chromedriver                        0x00000001004dbdb4 cxxbridge1$str$ptr + 2497548
+14  chromedriver                        0x00000001004aadec cxxbridge1$str$ptr + 2296900
+15  chromedriver                        0x00000001004fbc4c cxxbridge1$str$ptr + 2628260
+16  chromedriver                        0x00000001004fbdd8 cxxbridge1$str$ptr + 2628656
+17  chromedriver                        0x000000010050c5b8 cxxbridge1$str$ptr + 2696208
+18  libsystem_pthread.dylib             0x0000000182665c0c _pthread_start + 136
+19  libsystem_pthread.dylib             0x0000000182660b80 thread_start + 8
+
+2025-06-02 15:38:09,672 - ERROR - Failed to apply to Digital Partnerships Analyst - Digital Financial Services Division at KCB Bank Kenya: Message: invalid argument
+  (Session info: chrome=137.0.7151.55)
+Stacktrace:
+0   chromedriver                        0x0000000100514708 cxxbridge1$str$ptr + 2729312
+1   chromedriver                        0x000000010050c96c cxxbridge1$str$ptr + 2697156
+2   chromedriver                        0x000000010005e59c cxxbridge1$string$len + 90048
+3   chromedriver                        0x0000000100048e00 cxxbridge1$string$len + 2084
+4   chromedriver                        0x0000000100047110 chromedriver + 192784
+5   chromedriver                        0x0000000100047b94 chromedriver + 195476
+6   chromedriver                        0x000000010006178c cxxbridge1$string$len + 102832
+7   chromedriver                        0x00000001000e7b38 cxxbridge1$string$len + 652636
+8   chromedriver                        0x00000001000e70c4 cxxbridge1$string$len + 649960
+9   chromedriver                        0x0000000100099bc0 cxxbridge1$string$len + 333284
+10  chromedriver                        0x00000001004d8298 cxxbridge1$str$ptr + 2482416
+11  chromedriver                        0x00000001004db52c cxxbridge1$str$ptr + 2495364
+12  chromedriver                        0x00000001004b9ae0 cxxbridge1$str$ptr + 2357560
+13  chromedriver                        0x00000001004dbdb4 cxxbridge1$str$ptr + 2497548
+14  chromedriver                        0x00000001004aadec cxxbridge1$str$ptr + 2296900
+15  chromedriver                        0x00000001004fbc4c cxxbridge1$str$ptr + 2628260
+16  chromedriver                        0x00000001004fbdd8 cxxbridge1$str$ptr + 2628656
+17  chromedriver                        0x000000010050c5b8 cxxbridge1$str$ptr + 2696208
+18  libsystem_pthread.dylib             0x0000000182665c0c _pthread_start + 136
+19  libsystem_pthread.dylib             0x0000000182660b80 thread_start + 8
+
+2025-06-02 15:39:13,543 - INFO - Starting job application process
+2025-06-02 15:39:14,691 - INFO - 
+Processing job: ERP Developer junior
+2025-06-02 15:39:16,577 - INFO - 
+Debugging page for job: ERP Developer junior
+2025-06-02 15:39:16,618 - INFO - URL: https://ke.linkedin.com/jobs/view/erp-developer-junior-at-blackfluo-ai-4229271041?position=2&pageNum=0&refId=ClDfPD%2BrYvpY7pGNIyyeBg%3D%3D&trackingId=vfnUx6WQ5KEG3qdalzmkvg%3D%3D
+2025-06-02 15:39:16,632 - INFO - Found 11 forms on the page
+2025-06-02 15:39:16,632 - INFO - 
+Form 1:
+2025-06-02 15:39:16,638 - INFO - Form action: https://ke.linkedin.com/pub/dir
+2025-06-02 15:39:16,642 - INFO - Form method: get
+2025-06-02 15:39:16,651 - INFO - Input fields in form 1:
+2025-06-02 15:39:16,678 - INFO - - Name: firstName, ID: , Type: search
+2025-06-02 15:39:16,707 - INFO - - Name: lastName, ID: , Type: search
+2025-06-02 15:39:16,721 - INFO - - Name: trk, ID: , Type: hidden
+2025-06-02 15:39:16,737 - INFO - Textarea fields in form 1:
+2025-06-02 15:39:16,738 - INFO - 
+Form 2:
+2025-06-02 15:39:16,744 - INFO - Form action: https://ke.linkedin.com/jobs/search
+2025-06-02 15:39:16,750 - INFO - Form method: get
+2025-06-02 15:39:16,759 - INFO - Input fields in form 2:
+2025-06-02 15:39:16,771 - INFO - - Name: keywords, ID: job-search-bar-keywords, Type: search
+2025-06-02 15:39:16,782 - INFO - - Name: location, ID: job-search-bar-location, Type: search
+2025-06-02 15:39:16,847 - INFO - - Name: geoId, ID: , Type: hidden
+2025-06-02 15:39:16,859 - INFO - - Name: trk, ID: , Type: hidden
+2025-06-02 15:39:16,864 - INFO - Textarea fields in form 2:
+2025-06-02 15:39:16,864 - INFO - 
+Form 3:
+2025-06-02 15:39:16,868 - INFO - Form action: https://ke.linkedin.com/learning/search
+2025-06-02 15:39:16,871 - INFO - Form method: get
+2025-06-02 15:39:16,884 - INFO - Input fields in form 3:
+2025-06-02 15:39:16,897 - INFO - - Name: keywords, ID: , Type: search
+2025-06-02 15:39:16,905 - INFO - - Name: upsellOrderOrigin, ID: , Type: hidden
+2025-06-02 15:39:16,913 - INFO - - Name: trk, ID: , Type: hidden
+2025-06-02 15:39:16,917 - INFO - Textarea fields in form 3:
+2025-06-02 15:39:16,917 - INFO - 
+Form 4:
+2025-06-02 15:39:16,920 - INFO - Form action: https://ke.linkedin.com/signup/api/cors/createAccount
+2025-06-02 15:39:16,923 - INFO - Form method: post
+2025-06-02 15:39:16,930 - INFO - Input fields in form 4:
+2025-06-02 15:39:16,939 - INFO - - Name: first-name, ID: first-name, Type: text
+2025-06-02 15:39:16,947 - INFO - - Name: last-name, ID: last-name, Type: text
+2025-06-02 15:39:16,954 - INFO - - Name: email-or-phone, ID: email-or-phone, Type: text
+2025-06-02 15:39:16,962 - INFO - - Name: password, ID: password, Type: password
+2025-06-02 15:39:16,966 - INFO - Textarea fields in form 4:
+2025-06-02 15:39:16,966 - INFO - 
+Form 5:
+2025-06-02 15:39:16,968 - INFO - Form action: https://ke.linkedin.com/signup/api/cors/createAccount
+2025-06-02 15:39:16,971 - INFO - Form method: post
+2025-06-02 15:39:16,975 - INFO - Input fields in form 5:
+2025-06-02 15:39:16,983 - INFO - - Name: first-name, ID: first-name, Type: text
+2025-06-02 15:39:16,990 - INFO - - Name: last-name, ID: last-name, Type: text
+2025-06-02 15:39:16,997 - INFO - - Name: email-or-phone, ID: email-or-phone, Type: text
+2025-06-02 15:39:17,004 - INFO - - Name: password, ID: password, Type: password
+2025-06-02 15:39:17,008 - INFO - Textarea fields in form 5:
+2025-06-02 15:39:17,008 - INFO - 
+Form 6:
+2025-06-02 15:39:17,011 - INFO - Form action: https://www.linkedin.com/uas/login-submit
+2025-06-02 15:39:17,013 - INFO - Form method: post
+2025-06-02 15:39:17,018 - INFO - Input fields in form 6:
+2025-06-02 15:39:17,026 - INFO - - Name: loginCsrfParam, ID: , Type: hidden
+2025-06-02 15:39:17,033 - INFO - - Name: session_key, ID: public_jobs_ai_button_contextual_sign_in_info_modal_sign-in-modal_session_key, Type: text
+2025-06-02 15:39:17,040 - INFO - - Name: session_password, ID: public_jobs_ai_button_contextual_sign_in_info_modal_sign-in-modal_session_password, Type: password
+2025-06-02 15:39:17,047 - INFO - - Name: session_redirect, ID: , Type: hidden
+2025-06-02 15:39:17,055 - INFO - - Name: trk, ID: , Type: hidden
+2025-06-02 15:39:17,062 - INFO - - Name: controlId, ID: , Type: hidden
+2025-06-02 15:39:17,069 - INFO - - Name: pageInstance, ID: , Type: hidden
+2025-06-02 15:39:17,073 - INFO - Textarea fields in form 6:
+2025-06-02 15:39:17,073 - INFO - 
+Form 7:
+2025-06-02 15:39:17,076 - INFO - Form action: https://www.linkedin.com/uas/login-submit
+2025-06-02 15:39:17,079 - INFO - Form method: post
+2025-06-02 15:39:17,083 - INFO - Input fields in form 7:
+2025-06-02 15:39:17,091 - INFO - - Name: loginCsrfParam, ID: , Type: hidden
+2025-06-02 15:39:17,098 - INFO - - Name: session_key, ID: public_jobs_ai_button_fit_contextual_sign_in_info_modal_sign-in-modal_session_key, Type: text
+2025-06-02 15:39:17,105 - INFO - - Name: session_password, ID: public_jobs_ai_button_fit_contextual_sign_in_info_modal_sign-in-modal_session_password, Type: password
+2025-06-02 15:39:17,112 - INFO - - Name: session_redirect, ID: , Type: hidden
+2025-06-02 15:39:17,122 - INFO - - Name: trk, ID: , Type: hidden
+2025-06-02 15:39:17,129 - INFO - - Name: controlId, ID: , Type: hidden
+2025-06-02 15:39:17,137 - INFO - - Name: pageInstance, ID: , Type: hidden
+2025-06-02 15:39:17,141 - INFO - Textarea fields in form 7:
+2025-06-02 15:39:17,141 - INFO - 
+Form 8:
+2025-06-02 15:39:17,143 - INFO - Form action: https://www.linkedin.com/uas/login-submit
+2025-06-02 15:39:17,146 - INFO - Form method: post
+2025-06-02 15:39:17,150 - INFO - Input fields in form 8:
+2025-06-02 15:39:17,157 - INFO - - Name: loginCsrfParam, ID: , Type: hidden
+2025-06-02 15:39:17,164 - INFO - - Name: session_key, ID: public_jobs_ai_button_resume_contextual_sign_in_info_modal_sign-in-modal_session_key, Type: text
+2025-06-02 15:39:17,183 - INFO - - Name: session_password, ID: public_jobs_ai_button_resume_contextual_sign_in_info_modal_sign-in-modal_session_password, Type: password
+2025-06-02 15:39:17,191 - INFO - - Name: session_redirect, ID: , Type: hidden
+2025-06-02 15:39:17,198 - INFO - - Name: trk, ID: , Type: hidden
+2025-06-02 15:39:17,206 - INFO - - Name: controlId, ID: , Type: hidden
+2025-06-02 15:39:17,219 - INFO - - Name: pageInstance, ID: , Type: hidden
+2025-06-02 15:39:17,223 - INFO - Textarea fields in form 8:
+2025-06-02 15:39:17,223 - INFO - 
+Form 9:
+2025-06-02 15:39:17,226 - INFO - Form action: https://www.linkedin.com/uas/login-submit
+2025-06-02 15:39:17,229 - INFO - Form method: post
+2025-06-02 15:39:17,233 - INFO - Input fields in form 9:
+2025-06-02 15:39:17,241 - INFO - - Name: loginCsrfParam, ID: , Type: hidden
+2025-06-02 15:39:17,249 - INFO - - Name: session_key, ID: alert-toggle-sign-in-modal_sign-in-modal_session_key, Type: text
+2025-06-02 15:39:17,256 - INFO - - Name: session_password, ID: alert-toggle-sign-in-modal_sign-in-modal_session_password, Type: password
+2025-06-02 15:39:17,264 - INFO - - Name: session_redirect, ID: , Type: hidden
+2025-06-02 15:39:17,272 - INFO - - Name: trk, ID: , Type: hidden
+2025-06-02 15:39:17,284 - INFO - - Name: controlId, ID: , Type: hidden
+2025-06-02 15:39:17,292 - INFO - - Name: pageInstance, ID: , Type: hidden
+2025-06-02 15:39:17,296 - INFO - Textarea fields in form 9:
+2025-06-02 15:39:17,296 - INFO - 
+Form 10:
+2025-06-02 15:39:17,298 - INFO - Form action: https://www.linkedin.com/uas/login-submit
+2025-06-02 15:39:17,301 - INFO - Form method: post
+2025-06-02 15:39:17,305 - INFO - Input fields in form 10:
+2025-06-02 15:39:17,313 - INFO - - Name: loginCsrfParam, ID: , Type: hidden
+2025-06-02 15:39:17,320 - INFO - - Name: session_redirect, ID: , Type: hidden
+2025-06-02 15:39:17,328 - INFO - - Name: trk, ID: , Type: hidden
+2025-06-02 15:39:17,331 - INFO - Textarea fields in form 10:
+2025-06-02 15:39:17,332 - INFO - 
+Form 11:
+2025-06-02 15:39:17,334 - INFO - Form action: https://www.linkedin.com/uas/login-submit
+2025-06-02 15:39:17,337 - INFO - Form method: post
+2025-06-02 15:39:17,341 - INFO - Input fields in form 11:
+2025-06-02 15:39:17,348 - INFO - - Name: loginCsrfParam, ID: , Type: hidden
+2025-06-02 15:39:17,356 - INFO - - Name: session_key, ID: base-sign-in-modal_session_key, Type: text
+2025-06-02 15:39:17,363 - INFO - - Name: session_password, ID: base-sign-in-modal_session_password, Type: password
+2025-06-02 15:39:17,370 - INFO - - Name: session_redirect, ID: , Type: hidden
+2025-06-02 15:39:17,378 - INFO - - Name: trk, ID: , Type: hidden
+2025-06-02 15:39:17,385 - INFO - - Name: controlId, ID: , Type: hidden
+2025-06-02 15:39:17,393 - INFO - - Name: pageInstance, ID: , Type: hidden
+2025-06-02 15:39:17,397 - INFO - Textarea fields in form 11:
+2025-06-02 15:39:17,543 - ERROR - Failed to apply to ERP Developer junior: Message: element not interactable
+  (Session info: chrome=137.0.7151.55)
+Stacktrace:
+0   chromedriver                        0x0000000104e64708 cxxbridge1$str$ptr + 2729312
+1   chromedriver                        0x0000000104e5c96c cxxbridge1$str$ptr + 2697156
+2   chromedriver                        0x00000001049ae59c cxxbridge1$string$len + 90048
+3   chromedriver                        0x00000001049ed4d4 cxxbridge1$string$len + 347896
+4   chromedriver                        0x00000001049eb18c cxxbridge1$string$len + 338864
+5   chromedriver                        0x0000000104a370c4 cxxbridge1$string$len + 649960
+6   chromedriver                        0x00000001049e9bc0 cxxbridge1$string$len + 333284
+7   chromedriver                        0x0000000104e28298 cxxbridge1$str$ptr + 2482416
+8   chromedriver                        0x0000000104e2b52c cxxbridge1$str$ptr + 2495364
+9   chromedriver                        0x0000000104e09ae0 cxxbridge1$str$ptr + 2357560
+10  chromedriver                        0x0000000104e2bdb4 cxxbridge1$str$ptr + 2497548
+11  chromedriver                        0x0000000104dfadec cxxbridge1$str$ptr + 2296900
+12  chromedriver                        0x0000000104e4bc4c cxxbridge1$str$ptr + 2628260
+13  chromedriver                        0x0000000104e4bdd8 cxxbridge1$str$ptr + 2628656
+14  chromedriver                        0x0000000104e5c5b8 cxxbridge1$str$ptr + 2696208
+15  libsystem_pthread.dylib             0x0000000182665c0c _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000182660b80 thread_start + 8
+
+2025-06-02 15:39:17,543 - ERROR - Failed to apply to ERP Developer junior
+2025-06-02 15:39:19,548 - INFO - 
+Processing job: Junior Marketing Analyst
+2025-06-02 15:39:20,754 - INFO - 
+Debugging page for job: Junior Marketing Analyst
+2025-06-02 15:39:20,762 - INFO - URL: https://ke.linkedin.com/jobs/view/junior-marketing-analyst-at-canonical-4116606183?position=3&pageNum=0&refId=ClDfPD%2BrYvpY7pGNIyyeBg%3D%3D&trackingId=poFFF9KWeA9M3X%2BGKrwgNA%3D%3D
+2025-06-02 15:39:20,772 - INFO - Found 11 forms on the page
+2025-06-02 15:39:20,773 - INFO - 
+Form 1:
+2025-06-02 15:39:20,790 - INFO - Form action: https://ke.linkedin.com/pub/dir
+2025-06-02 15:39:20,811 - INFO - Form method: get
+2025-06-02 15:39:20,829 - INFO - Input fields in form 1:
+2025-06-02 15:39:20,845 - INFO - - Name: firstName, ID: , Type: search
+2025-06-02 15:39:20,855 - INFO - - Name: lastName, ID: , Type: search
+2025-06-02 15:39:20,864 - INFO - - Name: trk, ID: , Type: hidden
+2025-06-02 15:39:20,869 - INFO - Textarea fields in form 1:
+2025-06-02 15:39:20,870 - INFO - 
+Form 2:
+2025-06-02 15:39:20,872 - INFO - Form action: https://ke.linkedin.com/jobs/search
+2025-06-02 15:39:20,878 - INFO - Form method: get
+2025-06-02 15:39:20,884 - INFO - Input fields in form 2:
+2025-06-02 15:39:20,896 - INFO - - Name: keywords, ID: job-search-bar-keywords, Type: search
+2025-06-02 15:39:20,907 - INFO - - Name: location, ID: job-search-bar-location, Type: search
+2025-06-02 15:39:20,926 - INFO - - Name: geoId, ID: , Type: hidden
+2025-06-02 15:39:21,046 - INFO - - Name: trk, ID: , Type: hidden
+2025-06-02 15:39:21,052 - INFO - Textarea fields in form 2:
+2025-06-02 15:39:21,052 - INFO - 
+Form 3:
+2025-06-02 15:39:21,058 - INFO - Form action: https://ke.linkedin.com/learning/search
+2025-06-02 15:39:21,062 - INFO - Form method: get
+2025-06-02 15:39:21,067 - INFO - Input fields in form 3:
+2025-06-02 15:39:21,114 - INFO - - Name: keywords, ID: , Type: search
+2025-06-02 15:39:21,124 - INFO - - Name: upsellOrderOrigin, ID: , Type: hidden
+2025-06-02 15:39:21,131 - INFO - - Name: trk, ID: , Type: hidden
+2025-06-02 15:39:21,136 - INFO - Textarea fields in form 3:
+2025-06-02 15:39:21,136 - INFO - 
+Form 4:
+2025-06-02 15:39:21,138 - INFO - Form action: https://ke.linkedin.com/signup/api/cors/createAccount
+2025-06-02 15:39:21,141 - INFO - Form method: post
+2025-06-02 15:39:21,145 - INFO - Input fields in form 4:
+2025-06-02 15:39:21,154 - INFO - - Name: first-name, ID: first-name, Type: text
+2025-06-02 15:39:21,162 - INFO - - Name: last-name, ID: last-name, Type: text
+2025-06-02 15:39:21,177 - INFO - - Name: email-or-phone, ID: email-or-phone, Type: text
+2025-06-02 15:39:21,184 - INFO - - Name: password, ID: password, Type: password
+2025-06-02 15:39:21,187 - INFO - Textarea fields in form 4:
+2025-06-02 15:39:21,187 - INFO - 
+Form 5:
+2025-06-02 15:39:21,190 - INFO - Form action: https://ke.linkedin.com/signup/api/cors/createAccount
+2025-06-02 15:39:21,193 - INFO - Form method: post
+2025-06-02 15:39:21,197 - INFO - Input fields in form 5:
+2025-06-02 15:39:21,208 - INFO - - Name: first-name, ID: first-name, Type: text
+2025-06-02 15:39:21,215 - INFO - - Name: last-name, ID: last-name, Type: text
+2025-06-02 15:39:21,223 - INFO - - Name: email-or-phone, ID: email-or-phone, Type: text
+2025-06-02 15:39:21,232 - INFO - - Name: password, ID: password, Type: password
+2025-06-02 15:39:21,236 - INFO - Textarea fields in form 5:
+2025-06-02 15:39:21,236 - INFO - 
+Form 6:
+2025-06-02 15:39:21,239 - INFO - Form action: https://www.linkedin.com/uas/login-submit
+2025-06-02 15:39:21,243 - INFO - Form method: post
+2025-06-02 15:39:21,247 - INFO - Input fields in form 6:
+2025-06-02 15:39:21,254 - INFO - - Name: loginCsrfParam, ID: , Type: hidden
+2025-06-02 15:39:21,263 - INFO - - Name: session_key, ID: public_jobs_ai_button_contextual_sign_in_info_modal_sign-in-modal_session_key, Type: text
+2025-06-02 15:39:21,276 - INFO - - Name: session_password, ID: public_jobs_ai_button_contextual_sign_in_info_modal_sign-in-modal_session_password, Type: password
+2025-06-02 15:39:21,289 - INFO - - Name: session_redirect, ID: , Type: hidden
+2025-06-02 15:39:21,296 - INFO - - Name: trk, ID: , Type: hidden
+2025-06-02 15:39:21,304 - INFO - - Name: controlId, ID: , Type: hidden
+2025-06-02 15:39:21,311 - INFO - - Name: pageInstance, ID: , Type: hidden
+2025-06-02 15:39:21,315 - INFO - Textarea fields in form 6:
+2025-06-02 15:39:21,315 - INFO - 
+Form 7:
+2025-06-02 15:39:21,318 - INFO - Form action: https://www.linkedin.com/uas/login-submit
+2025-06-02 15:39:21,320 - INFO - Form method: post
+2025-06-02 15:39:21,325 - INFO - Input fields in form 7:
+2025-06-02 15:39:21,331 - INFO - - Name: loginCsrfParam, ID: , Type: hidden
+2025-06-02 15:39:21,338 - INFO - - Name: session_key, ID: public_jobs_ai_button_fit_contextual_sign_in_info_modal_sign-in-modal_session_key, Type: text
+2025-06-02 15:39:21,345 - INFO - - Name: session_password, ID: public_jobs_ai_button_fit_contextual_sign_in_info_modal_sign-in-modal_session_password, Type: password
+2025-06-02 15:39:21,352 - INFO - - Name: session_redirect, ID: , Type: hidden
+2025-06-02 15:39:21,359 - INFO - - Name: trk, ID: , Type: hidden
+2025-06-02 15:39:21,366 - INFO - - Name: controlId, ID: , Type: hidden
+2025-06-02 15:39:21,372 - INFO - - Name: pageInstance, ID: , Type: hidden
+2025-06-02 15:39:21,376 - INFO - Textarea fields in form 7:
+2025-06-02 15:39:21,376 - INFO - 
+Form 8:
+2025-06-02 15:39:21,379 - INFO - Form action: https://www.linkedin.com/uas/login-submit
+2025-06-02 15:39:21,381 - INFO - Form method: post
+2025-06-02 15:39:21,385 - INFO - Input fields in form 8:
+2025-06-02 15:39:21,392 - INFO - - Name: loginCsrfParam, ID: , Type: hidden
+2025-06-02 15:39:21,399 - INFO - - Name: session_key, ID: public_jobs_ai_button_resume_contextual_sign_in_info_modal_sign-in-modal_session_key, Type: text
+2025-06-02 15:39:21,407 - INFO - - Name: session_password, ID: public_jobs_ai_button_resume_contextual_sign_in_info_modal_sign-in-modal_session_password, Type: password
+2025-06-02 15:39:21,413 - INFO - - Name: session_redirect, ID: , Type: hidden
+2025-06-02 15:39:21,421 - INFO - - Name: trk, ID: , Type: hidden
+2025-06-02 15:39:21,431 - INFO - - Name: controlId, ID: , Type: hidden
+2025-06-02 15:39:21,438 - INFO - - Name: pageInstance, ID: , Type: hidden
+2025-06-02 15:39:21,443 - INFO - Textarea fields in form 8:
+2025-06-02 15:39:21,443 - INFO - 
+Form 9:
+2025-06-02 15:39:21,446 - INFO - Form action: https://www.linkedin.com/uas/login-submit
+2025-06-02 15:39:21,448 - INFO - Form method: post
+2025-06-02 15:39:21,452 - INFO - Input fields in form 9:
+2025-06-02 15:39:21,459 - INFO - - Name: loginCsrfParam, ID: , Type: hidden
+2025-06-02 15:39:21,466 - INFO - - Name: session_key, ID: alert-toggle-sign-in-modal_sign-in-modal_session_key, Type: text
+2025-06-02 15:39:21,477 - INFO - - Name: session_password, ID: alert-toggle-sign-in-modal_sign-in-modal_session_password, Type: password
+2025-06-02 15:39:21,483 - INFO - - Name: session_redirect, ID: , Type: hidden
+2025-06-02 15:39:21,490 - INFO - - Name: trk, ID: , Type: hidden
+2025-06-02 15:39:21,496 - INFO - - Name: controlId, ID: , Type: hidden
+2025-06-02 15:39:21,503 - INFO - - Name: pageInstance, ID: , Type: hidden
+2025-06-02 15:39:21,507 - INFO - Textarea fields in form 9:
+2025-06-02 15:39:21,507 - INFO - 
+Form 10:
+2025-06-02 15:39:21,509 - INFO - Form action: https://www.linkedin.com/uas/login-submit
+2025-06-02 15:39:21,511 - INFO - Form method: post
+2025-06-02 15:39:21,515 - INFO - Input fields in form 10:
+2025-06-02 15:39:21,522 - INFO - - Name: loginCsrfParam, ID: , Type: hidden
+2025-06-02 15:39:21,529 - INFO - - Name: session_redirect, ID: , Type: hidden
+2025-06-02 15:39:21,535 - INFO - - Name: trk, ID: , Type: hidden
+2025-06-02 15:39:21,539 - INFO - Textarea fields in form 10:
+2025-06-02 15:39:21,539 - INFO - 
+Form 11:
+2025-06-02 15:39:21,542 - INFO - Form action: https://www.linkedin.com/uas/login-submit
+2025-06-02 15:39:21,544 - INFO - Form method: post
+2025-06-02 15:39:21,548 - INFO - Input fields in form 11:
+2025-06-02 15:39:21,555 - INFO - - Name: loginCsrfParam, ID: , Type: hidden
+2025-06-02 15:39:21,562 - INFO - - Name: session_key, ID: base-sign-in-modal_session_key, Type: text
+2025-06-02 15:39:21,570 - INFO - - Name: session_password, ID: base-sign-in-modal_session_password, Type: password
+2025-06-02 15:39:21,577 - INFO - - Name: session_redirect, ID: , Type: hidden
+2025-06-02 15:39:21,584 - INFO - - Name: trk, ID: , Type: hidden
+2025-06-02 15:39:21,591 - INFO - - Name: controlId, ID: , Type: hidden
+2025-06-02 15:39:21,598 - INFO - - Name: pageInstance, ID: , Type: hidden
+2025-06-02 15:39:21,601 - INFO - Textarea fields in form 11:
+2025-06-02 15:39:21,695 - ERROR - Failed to apply to Junior Marketing Analyst: Message: element not interactable
+  (Session info: chrome=137.0.7151.55)
+Stacktrace:
+0   chromedriver                        0x0000000104e64708 cxxbridge1$str$ptr + 2729312
+1   chromedriver                        0x0000000104e5c96c cxxbridge1$str$ptr + 2697156
+2   chromedriver                        0x00000001049ae59c cxxbridge1$string$len + 90048
+3   chromedriver                        0x00000001049ed4d4 cxxbridge1$string$len + 347896
+4   chromedriver                        0x00000001049eb18c cxxbridge1$string$len + 338864
+5   chromedriver                        0x0000000104a370c4 cxxbridge1$string$len + 649960
+6   chromedriver                        0x00000001049e9bc0 cxxbridge1$string$len + 333284
+7   chromedriver                        0x0000000104e28298 cxxbridge1$str$ptr + 2482416
+8   chromedriver                        0x0000000104e2b52c cxxbridge1$str$ptr + 2495364
+9   chromedriver                        0x0000000104e09ae0 cxxbridge1$str$ptr + 2357560
+10  chromedriver                        0x0000000104e2bdb4 cxxbridge1$str$ptr + 2497548
+11  chromedriver                        0x0000000104dfadec cxxbridge1$str$ptr + 2296900
+12  chromedriver                        0x0000000104e4bc4c cxxbridge1$str$ptr + 2628260
+13  chromedriver                        0x0000000104e4bdd8 cxxbridge1$str$ptr + 2628656
+14  chromedriver                        0x0000000104e5c5b8 cxxbridge1$str$ptr + 2696208
+15  libsystem_pthread.dylib             0x0000000182665c0c _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000182660b80 thread_start + 8
+
+2025-06-02 15:39:21,695 - ERROR - Failed to apply to Junior Marketing Analyst
+2025-06-02 15:39:23,700 - INFO - 
+Processing job: Information technology, software development, data
+2025-06-02 15:39:23,705 - ERROR - Failed to apply to Information technology, software development, data: Message: invalid argument
+  (Session info: chrome=137.0.7151.55)
+Stacktrace:
+0   chromedriver                        0x0000000104e64708 cxxbridge1$str$ptr + 2729312
+1   chromedriver                        0x0000000104e5c96c cxxbridge1$str$ptr + 2697156
+2   chromedriver                        0x00000001049ae59c cxxbridge1$string$len + 90048
+3   chromedriver                        0x0000000104998e00 cxxbridge1$string$len + 2084
+4   chromedriver                        0x0000000104997110 chromedriver + 192784
+5   chromedriver                        0x0000000104997b94 chromedriver + 195476
+6   chromedriver                        0x00000001049b178c cxxbridge1$string$len + 102832
+7   chromedriver                        0x0000000104a37b38 cxxbridge1$string$len + 652636
+8   chromedriver                        0x0000000104a370c4 cxxbridge1$string$len + 649960
+9   chromedriver                        0x00000001049e9bc0 cxxbridge1$string$len + 333284
+10  chromedriver                        0x0000000104e28298 cxxbridge1$str$ptr + 2482416
+11  chromedriver                        0x0000000104e2b52c cxxbridge1$str$ptr + 2495364
+12  chromedriver                        0x0000000104e09ae0 cxxbridge1$str$ptr + 2357560
+13  chromedriver                        0x0000000104e2bdb4 cxxbridge1$str$ptr + 2497548
+14  chromedriver                        0x0000000104dfadec cxxbridge1$str$ptr + 2296900
+15  chromedriver                        0x0000000104e4bc4c cxxbridge1$str$ptr + 2628260
+16  chromedriver                        0x0000000104e4bdd8 cxxbridge1$str$ptr + 2628656
+17  chromedriver                        0x0000000104e5c5b8 cxxbridge1$str$ptr + 2696208
+18  libsystem_pthread.dylib             0x0000000182665c0c _pthread_start + 136
+19  libsystem_pthread.dylib             0x0000000182660b80 thread_start + 8
+
+2025-06-02 15:39:23,705 - ERROR - Failed to apply to Information technology, software development, data
+2025-06-02 15:39:25,708 - INFO - 
+Processing job: Data/Research
+2025-06-02 15:39:25,712 - ERROR - Failed to apply to Data/Research: Message: invalid argument
+  (Session info: chrome=137.0.7151.55)
+Stacktrace:
+0   chromedriver                        0x0000000104e64708 cxxbridge1$str$ptr + 2729312
+1   chromedriver                        0x0000000104e5c96c cxxbridge1$str$ptr + 2697156
+2   chromedriver                        0x00000001049ae59c cxxbridge1$string$len + 90048
+3   chromedriver                        0x0000000104998e00 cxxbridge1$string$len + 2084
+4   chromedriver                        0x0000000104997110 chromedriver + 192784
+5   chromedriver                        0x0000000104997b94 chromedriver + 195476
+6   chromedriver                        0x00000001049b178c cxxbridge1$string$len + 102832
+7   chromedriver                        0x0000000104a37b38 cxxbridge1$string$len + 652636
+8   chromedriver                        0x0000000104a370c4 cxxbridge1$string$len + 649960
+9   chromedriver                        0x00000001049e9bc0 cxxbridge1$string$len + 333284
+10  chromedriver                        0x0000000104e28298 cxxbridge1$str$ptr + 2482416
+11  chromedriver                        0x0000000104e2b52c cxxbridge1$str$ptr + 2495364
+12  chromedriver                        0x0000000104e09ae0 cxxbridge1$str$ptr + 2357560
+13  chromedriver                        0x0000000104e2bdb4 cxxbridge1$str$ptr + 2497548
+14  chromedriver                        0x0000000104dfadec cxxbridge1$str$ptr + 2296900
+15  chromedriver                        0x0000000104e4bc4c cxxbridge1$str$ptr + 2628260
+16  chromedriver                        0x0000000104e4bdd8 cxxbridge1$str$ptr + 2628656
+17  chromedriver                        0x0000000104e5c5b8 cxxbridge1$str$ptr + 2696208
+18  libsystem_pthread.dylib             0x0000000182665c0c _pthread_start + 136
+19  libsystem_pthread.dylib             0x0000000182660b80 thread_start + 8
+
+2025-06-02 15:39:25,713 - ERROR - Failed to apply to Data/Research
+2025-06-02 15:39:27,718 - INFO - 
+Processing job: Entry and Basic-level
+2025-06-02 15:39:27,721 - ERROR - Failed to apply to Entry and Basic-level: Message: invalid argument
+  (Session info: chrome=137.0.7151.55)
+Stacktrace:
+0   chromedriver                        0x0000000104e64708 cxxbridge1$str$ptr + 2729312
+1   chromedriver                        0x0000000104e5c96c cxxbridge1$str$ptr + 2697156
+2   chromedriver                        0x00000001049ae59c cxxbridge1$string$len + 90048
+3   chromedriver                        0x0000000104998e00 cxxbridge1$string$len + 2084
+4   chromedriver                        0x0000000104997110 chromedriver + 192784
+5   chromedriver                        0x0000000104997b94 chromedriver + 195476
+6   chromedriver                        0x00000001049b178c cxxbridge1$string$len + 102832
+7   chromedriver                        0x0000000104a37b38 cxxbridge1$string$len + 652636
+8   chromedriver                        0x0000000104a370c4 cxxbridge1$string$len + 649960
+9   chromedriver                        0x00000001049e9bc0 cxxbridge1$string$len + 333284
+10  chromedriver                        0x0000000104e28298 cxxbridge1$str$ptr + 2482416
+11  chromedriver                        0x0000000104e2b52c cxxbridge1$str$ptr + 2495364
+12  chromedriver                        0x0000000104e09ae0 cxxbridge1$str$ptr + 2357560
+13  chromedriver                        0x0000000104e2bdb4 cxxbridge1$str$ptr + 2497548
+14  chromedriver                        0x0000000104dfadec cxxbridge1$str$ptr + 2296900
+15  chromedriver                        0x0000000104e4bc4c cxxbridge1$str$ptr + 2628260
+16  chromedriver                        0x0000000104e4bdd8 cxxbridge1$str$ptr + 2628656
+17  chromedriver                        0x0000000104e5c5b8 cxxbridge1$str$ptr + 2696208
+18  libsystem_pthread.dylib             0x0000000182665c0c _pthread_start + 136
+19  libsystem_pthread.dylib             0x0000000182660b80 thread_start + 8
+
+2025-06-02 15:39:27,721 - ERROR - Failed to apply to Entry and Basic-level
+2025-06-02 15:39:29,726 - INFO - 
+Processing job: GIZ KEOnly onFuzuTechnical Intern - AgsysNairobi, Kenya10 days remaining
+2025-06-02 15:39:29,729 - ERROR - Failed to apply to GIZ KEOnly onFuzuTechnical Intern - AgsysNairobi, Kenya10 days remaining: Message: invalid argument
+  (Session info: chrome=137.0.7151.55)
+Stacktrace:
+0   chromedriver                        0x0000000104e64708 cxxbridge1$str$ptr + 2729312
+1   chromedriver                        0x0000000104e5c96c cxxbridge1$str$ptr + 2697156
+2   chromedriver                        0x00000001049ae59c cxxbridge1$string$len + 90048
+3   chromedriver                        0x0000000104998e00 cxxbridge1$string$len + 2084
+4   chromedriver                        0x0000000104997110 chromedriver + 192784
+5   chromedriver                        0x0000000104997b94 chromedriver + 195476
+6   chromedriver                        0x00000001049b178c cxxbridge1$string$len + 102832
+7   chromedriver                        0x0000000104a37b38 cxxbridge1$string$len + 652636
+8   chromedriver                        0x0000000104a370c4 cxxbridge1$string$len + 649960
+9   chromedriver                        0x00000001049e9bc0 cxxbridge1$string$len + 333284
+10  chromedriver                        0x0000000104e28298 cxxbridge1$str$ptr + 2482416
+11  chromedriver                        0x0000000104e2b52c cxxbridge1$str$ptr + 2495364
+12  chromedriver                        0x0000000104e09ae0 cxxbridge1$str$ptr + 2357560
+13  chromedriver                        0x0000000104e2bdb4 cxxbridge1$str$ptr + 2497548
+14  chromedriver                        0x0000000104dfadec cxxbridge1$str$ptr + 2296900
+15  chromedriver                        0x0000000104e4bc4c cxxbridge1$str$ptr + 2628260
+16  chromedriver                        0x0000000104e4bdd8 cxxbridge1$str$ptr + 2628656
+17  chromedriver                        0x0000000104e5c5b8 cxxbridge1$str$ptr + 2696208
+18  libsystem_pthread.dylib             0x0000000182665c0c _pthread_start + 136
+19  libsystem_pthread.dylib             0x0000000182660b80 thread_start + 8
+
+2025-06-02 15:39:29,729 - ERROR - Failed to apply to GIZ KEOnly onFuzuTechnical Intern - AgsysNairobi, Kenya10 days remaining
+2025-06-02 15:39:31,732 - INFO - 
+Processing job: Entry and Basic-level
+2025-06-02 15:39:37,040 - INFO - 
+Debugging page for job: Entry and Basic-level
+2025-06-02 15:39:37,101 - INFO - URL: https://www.fuzu.com/job/basic
+2025-06-02 15:39:37,109 - INFO - Found 0 forms on the page
+2025-06-02 15:39:37,341 - WARNING - Could not find name field
+2025-06-02 15:39:37,502 - WARNING - Could not find email field
+2025-06-02 15:39:37,713 - WARNING - Could not find phone field
+2025-06-02 15:39:37,913 - WARNING - Could not find resume upload field
+2025-06-02 15:39:38,077 - WARNING - Could not find cover letter field
+2025-06-02 15:39:38,103 - WARNING - Could not find submit button
+2025-06-02 15:39:38,103 - ERROR - Failed to apply to Entry and Basic-level
+2025-06-02 15:39:40,106 - INFO - 
+Processing job: Senior Business Analyst - Agricultural Service at Bridge Talent Management
+2025-06-02 15:39:40,109 - ERROR - Failed to apply to Senior Business Analyst - Agricultural Service at Bridge Talent Management: Message: invalid argument
+  (Session info: chrome=137.0.7151.55)
+Stacktrace:
+0   chromedriver                        0x0000000104e64708 cxxbridge1$str$ptr + 2729312
+1   chromedriver                        0x0000000104e5c96c cxxbridge1$str$ptr + 2697156
+2   chromedriver                        0x00000001049ae59c cxxbridge1$string$len + 90048
+3   chromedriver                        0x0000000104998e00 cxxbridge1$string$len + 2084
+4   chromedriver                        0x0000000104997110 chromedriver + 192784
+5   chromedriver                        0x0000000104997b94 chromedriver + 195476
+6   chromedriver                        0x00000001049b178c cxxbridge1$string$len + 102832
+7   chromedriver                        0x0000000104a37b38 cxxbridge1$string$len + 652636
+8   chromedriver                        0x0000000104a370c4 cxxbridge1$string$len + 649960
+9   chromedriver                        0x00000001049e9bc0 cxxbridge1$string$len + 333284
+10  chromedriver                        0x0000000104e28298 cxxbridge1$str$ptr + 2482416
+11  chromedriver                        0x0000000104e2b52c cxxbridge1$str$ptr + 2495364
+12  chromedriver                        0x0000000104e09ae0 cxxbridge1$str$ptr + 2357560
+13  chromedriver                        0x0000000104e2bdb4 cxxbridge1$str$ptr + 2497548
+14  chromedriver                        0x0000000104dfadec cxxbridge1$str$ptr + 2296900
+15  chromedriver                        0x0000000104e4bc4c cxxbridge1$str$ptr + 2628260
+16  chromedriver                        0x0000000104e4bdd8 cxxbridge1$str$ptr + 2628656
+17  chromedriver                        0x0000000104e5c5b8 cxxbridge1$str$ptr + 2696208
+18  libsystem_pthread.dylib             0x0000000182665c0c _pthread_start + 136
+19  libsystem_pthread.dylib             0x0000000182660b80 thread_start + 8
+
+2025-06-02 15:39:40,109 - ERROR - Failed to apply to Senior Business Analyst - Agricultural Service at Bridge Talent Management
+2025-06-02 15:39:42,115 - INFO - 
+Processing job: Policy Analyst – Advocacy and Systems Strengthening at Food For Education
+2025-06-02 15:39:42,410 - ERROR - Failed to apply to Policy Analyst – Advocacy and Systems Strengthening at Food For Education: Message: invalid argument
+  (Session info: chrome=137.0.7151.55)
+Stacktrace:
+0   chromedriver                        0x0000000104e64708 cxxbridge1$str$ptr + 2729312
+1   chromedriver                        0x0000000104e5c96c cxxbridge1$str$ptr + 2697156
+2   chromedriver                        0x00000001049ae59c cxxbridge1$string$len + 90048
+3   chromedriver                        0x0000000104998e00 cxxbridge1$string$len + 2084
+4   chromedriver                        0x0000000104997110 chromedriver + 192784
+5   chromedriver                        0x0000000104997b94 chromedriver + 195476
+6   chromedriver                        0x00000001049b178c cxxbridge1$string$len + 102832
+7   chromedriver                        0x0000000104a37b38 cxxbridge1$string$len + 652636
+8   chromedriver                        0x0000000104a370c4 cxxbridge1$string$len + 649960
+9   chromedriver                        0x00000001049e9bc0 cxxbridge1$string$len + 333284
+10  chromedriver                        0x0000000104e28298 cxxbridge1$str$ptr + 2482416
+11  chromedriver                        0x0000000104e2b52c cxxbridge1$str$ptr + 2495364
+12  chromedriver                        0x0000000104e09ae0 cxxbridge1$str$ptr + 2357560
+13  chromedriver                        0x0000000104e2bdb4 cxxbridge1$str$ptr + 2497548
+14  chromedriver                        0x0000000104dfadec cxxbridge1$str$ptr + 2296900
+15  chromedriver                        0x0000000104e4bc4c cxxbridge1$str$ptr + 2628260
+16  chromedriver                        0x0000000104e4bdd8 cxxbridge1$str$ptr + 2628656
+17  chromedriver                        0x0000000104e5c5b8 cxxbridge1$str$ptr + 2696208
+18  libsystem_pthread.dylib             0x0000000182665c0c _pthread_start + 136
+19  libsystem_pthread.dylib             0x0000000182660b80 thread_start + 8
+
+2025-06-02 15:39:42,411 - ERROR - Failed to apply to Policy Analyst – Advocacy and Systems Strengthening at Food For Education
+2025-06-02 15:39:44,412 - INFO - 
+Processing job: Digital Partnerships Analyst - Digital Financial Services Division at KCB Bank Kenya
+2025-06-02 15:39:44,414 - ERROR - Failed to apply to Digital Partnerships Analyst - Digital Financial Services Division at KCB Bank Kenya: Message: invalid argument
+  (Session info: chrome=137.0.7151.55)
+Stacktrace:
+0   chromedriver                        0x0000000104e64708 cxxbridge1$str$ptr + 2729312
+1   chromedriver                        0x0000000104e5c96c cxxbridge1$str$ptr + 2697156
+2   chromedriver                        0x00000001049ae59c cxxbridge1$string$len + 90048
+3   chromedriver                        0x0000000104998e00 cxxbridge1$string$len + 2084
+4   chromedriver                        0x0000000104997110 chromedriver + 192784
+5   chromedriver                        0x0000000104997b94 chromedriver + 195476
+6   chromedriver                        0x00000001049b178c cxxbridge1$string$len + 102832
+7   chromedriver                        0x0000000104a37b38 cxxbridge1$string$len + 652636
+8   chromedriver                        0x0000000104a370c4 cxxbridge1$string$len + 649960
+9   chromedriver                        0x00000001049e9bc0 cxxbridge1$string$len + 333284
+10  chromedriver                        0x0000000104e28298 cxxbridge1$str$ptr + 2482416
+11  chromedriver                        0x0000000104e2b52c cxxbridge1$str$ptr + 2495364
+12  chromedriver                        0x0000000104e09ae0 cxxbridge1$str$ptr + 2357560
+13  chromedriver                        0x0000000104e2bdb4 cxxbridge1$str$ptr + 2497548
+14  chromedriver                        0x0000000104dfadec cxxbridge1$str$ptr + 2296900
+15  chromedriver                        0x0000000104e4bc4c cxxbridge1$str$ptr + 2628260
+16  chromedriver                        0x0000000104e4bdd8 cxxbridge1$str$ptr + 2628656
+17  chromedriver                        0x0000000104e5c5b8 cxxbridge1$str$ptr + 2696208
+18  libsystem_pthread.dylib             0x0000000182665c0c _pthread_start + 136
+19  libsystem_pthread.dylib             0x0000000182660b80 thread_start + 8
+
+2025-06-02 15:39:44,414 - ERROR - Failed to apply to Digital Partnerships Analyst - Digital Financial Services Division at KCB Bank Kenya
+2025-06-02 15:41:11,923 - INFO - Starting job application process
+2025-06-02 15:41:12,879 - INFO - 
+Processing job: ERP Developer junior
+2025-06-02 15:41:15,405 - INFO - 
+Debugging page for job: ERP Developer junior
+2025-06-02 15:41:15,420 - INFO - URL: https://ke.linkedin.com/jobs/view/erp-developer-junior-at-blackfluo-ai-4229271041?position=2&pageNum=0&refId=ClDfPD%2BrYvpY7pGNIyyeBg%3D%3D&trackingId=vfnUx6WQ5KEG3qdalzmkvg%3D%3D
+2025-06-02 15:41:15,438 - INFO - Found 10 forms on the page
+2025-06-02 15:41:15,438 - INFO - 
+Form 1:
+2025-06-02 15:41:15,453 - INFO - Form action: https://ke.linkedin.com/pub/dir
+2025-06-02 15:41:15,467 - INFO - Form method: get
+2025-06-02 15:41:15,476 - INFO - Input fields in form 1:
+2025-06-02 15:41:15,492 - INFO - - Name: firstName, ID: , Type: search
+2025-06-02 15:41:15,505 - INFO - - Name: lastName, ID: , Type: search
+2025-06-02 15:41:15,559 - INFO - - Name: trk, ID: , Type: hidden
+2025-06-02 15:41:15,578 - INFO - Textarea fields in form 1:
+2025-06-02 15:41:15,578 - INFO - 
+Form 2:
+2025-06-02 15:41:15,616 - INFO - Form action: https://ke.linkedin.com/jobs/search
+2025-06-02 15:41:15,625 - INFO - Form method: get
+2025-06-02 15:41:15,635 - INFO - Input fields in form 2:
+2025-06-02 15:41:15,650 - INFO - - Name: keywords, ID: job-search-bar-keywords, Type: search
+2025-06-02 15:41:15,663 - INFO - - Name: location, ID: job-search-bar-location, Type: search
+2025-06-02 15:41:15,675 - INFO - - Name: geoId, ID: , Type: hidden
+2025-06-02 15:41:15,685 - INFO - - Name: trk, ID: , Type: hidden
+2025-06-02 15:41:15,689 - INFO - Textarea fields in form 2:
+2025-06-02 15:41:15,689 - INFO - 
+Form 3:
+2025-06-02 15:41:15,692 - INFO - Form action: https://ke.linkedin.com/learning/search
+2025-06-02 15:41:15,695 - INFO - Form method: get
+2025-06-02 15:41:15,700 - INFO - Input fields in form 3:
+2025-06-02 15:41:15,709 - INFO - - Name: keywords, ID: , Type: search
+2025-06-02 15:41:15,716 - INFO - - Name: upsellOrderOrigin, ID: , Type: hidden
+2025-06-02 15:41:15,731 - INFO - - Name: trk, ID: , Type: hidden
+2025-06-02 15:41:15,736 - INFO - Textarea fields in form 3:
+2025-06-02 15:41:15,736 - INFO - 
+Form 4:
+2025-06-02 15:41:15,739 - INFO - Form action: https://ke.linkedin.com/signup/api/cors/createAccount
+2025-06-02 15:41:15,743 - INFO - Form method: post
+2025-06-02 15:41:15,748 - INFO - Input fields in form 4:
+2025-06-02 15:41:15,756 - INFO - - Name: first-name, ID: first-name, Type: text
+2025-06-02 15:41:15,766 - INFO - - Name: last-name, ID: last-name, Type: text
+2025-06-02 15:41:15,774 - INFO - - Name: email-or-phone, ID: email-or-phone, Type: text
+2025-06-02 15:41:15,780 - INFO - - Name: password, ID: password, Type: password
+2025-06-02 15:41:15,784 - INFO - Textarea fields in form 4:
+2025-06-02 15:41:15,784 - INFO - 
+Form 5:
+2025-06-02 15:41:15,787 - INFO - Form action: https://ke.linkedin.com/signup/api/cors/createAccount
+2025-06-02 15:41:15,789 - INFO - Form method: post
+2025-06-02 15:41:15,793 - INFO - Input fields in form 5:
+2025-06-02 15:41:15,801 - INFO - - Name: first-name, ID: first-name, Type: text
+2025-06-02 15:41:15,808 - INFO - - Name: last-name, ID: last-name, Type: text
+2025-06-02 15:41:15,814 - INFO - - Name: email-or-phone, ID: email-or-phone, Type: text
+2025-06-02 15:41:15,821 - INFO - - Name: password, ID: password, Type: password
+2025-06-02 15:41:15,851 - INFO - Textarea fields in form 5:
+2025-06-02 15:41:15,851 - INFO - 
+Form 6:
+2025-06-02 15:41:15,871 - INFO - Form action: https://www.linkedin.com/uas/login-submit
+2025-06-02 15:41:15,875 - INFO - Form method: post
+2025-06-02 15:41:15,881 - INFO - Input fields in form 6:
+2025-06-02 15:41:15,904 - INFO - - Name: loginCsrfParam, ID: , Type: hidden
+2025-06-02 15:41:15,914 - INFO - - Name: session_key, ID: public_jobs_ai_button_contextual_sign_in_info_modal_sign-in-modal_session_key, Type: text
+2025-06-02 15:41:15,932 - INFO - - Name: session_password, ID: public_jobs_ai_button_contextual_sign_in_info_modal_sign-in-modal_session_password, Type: password
+2025-06-02 15:41:15,942 - INFO - - Name: session_redirect, ID: , Type: hidden
+2025-06-02 15:41:15,958 - INFO - - Name: trk, ID: , Type: hidden
+2025-06-02 15:41:15,968 - INFO - - Name: controlId, ID: , Type: hidden
+2025-06-02 15:41:15,978 - INFO - - Name: pageInstance, ID: , Type: hidden
+2025-06-02 15:41:15,982 - INFO - Textarea fields in form 6:
+2025-06-02 15:41:15,982 - INFO - 
+Form 7:
+2025-06-02 15:41:15,986 - INFO - Form action: https://www.linkedin.com/uas/login-submit
+2025-06-02 15:41:15,988 - INFO - Form method: post
+2025-06-02 15:41:15,993 - INFO - Input fields in form 7:
+2025-06-02 15:41:16,003 - INFO - - Name: loginCsrfParam, ID: , Type: hidden
+2025-06-02 15:41:16,015 - INFO - - Name: session_key, ID: public_jobs_ai_button_fit_contextual_sign_in_info_modal_sign-in-modal_session_key, Type: text
+2025-06-02 15:41:16,030 - INFO - - Name: session_password, ID: public_jobs_ai_button_fit_contextual_sign_in_info_modal_sign-in-modal_session_password, Type: password
+2025-06-02 15:41:16,044 - INFO - - Name: session_redirect, ID: , Type: hidden
+2025-06-02 15:41:16,055 - INFO - - Name: trk, ID: , Type: hidden
+2025-06-02 15:41:16,064 - INFO - - Name: controlId, ID: , Type: hidden
+2025-06-02 15:41:16,072 - INFO - - Name: pageInstance, ID: , Type: hidden
+2025-06-02 15:41:16,077 - INFO - Textarea fields in form 7:
+2025-06-02 15:41:16,077 - INFO - 
+Form 8:
+2025-06-02 15:41:16,080 - INFO - Form action: https://www.linkedin.com/uas/login-submit
+2025-06-02 15:41:16,083 - INFO - Form method: post
+2025-06-02 15:41:16,088 - INFO - Input fields in form 8:
+2025-06-02 15:41:16,097 - INFO - - Name: loginCsrfParam, ID: , Type: hidden
+2025-06-02 15:41:16,105 - INFO - - Name: session_key, ID: public_jobs_ai_button_resume_contextual_sign_in_info_modal_sign-in-modal_session_key, Type: text
+2025-06-02 15:41:16,113 - INFO - - Name: session_password, ID: public_jobs_ai_button_resume_contextual_sign_in_info_modal_sign-in-modal_session_password, Type: password
+2025-06-02 15:41:16,121 - INFO - - Name: session_redirect, ID: , Type: hidden
+2025-06-02 15:41:16,129 - INFO - - Name: trk, ID: , Type: hidden
+2025-06-02 15:41:16,136 - INFO - - Name: controlId, ID: , Type: hidden
+2025-06-02 15:41:16,144 - INFO - - Name: pageInstance, ID: , Type: hidden
+2025-06-02 15:41:16,148 - INFO - Textarea fields in form 8:
+2025-06-02 15:41:16,148 - INFO - 
+Form 9:
+2025-06-02 15:41:16,151 - INFO - Form action: https://www.linkedin.com/uas/login-submit
+2025-06-02 15:41:16,154 - INFO - Form method: post
+2025-06-02 15:41:16,158 - INFO - Input fields in form 9:
+2025-06-02 15:41:16,166 - INFO - - Name: loginCsrfParam, ID: , Type: hidden
+2025-06-02 15:41:16,174 - INFO - - Name: session_redirect, ID: , Type: hidden
+2025-06-02 15:41:16,182 - INFO - - Name: trk, ID: , Type: hidden
+2025-06-02 15:41:16,186 - INFO - Textarea fields in form 9:
+2025-06-02 15:41:16,186 - INFO - 
+Form 10:
+2025-06-02 15:41:16,189 - INFO - Form action: https://www.linkedin.com/uas/login-submit
+2025-06-02 15:41:16,192 - INFO - Form method: post
+2025-06-02 15:41:16,196 - INFO - Input fields in form 10:
+2025-06-02 15:41:16,203 - INFO - - Name: loginCsrfParam, ID: , Type: hidden
+2025-06-02 15:41:16,211 - INFO - - Name: session_key, ID: base-sign-in-modal_session_key, Type: text
+2025-06-02 15:41:16,219 - INFO - - Name: session_password, ID: base-sign-in-modal_session_password, Type: password
+2025-06-02 15:41:16,227 - INFO - - Name: session_redirect, ID: , Type: hidden
+2025-06-02 15:41:16,235 - INFO - - Name: trk, ID: , Type: hidden
+2025-06-02 15:41:16,243 - INFO - - Name: controlId, ID: , Type: hidden
+2025-06-02 15:41:16,253 - INFO - - Name: pageInstance, ID: , Type: hidden
+2025-06-02 15:41:16,259 - INFO - Textarea fields in form 10:
+2025-06-02 15:41:16,430 - ERROR - Failed to apply to ERP Developer junior: Message: element not interactable
+  (Session info: chrome=137.0.7151.55)
+Stacktrace:
+0   chromedriver                        0x0000000101054708 cxxbridge1$str$ptr + 2729312
+1   chromedriver                        0x000000010104c96c cxxbridge1$str$ptr + 2697156
+2   chromedriver                        0x0000000100b9e59c cxxbridge1$string$len + 90048
+3   chromedriver                        0x0000000100bdd4d4 cxxbridge1$string$len + 347896
+4   chromedriver                        0x0000000100bdb18c cxxbridge1$string$len + 338864
+5   chromedriver                        0x0000000100c270c4 cxxbridge1$string$len + 649960
+6   chromedriver                        0x0000000100bd9bc0 cxxbridge1$string$len + 333284
+7   chromedriver                        0x0000000101018298 cxxbridge1$str$ptr + 2482416
+8   chromedriver                        0x000000010101b52c cxxbridge1$str$ptr + 2495364
+9   chromedriver                        0x0000000100ff9ae0 cxxbridge1$str$ptr + 2357560
+10  chromedriver                        0x000000010101bdb4 cxxbridge1$str$ptr + 2497548
+11  chromedriver                        0x0000000100feadec cxxbridge1$str$ptr + 2296900
+12  chromedriver                        0x000000010103bc4c cxxbridge1$str$ptr + 2628260
+13  chromedriver                        0x000000010103bdd8 cxxbridge1$str$ptr + 2628656
+14  chromedriver                        0x000000010104c5b8 cxxbridge1$str$ptr + 2696208
+15  libsystem_pthread.dylib             0x0000000182665c0c _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000182660b80 thread_start + 8
+
+2025-06-02 15:41:16,430 - ERROR - Failed to apply to ERP Developer junior
+2025-06-02 15:41:18,435 - INFO - 
+Processing job: Junior Marketing Analyst
+2025-06-02 15:41:19,438 - INFO - 
+Debugging page for job: Junior Marketing Analyst
+2025-06-02 15:41:19,490 - INFO - URL: https://ke.linkedin.com/jobs/view/junior-marketing-analyst-at-canonical-4116606183?position=3&pageNum=0&refId=ClDfPD%2BrYvpY7pGNIyyeBg%3D%3D&trackingId=poFFF9KWeA9M3X%2BGKrwgNA%3D%3D
+2025-06-02 15:41:19,502 - INFO - Found 10 forms on the page
+2025-06-02 15:41:19,503 - INFO - 
+Form 1:
+2025-06-02 15:41:19,511 - INFO - Form action: https://ke.linkedin.com/pub/dir
+2025-06-02 15:41:19,519 - INFO - Form method: get
+2025-06-02 15:41:19,530 - INFO - Input fields in form 1:
+2025-06-02 15:41:19,548 - INFO - - Name: firstName, ID: , Type: search
+2025-06-02 15:41:19,557 - INFO - - Name: lastName, ID: , Type: search
+2025-06-02 15:41:19,564 - INFO - - Name: trk, ID: , Type: hidden
+2025-06-02 15:41:19,569 - INFO - Textarea fields in form 1:
+2025-06-02 15:41:19,569 - INFO - 
+Form 2:
+2025-06-02 15:41:19,575 - INFO - Form action: https://ke.linkedin.com/jobs/search
+2025-06-02 15:41:19,591 - INFO - Form method: get
+2025-06-02 15:41:19,597 - INFO - Input fields in form 2:
+2025-06-02 15:41:19,607 - INFO - - Name: keywords, ID: job-search-bar-keywords, Type: search
+2025-06-02 15:41:19,628 - INFO - - Name: location, ID: job-search-bar-location, Type: search
+2025-06-02 15:41:19,652 - INFO - - Name: geoId, ID: , Type: hidden
+2025-06-02 15:41:19,662 - INFO - - Name: trk, ID: , Type: hidden
+2025-06-02 15:41:19,699 - INFO - Textarea fields in form 2:
+2025-06-02 15:41:19,699 - INFO - 
+Form 3:
+2025-06-02 15:41:19,703 - INFO - Form action: https://ke.linkedin.com/learning/search
+2025-06-02 15:41:19,706 - INFO - Form method: get
+2025-06-02 15:41:19,817 - INFO - Input fields in form 3:
+2025-06-02 15:41:19,838 - INFO - - Name: keywords, ID: , Type: search
+2025-06-02 15:41:19,852 - INFO - - Name: upsellOrderOrigin, ID: , Type: hidden
+2025-06-02 15:41:19,860 - INFO - - Name: trk, ID: , Type: hidden
+2025-06-02 15:41:19,864 - INFO - Textarea fields in form 3:
+2025-06-02 15:41:19,865 - INFO - 
+Form 4:
+2025-06-02 15:41:19,868 - INFO - Form action: https://ke.linkedin.com/signup/api/cors/createAccount
+2025-06-02 15:41:19,870 - INFO - Form method: post
+2025-06-02 15:41:19,875 - INFO - Input fields in form 4:
+2025-06-02 15:41:19,884 - INFO - - Name: first-name, ID: first-name, Type: text
+2025-06-02 15:41:19,897 - INFO - - Name: last-name, ID: last-name, Type: text
+2025-06-02 15:41:19,907 - INFO - - Name: email-or-phone, ID: email-or-phone, Type: text
+2025-06-02 15:41:19,919 - INFO - - Name: password, ID: password, Type: password
+2025-06-02 15:41:19,923 - INFO - Textarea fields in form 4:
+2025-06-02 15:41:19,924 - INFO - 
+Form 5:
+2025-06-02 15:41:19,928 - INFO - Form action: https://ke.linkedin.com/signup/api/cors/createAccount
+2025-06-02 15:41:19,931 - INFO - Form method: post
+2025-06-02 15:41:19,937 - INFO - Input fields in form 5:
+2025-06-02 15:41:19,947 - INFO - - Name: first-name, ID: first-name, Type: text
+2025-06-02 15:41:19,956 - INFO - - Name: last-name, ID: last-name, Type: text
+2025-06-02 15:41:19,964 - INFO - - Name: email-or-phone, ID: email-or-phone, Type: text
+2025-06-02 15:41:19,981 - INFO - - Name: password, ID: password, Type: password
+2025-06-02 15:41:19,989 - INFO - Textarea fields in form 5:
+2025-06-02 15:41:19,989 - INFO - 
+Form 6:
+2025-06-02 15:41:19,992 - INFO - Form action: https://www.linkedin.com/uas/login-submit
+2025-06-02 15:41:19,994 - INFO - Form method: post
+2025-06-02 15:41:19,998 - INFO - Input fields in form 6:
+2025-06-02 15:41:20,005 - INFO - - Name: loginCsrfParam, ID: , Type: hidden
+2025-06-02 15:41:20,014 - INFO - - Name: session_key, ID: public_jobs_ai_button_contextual_sign_in_info_modal_sign-in-modal_session_key, Type: text
+2025-06-02 15:41:20,022 - INFO - - Name: session_password, ID: public_jobs_ai_button_contextual_sign_in_info_modal_sign-in-modal_session_password, Type: password
+2025-06-02 15:41:20,029 - INFO - - Name: session_redirect, ID: , Type: hidden
+2025-06-02 15:41:20,036 - INFO - - Name: trk, ID: , Type: hidden
+2025-06-02 15:41:20,043 - INFO - - Name: controlId, ID: , Type: hidden
+2025-06-02 15:41:20,051 - INFO - - Name: pageInstance, ID: , Type: hidden
+2025-06-02 15:41:20,063 - INFO - Textarea fields in form 6:
+2025-06-02 15:41:20,063 - INFO - 
+Form 7:
+2025-06-02 15:41:20,066 - INFO - Form action: https://www.linkedin.com/uas/login-submit
+2025-06-02 15:41:20,069 - INFO - Form method: post
+2025-06-02 15:41:20,073 - INFO - Input fields in form 7:
+2025-06-02 15:41:20,080 - INFO - - Name: loginCsrfParam, ID: , Type: hidden
+2025-06-02 15:41:20,087 - INFO - - Name: session_key, ID: public_jobs_ai_button_fit_contextual_sign_in_info_modal_sign-in-modal_session_key, Type: text
+2025-06-02 15:41:20,094 - INFO - - Name: session_password, ID: public_jobs_ai_button_fit_contextual_sign_in_info_modal_sign-in-modal_session_password, Type: password
+2025-06-02 15:41:20,102 - INFO - - Name: session_redirect, ID: , Type: hidden
+2025-06-02 15:41:20,109 - INFO - - Name: trk, ID: , Type: hidden
+2025-06-02 15:41:20,115 - INFO - - Name: controlId, ID: , Type: hidden
+2025-06-02 15:41:20,122 - INFO - - Name: pageInstance, ID: , Type: hidden
+2025-06-02 15:41:20,127 - INFO - Textarea fields in form 7:
+2025-06-02 15:41:20,127 - INFO - 
+Form 8:
+2025-06-02 15:41:20,129 - INFO - Form action: https://www.linkedin.com/uas/login-submit
+2025-06-02 15:41:20,132 - INFO - Form method: post
+2025-06-02 15:41:20,136 - INFO - Input fields in form 8:
+2025-06-02 15:41:20,144 - INFO - - Name: loginCsrfParam, ID: , Type: hidden
+2025-06-02 15:41:20,150 - INFO - - Name: session_key, ID: public_jobs_ai_button_resume_contextual_sign_in_info_modal_sign-in-modal_session_key, Type: text
+2025-06-02 15:41:20,157 - INFO - - Name: session_password, ID: public_jobs_ai_button_resume_contextual_sign_in_info_modal_sign-in-modal_session_password, Type: password
+2025-06-02 15:41:20,164 - INFO - - Name: session_redirect, ID: , Type: hidden
+2025-06-02 15:41:20,171 - INFO - - Name: trk, ID: , Type: hidden
+2025-06-02 15:41:20,178 - INFO - - Name: controlId, ID: , Type: hidden
+2025-06-02 15:41:20,185 - INFO - - Name: pageInstance, ID: , Type: hidden
+2025-06-02 15:41:20,189 - INFO - Textarea fields in form 8:
+2025-06-02 15:41:20,189 - INFO - 
+Form 9:
+2025-06-02 15:41:20,192 - INFO - Form action: https://www.linkedin.com/uas/login-submit
+2025-06-02 15:41:20,194 - INFO - Form method: post
+2025-06-02 15:41:20,199 - INFO - Input fields in form 9:
+2025-06-02 15:41:20,207 - INFO - - Name: loginCsrfParam, ID: , Type: hidden
+2025-06-02 15:41:20,214 - INFO - - Name: session_redirect, ID: , Type: hidden
+2025-06-02 15:41:20,222 - INFO - - Name: trk, ID: , Type: hidden
+2025-06-02 15:41:20,226 - INFO - Textarea fields in form 9:
+2025-06-02 15:41:20,226 - INFO - 
+Form 10:
+2025-06-02 15:41:20,228 - INFO - Form action: https://www.linkedin.com/uas/login-submit
+2025-06-02 15:41:20,230 - INFO - Form method: post
+2025-06-02 15:41:20,234 - INFO - Input fields in form 10:
+2025-06-02 15:41:20,249 - INFO - - Name: loginCsrfParam, ID: , Type: hidden
+2025-06-02 15:41:20,256 - INFO - - Name: session_key, ID: base-sign-in-modal_session_key, Type: text
+2025-06-02 15:41:20,265 - INFO - - Name: session_password, ID: base-sign-in-modal_session_password, Type: password
+2025-06-02 15:41:20,273 - INFO - - Name: session_redirect, ID: , Type: hidden
+2025-06-02 15:41:20,280 - INFO - - Name: trk, ID: , Type: hidden
+2025-06-02 15:41:20,288 - INFO - - Name: controlId, ID: , Type: hidden
+2025-06-02 15:41:20,297 - INFO - - Name: pageInstance, ID: , Type: hidden
+2025-06-02 15:41:20,302 - INFO - Textarea fields in form 10:
+2025-06-02 15:41:20,397 - ERROR - Failed to apply to Junior Marketing Analyst: Message: element not interactable
+  (Session info: chrome=137.0.7151.55)
+Stacktrace:
+0   chromedriver                        0x0000000101054708 cxxbridge1$str$ptr + 2729312
+1   chromedriver                        0x000000010104c96c cxxbridge1$str$ptr + 2697156
+2   chromedriver                        0x0000000100b9e59c cxxbridge1$string$len + 90048
+3   chromedriver                        0x0000000100bdd4d4 cxxbridge1$string$len + 347896
+4   chromedriver                        0x0000000100bdb18c cxxbridge1$string$len + 338864
+5   chromedriver                        0x0000000100c270c4 cxxbridge1$string$len + 649960
+6   chromedriver                        0x0000000100bd9bc0 cxxbridge1$string$len + 333284
+7   chromedriver                        0x0000000101018298 cxxbridge1$str$ptr + 2482416
+8   chromedriver                        0x000000010101b52c cxxbridge1$str$ptr + 2495364
+9   chromedriver                        0x0000000100ff9ae0 cxxbridge1$str$ptr + 2357560
+10  chromedriver                        0x000000010101bdb4 cxxbridge1$str$ptr + 2497548
+11  chromedriver                        0x0000000100feadec cxxbridge1$str$ptr + 2296900
+12  chromedriver                        0x000000010103bc4c cxxbridge1$str$ptr + 2628260
+13  chromedriver                        0x000000010103bdd8 cxxbridge1$str$ptr + 2628656
+14  chromedriver                        0x000000010104c5b8 cxxbridge1$str$ptr + 2696208
+15  libsystem_pthread.dylib             0x0000000182665c0c _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000182660b80 thread_start + 8
+
+2025-06-02 15:41:20,397 - ERROR - Failed to apply to Junior Marketing Analyst
+2025-06-02 15:41:22,399 - INFO - 
+Processing job: Information technology, software development, data
+2025-06-02 15:41:22,401 - ERROR - Failed to apply to Information technology, software development, data: Message: invalid argument
+  (Session info: chrome=137.0.7151.55)
+Stacktrace:
+0   chromedriver                        0x0000000101054708 cxxbridge1$str$ptr + 2729312
+1   chromedriver                        0x000000010104c96c cxxbridge1$str$ptr + 2697156
+2   chromedriver                        0x0000000100b9e59c cxxbridge1$string$len + 90048
+3   chromedriver                        0x0000000100b88e00 cxxbridge1$string$len + 2084
+4   chromedriver                        0x0000000100b87110 chromedriver + 192784
+5   chromedriver                        0x0000000100b87b94 chromedriver + 195476
+6   chromedriver                        0x0000000100ba178c cxxbridge1$string$len + 102832
+7   chromedriver                        0x0000000100c27b38 cxxbridge1$string$len + 652636
+8   chromedriver                        0x0000000100c270c4 cxxbridge1$string$len + 649960
+9   chromedriver                        0x0000000100bd9bc0 cxxbridge1$string$len + 333284
+10  chromedriver                        0x0000000101018298 cxxbridge1$str$ptr + 2482416
+11  chromedriver                        0x000000010101b52c cxxbridge1$str$ptr + 2495364
+12  chromedriver                        0x0000000100ff9ae0 cxxbridge1$str$ptr + 2357560
+13  chromedriver                        0x000000010101bdb4 cxxbridge1$str$ptr + 2497548
+14  chromedriver                        0x0000000100feadec cxxbridge1$str$ptr + 2296900
+15  chromedriver                        0x000000010103bc4c cxxbridge1$str$ptr + 2628260
+16  chromedriver                        0x000000010103bdd8 cxxbridge1$str$ptr + 2628656
+17  chromedriver                        0x000000010104c5b8 cxxbridge1$str$ptr + 2696208
+18  libsystem_pthread.dylib             0x0000000182665c0c _pthread_start + 136
+19  libsystem_pthread.dylib             0x0000000182660b80 thread_start + 8
+
+2025-06-02 15:41:22,401 - ERROR - Failed to apply to Information technology, software development, data
+2025-06-02 15:41:24,406 - INFO - 
+Processing job: Data/Research
+2025-06-02 15:41:24,410 - ERROR - Failed to apply to Data/Research: Message: invalid argument
+  (Session info: chrome=137.0.7151.55)
+Stacktrace:
+0   chromedriver                        0x0000000101054708 cxxbridge1$str$ptr + 2729312
+1   chromedriver                        0x000000010104c96c cxxbridge1$str$ptr + 2697156
+2   chromedriver                        0x0000000100b9e59c cxxbridge1$string$len + 90048
+3   chromedriver                        0x0000000100b88e00 cxxbridge1$string$len + 2084
+4   chromedriver                        0x0000000100b87110 chromedriver + 192784
+5   chromedriver                        0x0000000100b87b94 chromedriver + 195476
+6   chromedriver                        0x0000000100ba178c cxxbridge1$string$len + 102832
+7   chromedriver                        0x0000000100c27b38 cxxbridge1$string$len + 652636
+8   chromedriver                        0x0000000100c270c4 cxxbridge1$string$len + 649960
+9   chromedriver                        0x0000000100bd9bc0 cxxbridge1$string$len + 333284
+10  chromedriver                        0x0000000101018298 cxxbridge1$str$ptr + 2482416
+11  chromedriver                        0x000000010101b52c cxxbridge1$str$ptr + 2495364
+12  chromedriver                        0x0000000100ff9ae0 cxxbridge1$str$ptr + 2357560
+13  chromedriver                        0x000000010101bdb4 cxxbridge1$str$ptr + 2497548
+14  chromedriver                        0x0000000100feadec cxxbridge1$str$ptr + 2296900
+15  chromedriver                        0x000000010103bc4c cxxbridge1$str$ptr + 2628260
+16  chromedriver                        0x000000010103bdd8 cxxbridge1$str$ptr + 2628656
+17  chromedriver                        0x000000010104c5b8 cxxbridge1$str$ptr + 2696208
+18  libsystem_pthread.dylib             0x0000000182665c0c _pthread_start + 136
+19  libsystem_pthread.dylib             0x0000000182660b80 thread_start + 8
+
+2025-06-02 15:41:24,410 - ERROR - Failed to apply to Data/Research
+2025-06-02 15:41:26,415 - INFO - 
+Processing job: Entry and Basic-level
+2025-06-02 15:41:26,419 - ERROR - Failed to apply to Entry and Basic-level: Message: invalid argument
+  (Session info: chrome=137.0.7151.55)
+Stacktrace:
+0   chromedriver                        0x0000000101054708 cxxbridge1$str$ptr + 2729312
+1   chromedriver                        0x000000010104c96c cxxbridge1$str$ptr + 2697156
+2   chromedriver                        0x0000000100b9e59c cxxbridge1$string$len + 90048
+3   chromedriver                        0x0000000100b88e00 cxxbridge1$string$len + 2084
+4   chromedriver                        0x0000000100b87110 chromedriver + 192784
+5   chromedriver                        0x0000000100b87b94 chromedriver + 195476
+6   chromedriver                        0x0000000100ba178c cxxbridge1$string$len + 102832
+7   chromedriver                        0x0000000100c27b38 cxxbridge1$string$len + 652636
+8   chromedriver                        0x0000000100c270c4 cxxbridge1$string$len + 649960
+9   chromedriver                        0x0000000100bd9bc0 cxxbridge1$string$len + 333284
+10  chromedriver                        0x0000000101018298 cxxbridge1$str$ptr + 2482416
+11  chromedriver                        0x000000010101b52c cxxbridge1$str$ptr + 2495364
+12  chromedriver                        0x0000000100ff9ae0 cxxbridge1$str$ptr + 2357560
+13  chromedriver                        0x000000010101bdb4 cxxbridge1$str$ptr + 2497548
+14  chromedriver                        0x0000000100feadec cxxbridge1$str$ptr + 2296900
+15  chromedriver                        0x000000010103bc4c cxxbridge1$str$ptr + 2628260
+16  chromedriver                        0x000000010103bdd8 cxxbridge1$str$ptr + 2628656
+17  chromedriver                        0x000000010104c5b8 cxxbridge1$str$ptr + 2696208
+18  libsystem_pthread.dylib             0x0000000182665c0c _pthread_start + 136
+19  libsystem_pthread.dylib             0x0000000182660b80 thread_start + 8
+
+2025-06-02 15:41:26,419 - ERROR - Failed to apply to Entry and Basic-level
+2025-06-02 15:41:28,424 - INFO - 
+Processing job: GIZ KEOnly onFuzuTechnical Intern - AgsysNairobi, Kenya10 days remaining
+2025-06-02 15:41:28,428 - ERROR - Failed to apply to GIZ KEOnly onFuzuTechnical Intern - AgsysNairobi, Kenya10 days remaining: Message: invalid argument
+  (Session info: chrome=137.0.7151.55)
+Stacktrace:
+0   chromedriver                        0x0000000101054708 cxxbridge1$str$ptr + 2729312
+1   chromedriver                        0x000000010104c96c cxxbridge1$str$ptr + 2697156
+2   chromedriver                        0x0000000100b9e59c cxxbridge1$string$len + 90048
+3   chromedriver                        0x0000000100b88e00 cxxbridge1$string$len + 2084
+4   chromedriver                        0x0000000100b87110 chromedriver + 192784
+5   chromedriver                        0x0000000100b87b94 chromedriver + 195476
+6   chromedriver                        0x0000000100ba178c cxxbridge1$string$len + 102832
+7   chromedriver                        0x0000000100c27b38 cxxbridge1$string$len + 652636
+8   chromedriver                        0x0000000100c270c4 cxxbridge1$string$len + 649960
+9   chromedriver                        0x0000000100bd9bc0 cxxbridge1$string$len + 333284
+10  chromedriver                        0x0000000101018298 cxxbridge1$str$ptr + 2482416
+11  chromedriver                        0x000000010101b52c cxxbridge1$str$ptr + 2495364
+12  chromedriver                        0x0000000100ff9ae0 cxxbridge1$str$ptr + 2357560
+13  chromedriver                        0x000000010101bdb4 cxxbridge1$str$ptr + 2497548
+14  chromedriver                        0x0000000100feadec cxxbridge1$str$ptr + 2296900
+15  chromedriver                        0x000000010103bc4c cxxbridge1$str$ptr + 2628260
+16  chromedriver                        0x000000010103bdd8 cxxbridge1$str$ptr + 2628656
+17  chromedriver                        0x000000010104c5b8 cxxbridge1$str$ptr + 2696208
+18  libsystem_pthread.dylib             0x0000000182665c0c _pthread_start + 136
+19  libsystem_pthread.dylib             0x0000000182660b80 thread_start + 8
+
+2025-06-02 15:41:28,428 - ERROR - Failed to apply to GIZ KEOnly onFuzuTechnical Intern - AgsysNairobi, Kenya10 days remaining
+2025-06-02 15:41:30,433 - INFO - 
+Processing job: Entry and Basic-level
+2025-06-02 15:41:34,517 - INFO - 
+Debugging page for job: Entry and Basic-level
+2025-06-02 15:41:34,582 - INFO - URL: https://www.fuzu.com/job/basic
+2025-06-02 15:41:34,591 - INFO - Found 0 forms on the page
+2025-06-02 15:41:34,833 - WARNING - Could not find name field
+2025-06-02 15:41:34,988 - WARNING - Could not find email field
+2025-06-02 15:41:35,210 - WARNING - Could not find phone field
+2025-06-02 15:41:35,417 - WARNING - Could not find resume upload field
+2025-06-02 15:41:35,595 - WARNING - Could not find cover letter field
+2025-06-02 15:41:35,623 - WARNING - Could not find submit button
+2025-06-02 15:41:35,624 - ERROR - Failed to apply to Entry and Basic-level
+2025-06-02 15:41:37,629 - INFO - 
+Processing job: Senior Business Analyst - Agricultural Service at Bridge Talent Management
+2025-06-02 15:41:37,631 - ERROR - Failed to apply to Senior Business Analyst - Agricultural Service at Bridge Talent Management: Message: invalid argument
+  (Session info: chrome=137.0.7151.55)
+Stacktrace:
+0   chromedriver                        0x0000000101054708 cxxbridge1$str$ptr + 2729312
+1   chromedriver                        0x000000010104c96c cxxbridge1$str$ptr + 2697156
+2   chromedriver                        0x0000000100b9e59c cxxbridge1$string$len + 90048
+3   chromedriver                        0x0000000100b88e00 cxxbridge1$string$len + 2084
+4   chromedriver                        0x0000000100b87110 chromedriver + 192784
+5   chromedriver                        0x0000000100b87b94 chromedriver + 195476
+6   chromedriver                        0x0000000100ba178c cxxbridge1$string$len + 102832
+7   chromedriver                        0x0000000100c27b38 cxxbridge1$string$len + 652636
+8   chromedriver                        0x0000000100c270c4 cxxbridge1$string$len + 649960
+9   chromedriver                        0x0000000100bd9bc0 cxxbridge1$string$len + 333284
+10  chromedriver                        0x0000000101018298 cxxbridge1$str$ptr + 2482416
+11  chromedriver                        0x000000010101b52c cxxbridge1$str$ptr + 2495364
+12  chromedriver                        0x0000000100ff9ae0 cxxbridge1$str$ptr + 2357560
+13  chromedriver                        0x000000010101bdb4 cxxbridge1$str$ptr + 2497548
+14  chromedriver                        0x0000000100feadec cxxbridge1$str$ptr + 2296900
+15  chromedriver                        0x000000010103bc4c cxxbridge1$str$ptr + 2628260
+16  chromedriver                        0x000000010103bdd8 cxxbridge1$str$ptr + 2628656
+17  chromedriver                        0x000000010104c5b8 cxxbridge1$str$ptr + 2696208
+18  libsystem_pthread.dylib             0x0000000182665c0c _pthread_start + 136
+19  libsystem_pthread.dylib             0x0000000182660b80 thread_start + 8
+
+2025-06-02 15:41:37,631 - ERROR - Failed to apply to Senior Business Analyst - Agricultural Service at Bridge Talent Management
+2025-06-02 15:41:39,637 - INFO - 
+Processing job: Policy Analyst – Advocacy and Systems Strengthening at Food For Education
+2025-06-02 15:41:39,639 - ERROR - Failed to apply to Policy Analyst – Advocacy and Systems Strengthening at Food For Education: Message: invalid argument
+  (Session info: chrome=137.0.7151.55)
+Stacktrace:
+0   chromedriver                        0x0000000101054708 cxxbridge1$str$ptr + 2729312
+1   chromedriver                        0x000000010104c96c cxxbridge1$str$ptr + 2697156
+2   chromedriver                        0x0000000100b9e59c cxxbridge1$string$len + 90048
+3   chromedriver                        0x0000000100b88e00 cxxbridge1$string$len + 2084
+4   chromedriver                        0x0000000100b87110 chromedriver + 192784
+5   chromedriver                        0x0000000100b87b94 chromedriver + 195476
+6   chromedriver                        0x0000000100ba178c cxxbridge1$string$len + 102832
+7   chromedriver                        0x0000000100c27b38 cxxbridge1$string$len + 652636
+8   chromedriver                        0x0000000100c270c4 cxxbridge1$string$len + 649960
+9   chromedriver                        0x0000000100bd9bc0 cxxbridge1$string$len + 333284
+10  chromedriver                        0x0000000101018298 cxxbridge1$str$ptr + 2482416
+11  chromedriver                        0x000000010101b52c cxxbridge1$str$ptr + 2495364
+12  chromedriver                        0x0000000100ff9ae0 cxxbridge1$str$ptr + 2357560
+13  chromedriver                        0x000000010101bdb4 cxxbridge1$str$ptr + 2497548
+14  chromedriver                        0x0000000100feadec cxxbridge1$str$ptr + 2296900
+15  chromedriver                        0x000000010103bc4c cxxbridge1$str$ptr + 2628260
+16  chromedriver                        0x000000010103bdd8 cxxbridge1$str$ptr + 2628656
+17  chromedriver                        0x000000010104c5b8 cxxbridge1$str$ptr + 2696208
+18  libsystem_pthread.dylib             0x0000000182665c0c _pthread_start + 136
+19  libsystem_pthread.dylib             0x0000000182660b80 thread_start + 8
+
+2025-06-02 15:41:39,639 - ERROR - Failed to apply to Policy Analyst – Advocacy and Systems Strengthening at Food For Education
+2025-06-02 15:41:41,644 - INFO - 
+Processing job: Digital Partnerships Analyst - Digital Financial Services Division at KCB Bank Kenya
+2025-06-02 15:41:41,648 - ERROR - Failed to apply to Digital Partnerships Analyst - Digital Financial Services Division at KCB Bank Kenya: Message: invalid argument
+  (Session info: chrome=137.0.7151.55)
+Stacktrace:
+0   chromedriver                        0x0000000101054708 cxxbridge1$str$ptr + 2729312
+1   chromedriver                        0x000000010104c96c cxxbridge1$str$ptr + 2697156
+2   chromedriver                        0x0000000100b9e59c cxxbridge1$string$len + 90048
+3   chromedriver                        0x0000000100b88e00 cxxbridge1$string$len + 2084
+4   chromedriver                        0x0000000100b87110 chromedriver + 192784
+5   chromedriver                        0x0000000100b87b94 chromedriver + 195476
+6   chromedriver                        0x0000000100ba178c cxxbridge1$string$len + 102832
+7   chromedriver                        0x0000000100c27b38 cxxbridge1$string$len + 652636
+8   chromedriver                        0x0000000100c270c4 cxxbridge1$string$len + 649960
+9   chromedriver                        0x0000000100bd9bc0 cxxbridge1$string$len + 333284
+10  chromedriver                        0x0000000101018298 cxxbridge1$str$ptr + 2482416
+11  chromedriver                        0x000000010101b52c cxxbridge1$str$ptr + 2495364
+12  chromedriver                        0x0000000100ff9ae0 cxxbridge1$str$ptr + 2357560
+13  chromedriver                        0x000000010101bdb4 cxxbridge1$str$ptr + 2497548
+14  chromedriver                        0x0000000100feadec cxxbridge1$str$ptr + 2296900
+15  chromedriver                        0x000000010103bc4c cxxbridge1$str$ptr + 2628260
+16  chromedriver                        0x000000010103bdd8 cxxbridge1$str$ptr + 2628656
+17  chromedriver                        0x000000010104c5b8 cxxbridge1$str$ptr + 2696208
+18  libsystem_pthread.dylib             0x0000000182665c0c _pthread_start + 136
+19  libsystem_pthread.dylib             0x0000000182660b80 thread_start + 8
+
+2025-06-02 15:41:41,648 - ERROR - Failed to apply to Digital Partnerships Analyst - Digital Financial Services Division at KCB Bank Kenya
+2025-06-02 16:18:11,205 - INFO - "GET /?state=OEgz2ucfFR5HjyXWsEzxJrLRjuVmyx&code=4%2F0AUJR-x6hFeOwaA47AddG9_QUUAboOoHWBqisiSI9SvL5rXOeXH1roao-TTzDQXdRoNtq9w&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&hd=keiretsuventures.co.ke&prompt=consent HTTP/1.1" 200 65
+2025-06-02 16:18:11,763 - ERROR - Error in job application process: Scope has changed from "https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile" to "https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile openid".
+2025-06-02 16:18:41,503 - INFO - "GET /?state=AkOVz51WFy61xb9DgQPF3zX3PRCAzM&code=4%2F0AUJR-x7TuZH6TkFb9to4dJt0zW9ka1fqAMlZ4Dh76yWLFPUw-E12VUSKDntVzrV9lflf-w&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&hd=keiretsuventures.co.ke&prompt=consent HTTP/1.1" 200 65
+2025-06-02 16:18:42,037 - INFO - ====== WebDriver manager ======
+2025-06-02 16:18:42,219 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-02 16:18:42,444 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-02 16:18:42,663 - INFO - Driver [/Users/jobkimani/.wdm/drivers/chromedriver/mac64/137.0.7151.55/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-06-02 16:18:42,668 - ERROR - Error in job application process: [Errno 8] Exec format error: '/Users/jobkimani/.wdm/drivers/chromedriver/mac64/137.0.7151.55/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-02 16:23:32,732 - INFO - ====== WebDriver manager ======
+2025-06-02 16:23:32,883 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-02 16:23:33,100 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-02 16:23:33,333 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-02 16:23:34,122 - INFO - WebDriver version 137.0.7151.55 selected
+2025-06-02 16:23:34,125 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.55/mac-arm64/chromedriver-mac-arm64.zip
+2025-06-02 16:23:34,125 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.55/mac-arm64/chromedriver-mac-arm64.zip
+2025-06-02 16:23:34,607 - INFO - Driver downloading response is 200
+2025-06-02 16:23:38,030 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-02 16:23:38,305 - INFO - Driver has been saved in cache [/Users/jobkimani/.wdm/drivers/chromedriver/mac64/137.0.7151.55]
+2025-06-02 16:23:38,311 - ERROR - Error in job application process: [Errno 8] Exec format error: '/Users/jobkimani/.wdm/drivers/chromedriver/mac64/137.0.7151.55/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-02 16:24:13,327 - INFO - ====== WebDriver manager ======
+2025-06-02 16:24:13,487 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-02 16:24:13,718 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-02 16:24:13,969 - INFO - Driver [/Users/jobkimani/.wdm/drivers/chromedriver/mac64/137.0.7151.55/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-06-02 16:24:13,975 - ERROR - Error in job application process: [Errno 8] Exec format error: '/Users/jobkimani/.wdm/drivers/chromedriver/mac64/137.0.7151.55/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-02 16:24:18,678 - INFO - ====== WebDriver manager ======
+2025-06-02 16:24:18,815 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-02 16:24:19,050 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-02 16:24:19,307 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-02 16:24:19,855 - INFO - WebDriver version 137.0.7151.55 selected
+2025-06-02 16:24:19,860 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.55/mac-arm64/chromedriver-mac-arm64.zip
+2025-06-02 16:24:19,860 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.55/mac-arm64/chromedriver-mac-arm64.zip
+2025-06-02 16:24:20,072 - INFO - Driver downloading response is 200
+2025-06-02 16:24:23,057 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-02 16:24:23,338 - INFO - Driver has been saved in cache [/Users/jobkimani/.wdm/drivers/chromedriver/mac64/137.0.7151.55]
+2025-06-02 16:24:23,344 - ERROR - Error in job application process: [Errno 8] Exec format error: '/Users/jobkimani/.wdm/drivers/chromedriver/mac64/137.0.7151.55/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-02 16:24:52,590 - ERROR - Error in job application process: 'jobs'
+2025-06-02 16:25:37,375 - INFO - 
+Processing job: ERP Developer junior
+2025-06-02 16:25:48,706 - ERROR - Failed to login to linkedin: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102c90708 cxxbridge1$str$ptr + 2729312
+1   chromedriver                        0x0000000102c8896c cxxbridge1$str$ptr + 2697156
+2   chromedriver                        0x00000001027da728 cxxbridge1$string$len + 90444
+3   chromedriver                        0x00000001028219b8 cxxbridge1$string$len + 381916
+4   chromedriver                        0x00000001028630c4 cxxbridge1$string$len + 649960
+5   chromedriver                        0x0000000102815bc0 cxxbridge1$string$len + 333284
+6   chromedriver                        0x0000000102c54298 cxxbridge1$str$ptr + 2482416
+7   chromedriver                        0x0000000102c5752c cxxbridge1$str$ptr + 2495364
+8   chromedriver                        0x0000000102c35ae0 cxxbridge1$str$ptr + 2357560
+9   chromedriver                        0x0000000102c57db4 cxxbridge1$str$ptr + 2497548
+10  chromedriver                        0x0000000102c26dec cxxbridge1$str$ptr + 2296900
+11  chromedriver                        0x0000000102c77c4c cxxbridge1$str$ptr + 2628260
+12  chromedriver                        0x0000000102c77dd8 cxxbridge1$str$ptr + 2628656
+13  chromedriver                        0x0000000102c885b8 cxxbridge1$str$ptr + 2696208
+14  libsystem_pthread.dylib             0x0000000182665c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000182660b80 thread_start + 8
+
+2025-06-02 16:25:48,708 - INFO - 
+Processing job: Junior Marketing Analyst
+2025-06-02 16:25:59,858 - ERROR - Failed to login to linkedin: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102c90708 cxxbridge1$str$ptr + 2729312
+1   chromedriver                        0x0000000102c8896c cxxbridge1$str$ptr + 2697156
+2   chromedriver                        0x00000001027da728 cxxbridge1$string$len + 90444
+3   chromedriver                        0x00000001028219b8 cxxbridge1$string$len + 381916
+4   chromedriver                        0x00000001028630c4 cxxbridge1$string$len + 649960
+5   chromedriver                        0x0000000102815bc0 cxxbridge1$string$len + 333284
+6   chromedriver                        0x0000000102c54298 cxxbridge1$str$ptr + 2482416
+7   chromedriver                        0x0000000102c5752c cxxbridge1$str$ptr + 2495364
+8   chromedriver                        0x0000000102c35ae0 cxxbridge1$str$ptr + 2357560
+9   chromedriver                        0x0000000102c57db4 cxxbridge1$str$ptr + 2497548
+10  chromedriver                        0x0000000102c26dec cxxbridge1$str$ptr + 2296900
+11  chromedriver                        0x0000000102c77c4c cxxbridge1$str$ptr + 2628260
+12  chromedriver                        0x0000000102c77dd8 cxxbridge1$str$ptr + 2628656
+13  chromedriver                        0x0000000102c885b8 cxxbridge1$str$ptr + 2696208
+14  libsystem_pthread.dylib             0x0000000182665c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000182660b80 thread_start + 8
+
+2025-06-02 16:25:59,860 - INFO - 
+Processing job: Information technology, software development, data
+2025-06-02 16:25:59,860 - ERROR - Unknown platform for URL: /job/computers-software-development
+2025-06-02 16:25:59,860 - INFO - 
+Processing job: Data/Research
+2025-06-02 16:25:59,860 - ERROR - Unknown platform for URL: /job/data-research
+2025-06-02 16:25:59,860 - INFO - 
+Processing job: Entry and Basic-level
+2025-06-02 16:25:59,860 - ERROR - Unknown platform for URL: /job/basic
+2025-06-02 16:25:59,860 - INFO - 
+Processing job: GIZ KEOnly onFuzuTechnical Intern - AgsysNairobi, Kenya10 days remaining
+2025-06-02 16:25:59,860 - ERROR - Unknown platform for URL: /kenya/jobs/technical-intern-agsys-giz-10cb36f4
+2025-06-02 16:25:59,860 - INFO - 
+Processing job: Entry and Basic-level
+2025-06-02 16:26:13,754 - ERROR - Failed to login to fuzu: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102c90708 cxxbridge1$str$ptr + 2729312
+1   chromedriver                        0x0000000102c8896c cxxbridge1$str$ptr + 2697156
+2   chromedriver                        0x00000001027da728 cxxbridge1$string$len + 90444
+3   chromedriver                        0x00000001028219b8 cxxbridge1$string$len + 381916
+4   chromedriver                        0x00000001028630c4 cxxbridge1$string$len + 649960
+5   chromedriver                        0x0000000102815bc0 cxxbridge1$string$len + 333284
+6   chromedriver                        0x0000000102c54298 cxxbridge1$str$ptr + 2482416
+7   chromedriver                        0x0000000102c5752c cxxbridge1$str$ptr + 2495364
+8   chromedriver                        0x0000000102c35ae0 cxxbridge1$str$ptr + 2357560
+9   chromedriver                        0x0000000102c57db4 cxxbridge1$str$ptr + 2497548
+10  chromedriver                        0x0000000102c26dec cxxbridge1$str$ptr + 2296900
+11  chromedriver                        0x0000000102c77c4c cxxbridge1$str$ptr + 2628260
+12  chromedriver                        0x0000000102c77dd8 cxxbridge1$str$ptr + 2628656
+13  chromedriver                        0x0000000102c885b8 cxxbridge1$str$ptr + 2696208
+14  libsystem_pthread.dylib             0x0000000182665c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000182660b80 thread_start + 8
+
+2025-06-02 16:26:13,755 - INFO - 
+Processing job: Senior Business Analyst - Agricultural Service at Bridge Talent Management
+2025-06-02 16:26:13,755 - ERROR - Unknown platform for URL: /job/senior-business-analyst-agricultural-service-bridge-talent
+2025-06-02 16:26:13,755 - INFO - 
+Processing job: Policy Analyst – Advocacy and Systems Strengthening at Food For Education
+2025-06-02 16:26:13,755 - ERROR - Unknown platform for URL: /job/policy-analyst-advocacy-and-systems-strengthening-food-for-education
+2025-06-02 16:26:13,755 - INFO - 
+Processing job: Digital Partnerships Analyst - Digital Financial Services Division at KCB Bank Kenya
+2025-06-02 16:26:13,755 - ERROR - Unknown platform for URL: /job/digital-partnerships-analyst-digital-financial-services-division-kcb-bank-kenya
+2025-06-02 16:26:13,967 - INFO - Job application process completed
+2025-06-02 16:30:01,959 - INFO - 
+Processing job: ERP Developer junior
+2025-06-02 16:30:13,777 - ERROR - Failed to login to linkedin: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100adc708 cxxbridge1$str$ptr + 2729312
+1   chromedriver                        0x0000000100ad496c cxxbridge1$str$ptr + 2697156
+2   chromedriver                        0x0000000100626728 cxxbridge1$string$len + 90444
+3   chromedriver                        0x000000010066d9b8 cxxbridge1$string$len + 381916
+4   chromedriver                        0x00000001006af0c4 cxxbridge1$string$len + 649960
+5   chromedriver                        0x0000000100661bc0 cxxbridge1$string$len + 333284
+6   chromedriver                        0x0000000100aa0298 cxxbridge1$str$ptr + 2482416
+7   chromedriver                        0x0000000100aa352c cxxbridge1$str$ptr + 2495364
+8   chromedriver                        0x0000000100a81ae0 cxxbridge1$str$ptr + 2357560
+9   chromedriver                        0x0000000100aa3db4 cxxbridge1$str$ptr + 2497548
+10  chromedriver                        0x0000000100a72dec cxxbridge1$str$ptr + 2296900
+11  chromedriver                        0x0000000100ac3c4c cxxbridge1$str$ptr + 2628260
+12  chromedriver                        0x0000000100ac3dd8 cxxbridge1$str$ptr + 2628656
+13  chromedriver                        0x0000000100ad45b8 cxxbridge1$str$ptr + 2696208
+14  libsystem_pthread.dylib             0x0000000182665c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000182660b80 thread_start + 8
+
+2025-06-02 16:30:13,778 - INFO - 
+Processing job: Junior Marketing Analyst
+2025-06-02 16:30:24,515 - ERROR - Failed to login to linkedin: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100adc708 cxxbridge1$str$ptr + 2729312
+1   chromedriver                        0x0000000100ad496c cxxbridge1$str$ptr + 2697156
+2   chromedriver                        0x0000000100626728 cxxbridge1$string$len + 90444
+3   chromedriver                        0x000000010066d9b8 cxxbridge1$string$len + 381916
+4   chromedriver                        0x00000001006af0c4 cxxbridge1$string$len + 649960
+5   chromedriver                        0x0000000100661bc0 cxxbridge1$string$len + 333284
+6   chromedriver                        0x0000000100aa0298 cxxbridge1$str$ptr + 2482416
+7   chromedriver                        0x0000000100aa352c cxxbridge1$str$ptr + 2495364
+8   chromedriver                        0x0000000100a81ae0 cxxbridge1$str$ptr + 2357560
+9   chromedriver                        0x0000000100aa3db4 cxxbridge1$str$ptr + 2497548
+10  chromedriver                        0x0000000100a72dec cxxbridge1$str$ptr + 2296900
+11  chromedriver                        0x0000000100ac3c4c cxxbridge1$str$ptr + 2628260
+12  chromedriver                        0x0000000100ac3dd8 cxxbridge1$str$ptr + 2628656
+13  chromedriver                        0x0000000100ad45b8 cxxbridge1$str$ptr + 2696208
+14  libsystem_pthread.dylib             0x0000000182665c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000182660b80 thread_start + 8
+
+2025-06-02 16:30:24,516 - INFO - 
+Processing job: Information technology, software development, data
+2025-06-02 16:30:24,516 - ERROR - Unknown platform for URL: /job/computers-software-development
+2025-06-02 16:30:24,516 - INFO - 
+Processing job: Data/Research
+2025-06-02 16:30:24,516 - ERROR - Unknown platform for URL: /job/data-research
+2025-06-02 16:30:24,516 - INFO - 
+Processing job: Entry and Basic-level
+2025-06-02 16:30:24,516 - ERROR - Unknown platform for URL: /job/basic
+2025-06-02 16:30:24,516 - INFO - 
+Processing job: GIZ KEOnly onFuzuTechnical Intern - AgsysNairobi, Kenya10 days remaining
+2025-06-02 16:30:24,516 - ERROR - Unknown platform for URL: /kenya/jobs/technical-intern-agsys-giz-10cb36f4
+2025-06-02 16:30:24,517 - INFO - 
+Processing job: Entry and Basic-level
+2025-06-02 16:30:34,887 - ERROR - Failed to login to fuzu: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100adc708 cxxbridge1$str$ptr + 2729312
+1   chromedriver                        0x0000000100ad496c cxxbridge1$str$ptr + 2697156
+2   chromedriver                        0x0000000100626728 cxxbridge1$string$len + 90444
+3   chromedriver                        0x000000010066d9b8 cxxbridge1$string$len + 381916
+4   chromedriver                        0x00000001006af0c4 cxxbridge1$string$len + 649960
+5   chromedriver                        0x0000000100661bc0 cxxbridge1$string$len + 333284
+6   chromedriver                        0x0000000100aa0298 cxxbridge1$str$ptr + 2482416
+7   chromedriver                        0x0000000100aa352c cxxbridge1$str$ptr + 2495364
+8   chromedriver                        0x0000000100a81ae0 cxxbridge1$str$ptr + 2357560
+9   chromedriver                        0x0000000100aa3db4 cxxbridge1$str$ptr + 2497548
+10  chromedriver                        0x0000000100a72dec cxxbridge1$str$ptr + 2296900
+11  chromedriver                        0x0000000100ac3c4c cxxbridge1$str$ptr + 2628260
+12  chromedriver                        0x0000000100ac3dd8 cxxbridge1$str$ptr + 2628656
+13  chromedriver                        0x0000000100ad45b8 cxxbridge1$str$ptr + 2696208
+14  libsystem_pthread.dylib             0x0000000182665c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000182660b80 thread_start + 8
+
+2025-06-02 16:30:34,888 - INFO - 
+Processing job: Senior Business Analyst - Agricultural Service at Bridge Talent Management
+2025-06-02 16:30:34,888 - ERROR - Unknown platform for URL: /job/senior-business-analyst-agricultural-service-bridge-talent
+2025-06-02 16:30:34,888 - INFO - 
+Processing job: Policy Analyst – Advocacy and Systems Strengthening at Food For Education
+2025-06-02 16:30:34,888 - ERROR - Unknown platform for URL: /job/policy-analyst-advocacy-and-systems-strengthening-food-for-education
+2025-06-02 16:30:34,888 - INFO - 
+Processing job: Digital Partnerships Analyst - Digital Financial Services Division at KCB Bank Kenya
+2025-06-02 16:30:34,888 - ERROR - Unknown platform for URL: /job/digital-partnerships-analyst-digital-financial-services-division-kcb-bank-kenya
+2025-06-02 16:30:35,039 - INFO - Job application process completed
+2025-06-02 16:36:59,855 - INFO - 
+Processing job: ERP Developer junior
+2025-06-02 16:36:59,855 - INFO - Processing job: ERP Developer junior at https://ke.linkedin.com/jobs/view/erp-developer-junior-at-blackfluo-ai-4229271041?position=2&pageNum=0&refId=ClDfPD%2BrYvpY7pGNIyyeBg%3D%3D&trackingId=vfnUx6WQ5KEG3qdalzmkvg%3D%3D
+2025-06-02 16:37:06,201 - ERROR - Not logged in to linkedin
+2025-06-02 16:37:06,204 - INFO - 
+Processing job: Junior Marketing Analyst
+2025-06-02 16:37:06,205 - INFO - Processing job: Junior Marketing Analyst at https://ke.linkedin.com/jobs/view/junior-marketing-analyst-at-canonical-4116606183?position=3&pageNum=0&refId=ClDfPD%2BrYvpY7pGNIyyeBg%3D%3D&trackingId=poFFF9KWeA9M3X%2BGKrwgNA%3D%3D
+2025-06-02 16:37:11,894 - ERROR - Not logged in to linkedin
+2025-06-02 16:37:11,894 - INFO - 
+Processing job: Information technology, software development, data
+2025-06-02 16:37:11,895 - INFO - Processing job: Information technology, software development, data at https://www.fuzu.com/job/computers-software-development
+2025-06-02 16:37:17,107 - ERROR - Not logged in to fuzu
+2025-06-02 16:37:17,107 - INFO - 
+Processing job: Data/Research
+2025-06-02 16:37:17,107 - INFO - Processing job: Data/Research at https://www.fuzu.com/job/data-research
+2025-06-02 16:37:20,703 - ERROR - Not logged in to fuzu
+2025-06-02 16:37:20,703 - INFO - 
+Processing job: Entry and Basic-level
+2025-06-02 16:37:20,704 - INFO - Processing job: Entry and Basic-level at https://www.fuzu.com/job/basic
+2025-06-02 16:37:20,704 - ERROR - Not logged in to fuzu
+2025-06-02 16:37:20,704 - INFO - 
+Processing job: GIZ KEOnly onFuzuTechnical Intern - AgsysNairobi, Kenya10 days remaining
+2025-06-02 16:37:20,704 - INFO - Processing job: GIZ KEOnly onFuzuTechnical Intern - AgsysNairobi, Kenya10 days remaining at https://www.fuzu.com/kenya/jobs/technical-intern-agsys-giz-10cb36f4
+2025-06-02 16:37:20,705 - ERROR - Not logged in to fuzu
+2025-06-02 16:37:20,705 - INFO - 
+Processing job: Entry and Basic-level
+2025-06-02 16:37:20,705 - INFO - Processing job: Entry and Basic-level at https://www.fuzu.com/job/basic
+2025-06-02 16:37:20,706 - ERROR - Not logged in to fuzu
+2025-06-02 16:37:20,706 - INFO - 
+Processing job: Senior Business Analyst - Agricultural Service at Bridge Talent Management
+2025-06-02 16:37:20,706 - INFO - Processing job: Senior Business Analyst - Agricultural Service at Bridge Talent Management at https://www.myjobsmag.co.ke/job/senior-business-analyst-agricultural-service-bridge-talent
+2025-06-02 16:37:20,706 - ERROR - Not logged in to myjobsmag
+2025-06-02 16:37:20,706 - INFO - 
+Processing job: Policy Analyst – Advocacy and Systems Strengthening at Food For Education
+2025-06-02 16:37:20,706 - INFO - Processing job: Policy Analyst – Advocacy and Systems Strengthening at Food For Education at https://www.myjobsmag.co.ke/job/policy-analyst-advocacy-and-systems-strengthening-food-for-education
+2025-06-02 16:37:20,707 - ERROR - Not logged in to myjobsmag
+2025-06-02 16:37:20,707 - INFO - 
+Processing job: Digital Partnerships Analyst - Digital Financial Services Division at KCB Bank Kenya
+2025-06-02 16:37:20,707 - INFO - Processing job: Digital Partnerships Analyst - Digital Financial Services Division at KCB Bank Kenya at https://www.myjobsmag.co.ke/job/digital-partnerships-analyst-digital-financial-services-division-kcb-bank-kenya
+2025-06-02 16:37:20,707 - ERROR - Not logged in to myjobsmag
+2025-06-02 16:37:20,782 - INFO - Job application process completed

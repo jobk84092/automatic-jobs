@@ -1,0 +1,869 @@
+{
+   "adhoc0": {
+      "message": "Nota: Professores precisam enviar links para os estudantes, e os estudantes podem entrar nas salas de breakout voluntariamente clicando nos links."
+   },
+   "adhoc1": {
+      "message": "Passo 1: Agrupar estudantes, existem várias maneiras"
+   },
+   "adhoc11a": {
+      "message": "(Clique aqui para explicação) Por que não consigo ver nenhum estudante na área de agrupamento?"
+   },
+   "adhoc11b": {
+      "message": "Aqui"
+   },
+   "adhoc12a": {
+      "message": "(Clique aqui para explicação) Por que não consigo ver todos os estudantes?"
+   },
+   "adhoc12b": {
+      "message": "Aqui"
+   },
+   "adhoc13a": {
+      "message": "Usuários do Google Classroom,"
+   },
+   "adhoc13b": {
+      "message": "Certifique-se de que o link da sala principal esteja verde na aba 'Configurações da Sala de Aula' e que o 'Apelido' seja os últimos 10 caracteres do link do Google Classroom meet. Em seguida, clique no botão 'Iniciar Sala Principal'."
+   },
+   "adhoc1a": {
+      "message": "Agrupamento Aleatório: Clique no botão 'Aleatório'. Você pode continuar clicando no botão até encontrar um agrupamento que goste. Você também pode ajustar manualmente os grupos arrastando e soltando estudantes entre os grupos (segundo método)."
+   },
+   "adhoc1b": {
+      "message": "Ajuste Manual: Segure o nome do estudante e arraste-o entre os grupos."
+   },
+   "adhoc1c": {
+      "message": "Excluir do Agrupamento Aleatório: Clique no nome do estudante para alternar a exclusão."
+   },
+   "adhoc1d": {
+      "message": "Exclusão Manual: Segure o nome do estudante e arraste-o para a esquerda."
+   },
+   "adhoc2": {
+      "message": "Passos 2 e 3: Copiar links das salas de breakout e listas de grupos de estudantes"
+   },
+   "adhoc2a": {
+      "message": "Uma vez que você tenha agrupado corretamente os estudantes, clique"
+   },
+   "adhoc2b": {
+      "message": "Aqui"
+   },
+   "adhoc2c": {
+      "message": "."
+   },
+   "adhocAutosend": {
+      "message": "Novo!!! Envie automaticamente as atribuições de breakout para o chat do meet"
+   },
+   "assignBreakoutsAdhoc": {
+      "message": "Breakouts Ad-hoc"
+   },
+   "assignBreakoutsPre": {
+      "message": "Breakouts Pré-atribuídos"
+   },
+   "audioFixCheckbox": {
+      "message": "Usar nova solução"
+   },
+   "audioFixFallback": {
+      "message": "Como optar por esta solução?"
+   },
+   "audioFixFallback1": {
+      "message": "Por favor, marque (vazio)"
+   },
+   "audioFixFallback2": {
+      "message": "Feche todas as sessões do Meet abertas (se houver)"
+   },
+   "audioFixFallback3": {
+      "message": "Reinicie as sessões do Meet fechadas (se houver)"
+   },
+   "audioFixFirst": {
+      "message": "Como optar por esta solução?"
+   },
+   "audioFixIntro": {
+      "message": "Recomendo deixar esta opção marcada (estado padrão). Se você encontrar instabilidade no alto-falante ou outros problemas após ativar esta opção, envie um e-mail para robert@hudektech.com. Desmarcar (o) usa a solução antiga (não recomendada). Se você alternar o estado (x ou o), lembre-se de reiniciar todas as sessões do Meet, pois a configuração altera o modo do alto-falante, o que pode fazer com que a extensão identifique incorretamente o estado do alto-falante (ligado ou desligado). Novamente, recomendo mantê-lo marcado (X)."
+   },
+   "audioFixOptin": {
+      "message": "Como optar por esta solução?"
+   },
+   "audioFixOptin1": {
+      "message": "Por favor, marque (x)"
+   },
+   "audioFixOptin2": {
+      "message": "Feche todas as sessões do Meet abertas (se houver)"
+   },
+   "audioFixOptin3": {
+      "message": "Reinicie as sessões do Meet fechadas (se houver)"
+   },
+   "audioFixRecommend": {
+      "message": "(Recomendado)"
+   },
+   "audioFixSecond": {
+      "message": "Se você encontrar problemas com a nova solução, pode voltar à solução original"
+   },
+   "audioFixTitle": {
+      "message": "Nova solução para problemas de gagueira aleatória do alto-falante"
+   },
+   "audioHeadline": {
+      "message": "Como corrigir problemas de gagueira do alto-falante, clique aqui"
+   },
+   "broadcast": {
+      "message": "Transmitir para todas as salas de breakout"
+   },
+   "btnAutosend": {
+      "message": "1. Enviar para o chat"
+   },
+   "btnOpenAll": {
+      "message": "Todos"
+   },
+   "btnOpenBreakouts": {
+      "message": "Breakout"
+   },
+   "btnOpenMain": {
+      "message": "Principal"
+   },
+   "btnOpenMain1": {
+      "message": "Principal"
+   },
+   "btnOpenMainRam": {
+      "message": "Principal"
+   },
+   "btnRam": {
+      "message": "Abrir vídeo, usar controle deslizante para abrir vídeos em sequência"
+   },
+   "btnRandom": {
+      "message": "Aleatorizar"
+   },
+   "btnRoomsReport": {
+      "message": "Salas de Aula"
+   },
+   "btnStudentsReport": {
+      "message": "Estudantes"
+   },
+   "checkRam": {
+      "message": "Opção de baixa RAM: Para RAM abaixo de 8G"
+   },
+   "checkRam2": {
+      "message": "Instruções"
+   },
+   "checkRamOld": {
+      "message": "Opção de baixa RAM: Normalmente não selecionado. Se a RAM estiver abaixo de 8G, você pode selecionar. Após a seleção, a sala principal e as salas de breakout ainda serão abertas, mas apenas uma janela pode ser visualizada de cada vez. Usar o controle deslizante sincronizará o fechamento do vídeo atual e a abertura do próximo vídeo"
+   },
+   "code": {
+      "message": "Código"
+   },
+   "courseCourse": {
+      "message": " Curso"
+   },
+   "courseDesc": {
+      "message": " Descrição do Curso"
+   },
+   "courseEnter": {
+      "message": "Por favor, insira sua lista de cursos"
+   },
+   "courses": {
+      "message": "Cursos"
+   },
+   "coursesBuiltWith": {
+      "message": "Feito com ❤️ por Robert Hudek"
+   },
+   "coursesDupe": {
+      "message": " Não é possível salvar: Nome duplicado, o nome precisa ser único"
+   },
+   "coursesExp1": {
+      "message": "Exportar todos os dados desta extensão"
+   },
+   "coursesExp2": {
+      "message": "Arquivo (.txt)"
+   },
+   "coursesExp3": {
+      "message": "Exportar"
+   },
+   "coursesExpimp": {
+      "message": "Exportar ou importar todos os dados desta extensão"
+   },
+   "coursesExpimpWarn": {
+      "message": "Nota especial: Importar substituirá todos os dados existentes desta extensão"
+   },
+   "coursesImp1": {
+      "message": "Importar todos os dados desta extensão"
+   },
+   "coursesImp2": {
+      "message": "Arquivo (.txt)"
+   },
+   "coursesImp3": {
+      "message": "Importar"
+   },
+   "coursesNotYetSaved": {
+      "message": "Alterações ainda não salvas"
+   },
+   "coursesSaved": {
+      "message": " Salvo"
+   },
+   "default1": {
+      "message": "Se a conta acima estiver correta, nenhuma ação adicional é necessária"
+   },
+   "default2": {
+      "message": "Se a conta estiver incorreta, siga as instruções abaixo"
+   },
+   "default3a": {
+      "message": "Por favor, clique"
+   },
+   "default3b": {
+      "message": "aqui"
+   },
+   "default3c": {
+      "message": "para gerenciar a ordem das contas do Google"
+   },
+   "default4": {
+      "message": "Sair de todas as contas"
+   },
+   "default5a": {
+      "message": "Sua conta do Google Meet é a primeira conta com a qual você faz login. Se a conta que você deseja usar não for a primeira, você deve primeiro sair de todas as contas, depois fazer login novamente, desta vez fazendo a primeira conta ser aquela que você deseja usar para o Google Meet"
+   },
+   "default5b": {
+      "message": "É importante usar a mesma conta para configurar e iniciar a reunião"
+   },
+   "default5c": {
+      "message": "A conta usada para configurar e iniciar a reunião é considerada a proprietária da conta do Google Meet"
+   },
+   "default6": {
+      "message": "Faça login novamente na ordem correta, e você poderá configurar e iniciar reuniões"
+   },
+   "defaultAccount": {
+      "message": "Sua conta é"
+   },
+   "dropdownBreakouts": {
+      "message": "Breakouts"
+   },
+   "dropdownCourse": {
+      "message": "Curso"
+   },
+   "enterCourses": {
+      "message": "Por favor, insira seus cursos"
+   },
+   "errorAutoCreateLink": {
+      "message": "Houve um problema ao solicitar automaticamente um link do meet do Google. Por favor, certifique-se de que você está conectado à sua conta do Google. Se já estiver conectado, use este link para sair e fazer login novamente: https://accounts.google.com/SignoutOptions. Isso fará com que você saia de todas as contas conectadas atualmente (desculpe o inconveniente), depois certifique-se de que a primeira conta que você conectar é a sua conta do Google de ensino. A ordem de login é importante; a primeira conta que você conectar será sua conta do Google Meet."
+   },
+   "errorBouncingBalls": {
+      "message": "Há uma janela do meet que não pode sincronizar. Por favor, feche todas as janelas do meet abertas atualmente, incluindo este painel de controle, depois reabra este painel de controle e reinicie a sala principal e as salas de breakout. Fique tranquilo, fechar a janela do meet não apagará nem interferirá com os estudantes dentro. Se você tiver muitas janelas abertas, pode não encontrar todas as janelas do meet. Neste caso, o método mais simples é fechar todas as janelas abertas atualmente e reabri-las, porque se uma janela antiga do meet permanecer, a extensão ainda não conseguirá praticar a sincronização. ***Não é necessário excluir a extensão e fazer o download novamente. Basta fechar todas as janelas do meet abertas primeiro, depois reabra este painel de controle e use este painel de controle para abrir a sala principal e as salas de breakout."
+   },
+   "errorNick1": {
+      "message": "Houve um problema ao gerar automaticamente um link para o apelido:"
+   },
+   "errorNick2": {
+      "message": "Por favor, certifique-se de que você está conectado à sua conta do Google. Se já estiver conectado, e confirmou que sua conta do Google é Google Suite, Educação, etc., que fornece o recurso de apelido (contas gerais gratuitas do Google não fornecem o recurso de apelido). Se sua conta fornecer este recurso e estiver conectada, use este link para sair e fazer login novamente: https://accounts.google.com/SignoutOptions. Isso fará com que você saia de todas as contas conectadas atualmente (desculpe o inconveniente), depois certifique-se de que a primeira conta que você conectar é a sua conta do Google de ensino. A ordem de login é importante; a primeira conta que você conectar será sua conta do Google Meet. Se sua conta do Google não fornecer o recurso de apelido, por favor, crie apenas links estáticos (azul escuro) ou de código (azul claro)"
+   },
+   "extDesc": {
+      "message": "Apenas o professor precisa instalar. Completamente grátis e seus dados são privados."
+   },
+   "extName": {
+      "message": "Google Meet Breakout by Robert Hudek"
+   },
+   "firstRoomMain": {
+      "message": "A primeira linha é a sala principal, as linhas seguintes são salas de breakout"
+   },
+   "genAutoEnter": {
+      "message": "Permitir que 'estranhos' entrem automaticamente na sala"
+   },
+   "genAutoEnter1": {
+      "message": "Se selecionado, estranhos podem entrar automaticamente através do link da sala"
+   },
+   "genAutoEnter2": {
+      "message": "Normalmente recomendado não selecionar (deixar em branco)"
+   },
+   "genAutoEnter3": {
+      "message": "Por razões de segurança"
+   },
+   "genAutoJoin": {
+      "message": "Para salas gerenciadas por esta extensão, pressione automaticamente o botão 'Entrar' quando iniciado. Este é um recurso conveniente"
+   },
+   "genAutoJoinBreak": {
+      "message": "Sala de Breakout"
+   },
+   "genAutoJoinMain": {
+      "message": "Sala Principal"
+   },
+   "genAutoNewUrl": {
+      "message": "Mudar automaticamente links de salas 'estáticas' (azul escuro)"
+   },
+   "genAutoNewUrl1": {
+      "message": "Cada vez que uma reunião é iniciada, um novo link do meet será gerado automaticamente. Esta opção é um método seguro, mas gerenciar o processo da sala se tornará um pouco mais complicado. Você precisa iniciar a reunião primeiro para saber qual é o link, depois notificar (enviar para) os estudantes o novo link. Normalmente, este recurso é mais adequado para salas de breakout. Se selecionado para a sala principal, você precisa iniciar a sala principal primeiro, saber o novo link e enviar o novo link para os estudantes (via e-mail, SMS, etc.), para que eles saibam como entrar na sala principal (qual é o URL)."
+   },
+   "genAutoNewUrl2": {
+      "message": "Por favor, observe: Esta opção só se aplica a links de salas do tipo 'estáticas' (azul escuro) na aba de configurações de sala."
+   },
+   "genAutoNewUrl3": {
+      "message": "Outros tipos de links de salas (apelidos verdes, códigos azul claro) não são afetados por esta opção."
+   },
+   "genAutoNewUrlBreak": {
+      "message": "Sala de Breakout"
+   },
+   "genAutoNewUrlMain": {
+      "message": "Sala Principal"
+   },
+   "genBroadBackColor": {
+      "message": "Cor de fundo"
+   },
+   "genBroadImg": {
+      "message": "Imagem de fundo da transmissão"
+   },
+   "genBroadPos": {
+      "message": "Posição da imagem"
+   },
+   "genBroadSize": {
+      "message": "Tamanho da imagem"
+   },
+   "genBroadTextColor": {
+      "message": "Cor do texto"
+   },
+   "genDisplay": {
+      "message": "Formato das Salas de Breakout"
+   },
+   "genDropEnd": {
+      "message": "Extremos"
+   },
+   "genDropMid": {
+      "message": "Meio"
+   },
+   "genDropSolid": {
+      "message": "Cor sólida"
+   },
+   "genGrad": {
+      "message": "Gradiente"
+   },
+   "genSliderBackColor": {
+      "message": "Cor de fundo"
+   },
+   "genSliderImg": {
+      "message": "Imagem de fundo do controle deslizante"
+   },
+   "genSliderPos": {
+      "message": "Posição da imagem"
+   },
+   "genSliderSize": {
+      "message": "Tamanho da imagem"
+   },
+   "genSliderTextColor": {
+      "message": "Cor do texto"
+   },
+   "genSolid": {
+      "message": "Cor sólida"
+   },
+   "genTabs": {
+      "message": "Abas: Abas da janela"
+   },
+   "genTiles": {
+      "message": "Tiles: Janelas independentes"
+   },
+   "genToolbarColor": {
+      "message": "Cor da Barra de Ferramentas do Meet"
+   },
+   "hangupBreakouts": {
+      "message": "Fechar todas as Salas de Breakout"
+   },
+   "hangupMain": {
+      "message": "Fechar a Sala principal"
+   },
+   "headline1a": {
+      "message": "Gratuito para usar, sem vazamento de dados,"
+   },
+   "headline1b": {
+      "message": "Robert"
+   },
+   "headline1c": {
+      "message": "criado por,"
+   },
+   "headline1d": {
+      "message": "anotado,"
+   },
+   "headline1e": {
+      "message": "notas"
+   },
+   "headlineTryThemes": {
+      "message": "Experimente novos temas"
+   },
+   "helpCode": {
+      "message": " Código: "
+   },
+   "helpCode1a": {
+      "message": "O código consiste em 12 caracteres: três caracteres, um '-', quatro caracteres, um '-', e três caracteres. Um exemplo é: abc-defg-hij. Observe que os dois hífens devem ser mantidos.  Este código são os 12 caracteres que seguem 'https://meet.google.com/' no URL do Google Meet, por exemplo: https://meet.google.com/sik-akes-ilq?user=0. Aqui, o código é sik-akes-ilq"
+   },
+   "helpNickname": {
+      "message": "O que são: Apelidos, Códigos, URLs?"
+   },
+   "helpNickname1a": {
+      "message": "Apelido:"
+   },
+   "helpNickname1b": {
+      "message": "Um apelido é um nome livremente escolhido pelo professor, usado para iniciar convenientemente um Meet. Dentro de uma organização (como uma escola), o 'apelido' é um nome único, então tenha cuidado para não usar um nome já utilizado por outro professor, caso contrário, interferirá no Meet desse professor. Para evitar apelidos duplicados, as escolas podem definir regras para criar apelidos: nome completo, curso ou escolha livre. Por exemplo: huhaoyang_math1_050810. Duas escolas sendo diferentes organizações não entrarão em conflito entre si.\n\n\rNota: Apelidos devem estar em inglês."
+   },
+   "helpNickname1c": {
+      "message": "Você deve usar inglês para apelidos"
+   },
+   "helpNickname1d": {
+      "message": "Além disso, não insira nenhum prefixo de URL no apelido. Por exemplo, g.co/meet/ ou meet.google.com/lookup/ no apelido não é permitido. Exceção é que os professores do Google Classroom podem inserir o link completo do meet, conforme explicado abaixo"
+   },
+   "helpNickname2": {
+      "message": "Nota para professores do Google Classroom: "
+   },
+   "helpNickname2a": {
+      "message": " Aqui os professores podem inserir todo o 'link do meet' do Google Classroom, e a extensão filtrará automaticamente os últimos 10 caracteres deste link do meet, que é o 'apelido' atribuído aleatoriamente pelo sistema do Google Classroom."
+   },
+   "helpNickname3": {
+      "message": "Por exemplo, meu link do Google Classroom meet é https://meet.google.com/lookup/g45j4fubqb. Eu copio e colo este URL inteiro, e a extensão filtrará automaticamente e manterá os últimos 10 caracteres: g45j4fubqb. Este é o 'apelido' atribuído aleatoriamente pelo Google Classroom, g45j4fubqb"
+   },
+   "helpUrl": {
+      "message": "URL: "
+   },
+   "helpUrl1a": {
+      "message": "URLs são flexíveis. Um exemplo é o URL completo do Google Meet: https://meet.google.com/abc-defg-hij. Ou talvez um site que o professor queira usar em sala de aula, como: https://en.wikipedia.org/wiki/Astronomy, ou https://www.freecodecamp.org/, ou YouTube https://youtu.be/C4_uJmH9hmc"
+   },
+   "instructRoomLinks": {
+      "message": "Instruções sobre como inserir links das salas"
+   },
+   "lblBreakoutAssigns": {
+      "message": "Grupos"
+   },
+   "lblBreakoutRooms": {
+      "message": "Salas de Breakout"
+   },
+   "lblStudents": {
+      "message": "Estudantes"
+   },
+   "linksSaved": {
+      "message": "Links das salas salvos"
+   },
+   "mainName": {
+      "message": "Principal"
+   },
+   "meet": {
+      "message": "Meet"
+   },
+   "msgAllSync": {
+      "message": "Sucesso: Todas as janelas do meet sincronizadas (Todos sincronizados com sucesso)"
+   },
+   "msgBreakoutSync": {
+      "message": "Sucesso: Todas as salas de breakout sincronizadas (Breakouts sincronizados com sucesso)"
+   },
+   "msgMainSync": {
+      "message": "Sucesso: Sala principal sincronizada (Sala principal sincronizada)"
+   },
+   "muteAllBreakouts": {
+      "message": "Silenciar todos: Todas as salas de Breakout"
+   },
+   "muteAllMain": {
+      "message": "Silenciar todos: Sala principal"
+   },
+   "muteAllRooms": {
+      "message": "Silenciar todos: Sala principal e todas as salas de Breakout"
+   },
+   "muteAllThis": {
+      "message": "Silenciar todos: Esta Sala (controle deslizante)"
+   },
+   "muteRemove": {
+      "message": "Silenciar, Remover Estudante"
+   },
+   "myCourse": {
+      "message": "Meus Cursos"
+   },
+   "myCourseDesc": {
+      "message": "Meus próprios cursos"
+   },
+   "myName": {
+      "message": "Robert Hudek"
+   },
+   "nickname": {
+      "message": "Apelido"
+   },
+   "nicknameHelplink": {
+      "message": "Ajuda"
+   },
+   "onlineVideoHref": {
+      "message": "https://youtu.be/5oGmIL3pmP4"
+   },
+   "onlineVideoTitle": {
+      "message": "Vídeo Instrucional (Chinês v17.3)"
+   },
+   "popupHelpAdhoc": {
+      "message": "Breakouts Ad-hoc"
+   },
+   "popupHelpAdhocNumwords2a": {
+      "message": "Esta cópia tem apenas"
+   },
+   "popupHelpAdhocNumwords2b": {
+      "message": "caracteres, o que está abaixo do limite de 500 caracteres para uma única cópia e colagem, então você pode copiar e colar tudo de uma vez."
+   },
+   "popupHelpAdhocNumwords2c": {
+      "message": "Esta cópia tem"
+   },
+   "popupHelpAdhocNumwords2d": {
+      "message": "caracteres, o que excede o limite de 500 caracteres para uma única cópia e colagem, então você precisa copiar e colar algumas linhas de cada vez no chat da sala principal, cada vez não mais que 500 caracteres."
+   },
+   "popupHelpAdhocNumwords3a": {
+      "message": "Esta cópia tem apenas"
+   },
+   "popupHelpAdhocNumwords3b": {
+      "message": "caracteres, o que está abaixo do limite de 500 caracteres para copiar e colar de uma vez, então você pode copiar e colar tudo de uma vez"
+   },
+   "popupHelpAdhocNumwords3c": {
+      "message": "Esta cópia tem"
+   },
+   "popupHelpAdhocNumwords3d": {
+      "message": "caracteres, o que excede o limite de 500 caracteres para copiar e colar de uma vez, então você precisa copiar e colar em seções: destaque algumas linhas, copie e cole-as no chat da sala principal. Cada vez não excedendo 500 caracteres."
+   },
+   "popupHelpAdhocStep2": {
+      "message": "Passo 2: Copiar e colar links das salas de breakout"
+   },
+   "popupHelpAdhocStep2a": {
+      "message": "Clique"
+   },
+   "popupHelpAdhocStep2b": {
+      "message": "Aqui"
+   },
+   "popupHelpAdhocStep2c": {
+      "message": "para copiar os links das salas de breakout, depois cole-os no chat da sala principal (comando/controle v)."
+   },
+   "popupHelpAdhocStep3": {
+      "message": "Passo 3: Copiar e colar agrupamentos de estudantes"
+   },
+   "popupHelpAdhocStep3a": {
+      "message": "Clique"
+   },
+   "popupHelpAdhocStep3b": {
+      "message": "Aqui"
+   },
+   "popupHelpAdhocStep3c": {
+      "message": "Para copiar os agrupamentos de estudantes, depois cole-os no chat da sala principal (comando/controle v)"
+   },
+   "pre1": {
+      "message": "Passo 1: Copiar a lista de grupos pré-arranjada"
+   },
+   "pre1a": {
+      "message": "Por exemplo, copie a lista de grupos de um documento do MS Word e cole-a no chat da sala principal. Desta forma, os estudantes saberão suas salas de chat atribuídas"
+   },
+   "pre1b": {
+      "message": "Para cada cópia e colagem, observe que o chat do Google Meet tem um limite de 500 caracteres, então você pode precisar copiar e colar várias vezes"
+   },
+   "pre2": {
+      "message": "Passo 2: Copiar os links das salas de breakout"
+   },
+   "pre2a": {
+      "message": "Por favor clique"
+   },
+   "pre2b": {
+      "message": "aqui"
+   },
+   "pre2c": {
+      "message": "então cole-os no chat da sala principal"
+   },
+   "preNumwords2a": {
+      "message": "Esta cópia tem apenas"
+   },
+   "preNumwords2b": {
+      "message": "caracteres, o que está abaixo do limite de 500 caracteres para copiar e colar de uma vez, então você pode copiar e colar tudo de uma vez"
+   },
+   "preNumwords2c": {
+      "message": "Esta cópia tem"
+   },
+   "preNumwords2d": {
+      "message": "caracteres, o que excede o limite de 500 caracteres para copiar e colar de uma vez, então você precisa copiar e colar em seções: destaque algumas linhas, copie e cole-as no chat da sala principal. Cada vez não excedendo 500 caracteres."
+   },
+   "removeAllThis": {
+      "message": "Remover todos: Esta Sala (controle deslizante)"
+   },
+   "removeBreakouts": {
+      "message": "Remover todos: Todas as Salas de Breakout"
+   },
+   "removeMain": {
+      "message": "Remover todos: Sala principal"
+   },
+   "reports": {
+      "message": "Relatórios"
+   },
+   "reportsAssignments": {
+      "message": "Atribuições de grupos de estudantes"
+   },
+   "reportsAttendance": {
+      "message": "Lista de presença"
+   },
+   "reportsClipboard": {
+      "message": "Copiar para a área de transferência"
+   },
+   "reportsCsv": {
+      "message": "Baixar arquivo CSV simultaneamente"
+   },
+   "reportsGroups": {
+      "message": "Agrupar estudantes"
+   },
+   "reportsLinks": {
+      "message": "Links das salas de breakout"
+   },
+   "rooms": {
+      "message": "Salas"
+   },
+   "roomsBuiltWith": {
+      "message": "Feito com ❤️ por Robert Hudek"
+   },
+   "roomsCreatingUrl": {
+      "message": "Criando e salvando links das salas"
+   },
+   "roomsDupe": {
+      "message": "Não é possível salvar: Nomes ou links de salas duplicados. Todos devem ser únicos"
+   },
+   "roomsExp1": {
+      "message": "Exportar dados para este curso"
+   },
+   "roomsExp2": {
+      "message": "Arquivo (.txt)"
+   },
+   "roomsExp3": {
+      "message": "Exportar"
+   },
+   "roomsExpimp": {
+      "message": "Exportar ou importar dados de salas de breakout para este curso"
+   },
+   "roomsHowCode": {
+      "message": "Código: "
+   },
+   "roomsHowCode1": {
+      "message": "O código consiste em 12 caracteres, neste formato: três caracteres, um '-', quatro caracteres, um '-', e três caracteres. Um exemplo é"
+   },
+   "roomsHowCode2": {
+      "message": "O código não é criado aleatoriamente por você, mas pelo Google Meet. Por exemplo, se você usar este URL: https://meet.google.com/new, um novo meet será iniciado, e no URL você pode ver esses 12 caracteres, que é o seu código"
+   },
+   "roomsHowCode3": {
+      "message": "O código é estático porque sempre inicia o mesmo URL do meet."
+   },
+   "roomsHowGc": {
+      "message": "Professores do Google Classroom: "
+   },
+   "roomsHowGc1": {
+      "message": "Por favor, copie o link do meet da página inicial do Google Classroom, depois cole no campo do link aqui. Por exemplo, meu link do meet é https://meet.google.com/lookup/g45j4fubqb. Após colar no campo do link, a extensão removerá os caracteres anteriores https://meet.google.com/lookup/, deixando os últimos 10 caracteres. No meu exemplo, deixa"
+   },
+   "roomsHowGc2": {
+      "message": "g45j4fubqb"
+   },
+   "roomsHowGc3": {
+      "message": "Se a sala principal for iniciada por esta extensão, a extensão e o Google Classroom já estarão sincronizados. Se a sala principal for iniciada na página do Google Classroom, você deve pressionar o botão 'Iniciar Sala Principal' na aba 'Aulas Felizes' sob 'Iniciar Aula' na extensão, que sincronizará a extensão com o Google Classroom."
+   },
+   "roomsHowGcnick": {
+      "message": "Apelido do Google Classroom: "
+   },
+   "roomsHowGcnick1": {
+      "message": "Um exemplo é o URL completo do meet"
+   },
+   "roomsHowGcnick2": {
+      "message": "ou os últimos 10 caracteres"
+   },
+   "roomsHowGcnick3": {
+      "message": "No campo do link, você pode inserir o link completo do meet, ou os últimos 10 caracteres. Se você inserir o URL completo, a extensão removerá os caracteres anteriores, deixando apenas os últimos 10 caracteres. Neste exemplo, é g45j4fubqb"
+   },
+   "roomsHowGcnick4": {
+      "message": "Apelidos do Google Classroom são verdes porque são dinâmicos, mudando URLs cada vez que são iniciados"
+   },
+   "roomsHowNick": {
+      "message": "Apelido: "
+   },
+   "roomsHowNick1": {
+      "message": "Um exemplo de apelido é"
+   },
+   "roomsHowNick2": {
+      "message": "Apelidos não podem conter nenhum prefixo de URL, como g.co/meet/ ou meet.google.com/lookup/. Apelidos são escolhidos livremente, podem incluir números, mas devem estar em inglês (devem usar apelidos em inglês, sem caracteres chineses)"
+   },
+   "roomsHowNick3": {
+      "message": "Apelidos de salas são verdes. Apelidos são dinâmicos, mudando URLs cada vez que são iniciados"
+   },
+   "roomsHowStart": {
+      "message": "Forma mais fácil: "
+   },
+   "roomsHowStart1": {
+      "message": "No campo do link, deixe em branco. Clique no botão (azul) de salvar, o sistema aplicará automaticamente um link do meet do Google e o salvará aqui. Você só precisa preencher o nome da sala. Este link automático é um link estático que não mudará"
+   },
+   "roomsHowTypes": {
+      "message": "Apelidos, Códigos, URLs: "
+   },
+   "roomsHowTypes1": {
+      "message": "Existem três tipos de links, explicados abaixo"
+   },
+   "roomsHowUrl": {
+      "message": "URL do Meet"
+   },
+   "roomsHowUrl1": {
+      "message": "Se você deixar o campo do link em branco, a extensão"
+   },
+   "roomsHowUrl2": {
+      "message": "automaticamente"
+   },
+   "roomsHowUrl3": {
+      "message": "solicitará um URL de link do Google e o salvará. Ou você pode inserir diretamente um URL completo neste formato:"
+   },
+   "roomsHowUrl4": {
+      "message": "URLs do Meet são estáticos porque sempre iniciam o mesmo URL sem mudar. No entanto, na aba 'Design Geral', há uma caixa de seleção 'Iniciar Novo URL Automaticamente', se esta opção for selecionada, um novo URL será gerado automaticamente cada vez que for iniciado. Se você selecionar esta opção, certifique-se de notificar os estudantes sobre o novo URL após a iniciação. Esta opção é mais adequada para salas de breakout do que para a sala principal"
+   },
+   "roomsHowUrl5": {
+      "message": "URL de Dados: "
+   },
+   "roomsHowUrl6": {
+      "message": "URLs de Dados precisam do URL completo, incluindo https://. Um exemplo é"
+   },
+   "roomsHowUrl7": {
+      "message": "URLs de Dados são flexíveis e podem ser um site de ciência, site de matemática, site de história, site de música, etc."
+   },
+   "roomsImp1": {
+      "message": "Importar dados para este curso"
+   },
+   "roomsImp2": {
+      "message": "Arquivo (.txt)"
+   },
+   "roomsImp3": {
+      "message": "Importar"
+   },
+   "roomsNeedName": {
+      "message": "Não é possível salvar: Cada sala precisa de um nome"
+   },
+   "roomsNotYetSaved": {
+      "message": "Nota: Alterações ainda não salvas"
+   },
+   "roomsPopupTitle": {
+      "message": "Curso: "
+   },
+   "roomsSaved": {
+      "message": "Salas e links salvos"
+   },
+   "roomsUndo": {
+      "message": "Desfeito"
+   },
+   "rptActualRoom": {
+      "message": "Sala de Breakout real"
+   },
+   "rptActualStudent": {
+      "message": "Estudante real"
+   },
+   "rptAssignRoom": {
+      "message": "Sala de Breakout atribuída"
+   },
+   "rptAssignStudent": {
+      "message": "Estudante atribuído"
+   },
+   "rptBreakoutRoom": {
+      "message": "Sala de Breakout"
+   },
+   "rptMain": {
+      "message": "Na Sala principal"
+   },
+   "rptNo": {
+      "message": "Não"
+   },
+   "rptStudent": {
+      "message": "Estudante"
+   },
+   "rptTitleBRSR": {
+      "message": "Status da Sala de Breakout"
+   },
+   "rptTitleSSR": {
+      "message": "Status do Estudante"
+   },
+   "rptYes": {
+      "message": "Sim"
+   },
+   "setTimer": {
+      "message": "Configurar Timer"
+   },
+   "settings": {
+      "message": "Geral"
+   },
+   "sim1": {
+      "message": "Pratique usando a extensão"
+   },
+   "sim10": {
+      "message": "Passo 2:"
+   },
+   "sim11": {
+      "message": "Na aba Meet deste painel de controle, abra a sala principal e suas salas de discussão (por exemplo, 3 salas de discussão). Se você ainda não criou os links das salas de discussão, vá para a aba 'Salas' e crie as salas e links lá."
+   },
+   "sim12": {
+      "message": "Passo 3:"
+   },
+   "sim13": {
+      "message": "Selecione o número de estudantes simulados. Se você estiver apenas experimentando, recomendamos abrir 3 salas de discussão com um total de 6 estudantes simulados, atribuindo 2 estudantes a cada sala."
+   },
+   "sim14": {
+      "message": "Nota:"
+   },
+   "sim15": {
+      "message": "O Google Meet implementou recentemente uma restrição que limita a 8 o número de reuniões ativas com um microfone operacional em um único computador. Isso significa que no seu computador, você pode abrir 1 sala principal e até 7 salas de discussão e ainda ter um microfone funcional em cada uma dessas salas. No entanto, você pode ter quantos estudantes desejar na sala principal ou nas salas de discussão, como 50 ou mais, sem afetar a funcionalidade do microfone."
+   },
+   "sim16": {
+      "message": "Para esta simulação, que é feita inteiramente em um único computador, se você abrir 1 sala principal, 3 salas de discussão e 6 estudantes simulados, alguns dos estudantes simulados não terão microfones operacionais, mas isso é perfeitamente aceitável para fins de teste. Como todas as reuniões estão rodando no mesmo computador, provavelmente você não usará o seu microfone devido a possíveis problemas de eco. No entanto, você ainda pode experimentar os botões do painel de controle e ver como eles controlam as diferentes reuniões."
+   },
+   "sim17": {
+      "message": "Dica:"
+   },
+   "sim18": {
+      "message": "Para essas sessões de prática, como você terá muitas reuniões abertas na sua tela, recomendamos selecionar o formato das salas de discussão como 'Abas' em vez do formato padrão 'Grades'. Você pode selecionar isso usando o botão de opção na seção 'Formato das salas de discussão' logo acima. Isso ajudará a organizar as suas reuniões de 'professor' no lado esquerdo da tela em uma única janela com abas, enquanto o lado direito exibirá as reuniões dos estudantes simulados em uma única janela com várias abas. Ao ensinar sua aula real, você pode selecionar 'Grades' ou 'Abas', dependendo da sua preferência, já que sua tela mostrará apenas as reuniões do professor, dando a você mais espaço para trabalhar."
+   },
+   "sim2": {
+      "message": "Se você é novo nesta extensão e quer entender como ela funciona, pode experimentá-la usando estudantes simulados. Esta simulação pode ser feita inteiramente no seu computador."
+   },
+   "sim3": {
+      "message": "Lembrete:"
+   },
+   "sim4": {
+      "message": "Ao usar esta extensão para ensinar sua aula, apenas você, como professor, precisa instalá-la. Os estudantes não precisam instalar a extensão, pois não a usarão."
+   },
+   "sim5": {
+      "message": "Instruções de configuração da simulação"
+   },
+   "sim6": {
+      "message": "Passo 1:"
+   },
+   "sim7": {
+      "message": "Vá para a página de extensões do Chrome"
+   },
+   "sim7a": {
+      "message": "Encontre a extensão Google Meet Breakout, clique no botão 'Detalhes' e role para baixo para ativar a opção 'Permitir no modo de navegação anônima'."
+   },
+   "sim8": {
+      "message": "Nota:"
+   },
+   "sim9": {
+      "message": "Depois de terminar de praticar, você pode desativar a configuração 'Permitir no modo de navegação anônima'. No uso normal desta extensão, não será necessário usar o modo anônimo para os estudantes."
+   },
+   "sliderDefault": {
+      "message": "Breakout"
+   },
+   "startClass": {
+      "message": "Iniciar Aula"
+   },
+   "subHeadingRooms": {
+      "message": "Salas"
+   },
+   "timerHrs": {
+      "message": "Horas"
+   },
+   "timerMin": {
+      "message": "Minutos"
+   },
+   "timerReset": {
+      "message": "Redefinir"
+   },
+   "timerSec": {
+      "message": "Segundos"
+   },
+   "timerStart": {
+      "message": "Iniciar"
+   },
+   "timerStop": {
+      "message": "Pausar"
+   },
+   "title": {
+      "message": "Breakout"
+   },
+   "toolTipRetile": {
+      "message": "Reorganizar layout da janela"
+   },
+   "toolTipToolbar": {
+      "message": "Ocultar/Mostrar barra de ferramentas inferior do Meet"
+   },
+   "url": {
+      "message": "URL"
+   },
+   "warning8Rooms": {
+      "message": "O microfone do Google Meet tem um limite de 7 salas de grupos"
+   }
+}

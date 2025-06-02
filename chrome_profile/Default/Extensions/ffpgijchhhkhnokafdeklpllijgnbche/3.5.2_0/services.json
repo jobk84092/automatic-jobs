@@ -1,0 +1,607 @@
+{
+	"defaults": {
+		"en": [
+			"facebook",
+			"mastodon",
+			"email"
+		]
+	},
+	"services": {
+		"facebook": {
+			"name": "Facebook",
+			"code": "facebook",
+			"icon": "facebook",
+			"color": "0866FF",
+			"href": "https://www.facebook.com/sharer/sharer.php?u=${link}&t=${title}&quote=${notes}"
+		},
+		"mastodon": {
+			"name": "Mastodon",
+			"code": "mastodon",
+			"icon": "mastodon",
+			"color": "6364FF",
+			"href": "https://www.addtoany.com/ext/mastodon/share?linkurl=${link}&linkname=${title}&linknote=${notes}"
+		},
+		"linkedin": {
+			"name": "LinkedIn",
+			"code": "linkedin",
+			"icon": "linkedin",
+			"color": "007BB5",
+			"href": "https://www.linkedin.com/shareArticle?mini=true&url=${link}&title=${title}&summary=${notes}"
+		},
+		"whatsapp": {
+			"name": "WhatsApp",
+			"code": "whatsapp",
+			"icon": "whatsapp",
+			"color": "12AF0A",
+			"href": "https://api.whatsapp.com/send?text=${title}%20${link}"
+		},
+		"email": {
+			"name": "Email",
+			"code": "email",
+			"icon": "email",
+			"color": "888990",
+			"href": "mailto:?subject=${title}&body=${link}"
+		},
+		"telegram": {
+			"name": "Telegram",
+			"code": "telegram",
+			"icon": "telegram",
+			"color": "2CA5E0",
+			"href": "https://telegram.me/share/url?url=${link}&text=${title}"
+		},
+		"sms": {
+			"name": "Message",
+			"code": "sms",
+			"icon": "sms",
+			"color": "6CBE45",
+			"href": "sms:?&body=${title}%20${link}"
+		},
+		"facebook_messenger": {
+			"name": "Messenger",
+			"code": "facebook_messenger",
+			"icon": "facebook_messenger",
+			"color": "0084FF",
+			"href": "https://www.facebook.com/dialog/send?app_id=5303202981&display=popup&link=${link}&redirect_uri=https%3a%2f%2fstatic.addtoany.com%2fmenu%2fthanks.html%23url%3d${link}"
+		},
+		"reddit": {
+			"name": "Reddit",
+			"code": "reddit",
+			"icon": "reddit",
+			"color": "ff4500",
+			"href": "https://reddit.com/submit?url=${link}&title=${title}"
+		},
+		"google_gmail": {
+			"name": "Gmail",
+			"code": "google_gmail",
+			"icon": "gmail",
+			"color": "EA4335",
+			"href": "https://mail.google.com/mail/?ui=2&view=cm&fs=1&tf=1&su=${title}&body=${link}%0D%0A%0D%0A${notes}"
+		},
+		"pocket": {
+			"name": "Pocket",
+			"code": "pocket",
+			"icon": "pocket",
+			"color": "EE4056",
+			"href": "https://getpocket.com/save?url=${link}&title=${title}"
+		},
+		"threads": {
+			"name": "Threads",
+			"code": "threads",
+			"icon": "threads",
+			"color": "1A1A1A",
+			"href": "https://www.threads.net/intent/post?text=${title}%20${link}"
+		},
+		"skype": {
+			"name": "Skype",
+			"code": "skype",
+			"icon": "skype",
+			"color": "00AFF0",
+			"href": "https://web.skype.com/share?url=${link}"
+		},
+		"microsoft_teams": {
+			"name": "Teams",
+			"code": "microsoft_teams",
+			"icon": "microsoft_teams",
+			"color": "5059C9",
+			"href": "https://teams.microsoft.com/share?href=${link}&msgText=${title}"
+		},
+		"mix": {
+			"name": "Mix",
+			"code": "mix",
+			"icon": "mix",
+			"color": "ff8226",
+			"href": "https://mix.com/add?url=${link}"
+		},
+		"google_translate": {
+			"name": "Google Translate",
+			"code": "google_translate",
+			"icon": "google_translate",
+			"color": "528ff5",
+			"href": "https://translate.google.com/translate?u=${link}"
+		},
+		"amazon_wish_list": {
+			"name": "Amazon Wish List",
+			"code": "amazon_wish_list",
+			"icon": "amazon",
+			"color": "F90",
+			"href": "https://www.amazon.com/wishlist/add?u=${link}&t=${title}"
+		},
+		"aol_mail": {
+			"name": "AOL Mail",
+			"code": "aol_mail",
+			"icon": "aol",
+			"color": "1A1A1A",
+			"href": "https://mail.aol.com/38719-111/aol-6/en-us/mail/compose-message.aspx?subject=${title}&body=${link}"
+		},
+		"balatarin": {
+			"name": "Balatarin",
+			"code": "balatarin",
+			"icon": "balatarin",
+			"color": "079948",
+			"href": "https://www.balatarin.com/links/submit?phase=2&url=${link}&title=${title}"
+		},
+		"bibsonomy": {
+			"name": "BibSonomy",
+			"code": "bibsonomy",
+			"icon": "bibsonomy",
+			"color": "1A1A1A",
+			"href": "https://www.bibsonomy.org/ShowBookmarkEntry?jump=yes&url=${link}&description=${title}&extended=${notes}"
+		},
+		"blogger": {
+			"name": "Blogger",
+			"code": "blogger",
+			"icon": "blogger",
+			"color": "FDA352",
+			"href": "https://www.blogger.com/blog_this.pyra?u=${link}&n=${title}&t=${notes}"
+		},
+		"blogmarks": {
+			"name": "BlogMarks",
+			"code": "blogmarks",
+			"icon": "blogmarks",
+			"color": "535353",
+			"href": "https://blogmarks.net/my/new.php?mini=1&simple=1&title=${title}&url=${link}"
+		},
+		"bluesky": {
+			"name": "Bluesky",
+			"code": "bluesky",
+			"icon": "bluesky",
+			"color": "1285fe",
+			"href": "https://bsky.app/intent/compose?text=${title}%20${link}"
+		},
+		"bookmarks_fr": {
+			"name": "Bookmarks.fr",
+			"code": "bookmarks_fr",
+			"icon": "bookmarks_fr",
+			"color": "96C044",
+			"href": "https://www.bookmarks.fr/favoris/AjoutFavori?action=add&address=${link}&title=${title}"
+		},
+		"box_net": {
+			"name": "Box.net",
+			"code": "box_net",
+			"icon": "box",
+			"color": "1A74B0",
+			"href": "https://www.box.net/api/1.0/import?url=${link}&name=${title}&description=${notes}&import_as=link"
+		},
+		"buffer": {
+			"name": "Buffer",
+			"code": "buffer",
+			"icon": "buffer",
+			"color": "1A1A1A",
+			"href": "https://bufferapp.com/add?url=${link}&text=${title}"
+		},
+		"diary_ru": {
+			"name": "Diary.Ru",
+			"code": "diary_ru",
+			"icon": "diary_ru",
+			"color": "912D31",
+			"href": "https://diary.ru/?newpost&title=${title}&text=${link}"
+		},
+		"diaspora": {
+			"name": "Diaspora",
+			"code": "diaspora",
+			"icon": "diaspora",
+			"color": "2E3436",
+			"href": "https://www.addtoany.com/ext/diaspora/share?linkurl=${link}&linkname=${title}&linknote=${notes}"
+		},
+		"digg": {
+			"name": "Digg",
+			"code": "digg",
+			"icon": "digg",
+			"color": "1A1A1A",
+			"href": "https://digg.com/submit?phase=2&url=${link}&title=${title}&bodytext=${notes}"
+		},
+		"diigo": {
+			"name": "Diigo",
+			"code": "diigo",
+			"icon": "diigo",
+			"color": "4A8BCA",
+			"href": "https://www.diigo.com/post?url=${link}&title=${title}&desc=${notes}"
+		},
+		"douban": {
+			"name": "Douban",
+			"code": "douban",
+			"icon": "douban",
+			"color": "071",
+			"href": "https://www.douban.com/recommend/?url=${link}&title=${title}&sel=${notes}"
+		},
+		"draugiem": {
+			"name": "Draugiem",
+			"code": "draugiem",
+			"icon": "draugiem",
+			"color": "F60",
+			"href": "https://www.draugiem.lv/say/ext/add.php?link=${link}&title=${title}"
+		},
+		"evernote": {
+			"name": "Evernote",
+			"code": "evernote",
+			"icon": "evernote",
+			"color": "00A82D",
+			"href": "https://www.evernote.com/clip.action?url=${link}&title=${title}"
+		},
+		"fark": {
+			"name": "Fark",
+			"code": "fark",
+			"icon": "fark",
+			"color": "555",
+			"href": "https://www.fark.com/submit?new_url=${link}"
+		},
+		"flipboard": {
+			"name": "Flipboard",
+			"code": "flipboard",
+			"icon": "flipboard",
+			"color": "C00",
+			"href": "https://share.flipboard.com/bookmarklet/popout?v=2&url=${link}&title=${title}"
+		},
+		"folkd": {
+			"name": "Folkd",
+			"code": "folkd",
+			"icon": "folkd",
+			"color": "0F70B2",
+			"href": "https://www.folkd.com/submit/${link_noenc}"
+		},
+		"google_classroom": {
+			"name": "Google Classroom",
+			"code": "google_classroom",
+			"icon": "google_classroom",
+			"color": "FFC112",
+			"href": "https://classroom.google.com/share?url=${link}"
+		},
+		"hacker_news": {
+			"name": "Hacker News",
+			"code": "hacker_news",
+			"icon": "y18",
+			"color": "F60",
+			"href": "https://news.ycombinator.com/submitlink?u=${link}&t=${title}&sref=${source}"
+		},
+		"hatena": {
+			"name": "Hatena",
+			"code": "hatena",
+			"icon": "hatena",
+			"color": "00A6DB",
+			"href": "https://b.hatena.ne.jp/entry/panel/?url=${link}"
+		},
+		"instapaper": {
+			"name": "Instapaper",
+			"code": "instapaper",
+			"icon": "instapaper",
+			"color": "1A1A1A",
+			"href": "https://www.instapaper.com/edit?url=${link}&title=${title}&summary=${notes}"
+		},
+		"kakao": {
+			"name": "Kakao",
+			"code": "kakao",
+			"icon": "kakao",
+			"color": "FCB700",
+			"href": "https://story.kakao.com/share?url=${link}"
+		},
+		"kindle_it": {
+			"name": "Push to Kindle",
+			"code": "kindle_it",
+			"icon": "kindle",
+			"color": "1A1A1A",
+			"href": "https://pushtokindle.fivefilters.org/send.php?url=${link}"
+		},
+		"known": {
+			"name": "Known",
+			"code": "known",
+			"icon": "known",
+			"color": "1A1A1A",
+			"href": "https://withknown.com/share/?url=${link}&title=${title}"
+		},
+		"line": {
+			"name": "Line",
+			"code": "line",
+			"icon": "line",
+			"color": "00C300",
+			"href": "https://timeline.line.me/social-plugin/share?url=${link}"
+		},
+		"livejournal": {
+			"name": "LiveJournal",
+			"code": "livejournal",
+			"icon": "livejournal",
+			"color": "113140",
+			"href": "https://www.livejournal.com/update.bml?subject=${title}&event=${link}"
+		},
+		"mail_ru": {
+			"name": "Mail.Ru",
+			"code": "mail_ru",
+			"icon": "mail_ru",
+			"color": "356FAC",
+			"href": "https://connect.mail.ru/share?url=${link}&title=${title}"
+		},
+		"mendeley": {
+			"name": "Mendeley",
+			"code": "mendeley",
+			"icon": "mendeley",
+			"color": "A70805",
+			"href": "https://www.mendeley.com/import/?url=${link}"
+		},
+		"meneame": {
+			"name": "Meneame",
+			"code": "meneame",
+			"icon": "meneame",
+			"color": "FF7D12",
+			"href": "https://meneame.net/submit.php?url=${link}"
+		},
+		"mewe": {
+			"name": "MeWe",
+			"code": "mewe",
+			"icon": "mewe",
+			"color": "007DA1",
+			"href": "https://mewe.com/share?link=${link}"
+		},
+		"micro_blog": {
+			"name": "Micro.blog",
+			"code": "micro_blog",
+			"icon": "micro_blog",
+			"color": "FF8800",
+			"href": "https://micro.blog/post?text=${title}%20${link}"
+		},
+		"mixi": {
+			"name": "Mixi",
+			"code": "mixi",
+			"icon": "mixi",
+			"color": "D1AD5A",
+			"href": "https://mixi.jp/share.pl?u=${link}"
+		},
+		"myspace": {
+			"name": "MySpace",
+			"code": "myspace",
+			"icon": "myspace",
+			"color": "1A1A1A",
+			"href": "https://www.myspace.com/Modules/PostTo/Pages/?u=${link}&t=${title}&l=3&c=${notes}"
+		},
+		"odnoklassniki": {
+			"name": "Odnoklassniki",
+			"code": "odnoklassniki",
+			"icon": "odnoklassniki",
+			"color": "F2720C",
+			"href": "https://connect.ok.ru/dk?st.cmd=WidgetSharePreview&st.shareUrl=${link}"
+		},
+		"outlook_com": {
+			"name": "Outlook.com",
+			"code": "outlook_com",
+			"icon": "outlook_com",
+			"color": "0072C6",
+			"href": "https://outlook.live.com/mail/deeplink/compose?path=%2Fmail%2Finbox&subject=${title}&body=${link}"
+		},
+		"papaly": {
+			"name": "Papaly",
+			"code": "papaly",
+			"icon": "papaly",
+			"color": "3AC0F6",
+			"href": "https://papaly.com/api/share.html?url=${link}&title=${title}"
+		},
+		"pinboard": {
+			"name": "Pinboard",
+			"code": "pinboard",
+			"icon": "pinboard",
+			"color": "1341DE",
+			"href": "https://pinboard.in/add?next=same&url=${link}&title=${title}&description=${notes}"
+		},
+		"plurk": {
+			"name": "Plurk",
+			"code": "plurk",
+			"icon": "plurk",
+			"color": "CF682F",
+			"href": "https://www.plurk.com/m?qualifier=shares&status=${link}"
+		},
+		"print": {
+			"name": "Print",
+			"code": "print",
+			"icon": "print",
+			"js": "javascript:print()",
+			"color": "888990",
+			"href": ""
+		},
+		"printfriendly": {
+			"name": "PrintFriendly",
+			"code": "printfriendly",
+			"icon": "printfriendly",
+			"color": "6D9F00",
+			"href": "https://www.printfriendly.com/print?url=${link}"
+		},
+		"pusha": {
+			"name": "Pusha",
+			"code": "pusha",
+			"icon": "pusha",
+			"color": "0072B8",
+			"href": "https://www.pusha.se/posta?url=${link}"
+		},
+		"qzone": {
+			"name": "Qzone",
+			"code": "qzone",
+			"icon": "qzone",
+			"color": "2B82D9",
+			"href": "https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=${link}"
+		},
+		"raindrop_io": {
+			"name": "Raindrop.io",
+			"code": "raindrop_io",
+			"icon": "raindrop_io",
+			"color": "0B7ED0",
+			"href": "https://app.raindrop.io/add?link=${link}&title=${title}"
+		},
+		"rediff": {
+			"name": "Rediff MyPage",
+			"code": "rediff",
+			"icon": "rediff",
+			"color": "D20000",
+			"href": "https://share.rediff.com/bookmark/addbookmark?bookmarkurl=${link}&title=${title}"
+		},
+		"refind": {
+			"name": "Refind",
+			"code": "refind",
+			"icon": "refind",
+			"color": "1492ef",
+			"href": "https://refind.com/?url=${link}"
+		},
+		"sina_weibo": {
+			"name": "Sina Weibo",
+			"code": "sina_weibo",
+			"icon": "sina_weibo",
+			"color": "E6162D",
+			"href": "https://service.weibo.com/share/share.php?url=${link}&title=${title}"
+		},
+		"sitejot": {
+			"name": "SiteJot",
+			"code": "sitejot",
+			"icon": "sitejot",
+			"color": "FFC808",
+			"href": "https://www.sitejot.com/addform.php?iSiteAdd=${link}&iSiteDes=${title}"
+		},
+		"slashdot": {
+			"name": "Slashdot",
+			"code": "slashdot",
+			"icon": "slashdot",
+			"color": "004242",
+			"href": "https://slashdot.org/submission?url=${link}"
+		},
+		"snapchat": {
+			"name": "Snapchat",
+			"code": "snapchat",
+			"icon": "snapchat",
+			"color": "1A1A1A",
+			"href": "https://www.snapchat.com/scan?attachmentUrl=${link}"
+		},
+		"stocktwits": {
+			"name": "StockTwits",
+			"code": "stocktwits",
+			"icon": "stocktwits",
+			"color": "40576F",
+			"href": "https://api.stocktwits.com/widgets/share?body=${title}%20${link}"
+		},
+		"svejo": {
+			"name": "Svejo",
+			"code": "svejo",
+			"icon": "svejo",
+			"color": "5BD428",
+			"href": "https://svejo.net/story/submit_by_url?url=${link}&title=${title}&summary=${notes}"
+		},
+		"symbaloo_bookmarks": {
+			"name": "Symbaloo Bookmarks",
+			"code": "symbaloo_bookmarks",
+			"icon": "symbaloo",
+			"color": "6DA8F7",
+			"href": "https://www.symbaloo.com/go/add/?url=${link}&title=${title}"
+		},
+		"threema": {
+			"name": "Threema",
+			"code": "threema",
+			"icon": "threema",
+			"color": "1A1A1A",
+			"href": "threema://compose?text=${title}%20${link}"
+		},
+		"trello": {
+			"name": "Trello",
+			"code": "trello",
+			"icon": "trello",
+			"color": "0079BF",
+			"href": "https://trello.com/add-card?mode=popup&url=${link}&name=${title}&desc=${notes}"
+		},
+		"tumblr": {
+			"name": "Tumblr",
+			"code": "tumblr",
+			"icon": "tumblr",
+			"color": "001935",
+			"href": "https://www.tumblr.com/widgets/share/tool?posttype=link&canonicalUrl=${link}&title=${title}&caption=${notes}"
+		},
+		"twiddla": {
+			"name": "Twiddla",
+			"code": "twiddla",
+			"icon": "twiddla",
+			"color": "1A1A1A",
+			"href": "https://www.twiddla.com/New.aspx?url=${link}&title=${title}"
+		},
+		"twitter": {
+			"name": "Twitter",
+			"code": "twitter",
+			"icon": "twitter",
+			"color": "1D9BF0",
+			"href": "https://twitter.com/intent/tweet?text=${title}%20${link}"
+		},
+		"typepad_post": {
+			"name": "TypePad",
+			"code": "typepad_post",
+			"icon": "typepad",
+			"color": "D2DE61",
+			"href": "https://www.typepad.com/services/quickpost/post?v=2&qp_show=ac&qp_href=${link}&qp_title=${title}"
+		},
+		"viber": {
+			"name": "Viber",
+			"code": "viber",
+			"icon": "viber",
+			"color": "7C529E",
+			"href": "viber://forward?text=${title}%20${link}"
+		},
+		"vk": {
+			"name": "VK",
+			"code": "vk",
+			"icon": "vk",
+			"color": "587EA3",
+			"href": "https://vk.com/share.php?url=${link}&title=${title}"
+		},
+		"wechat": {
+			"name": "WeChat",
+			"code": "wechat",
+			"icon": "wechat",
+			"color": "7BB32E",
+			"href": "https://www.addtoany.com/ext/wechat/share/#url=${link}&title=${title}"
+		},
+		"wordpress": {
+			"name": "WordPress",
+			"code": "wordpress",
+			"icon": "wordpress",
+			"color": "585C60",
+			"href": "https://www.addtoany.com/ext/wordpress/press_this?linkurl=${link}&linkname=${title}&linknote=${notes}"
+		},
+		"wykop": {
+			"name": "Wykop",
+			"code": "wykop",
+			"icon": "wykop",
+			"color": "367DA9",
+			"href": "https://www.wykop.pl/dodaj?url=${link}"
+		},
+		"x": {
+			"name": "X",
+			"code": "x",
+			"icon": "x",
+			"color": "1A1A1A",
+			"href": "https://twitter.com/intent/tweet?text=${title}%20${link}"
+		},
+		"xing": {
+			"name": "XING",
+			"code": "xing",
+			"icon": "xing",
+			"color": "165B66",
+			"href": "https://www.xing.com/spi/shares/new?url=${link}"
+		},
+		"yahoo_mail": {
+			"name": "Yahoo Mail",
+			"code": "yahoo_mail",
+			"icon": "yahoo",
+			"color": "400090",
+			"href": "https://compose.mail.yahoo.com/?subject=${title}&body=${link}"
+		}
+	}
+}

@@ -1,0 +1,277 @@
+{
+   "Pop_Bate_Tip": {
+      "message": "Your items created during the beta testing will be remained and will not be deleted. To create additional items, please upgrade your account to Basic or Pro plan."
+   },
+   "Pop_Bate_other_Tip": {
+      "message": "You have a maxium of {name} GB with your current plan. Once reached this limit, you will no longer be able to upload any additional items."
+   },
+   "Pop_Window_Button_Title": {
+      "message": "Aller sur Gemoo"
+   },
+   "Pop_Window_Limite_free_Title": {
+      "message": "You've reached the storage limit. To create unlimited images, please upgrade your account."
+   },
+   "Pop_Window_Limite_free_count_Title_middle": {
+      "message": "You've reached the image limit. To create unlimited images, please upgrade your account."
+   },
+   "Pop_Window_Limite_pro_Title_frist": {
+      "message": "You've reached the storage limit and are unable to create additional items."
+   },
+   "Pop_Window_Limite_pro_Title_last": {
+      "message": "to get more storage space."
+   },
+   "Pop_Window_Limite_pro_Title_middle": {
+      "message": "Contact us"
+   },
+   "Pop_Window_SubTitle": {
+      "message": "En raison des limitations du navigateur, il n'est pas possible de faire une capture d'écran sur cette page. Veuillez vous rendre sur le site web de Gemoo."
+   },
+   "Pop_Window_Title": {
+      "message": "Échec de la création de l'image"
+   },
+   "Pop_upgrade_btn": {
+      "message": "Upgrade Now"
+   },
+   "aboutUsCopyright": {
+      "message": "Copyright © 2022@ Gemoo Inc. All rights reserved."
+   },
+   "aboutUsDes": {
+      "message": "Prenez, annotez et embellissez des captures d'écran rapidement et facilement grâce à Gemoo Snap, exprimez vos idées avec des images et du texte en communication. Nous fournissons des extensions de bureau, web et Chrome, vous pouvez cliquer sur le lien pour voir les détails !"
+   },
+   "aboutUsHelp": {
+      "message": "Aide"
+   },
+   "aboutUsHome": {
+      "message": "Page d'accueil de Gemoo"
+   },
+   "aboutUsProduct": {
+      "message": "Aperçu du produit"
+   },
+   "aboutUsRate": {
+      "message": "Évaluez-nous"
+   },
+   "aboutUsTitle": {
+      "message": "Gemoo Snap"
+   },
+   "aboutUsVersion": {
+      "message": "Version:"
+   },
+   "capture_guide_1": {
+      "message": "Click the"
+   },
+   "capture_guide_2": {
+      "message": "to capture"
+   },
+   "cloudPop_one": {
+      "message": "Access your images from anywhere."
+   },
+   "cloudPop_three": {
+      "message": "Save storage space on your device while not worrying about losing important materials."
+   },
+   "cloudPop_two": {
+      "message": "Save and share your images through links."
+   },
+   "createAccount": {
+      "message": "Créez un compte"
+   },
+   "emailErr1": {
+      "message": "Entrez votre adresse e-mail"
+   },
+   "emailErr2": {
+      "message": "E-mail non valide"
+   },
+   "emailPlaceholder": {
+      "message": "Adresse email"
+   },
+   "errPageDes": {
+      "message": "Impossible de faire une capture d'écran en raison de l'absence de connexion réseau. Veuillez vérifier à nouveau la connexion réseau."
+   },
+   "errPageTitle": {
+      "message": "Échec de la connexion"
+   },
+   "erraPageBtn": {
+      "message": "Réessayer"
+   },
+   "everywhere": {
+      "message": "Access cloud images from anywhere"
+   },
+   "extDescription": {
+      "description": "Title string",
+      "message": "Capture de la page entière, de la zone visible ou de la zone sélectionnée"
+   },
+   "extName": {
+      "description": "Title string",
+      "message": "Gemoo Snap - ChatGPT Screenshot"
+   },
+   "forgotPwd": {
+      "message": "Mot de passe oublié ?"
+   },
+   "gemooCloud": {
+      "message": "Cloud"
+   },
+   "gemooEdit": {
+      "message": "Page d'édition"
+   },
+   "gemooLocal": {
+      "message": "Local"
+   },
+   "gemooPage": {
+      "message": "Page d'image"
+   },
+   "gemooSnap": {
+      "message": "Gemoo Snap"
+   },
+   "got_it": {
+      "message": "Got it"
+   },
+   "homepageBeta": {
+      "message": "Bêta"
+   },
+   "homepageLogOut": {
+      "message": "Se déconnecter"
+   },
+   "hoverAbout": {
+      "message": "À propos de"
+   },
+   "hoverAccount": {
+      "message": "Compte"
+   },
+   "hoverClose": {
+      "message": "Fermer le rappel"
+   },
+   "hoverHome": {
+      "message": "Bibliothèque Gemoo"
+   },
+   "install_guide_ct": {
+      "message": "Click the icon above to pin Gemoo Snap for easy access."
+   },
+   "install_guide_tt": {
+      "message": "Gemoo Snap has been installed successfully!"
+   },
+   "loginApple": {
+      "message": "Se connecter avec Apple"
+   },
+   "maskText": {
+      "message": "Veuillez compléter votre capture pour continuer."
+   },
+   "menuCardPath": {
+      "message": "La capture d'écran sera enregistrée sur :"
+   },
+   "menuTool1": {
+      "message": "Page entière"
+   },
+   "menuTool2": {
+      "message": "Sélectionner & Défiler "
+   },
+   "menuTool3": {
+      "message": "Capture d'éléments"
+   },
+   "menuTool4": {
+      "message": "Zone de page visible"
+   },
+   "menuTool5": {
+      "message": "Capture d’écran Bureau"
+   },
+   "menuTool6": {
+      "message": "Plus à venir"
+   },
+   "msgBoxCancle": {
+      "message": "Annuler"
+   },
+   "msgBoxErr": {
+      "message": "Echec du téléchargement"
+   },
+   "msgBoxLoadingUp": {
+      "message": "Téléchargement"
+   },
+   "msgBoxOk": {
+      "message": "OK"
+   },
+   "msgPurchaseBoxErr": {
+      "message": "You've reached your item limit Upgrade forunlimited items."
+   },
+   "notAccount": {
+      "message": "Vous n'avez pas encore de compte ?"
+   },
+   "passwordErr": {
+      "message": "Mot de passe requis"
+   },
+   "passwordPlaceholder": {
+      "message": "Mot de passe"
+   },
+   "rePassword": {
+      "message": "Mémoriser le mot de passe"
+   },
+   "relieveCard": {
+      "message": "Retirer de celui-ci"
+   },
+   "saveImageTo": {
+      "message": "Save images to: "
+   },
+   "saveLocation": {
+      "message": "Enregistrer dans :"
+   },
+   "siginIn": {
+      "message": "Se connecter"
+   },
+   "siginInErr": {
+      "message": "La connexion a échoué, veuillez réessayer plus tard."
+   },
+   "signGoogle": {
+      "message": "Connectez-vous avec Google"
+   },
+   "signGoogleErr": {
+      "message": "Erreur inconnue"
+   },
+   "snapLoginDes": {
+      "message": "Connectez-vous à votre compte Gemoo pour utiliser Gemoo Snap."
+   },
+   "snapLoginOr": {
+      "message": "OU"
+   },
+   "snapLoginTitle": {
+      "message": "Se connecter à Gemoo"
+   },
+   "toolTip_arrow": {
+      "message": "Arrow"
+   },
+   "toolTip_back": {
+      "message": "Undo"
+   },
+   "toolTip_blur": {
+      "message": "Mosaic"
+   },
+   "toolTip_cancel": {
+      "message": "Cancel"
+   },
+   "toolTip_circle": {
+      "message": "Circle"
+   },
+   "toolTip_clear": {
+      "message": "Clear"
+   },
+   "toolTip_confirm": {
+      "message": "Done"
+   },
+   "toolTip_copy": {
+      "message": "Copy to clipboard"
+   },
+   "toolTip_line": {
+      "message": "Brush"
+   },
+   "toolTip_rectangle": {
+      "message": "Rectangle"
+   },
+   "toolTip_reselect": {
+      "message": "Reselect"
+   },
+   "toolTip_text": {
+      "message": "Text"
+   },
+   "toolTip_tolocal": {
+      "message": "Done"
+   },
+   "toolTip_triangle": {
+      "message": "Triangle"
+   }
+}

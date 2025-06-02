@@ -1,0 +1,39 @@
+{
+   "action": {
+      "default_icon": {
+         "16": "data/icons/16.png",
+         "32": "data/icons/32.png",
+         "48": "data/icons/48.png",
+         "64": "data/icons/64.png"
+      },
+      "default_popup": "data/popup/popup.html",
+      "default_title": "Audio Downloader Prime"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "commands": {
+      "_execute_action": {
+      }
+   },
+   "description": "Easily download most popular audio formats.",
+   "homepage_url": "https://mybrowseraddon.com/audio-prime.html",
+   "host_permissions": [ "*://*/*" ],
+   "icons": {
+      "128": "data/icons/128.png",
+      "16": "data/icons/16.png",
+      "32": "data/icons/32.png",
+      "48": "data/icons/48.png",
+      "64": "data/icons/64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAptI8roqb3MWVr0v4RFAiJuRXQ6J/ygHuo7t3+B94r+Y3/Hs1UXQpia5zRrSA4XIwfBNe+uOeXtv/sZiC3W8d91HfJzkQVQuIJ+bjcR87dP5vxJxQ+IiAAXnvHUyuCvy7eO/oS59DXLoEEqfrkW/tVKv57gNWNZ0tBMDsrMQg5GSXmzT8avPLYqi30l02Ekts6w4f+QrdW9EMa35TDhXbBlGifZGdjm//+jqrnS9vFoXJrgIAvp/Ux0uEJCfbIjJ3HzfhhJs0Gg3x1rbb0/YpWgKKtCMWLZYYa3dYWiBHJFnllNdHTQa5i1H0232cQa3ljikjBQn6z0qd/MEZZdDOHQIDAQAB",
+   "manifest_version": 3,
+   "name": "Audio Downloader Prime",
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "data/options/options.html"
+   },
+   "permissions": [ "storage", "downloads", "webRequest" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.2.7"
+}

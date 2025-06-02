@@ -1,0 +1,44 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "images/icons/icon-128.png",
+         "16": "images/icons/icon-48.png",
+         "32": "images/icons/icon-48.png",
+         "48": "images/icons/icon-48.png"
+      }
+   },
+   "background": {
+      "service_worker": "js/background.js"
+   },
+   "commands": {
+      "_execute_action": {
+         "suggested_key": {
+            "chromeos": "Alt+Shift+E",
+            "linux": "Alt+Shift+E",
+            "mac": "Command+Shift+E",
+            "windows": "Alt+Shift+E"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "js": [ "js/content-script.js" ],
+      "matches": [ "http://*/*", "https://*/*", "https://www.google-analytics.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "The world's leading emoji keyboard for Chrome. Now Unicode 15.1 compatible!",
+   "icons": {
+      "128": "images/icons/icon-128.png",
+      "16": "images/icons/icon-48.png",
+      "32": "images/icons/icon-48.png",
+      "48": "images/icons/icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgz3mB8MjtWYWtPWHW8vl3VcCc797QlF3su6lv66+hZPcuhKjA/jCcLLbLy3JGGFc4KGsQ1LJ4+vuFv9NvhYyoBUFXOPl5+udg3pEEXzPZuBBTJjQsuf8Cuj2tU1CAyiqjW1v5YpVtQ2jwgv5+X88aOlgFoC/0NEVxwGkBpfpbr694+M8cb/KSf1ASsWHmy337SDgMSicu51nKVvEsyzZGAwjcraaOxFF3JH89Fwmt3jRAwTUR00HOfxRHjaDhYI0PSPIh955OFgJ9dm3ipD4ehNOahjmXb31yk4V1t7EwMlERDV35iT6z4synUYt08qeHL6zfg85RhMNrtfQuNF1lQIDAQAB",
+   "manifest_version": 3,
+   "name": "Emoji Keyboard by JoyPixels®",
+   "options_ui": {
+      "page": "popup.html?routeTo=options"
+   },
+   "permissions": [ "storage", "activeTab", "clipboardWrite" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "9.1.2"
+}

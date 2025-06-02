@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>CheerpJ Applet Runner Popup</title>
+		<link rel="stylesheet" href="popup.css">
+		<script src="popup.js"></script>
+	</head>
+	<body>
+		<div id="popupBody">
+			<div id="logoImage">
+				<a href="https://cheerpj.com/" target=”_blank”>
+					<img src="assets/AR_logo.png" alt="CheerpJ AR Logo" class="cheerpjlogo" style="width: 300px;">
+				</a>
+			</div>
+
+			<div class="switches">
+				<div id="appletSwitch" class="enableSwitch">Enable for this domain
+				<label class="switch">
+					<input type="checkbox" id="enableExtension">
+					<span class="slider"></span>
+				</label>
+			</div>
+			<!-- Error message that displays when trying to access a URL that starts with 'file:// ' -->
+			<div style="display:none;"id="fileurl" class="fileNotification">
+				<span style='color: #ff8d1c; font-size: medium;'><b>WARNING</b></span><br>
+				<p style='text-align: justify;'>file:// URLs are not supported. Please use a local web server.</p>
+			</div>
+			<hr class="solid">
+			<p style=" font-weight: bold; margin-bottom: 0;">Settings</p>
+			<div class="clipboardSwitch">Enable clipboard access
+				<label class="switchSmall">
+					<input type="checkbox" id="systemClipboard">
+					<span class="sliderSmall"></span>
+				</label>
+			</div>
+			</div>
+			<div id="manageLicense">
+				<svg class="icon" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64"
+					fill="none">
+					<circle cx="32" cy="20" r="12" class="icon-stroke" stroke-width="4" fill="none" />
+					<ellipse cx="32" cy="48" rx="20" ry="10" class="icon-stroke" stroke-width="4" fill="none" />
+				</svg>
+				Manage License
+			</div>
+			<div id="licenseKeyContent"></div>
+			<div id="infoContent">
+				CheerpJ Applet Runner is free for personal and non-commercial use. 
+				<div style="display: flex; padding: 5px;">
+					<button id="contactSales">
+						<svg class="icon" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64"
+							fill="none">
+							<path d="M2 16L32 32L62 16V16C62 13.7909 60.2091 12 58 12H6C3.79086 12 2 13.7909 2 16V16Z"
+								class="icon-stroke" stroke-width="4" fill="none" />
+							<path d="M2 16L32 32L62 16V48C62 50.2091 60.2091 52 58 52H6C3.79086 52 2 50.2091 2 48V16Z"
+								class="icon-stroke" stroke-width="4" fill="none" />
+							<path d="M2 16L32 32L62 16" class="icon-stroke" stroke-width="4" fill="none" />
+							</svg>	
+						Contact Sales</button>
+					<button id="manageLicenseButton">
+						<svg class="icon" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64"
+							fill="none">
+							<circle cx="32" cy="20" r="12" class="icon-stroke" stroke-width="4" fill="none" />
+							<ellipse cx="32" cy="48" rx="20" ry="10" class="icon-stroke" stroke-width="4" fill="none" />
+						</svg>
+						Manage License
+					</button>
+				</div>
+			</div>
+			<ul id="licenseChecklist">
+				<li>📖 &nbsp; <a href="https://labs.leaningtech.com/docs/cheerpj-applet-runner" target="_blank">Read our documentation</a></li>
+				<li>🔗 &nbsp; <a id="githubLink" target=”_blank”>Found a bug? Report it via GitHub</a></li>
+				<li style="display: none;" id="callToAction">⭐️ &nbsp; <a id="reviewLink" target="_blank">Give us a 5 stars review!</a>
+			</ul>
+
+		</div>
+	</body>
+</html>

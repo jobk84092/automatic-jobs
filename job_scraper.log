@@ -1,0 +1,23 @@
+2025-06-02 15:13:34,171 - INFO - Starting job application process
+2025-06-02 15:13:34,171 - INFO - Scraping BrighterMonday jobs...
+2025-06-02 15:13:34,576 - INFO - BrighterMonday: 0 jobs scraped.
+2025-06-02 15:13:34,577 - INFO - Scraping LinkedIn jobs...
+2025-06-02 15:13:34,577 - INFO - ====== WebDriver manager ======
+2025-06-02 15:13:34,744 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-02 15:13:34,985 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-02 15:13:35,238 - INFO - Driver [/Users/jobkimani/.wdm/drivers/chromedriver/mac64/137.0.7151.55/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-06-02 15:13:35,247 - ERROR - Error setting up Chrome driver: [Errno 8] Exec format error: '/Users/jobkimani/.wdm/drivers/chromedriver/mac64/137.0.7151.55/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-02 15:13:35,247 - ERROR - LinkedIn Selenium scrape error: [Errno 8] Exec format error: '/Users/jobkimani/.wdm/drivers/chromedriver/mac64/137.0.7151.55/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-02 15:13:36,291 - INFO - LinkedIn: 0 jobs scraped.
+2025-06-02 15:13:36,292 - INFO - Scraping Fuzu jobs...
+2025-06-02 15:13:36,292 - INFO - ====== WebDriver manager ======
+2025-06-02 15:13:36,438 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-02 15:13:36,671 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-02 15:13:36,888 - INFO - Driver [/Users/jobkimani/.wdm/drivers/chromedriver/mac64/137.0.7151.55/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-06-02 15:13:36,892 - ERROR - Error setting up Chrome driver: [Errno 8] Exec format error: '/Users/jobkimani/.wdm/drivers/chromedriver/mac64/137.0.7151.55/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-02 15:13:36,893 - ERROR - Fuzu Selenium scrape error: [Errno 8] Exec format error: '/Users/jobkimani/.wdm/drivers/chromedriver/mac64/137.0.7151.55/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-02 15:13:37,545 - INFO - Fuzu: 0 jobs scraped.
+2025-06-02 15:13:37,546 - INFO - Scraping MyJobsMag jobs...
+2025-06-02 15:13:43,385 - INFO - MyJobsMag: 0 jobs scraped.
+2025-06-02 15:13:43,387 - INFO - Total jobs scraped from all boards: 0
+2025-06-02 15:13:43,387 - WARNING - No jobs found to apply for

@@ -1,0 +1,869 @@
+{
+   "adhoc0": {
+      "message": "注意: 教師はリンクを学生に送信し、学生はリンクをクリックして自主的にブレイクアウトルームに参加できます。"
+   },
+   "adhoc1": {
+      "message": "ステップ1: 学生をグループ化する方法はいくつかあります"
+   },
+   "adhoc11a": {
+      "message": "（説明をクリック）グループ化エリアに学生が見えないのはなぜですか？"
+   },
+   "adhoc11b": {
+      "message": "ここをクリック"
+   },
+   "adhoc12a": {
+      "message": "（説明をクリック）なぜ全ての学生が見えないのですか？"
+   },
+   "adhoc12b": {
+      "message": "ここをクリック"
+   },
+   "adhoc13a": {
+      "message": "Google Classroomユーザーの皆様へ,"
+   },
+   "adhoc13b": {
+      "message": "「クラスルーム設定」タブでメインクラスルームリンクが緑色であること、また「ニックネーム」がGoogle Classroom meetリンクの最後の10文字であることを確認してください。その後、「メインルームの開始」ボタンをクリックします。"
+   },
+   "adhoc1a": {
+      "message": "ランダムグループ化: 「ランダム」ボタンをクリックします。希望するグループ化が見つかるまでボタンをクリックし続けることができます。また、学生をグループ間でドラッグアンドドロップして手動で調整することもできます（第2の方法）。"
+   },
+   "adhoc1b": {
+      "message": "手動調整: 学生の名前を押したまま、グループ間でドラッグアンドドロップします。"
+   },
+   "adhoc1c": {
+      "message": "ランダムグループ化から除外: 学生の名前をクリックして除外を切り替えます。"
+   },
+   "adhoc1d": {
+      "message": "手動除外: 学生の名前を押したまま左にドラッグアンドドロップします。"
+   },
+   "adhoc2": {
+      "message": "ステップ2と3: ブレイクアウトルームのリンクと学生グループリストをコピーします"
+   },
+   "adhoc2a": {
+      "message": "学生を適切にグループ化したら、クリックします"
+   },
+   "adhoc2b": {
+      "message": "ここをクリック"
+   },
+   "adhoc2c": {
+      "message": "。"
+   },
+   "adhocAutosend": {
+      "message": "新機能！ブレイクアウト割り当てをMeetチャットに自動送信"
+   },
+   "assignBreakoutsAdhoc": {
+      "message": "アドホックブレイクアウト"
+   },
+   "assignBreakoutsPre": {
+      "message": "事前割り当てブレイクアウト"
+   },
+   "audioFixCheckbox": {
+      "message": "新しい解決策を使用"
+   },
+   "audioFixFallback": {
+      "message": "この解決策を選択するには？"
+   },
+   "audioFixFallback1": {
+      "message": "チェックを入れてください（空の）"
+   },
+   "audioFixFallback2": {
+      "message": "開いているMeetセッションをすべて閉じます（ある場合）"
+   },
+   "audioFixFallback3": {
+      "message": "閉じたMeetセッションを再起動します（ある場合）"
+   },
+   "audioFixFirst": {
+      "message": "この解決策を選択するには？"
+   },
+   "audioFixIntro": {
+      "message": "このオプションをチェックしたままにすることをお勧めします（デフォルトの状態）。このオプションを有効にした後にスピーカーの不安定さや他の問題が発生した場合は、robert@hudektech.comまでメールしてください。チェックを外す（o）と古い解決策が使用されます（推奨されません）。状態を切り替える場合（x または o）、すべてのMeetセッションを再起動することを忘れないでください。この設定はスピーカーモードを変更し、拡張機能がスピーカーの状態（オンまたはオフ）を誤認する可能性があるためです。再度、チェックしたまま（X）にすることをお勧めします。"
+   },
+   "audioFixOptin": {
+      "message": "この解決策を選択するには？"
+   },
+   "audioFixOptin1": {
+      "message": "チェックを入れてください（x）"
+   },
+   "audioFixOptin2": {
+      "message": "開いているMeetセッションをすべて閉じます（ある場合）"
+   },
+   "audioFixOptin3": {
+      "message": "閉じたMeetセッションを再起動します（ある場合）"
+   },
+   "audioFixRecommend": {
+      "message": "（推奨）"
+   },
+   "audioFixSecond": {
+      "message": "新しい解決策で問題が発生した場合は、元の解決策に戻すことができます"
+   },
+   "audioFixTitle": {
+      "message": "スピーカーのランダムな途切れ問題に対する新しい解決策"
+   },
+   "audioHeadline": {
+      "message": "スピーカーの途切れ問題を修正するには、こちらをクリック"
+   },
+   "broadcast": {
+      "message": "すべてのブレイクアウトルームにブロードキャスト"
+   },
+   "btnAutosend": {
+      "message": "1. チャットに送信"
+   },
+   "btnOpenAll": {
+      "message": "すべて"
+   },
+   "btnOpenBreakouts": {
+      "message": "ブレイクアウト"
+   },
+   "btnOpenMain": {
+      "message": "メイン"
+   },
+   "btnOpenMain1": {
+      "message": "メイン"
+   },
+   "btnOpenMainRam": {
+      "message": "メイン"
+   },
+   "btnRam": {
+      "message": "ビデオを開く、スライダーを使用してビデオを順次開く"
+   },
+   "btnRandom": {
+      "message": "ランダム化"
+   },
+   "btnRoomsReport": {
+      "message": "クラスルーム"
+   },
+   "btnStudentsReport": {
+      "message": "学生"
+   },
+   "checkRam": {
+      "message": "低RAMオプション: RAMが8G未満の場合"
+   },
+   "checkRam2": {
+      "message": "説明"
+   },
+   "checkRamOld": {
+      "message": "低RAMオプション: 通常は選択しません。RAMが8G未満の場合、選択することができます。選択後、メインルームとブレイクアウトルームは引き続き開かれますが、一度に1つのウィンドウしか表示されません。スライダーを使用すると、現在のビデオが閉じられ、次のビデオが開かれるように同期されます。"
+   },
+   "code": {
+      "message": "コード"
+   },
+   "courseCourse": {
+      "message": " コース"
+   },
+   "courseDesc": {
+      "message": " コース説明"
+   },
+   "courseEnter": {
+      "message": "コースリストを入力してください"
+   },
+   "courses": {
+      "message": "コース"
+   },
+   "coursesBuiltWith": {
+      "message": "❤️ で構築された 胡浩洋"
+   },
+   "coursesDupe": {
+      "message": " 保存できません: 名前が重複しています。名前は一意である必要があります。"
+   },
+   "coursesExp1": {
+      "message": "この拡張機能のすべてのデータをエクスポートします"
+   },
+   "coursesExp2": {
+      "message": "ファイル（.txt）"
+   },
+   "coursesExp3": {
+      "message": "エクスポート"
+   },
+   "coursesExpimp": {
+      "message": "この拡張機能のすべてのデータをエクスポートまたはインポートします"
+   },
+   "coursesExpimpWarn": {
+      "message": "特別な注意: インポートは、この拡張機能のすべての既存データを置き換えます"
+   },
+   "coursesImp1": {
+      "message": "この拡張機能のすべてのデータをインポートします"
+   },
+   "coursesImp2": {
+      "message": "ファイル（.txt）"
+   },
+   "coursesImp3": {
+      "message": "インポート"
+   },
+   "coursesNotYetSaved": {
+      "message": "変更はまだ保存されていません"
+   },
+   "coursesSaved": {
+      "message": " 保存されました"
+   },
+   "default1": {
+      "message": "上記のアカウントが正しい場合、追加の操作は必要ありません"
+   },
+   "default2": {
+      "message": "アカウントが間違っている場合は、以下の指示に従ってください"
+   },
+   "default3a": {
+      "message": "クリックしてください"
+   },
+   "default3b": {
+      "message": "ここをクリック"
+   },
+   "default3c": {
+      "message": "Googleアカウントの順序を管理するために"
+   },
+   "default4": {
+      "message": "すべてのアカウントからサインアウト"
+   },
+   "default5a": {
+      "message": "Google Meetアカウントは最初にサインインするアカウントです。使用したいアカウントが最初でない場合、最初にすべてのアカウントからサインアウトし、次に再度サインインします。この際、最初にサインインするアカウントがGoogle Meetアカウントになります。"
+   },
+   "default5b": {
+      "message": "同じアカウントを使用して会議を設定し、開始することが重要です"
+   },
+   "default5c": {
+      "message": "会議を設定および開始するために使用されたアカウントは、Google Meetアカウントの所有者と見なされます"
+   },
+   "default6": {
+      "message": "正しい順序で再度サインインし、会議を設定および開始することができます"
+   },
+   "defaultAccount": {
+      "message": "あなたのアカウントは"
+   },
+   "dropdownBreakouts": {
+      "message": "ブレイクアウト"
+   },
+   "dropdownCourse": {
+      "message": "コース"
+   },
+   "enterCourses": {
+      "message": "コースを入力してください"
+   },
+   "errorAutoCreateLink": {
+      "message": "GoogleからMeetリンクを自動的に取得する際に問題が発生しました。Googleアカウントにサインインしていることを確認してください。サインインしている場合は、このリンクを使用してサインアウトし、再度サインインしてください: https://accounts.google.com/SignoutOptions。これにより、現在サインインしているすべてのアカウントからサインアウトされます（ご不便をおかけして申し訳ありません）。その後、最初にサインインするアカウントが、あなたのGoogle Meetアカウントになります。"
+   },
+   "errorBouncingBalls": {
+      "message": "同期できないMeetウィンドウがあります。現在開いているMeetウィンドウをすべて閉じ、このコントロールパネルも閉じてから、コントロールパネルを再度開き、メインルームとブレイクアウトルームを再起動してください。Meetウィンドウを閉じても、学生が削除されたり干渉されたりすることはありません。多くのウィンドウが開いている場合、すべてのMeetウィンドウを見つけられないかもしれません。その場合、最も簡単な方法は、現在開いているすべてのウィンドウを閉じ、再度開くことです。古いMeetウィンドウが残っていると、拡張機能は同期ができない状態が続きます。***拡張機能を削除して再ダウンロードする必要はありません。現在開いているすべてのMeetウィンドウを閉じ、再度このコントロールパネルを開き、このコントロールパネルを使用してメインルームとブレイクアウトルームを開いてください。"
+   },
+   "errorNick1": {
+      "message": "ニックネームのリンクを自動生成する際に問題が発生しました:"
+   },
+   "errorNick2": {
+      "message": "Googleアカウントにサインインしていることを確認してください。サインインしており、Google Suite、Educationなどのニックネーム機能を提供するGoogleアカウントであることを確認した場合（一般的な無料のGoogleアカウントはニックネーム機能を提供していません）。この機能を提供するアカウントでサインインしている場合は、このリンクを使用してサインアウトし、再度サインインしてください: https://accounts.google.com/SignoutOptions。これにより、現在サインインしているすべてのアカウントからサインアウトされます（ご不便をおかけして申し訳ありません）。その後、最初にサインインするアカウントが、あなたのGoogle Meetアカウントになります。Googleアカウントがニックネーム機能を提供していない場合、静的（ダークブルー）またはコード（ライトブルー）のリンクのみを作成してください。"
+   },
+   "extDesc": {
+      "message": "教師だけがインストールする必要があります。完全に無料で、あなたのデータはプライベートです。"
+   },
+   "extName": {
+      "message": "Google Meet ブレイクアウト by Robert Hudek"
+   },
+   "firstRoomMain": {
+      "message": "最初の行はメインルーム、次の行以降はブレイクアウトルームです"
+   },
+   "genAutoEnter": {
+      "message": "「外部」の人が自動的に教室に入ることを許可する"
+   },
+   "genAutoEnter1": {
+      "message": "選択した場合、外部の人が教室リンクを通じて自動的に参加できます。"
+   },
+   "genAutoEnter2": {
+      "message": "通常、選択しないことをお勧めします（空白のままにします）"
+   },
+   "genAutoEnter3": {
+      "message": "セキュリティ上の理由から"
+   },
+   "genAutoJoin": {
+      "message": "この拡張機能で管理されている教室では、開始時に自動的に「参加」ボタンを押します。これは便利な機能です。"
+   },
+   "genAutoJoinBreak": {
+      "message": "ブレイクアウトルーム"
+   },
+   "genAutoJoinMain": {
+      "message": "メインルーム"
+   },
+   "genAutoNewUrl": {
+      "message": "「静的」教室リンク（ダークブルー）を自動的に変更する"
+   },
+   "genAutoNewUrl1": {
+      "message": "会議を開始するたびに、新しいMeet URLリンクが自動的に生成されます。このオプションは安全な方法ですが、教室の管理プロセスは少し複雑になります。まず会議を開始してリンクを確認し、その後（学生に）新しいリンクを通知（送信）する必要があります。通常、この機能はメインルームよりもブレイクアウトルームに適しています。メインルームに選択した場合、メインルームを先に開始して新しいリンクを確認し、そのリンクを学生に送信（メール、SMSなど）して、メインルームに入る方法（URL）を知らせる必要があります。"
+   },
+   "genAutoNewUrl2": {
+      "message": "注意: このオプションは、教室設定タブ内の「静的」タイプの教室リンク（ダークブルー）にのみ適用されます。"
+   },
+   "genAutoNewUrl3": {
+      "message": "他の種類の教室リンク（緑色のニックネーム、ライトブルーのコード）は、このオプションの影響を受けません。"
+   },
+   "genAutoNewUrlBreak": {
+      "message": "ブレイクアウトルーム"
+   },
+   "genAutoNewUrlMain": {
+      "message": "メインルーム"
+   },
+   "genBroadBackColor": {
+      "message": "背景色"
+   },
+   "genBroadImg": {
+      "message": "ブロードキャスト背景画像"
+   },
+   "genBroadPos": {
+      "message": "画像の位置"
+   },
+   "genBroadSize": {
+      "message": "画像のサイズ"
+   },
+   "genBroadTextColor": {
+      "message": "テキストの色"
+   },
+   "genDisplay": {
+      "message": "ブレイクアウトルームの形式"
+   },
+   "genDropEnd": {
+      "message": "両端"
+   },
+   "genDropMid": {
+      "message": "中央"
+   },
+   "genDropSolid": {
+      "message": "単色"
+   },
+   "genGrad": {
+      "message": "グラデーション"
+   },
+   "genSliderBackColor": {
+      "message": "背景色"
+   },
+   "genSliderImg": {
+      "message": "スライダーコントロールの背景画像"
+   },
+   "genSliderPos": {
+      "message": "画像の位置"
+   },
+   "genSliderSize": {
+      "message": "画像のサイズ"
+   },
+   "genSliderTextColor": {
+      "message": "テキストの色"
+   },
+   "genSolid": {
+      "message": "単色"
+   },
+   "genTabs": {
+      "message": "タブ: ウィンドウタブ"
+   },
+   "genTiles": {
+      "message": "タイル: 独立したウィンドウ"
+   },
+   "genToolbarColor": {
+      "message": "Meetツールバーの色"
+   },
+   "hangupBreakouts": {
+      "message": "すべてのブレイクアウトルームを閉じる"
+   },
+   "hangupMain": {
+      "message": "メインルームを閉じる"
+   },
+   "headline1a": {
+      "message": "無料で利用可能、データ漏洩なし、"
+   },
+   "headline1b": {
+      "message": "ロバート"
+   },
+   "headline1c": {
+      "message": "が作成、"
+   },
+   "headline1d": {
+      "message": "注釈付き、"
+   },
+   "headline1e": {
+      "message": "メモ"
+   },
+   "headlineTryThemes": {
+      "message": "新しいテーマを試す"
+   },
+   "helpCode": {
+      "message": " コード: "
+   },
+   "helpCode1a": {
+      "message": "コードは12文字で構成されています: 3文字、「-」、4文字、「-」、そして3文字。例: abc-defg-hij。2つのハイフンを維持することに注意してください。このコードは、Google MeetのURL「https://meet.google.com/」の後の12文字です。例えば、https://meet.google.com/sik-akes-ilq?user=0の場合、コードはsik-akes-ilqです。"
+   },
+   "helpNickname": {
+      "message": "ニックネーム、コード、URLとは？"
+   },
+   "helpNickname1a": {
+      "message": "ニックネーム:"
+   },
+   "helpNickname1b": {
+      "message": "ニックネームは、教師が自由に選んだ名前で、Meetを便利に開始するために使用されます。同じ組織内（例えば学校）では、「ニックネーム」は一意の名前であり、他の教師が既に使用している名前を使用しないように注意してください。そうしないと、その教師のMeetに干渉します。ニックネームの重複を避けるために、学校はニックネーム作成のルールを設定できます: フルネーム、コース名、自由選択など。例: huhaoyang_math1_050810。異なる組織である2つの学校は互いに衝突しません。\n\n\r注意: ニックネームは英語で入力する必要があります。"
+   },
+   "helpNickname1c": {
+      "message": "ニックネームは英語で入力する必要があります"
+   },
+   "helpNickname1d": {
+      "message": "また、ニックネームにはURLのプレフィックスを入力しないでください。例えば、g.co/meet/ や meet.google.com/lookup/ をニックネームに入力することはできません。例外として、Google Classroomの教師はフルmeetリンクを入力できます（以下で説明）。"
+   },
+   "helpNickname2": {
+      "message": "Google Classroomの教師の皆様へ: "
+   },
+   "helpNickname2a": {
+      "message": "ここでは、Google Classroomの「meetリンク」の全体を入力することができ、拡張機能はこのmeetリンクから最後の10文字を自動的にフィルタリングします。これがGoogle Classroomシステムからランダムに割り当てられた「ニックネーム」です。"
+   },
+   "helpNickname3": {
+      "message": "例えば、私のGoogle Classroomのmeetリンクはhttps://meet.google.com/lookup/g45j4fubqbです。このURL全体をコピーして貼り付けると、拡張機能は自動的に最後の10文字をフィルタリングして保持します: g45j4fubqb。これがGoogle Classroomでランダムに割り当てられた「ニックネーム」です。"
+   },
+   "helpUrl": {
+      "message": "URL: "
+   },
+   "helpUrl1a": {
+      "message": "URLは柔軟に使用できます。例として、Google MeetのフルURL: https://meet.google.com/abc-defg-hij。または、教師が授業で使用したいウェブサイト: https://en.wikipedia.org/wiki/Astronomy、https://www.freecodecamp.org/、またはYouTube https://youtu.be/C4_uJmH9hmcなどです。"
+   },
+   "instructRoomLinks": {
+      "message": "ルームリンクの入力方法についての説明"
+   },
+   "lblBreakoutAssigns": {
+      "message": "グループ"
+   },
+   "lblBreakoutRooms": {
+      "message": "ブレイクアウトルーム"
+   },
+   "lblStudents": {
+      "message": "学生"
+   },
+   "linksSaved": {
+      "message": "ルームリンクが保存されました"
+   },
+   "mainName": {
+      "message": "メイン"
+   },
+   "meet": {
+      "message": "Meet"
+   },
+   "msgAllSync": {
+      "message": "成功: すべてのMeetウィンドウが同期されました（すべて正常に同期されました）"
+   },
+   "msgBreakoutSync": {
+      "message": "成功: すべてのブレイクアウトルームが同期されました（ブレイクアウトが正常に同期されました）"
+   },
+   "msgMainSync": {
+      "message": "成功: メインルームが同期されました（メインルームが同期されました）"
+   },
+   "muteAllBreakouts": {
+      "message": "すべてミュート: すべてのブレイクアウトルーム"
+   },
+   "muteAllMain": {
+      "message": "すべてミュート: メインルーム"
+   },
+   "muteAllRooms": {
+      "message": "すべてミュート: メインとすべてのブレイクアウトルーム"
+   },
+   "muteAllThis": {
+      "message": "すべてミュート: このルーム（スライダー）"
+   },
+   "muteRemove": {
+      "message": "ミュート、学生を削除"
+   },
+   "myCourse": {
+      "message": "私のコース"
+   },
+   "myCourseDesc": {
+      "message": "私自身のコース"
+   },
+   "myName": {
+      "message": "ロバート・フデック"
+   },
+   "nickname": {
+      "message": "ニックネーム"
+   },
+   "nicknameHelplink": {
+      "message": "ヘルプ"
+   },
+   "onlineVideoHref": {
+      "message": "https://youtu.be/5oGmIL3pmP4"
+   },
+   "onlineVideoTitle": {
+      "message": "操作説明ビデオ（中国語 v17.3）"
+   },
+   "popupHelpAdhoc": {
+      "message": "アドホックブレイクアウト"
+   },
+   "popupHelpAdhocNumwords2a": {
+      "message": "このコピーは"
+   },
+   "popupHelpAdhocNumwords2b": {
+      "message": "文字しかなく、500文字のコピー＆ペースト制限を超えていないので、一度にすべてをコピー＆ペーストできます。"
+   },
+   "popupHelpAdhocNumwords2c": {
+      "message": "このコピーは"
+   },
+   "popupHelpAdhocNumwords2d": {
+      "message": "文字であり、500文字のコピー＆ペースト制限を超えているので、メインルームのチャットにいくつかの行を一度にコピーしてペーストする必要があります。各回500文字を超えないようにしてください。"
+   },
+   "popupHelpAdhocNumwords3a": {
+      "message": "このコピーは"
+   },
+   "popupHelpAdhocNumwords3b": {
+      "message": "文字しかなく、500文字のコピー＆ペースト制限を超えていないので、一度にすべてをコピー＆ペーストできます。"
+   },
+   "popupHelpAdhocNumwords3c": {
+      "message": "このコピーは"
+   },
+   "popupHelpAdhocNumwords3d": {
+      "message": "文字であり、500文字のコピー＆ペースト制限を超えているので、いくつかの行を選択して、メインルームのチャットにコピーして貼り付ける必要があります。各回500文字を超えないようにしてください。"
+   },
+   "popupHelpAdhocStep2": {
+      "message": "ステップ2: ブレイクアウトルームリンクをコピーして貼り付けます"
+   },
+   "popupHelpAdhocStep2a": {
+      "message": "クリック"
+   },
+   "popupHelpAdhocStep2b": {
+      "message": "ここをクリック"
+   },
+   "popupHelpAdhocStep2c": {
+      "message": "ここをクリックしてブレイクアウトルームのリンクをコピーし、メインルームのチャットに貼り付けます（コマンド/コントロール+V）。"
+   },
+   "popupHelpAdhocStep3": {
+      "message": "ステップ3: 学生グループ分けをコピーして貼り付けます"
+   },
+   "popupHelpAdhocStep3a": {
+      "message": "クリック"
+   },
+   "popupHelpAdhocStep3b": {
+      "message": "ここをクリック"
+   },
+   "popupHelpAdhocStep3c": {
+      "message": "学生グループ分けをコピーして、メインルームのチャットに貼り付けます（コマンド/コントロール+V）。"
+   },
+   "pre1": {
+      "message": "ステップ1: 事前にグループ分けされたリストをコピーします"
+   },
+   "pre1a": {
+      "message": "例として、MS Wordドキュメントからグループリストをコピーし、それをメインルームのチャットに貼り付けます。このようにして、学生は自分の割り当てられたチャットルームを知ることができます。"
+   },
+   "pre1b": {
+      "message": "各コピー＆ペーストに対して、Google Meetのチャットには500文字の制限があることに注意してください。そのため、複数回のコピー＆ペーストが必要になるかもしれません。"
+   },
+   "pre2": {
+      "message": "ステップ2: ブレイクアウトルームのリンクをコピーします"
+   },
+   "pre2a": {
+      "message": "クリック"
+   },
+   "pre2b": {
+      "message": "ここをクリック"
+   },
+   "pre2c": {
+      "message": "その後、メインルームのチャットに貼り付けます"
+   },
+   "preNumwords2a": {
+      "message": "このコピーは"
+   },
+   "preNumwords2b": {
+      "message": "文字しかなく、500文字のコピー＆ペースト制限を超えていないので、一度にすべてをコピー＆ペーストできます。"
+   },
+   "preNumwords2c": {
+      "message": "このコピーは"
+   },
+   "preNumwords2d": {
+      "message": "文字であり、500文字のコピー＆ペースト制限を超えているので、いくつかの行を選択して、メインルームのチャットにコピーして貼り付ける必要があります。各回500文字を超えないようにしてください。"
+   },
+   "removeAllThis": {
+      "message": "すべて削除: このルーム（スライダー）"
+   },
+   "removeBreakouts": {
+      "message": "すべて削除: すべてのブレイクアウトルーム"
+   },
+   "removeMain": {
+      "message": "すべて削除: メインルーム"
+   },
+   "reports": {
+      "message": "レポート"
+   },
+   "reportsAssignments": {
+      "message": "学生グループ割り当て"
+   },
+   "reportsAttendance": {
+      "message": "出席リスト"
+   },
+   "reportsClipboard": {
+      "message": "クリップボードにコピー"
+   },
+   "reportsCsv": {
+      "message": "CSVファイルを同時にダウンロード"
+   },
+   "reportsGroups": {
+      "message": "グループ学生"
+   },
+   "reportsLinks": {
+      "message": "ブレイクアウトルームリンク"
+   },
+   "rooms": {
+      "message": "ルーム"
+   },
+   "roomsBuiltWith": {
+      "message": "❤️ で構築された 胡浩洋"
+   },
+   "roomsCreatingUrl": {
+      "message": "ルームリンクを作成して保存中"
+   },
+   "roomsDupe": {
+      "message": "保存できません: ルーム名やリンクが重複しています。すべて一意である必要があります。"
+   },
+   "roomsExp1": {
+      "message": "このコースのデータをエクスポートします"
+   },
+   "roomsExp2": {
+      "message": "ファイル（.txt）"
+   },
+   "roomsExp3": {
+      "message": "エクスポート"
+   },
+   "roomsExpimp": {
+      "message": "このコースのブレイクアウトルームデータをエクスポートまたはインポートします"
+   },
+   "roomsHowCode": {
+      "message": "コード: "
+   },
+   "roomsHowCode1": {
+      "message": "コードは12文字で、この形式で構成されています: 3文字、「-」、4文字、「-」、3文字。例: "
+   },
+   "roomsHowCode2": {
+      "message": "コードはあなたがランダムに作成するのではなく、Google Meetが作成します。たとえば、このURLを使用すると: https://meet.google.com/new、新しいMeetが開始され、URLにこの12文字が表示されます。これがあなたのコードです。"
+   },
+   "roomsHowCode3": {
+      "message": "コードは静的であり、常に同じMeet URLを開始します。"
+   },
+   "roomsHowGc": {
+      "message": "Google Classroomの教師の皆様: "
+   },
+   "roomsHowGc1": {
+      "message": "Google ClassroomのホームページからMeetリンクをコピーし、それをここにあるリンクフィールドに貼り付けてください。例として、私のMeetリンクはhttps://meet.google.com/lookup/g45j4fubqbです。リンクフィールドに貼り付けた後、拡張機能は先頭の文字列https://meet.google.com/lookup/を削除し、最後の10文字だけを残します。私の例では、"
+   },
+   "roomsHowGc2": {
+      "message": "g45j4fubqb"
+   },
+   "roomsHowGc3": {
+      "message": "この拡張機能でメインルームが開始された場合、拡張機能とGoogle Classroomはすでに同期されています。Google Classroomのウェブページでメインルームが開始された場合、拡張機能の「Happy Classes」タブ内の「Start Class」部分で「Initiate Main Room」ボタンを押す必要があります。これにより、拡張機能とGoogle Classroomが同期されます。"
+   },
+   "roomsHowGcnick": {
+      "message": "Google Classroomのニックネーム: "
+   },
+   "roomsHowGcnick1": {
+      "message": "フルMeet URLの例"
+   },
+   "roomsHowGcnick2": {
+      "message": "または最後の10文字"
+   },
+   "roomsHowGcnick3": {
+      "message": "リンクフィールドにフルMeetリンクまたは最後の10文字を入力できます。フルURLを入力すると、拡張機能は先頭の文字列を削除し、最後の10文字だけを残します。この例では、g45j4fubqbです。"
+   },
+   "roomsHowGcnick4": {
+      "message": "Google Classroomのニックネームは緑色であり、動的です。開始されるたびにURLが変わります。"
+   },
+   "roomsHowNick": {
+      "message": "ニックネーム: "
+   },
+   "roomsHowNick1": {
+      "message": "ニックネームの例"
+   },
+   "roomsHowNick2": {
+      "message": "ニックネームにはURLのプレフィックスを含めることはできません。たとえば、g.co/meet/やmeet.google.com/lookup/は許可されません。ニックネームは自由に選択できますが、英語で入力する必要があります（英語のニックネームを使用する必要があります。中国語の文字は使用できません）。"
+   },
+   "roomsHowNick3": {
+      "message": "クラスのニックネームは緑色です。ニックネームは動的であり、開始されるたびにURLが変わります。"
+   },
+   "roomsHowStart": {
+      "message": "最も簡単な方法: "
+   },
+   "roomsHowStart1": {
+      "message": "リンクフィールドを空白のままにしておきます。青い保存ボタンをクリックすると、システムが自動的にGoogleからMeetリンクを取得してここに保存します。ルーム名だけを入力すれば完了です。この自動リンクは静的なリンクで、変更されません。"
+   },
+   "roomsHowTypes": {
+      "message": "ニックネーム、コード、URL: "
+   },
+   "roomsHowTypes1": {
+      "message": "リンクには以下の3種類があります。"
+   },
+   "roomsHowUrl": {
+      "message": "Meet URL"
+   },
+   "roomsHowUrl1": {
+      "message": "リンクフィールドを空白のままにすると、拡張機能は"
+   },
+   "roomsHowUrl2": {
+      "message": "自動的に"
+   },
+   "roomsHowUrl3": {
+      "message": "GoogleからリンクURLを取得して保存します。または、フルURLを直接この形式で入力することもできます: "
+   },
+   "roomsHowUrl4": {
+      "message": "Meet URLsは静的であり、常に同じURLが開始され、変更されません。しかし、「一般デザイン」タブには「新しいURLを自動で開始する」チェックボックスがあり、このオプションを選択すると、毎回新しいURLが自動的に生成されます。このオプションを選択する場合、開始後に新しいURLを学生に通知することを忘れないでください。このオプションはメインルームよりもブレイクアウトルームに適しています。"
+   },
+   "roomsHowUrl5": {
+      "message": "データURL: "
+   },
+   "roomsHowUrl6": {
+      "message": "データURLにはhttps://を含むフルURLが必要です。例:"
+   },
+   "roomsHowUrl7": {
+      "message": "データURLは柔軟で、科学サイト、数学サイト、歴史サイト、音楽サイトなどに使用できます。"
+   },
+   "roomsImp1": {
+      "message": "このコースのデータをインポートします"
+   },
+   "roomsImp2": {
+      "message": "ファイル（.txt）"
+   },
+   "roomsImp3": {
+      "message": "インポート"
+   },
+   "roomsNeedName": {
+      "message": "保存できません: 各ルームには名前が必要です"
+   },
+   "roomsNotYetSaved": {
+      "message": "注意: 変更はまだ保存されていません"
+   },
+   "roomsPopupTitle": {
+      "message": "コース: "
+   },
+   "roomsSaved": {
+      "message": "ルームとリンクが保存されました"
+   },
+   "roomsUndo": {
+      "message": "元に戻しました"
+   },
+   "rptActualRoom": {
+      "message": "実際のブレイクアウトルーム"
+   },
+   "rptActualStudent": {
+      "message": "実際の学生"
+   },
+   "rptAssignRoom": {
+      "message": "割り当てられたブレイクアウトルーム"
+   },
+   "rptAssignStudent": {
+      "message": "割り当てられた学生"
+   },
+   "rptBreakoutRoom": {
+      "message": "ブレイクアウトルーム"
+   },
+   "rptMain": {
+      "message": "メインルーム内"
+   },
+   "rptNo": {
+      "message": "いいえ"
+   },
+   "rptStudent": {
+      "message": "学生"
+   },
+   "rptTitleBRSR": {
+      "message": "ブレイクアウトルームの状態"
+   },
+   "rptTitleSSR": {
+      "message": "学生の状態"
+   },
+   "rptYes": {
+      "message": "はい"
+   },
+   "setTimer": {
+      "message": "タイマーを設定"
+   },
+   "settings": {
+      "message": "設定"
+   },
+   "sim1": {
+      "message": "拡張機能の使用を練習する"
+   },
+   "sim10": {
+      "message": "ステップ 2："
+   },
+   "sim11": {
+      "message": "このコントロールパネルの「Meet」タブで、メインルームとブレイクアウトルーム（例：3つのブレイクアウトルーム）を開きます。まだブレイクアウトルームのリンクを作成していない場合は、「ルーム」タブに移動して、そこでルームとリンクを作成します。"
+   },
+   "sim12": {
+      "message": "ステップ 3："
+   },
+   "sim13": {
+      "message": "シミュレーションされる生徒の数を選択します。お試しの場合、3つのブレイクアウトルームを開き、合計6人のシミュレーション生徒を配置し、各ブレイクアウトルームに2人ずつ割り当てることをお勧めします。"
+   },
+   "sim14": {
+      "message": "注意："
+   },
+   "sim15": {
+      "message": "Google Meetは最近、1台のコンピュータ上で動作するマイクを持つ会議の数を8に制限する規制を実施しました。つまり、1つのメインルームと最大7つのブレイクアウトルームを開くことができ、それぞれのルームでマイクが正常に機能します。ただし、メインルームまたはブレイクアウトルームに50人以上の生徒を配置しても、マイクの機能に影響を与えることはありません。"
+   },
+   "sim16": {
+      "message": "このシミュレーションでは、すべての操作が1台のコンピュータ上で行われるため、1つのメインルーム、3つのブレイクアウトルーム、6人のシミュレーション生徒を開くと、一部のシミュレーション生徒はマイクを使用できませんが、これはテストには問題ありません。すべての会議が同じコンピュータで実行されるため、フィードバックの問題を避けるために、マイクを使用しない可能性があります。しかし、コントロールパネルのボタンを使用して、さまざまな会議を制御する方法を試すことができます。"
+   },
+   "sim17": {
+      "message": "ヒント："
+   },
+   "sim18": {
+      "message": "これらの練習セッションでは、多くの会議が画面上に表示されるため、デフォルトの「タイル」形式ではなく「タブ」形式を選択することをお勧めします。これを「ブレイクアウトルーム形式」セクションのラジオボタンで選択できます。この方法では、左側に「教師」の会議を単一のウィンドウにタブとして整理し、右側にシミュレーション生徒の会議を複数のタブで表示します。実際の授業を行う際には、画面に表示されるのは教師の会議だけなので、作業スペースが広くなり、好みに応じて「タイル」または「タブ」を選択できます。"
+   },
+   "sim2": {
+      "message": "この拡張機能を初めて使用し、その動作を確認したい場合は、シミュレーションされた生徒を使用して試すことができます。このシミュレーションは、完全にあなたのコンピュータ上で行うことができます。"
+   },
+   "sim3": {
+      "message": "リマインダー："
+   },
+   "sim4": {
+      "message": "この拡張機能を使用して授業を行う際、教師であるあなたのみがこの拡張機能をインストールする必要があります。生徒はこの拡張機能をインストールする必要はありません。"
+   },
+   "sim5": {
+      "message": "シミュレーション設定の手順"
+   },
+   "sim6": {
+      "message": "ステップ 1："
+   },
+   "sim7": {
+      "message": "Chrome の拡張機能ページに移動します"
+   },
+   "sim7a": {
+      "message": "Google Meet Breakout 拡張機能を見つけ、「詳細」ボタンをクリックし、「シークレットモードでの実行を許可」をオンにするために下にスクロールします。"
+   },
+   "sim8": {
+      "message": "注意："
+   },
+   "sim9": {
+      "message": "練習が終わったら、「シークレットモードでの実行を許可」設定をオフにできます。この拡張機能を通常使用する際、生徒に対してシークレットモードを使用する必要はありません。"
+   },
+   "sliderDefault": {
+      "message": "ブレイクアウト"
+   },
+   "startClass": {
+      "message": "クラスを開始"
+   },
+   "subHeadingRooms": {
+      "message": "ルーム"
+   },
+   "timerHrs": {
+      "message": "時間"
+   },
+   "timerMin": {
+      "message": "分"
+   },
+   "timerReset": {
+      "message": "リセット"
+   },
+   "timerSec": {
+      "message": "秒"
+   },
+   "timerStart": {
+      "message": "開始"
+   },
+   "timerStop": {
+      "message": "一時停止"
+   },
+   "title": {
+      "message": "ブレイクアウト"
+   },
+   "toolTipRetile": {
+      "message": "ウィンドウのレイアウトを再配置"
+   },
+   "toolTipToolbar": {
+      "message": "Meetの下部ツールバーを非表示/表示"
+   },
+   "url": {
+      "message": "URL"
+   },
+   "warning8Rooms": {
+      "message": "Google Meetのマイクはブレイクアウトルームが7つまでに制限されています"
+   }
+}

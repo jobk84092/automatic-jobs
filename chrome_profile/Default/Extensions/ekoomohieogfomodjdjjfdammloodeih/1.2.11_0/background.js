@@ -1,0 +1,1 @@
+chrome.action.onClicked.addListener((async e=>{e.id&&await chrome.scripting.executeScript({target:{tabId:e.id,allFrames:!0},files:["script.js"]})}));

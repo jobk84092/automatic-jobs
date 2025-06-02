@@ -1,0 +1,750 @@
+{
+  "extName": {
+    "message": "Google Meet Samostatné Izby by Robert Hudek"
+  },
+  "extDesc": {
+    "message": "Úplne zadarmo a vaše údaje sú súkromné. Integrácia Google Classroom, Slider Control, Prezývky, Návody Pomocníka"
+  },
+  "title": {
+    "message": "Samostatné Izby"
+  },
+  "myCourse": {
+    "message": "Môj kurz"
+  },
+  "myCourseDesc": {
+    "message": "Popis môjho kurzu"
+  },
+  "headline1a": {
+    "message": ""
+  },
+  "headline1b": {
+    "message": ""
+  },
+  "headline1c": {
+    "message": "Postavené s "
+  },
+  "headline1d": {
+    "message": "by Robert Hudek, v"
+  },
+  "headline1e": {
+    "message": "poznámky"
+  },
+  "toolTipRetile": {
+    "message": "Opäť-Dlaždica"
+  },
+  "toolTipToolbar": {
+    "message": "Skryť/Zobraziť Meet Toolbar"
+  },
+  "audioFixTitle": {
+    "message": "Nová metóda pre zvuk"
+  },
+  "audioFixIntro": {
+    "message": "Ak chcete použiť novú metódu pre zvuk, začiarknite políčko nižšie. Ak máte nejaké problémy, pošlite mi e-mail na adresu robert@hudektech.com. Ďakujem"
+  },
+  "audioFixCheckbox": {
+    "message": "Použite túto novú metódu"
+  },
+  "audioFixRecommend": {
+    "message": "(Odporúčané)"
+  },
+  "meet": {
+    "message": "Začiatok Triedy"
+  },
+  "rooms": {
+    "message": "Izby"
+  },
+  "courses": {
+    "message": "Kurzy"
+  },
+  "settings": {
+    "message": "Nastavenie"
+  },
+  "btnStudentsReport": {
+    "message": "Študenti"
+  },
+  "btnRoomsReport": {
+    "message": "Učebňa"
+  },
+  "broadcast": {
+    "message": "Vysielanie"
+  },
+  "sliderDefault": {
+    "message": "Samostatné izby"
+  },
+  "defaultAccount": {
+    "message": "Váš účet je "
+  },
+  "startClass": {
+    "message": "Začiatok Triedy"
+  },
+  "assignBreakoutsAdhoc": {
+    "message": "Ad Hoc (now)"
+  },
+  "assignBreakoutsPre": {
+    "message": "Vopred pridelené"
+  },
+  "adhoc0": {
+    "message": "Upozornenie: Študenti sa do izieb nepresťahujú automaticky. Učiteľ musí študentom poslať odkaz na oddelenú miestnosť v četovej správe. Potom študenti kliknú na odkaz a vstúpia do miestnosti."
+  },
+  "adhoc1": {
+    "message": "Krok 1: Priraďte študentov"
+  },
+  "adhoc1a": {
+    "message": "Random：Please click 'Random' button.  You may repeatedly click on Random until you see a grouping you like, then you can manually drag and drop to further refine. "
+  },
+  "adhoc1b": {
+    "message": "Drag/Drop: Manuálne presúvanie študentov do skupín"
+  },
+  "adhoc1c": {
+    "message": "Odstrániť (kliknutie): Kliknutím na meno študenta ho odstránite zo skupiny"
+  },
+  "adhoc1d": {
+    "message": "Odstrániť (presunúť): Kliknutím a podržaním na meno študenta pretiahnete položku a odstránite ju zo skupiny"
+  },
+  "adhoc11a": {
+    "message": "Ak nevidíte žiadnych študentov, môže to byť spôsobené tým, že vaša hlavná miestnosť nemá žiadnych študentov"
+  },
+  "adhoc11b": {
+    "message": "Tu"
+  },
+  "adhoc12a": {
+    "message": "Ak vo vašom zozname chýbajú niektorí študenti, môže to byť spôsobené tým, že vaša hlavná miestnosť nezobrazuje všetkých vašich študentov. Skontrolujte tlačidlo nastavení google meet na spodnom paneli s nástrojmi „...“ pre možnosť Zmeniť rozloženie a vyberte možnosť Tile. Posuňte tiež posúvač nastavenia na 49 študentov úplne doprava"
+  },
+  "adhoc13a": {
+    "message": "Používatelia Učebne Google"
+  },
+  "adhoc13b": {
+    "message": "Potvrďte, že na karte „Trieda“ je hlavná miestnosť zelená a „prezývka“ tohto odkazu je posledným 10-miestnym odkazom na stretnutie v Učebni Google."
+  },
+  "adhoc2": {
+    "message": "Kroky 2 a 3: Skopírujte odkazy na samostatné miestnosti a úlohy študentov"
+  },
+  "adhoc2a": {
+    "message": "Po priradení študentov kliknite"
+  },
+  "adhoc2b": {
+    "message": "Tu"
+  },
+  "adhoc2c": {
+    "message": "."
+  },
+  "btnRandom": {
+    "message": "Randomizovať"
+  },
+  "lblStudents": {
+    "message": "študentov"
+  },
+  "lblBreakoutRooms": {
+    "message": "Samostatné Izby"
+  },
+  "lblBreakoutAssigns": {
+    "message": "Malá skupina"
+  },
+  "popupHelpAdhoc": {
+    "message": "Priradiť ad hoc"
+  },
+  "popupHelpAdhocStep2": {
+    "message": "Krok 2: Skopírujte odkazy do samostatných miestností"
+  },
+  "popupHelpAdhocStep2a": {
+    "message": "Kliknite prosím"
+  },
+  "popupHelpAdhocStep2b": {
+    "message": "Tu"
+  },
+  "popupHelpAdhocStep2c": {
+    "message": "na skopírovanie odkazov na oddelenú miestnosť a potom ich prilepte do správy chatu hlavnej miestnosti (príkaz/ovládanie 'v')"
+  },
+  "popupHelpAdhocNumwords2a": {
+    "message": "Toto je len"
+  },
+  "popupHelpAdhocNumwords2b": {
+    "message": "znakov, čo je maximálne 500 znakov. OK na skopírovanie všetkých naraz"
+  },
+  "popupHelpAdhocNumwords2c": {
+    "message": "Toto je "
+  },
+  "popupHelpAdhocNumwords2d": {
+    "message": "znakov, čo je viac ako maximum 500 znakov, čo znamená, že budete musieť skopírovať/prilepiť sekcie, aby ste sa dostali pod limit 500 znakov pre chatovú správu Google Meet pre jedno skopírovanie/vloženie. Možno budete musieť skopírovať 2 alebo 3 sekcie. Zvýraznite niekoľko riadkov a potom ich skopírujte/prilepte do chatu v hlavnej miestnosti, opakujte pre zostávajúce riadky, kým sa všetko neskopíruje a neprilepí do správy chatu v hlavnej miestnosti."
+  },
+  "popupHelpAdhocStep3": {
+    "message": "Krok 3: Skopírujte a prilepte úlohy študentov"
+  },
+  "popupHelpAdhocStep3a": {
+    "message": "Kliknite prosím"
+  },
+  "popupHelpAdhocStep3b": {
+    "message": "Tu"
+  },
+  "popupHelpAdhocStep3c": {
+    "message": "na skopírovanie odkazov na oddelenú miestnosť a potom ich prilepte do správy chatu hlavnej miestnosti (príkaz/ovládanie 'v')"
+  },
+  "popupHelpAdhocNumwords3a": {
+    "message": "Toto je len "
+  },
+  "popupHelpAdhocNumwords3b": {
+    "message": "znakov, čo je maximálne 500 znakov. OK na skopírovanie všetkých naraz"
+  },
+  "popupHelpAdhocNumwords3c": {
+    "message": "Toto je "
+  },
+  "popupHelpAdhocNumwords3d": {
+    "message": "znakov, čo je viac ako maximum 500 znakov, čo znamená, že budete musieť skopírovať/prilepiť sekcie, aby ste sa dostali pod limit 500 znakov pre chatovú správu Google Meet pre jedno skopírovanie/vloženie. Možno budete musieť skopírovať 2 alebo 3 sekcie. Zvýraznite niekoľko riadkov a potom ich skopírujte/prilepte do chatu v hlavnej miestnosti, opakujte pre zostávajúce riadky, kým sa všetko neskopíruje a neprilepí do správy chatu v hlavnej miestnosti."
+  },
+  "pre1": {
+    "message": "Krok 1: Skopírujte si vopred priradený zoznam úloh študenta / oddelenej miestnosti"
+  },
+  "pre1a": {
+    "message": "Napríklad z ľubovoľného textového súboru môžete skopírovať zoznam úloh do chatu správ v hlavnej miestnosti."
+  },
+  "pre1b": {
+    "message": "Pri každom kopírovaní/vkladaní sa uistite, že neprekročíte obmedzenie četovej správy Google Meet na 500 znakov na jedno skopírovanie/vloženie. Ak má zoznam viac ako 500 znakov, budete musieť skopírovať/prilepiť po častiach, aby ste sa dostali pod obmedzenie 500 znakov na jedno skopírovanie/vloženie."
+  },
+  "pre2": {
+    "message": "Krok 2: Skopírujte / prilepte samostatné izby odkazy"
+  },
+  "pre2a": {
+    "message": "Kliknite prosím"
+  },
+  "pre2b": {
+    "message": "Tu"
+  },
+  "pre2c": {
+    "message": "potom prilepte správu chatu v hlavnej miestnosti (príkaz / ovládanie 'v')"
+  },
+  "preNumwords2a": {
+    "message": "This is just "
+  },
+  "preNumwords2b": {
+    "message": "characters, which is less than 500 characters maximum. OK to copy all at once"
+  },
+  "preNumwords2c": {
+    "message": "Toto je len "
+  },
+  "preNumwords2d": {
+    "message": "znakov, čo je viac ako maximum 500 znakov, čo znamená, že budete musieť skopírovať/prilepiť sekcie, aby ste sa dostali pod limit 500 znakov pre chatovú správu Google Meet pre jedno skopírovanie/vloženie. Možno budete musieť skopírovať 2 alebo 3 sekcie. Zvýraznite niekoľko riadkov a potom ich skopírujte/prilepte do chatu v hlavnej miestnosti, opakujte pre zostávajúce riadky, kým sa všetko neskopíruje a neprilepí do správy chatu v hlavnej miestnosti."
+  },
+  "helpNickname": {
+    "message": "Čo je: Prezývka, Kód, URL?"
+  },
+  "helpNickname1a": {
+    "message": "Prezývka:"
+  },
+  "helpNickname1b": {
+    "message": "Prezývka je učiteľom voľne zvolené meno, ktoré sa používa na otvorenie stretnutia. V rámci školy musí byť toto meno jedinečné, aby sa predišlo zámene s prezývkou iného učiteľa, ktorá má rovnaké meno. Jednou z metód, ako sa vyhnúť zmätku, je mať metodiku mena, ako je meno učiteľa, za ktorým nasleduje kurz a deň v týždni, čas. Príkladom je RHudek_Math1_050800. \n\n\rUpozorňujeme, že obmedzením služby Google Meet je, že prezývky musia byť v angličtine."
+  },
+  "helpNickname1c": {
+    "message": "Pre prezývky musíte používať angličtinu (obmedzenie Google Meet)"
+  },
+  "helpNickname1d": {
+    "message": ""
+  },
+  "helpNickname2": {
+    "message": "Upozorňujeme učiteľov Učebne Google:"
+  },
+  "helpNickname2a": {
+    "message": "Na stránke Učebne Google zadajte celý „odkaz na stretnutie“. Rozšírenie automaticky rozpozná posledných 10 znakov ako „prezývku“ Učebne Google."
+  },
+  "helpNickname3": {
+    "message": "Ak je napríklad odkaz na stretnutie v Učebni Google https://meet.google.com/lookup/g45j4fubqb, skopírujte celý odkaz a rozšírenie rozpozná zostávajúce g45j4fubqb ako „prezývku“"
+  },
+  "helpCode": {
+    "message": " Kód:"
+  },
+  "helpCode1a": {
+    "message": "Kód je zriedka používaná možnosť. Kód nie je voľne definovaný učiteľom. Kód je Google Meet priradený 12-znakový reťazec vo formáte 3 znaky, „-“, 4 znaky, „-“ a potom 3 znaky. Príkladom je abc-defg-hij. V tomto príklade je odkaz na stretnutie https://meet.google.com/abc-defg-hij."
+  },
+  "helpUrl": {
+    "message": "URL： "
+  },
+  "helpUrl1a": {
+    "message": "URL je veľmi flexibilná možnosť. Môžete zadať odkaz na google meet (https://meet.google.com/abc-defg-hij) alebo akýkoľvek odkaz, ktorý chcete použiť na vyučovanie. Učiteľ môže napríklad vopred naplánovať a uložiť odkazy na zdroje, ktoré chcú používať a otvárať počas vyučovania, ako napríklad https://en.wikipedia.org/wiki/Astronomy, https://www.freecodecamp.org/， YouTube https://youtu.be/C4_uJmH9hmc"
+  },
+
+  "muteRemove": {
+    "message": "Stlmiť, odstrániť študentov"
+  },
+  "reports": {
+    "message": "Správy"
+  },
+  "dropdownCourse": {
+    "message": "Kurzy"
+  },
+  "dropdownBreakouts": {
+    "message": "Samostatné Izby"
+  },
+  "default1": {
+    "message": "Ak je účet správny, všetko je v OK"
+  },
+  "default2": {
+    "message": "Ak účet nie je správny, postupujte takto:"
+  },
+  "default3a": {
+    "message": "Kliknite"
+  },
+  "default3b": {
+    "message": "Tu"
+  },
+  "default3c": {
+    "message": "Ak chcete spravovať poradie zoznamu účtov Google"
+  },
+  "default4": {
+    "message": "Odhláste sa zo všetkých svojich účtov"
+  },
+  "default5a": {
+    "message": "Váš účet google meet je PRVÝM účtom v zozname, do ktorého ste sa prihlásili. Ak prvý účet nie je vaším požadovaným účtom Google na vyučovanie, budete sa bohužiaľ musieť odhlásiť zo všetkých svojich účtov a znova sa prihlásiť. Chrome mal uložiť vaše prihlasovacie meno a heslá pre každý z vašich účtov, takže dúfajme, že opätovné prihlásenie nebude príliš náročné."
+  },
+  "default5b": {
+    "message": "Je veľmi dôležité používať rovnaký hlavný účet Google (prvý účet v zozname) na spustenie rozšírenia pre stretnutia a oddelenú miestnosť, aby sa zachovala konzistencia údajov rozšírenia"
+  },
+  "default5c": {
+    "message": "Nastavenia a otváranie stretnutí sú podľa vášho hlavného účtu Google (prvý účet v zozname)"
+  },
+  "default6": {
+    "message": "Keď sa znova prihlásite so správnou objednávkou (prvý účet je váš hlavný účet), môžete sa prihlásiť do všetkých svojich ostatných účtov Google"
+  },
+  "btnOpenMain": {
+    "message": "Otvoriť hlavnú miestnosť (alebo integrácia Učebne Google) "
+  },
+  "btnOpenMain1": {
+    "message": "Otvoriť hlavnú miestnosť (alebo integrácia Učebne Google) "
+  },
+  "btnOpenMainRam": {
+    "message": "Hlavná izba"
+  },
+  "btnOpenBreakouts": {
+    "message": "Otvoriť Samostatné Izby"
+  },
+  "btnOpenAll": {
+    "message": "Otvoriť všetko"
+  },
+  "checkRam": {
+    "message": "Normálne toto políčko za normálnych okolností NEZAčiarknite. Túto možnosť vyberte iba vtedy, ak má váš počítač obmedzenú pamäť RAM, napríklad menej ako 8 G RAM. Ak začiarknete toto políčko, všetky zlomy sú otvorené, ale na počítači učiteľa je viditeľný iba jeden, aby sa ušetrila pamäť. Učiteľ môže použiť posúvač na pohyb medzi miestnosťami."
+  },
+  "btnRam": {
+    "message": "Otvorte okno miestnosti, pomocou posúvača prejdite na ďalšie okno miestnosti"
+  },
+  "muteAllMain": {
+    "message": "Vypnúť zvuk všetkých študentov: Iba v hlavnej miestnosti"
+  },
+  "muteAllBreakouts": {
+    "message": "Vypnúť zvuk všetkých študentov: Vo všetkých oddelených miestnostiach "
+  },
+  "muteAllRooms": {
+    "message": "Vypnúť zvuk všetkých študentov: Hlavná miestnosť a Všetky oddelené miestnosti"
+  },
+  "muteAllThis": {
+    "message": "Vypnúť zvuk všetkých študentov: Iba v tejto miestnosti"
+  },
+  "removeAllThis": {
+    "message": "Odstrániť všetkých študentov：Iba v tejto miestnosti"
+  },
+  "removeBreakouts": {
+    "message": "*** Ukončite diskusie v oddelených miestnostiach: Odstráňte všetkých študentov z oddelených miestností"
+  },
+  "hangupBreakouts": {
+    "message": "*** Ukončenie diskusií v oddelených miestnostiach: Zatvorte všetky oddelené miestnosti"
+  },
+  "removeMain": {
+    "message": "*** Trieda dokončená：Odstráňte všetkých študentov z hlavnej miestnosti"
+  },
+  "hangupMain": {
+    "message": "*** Dokončená trieda: Zatvorte hlavnú miestnosť"
+  },
+  "reportsClipboard": {
+    "message": "Skopírovať do schránky"
+  },
+  "reportsCsv": {
+    "message": "Stiahnite si súbory CSV"
+  },
+  "reportsLinks": {
+    "message": "Odkazy na samostatné miestnosti"
+  },
+  "reportsAttendance": {
+    "message": "Dochádzka študentov"
+  },
+  "reportsAssignments": {
+    "message": "Zadania študenta / miestnosti"
+  },
+  "reportsGroups": {
+    "message": "Členovia oddelenej miestnosti"
+  },
+  "instructRoomLinks": {
+    "message": "Pomoc pri zadávaní odkazov na učebne"
+  },
+  "subHeadingRooms": {
+    "message": "Izby"
+  },
+  "code": {
+    "message": "kód"
+  },
+  "url": {
+    "message": "URL"
+  },
+  "nickname": {
+    "message": "Prezývka (iba v angličtine)"
+  },
+  "nicknameHelplink": {
+    "message": "Pomoc"
+  },
+  "genDisplay": {
+    "message": "Rozloženie izieb"
+  },
+  "genTiles": {
+    "message": "Dlažba: Samostatné okná"
+  },
+  "genTabs": {
+    "message": "Tabs: Window Tabs"
+  },
+  "genToolbarColor": {
+    "message": "Meet Farba panela s nástrojmi"
+  },
+  "genSolid": {
+    "message": "Jedna farba"
+  },
+  "genGrad": {
+    "message": "Gradient"
+  },
+  "genDropSolid": {
+    "message": "Jedna farba"
+  },
+  "genDropEnd": {
+    "message": "Koncové body"
+  },
+  "genDropMid": {
+    "message": "Stredný"
+  },
+  "rptYes": {
+    "message": "Áno"
+  },
+  "rptNo": {
+    "message": "Nie"
+  },
+  "rptTitleSSR": {
+    "message": "Status študenta"
+  },
+  "rptStudent": {
+    "message": "Študent"
+  },
+  "rptMain": {
+    "message": "Hlavná izba"
+  },
+  "rptActualRoom": {
+    "message": "Aktuálna izba"
+  },
+  "rptAssignRoom": {
+    "message": "Pridelená izba"
+  },
+  "rptTitleBRSR": {
+    "message": "Stav izba"
+  },
+  "rptBreakoutRoom": {
+    "message": "Izby"
+  },
+  "rptActualStudent": {
+    "message": "Skutoční študenti"
+  },
+  "rptAssignStudent": {
+    "message": "Pridelení študenti"
+  },
+  "setTimer": {
+    "message": "Nastaviť časovač"
+  },
+  "timerHrs": {
+    "message": "Hodiny"
+  },
+  "timerMin": {
+    "message": "Minúty"
+  },
+  "timerSec": {
+    "message": "Sekúnd"
+  },
+  "timerStart": {
+    "message": "Štart"
+  },
+  "timerStop": {
+    "message": "Stop"
+  },
+  "timerReset": {
+    "message": "Resetovať"
+  },
+  "enterCourses": {
+    "message": "Zadajte kurzy"
+  },
+  "firstRoomMain": {
+    "message": "Prvý rad je hlavná miestnosť, druhý rad sú izby"
+  },
+  "linksSaved": {
+    "message": "Odkazy uložené"
+  },
+  "mainName": {
+    "message": "Hlavná izba"
+  },
+  "roomsDupe": {
+    "message": "Nie je možné uložiť: Chyba, pretože názov miestnosti alebo odkazy nie sú jedinečné. Všetky izby musia mať názov"
+  },
+  "roomsCreatingUrl": {
+    "message": "Vytvára sa adresa URL"
+  },
+  "roomsSaved": {
+    "message": "Izby uložené"
+  },
+  "roomsNotYetSaved": {
+    "message": "Miestnosti ešte nie sú uložené"
+  },
+  "roomsUndo": {
+    "message": "Vrátenie späť"
+  },
+  "roomsNeedName": {
+    "message": "Nie je možné uložiť: Všetky miestnosti potrebujú názov (jedinečný)"
+  },
+  "roomsHowStart": {
+    "message": "Najjednoduchší spôsob:"
+  },
+  "roomsHowStart1": {
+    "message": "V odkazoch miestnosti nič nezadávajte. Kliknite na (modré) tlačidlo uložiť a rozšírenie si vyžiada odkaz od spoločnosti Google a vyplní ho za vás. Stačí dať každej izbe jedinečný názov, to je všetko!"
+  },
+  "roomsHowGc": {
+    "message": "Učitelia v triede Google:"
+  },
+  "roomsHowGc1": {
+    "message": "Z hlavnej stránky svojej učebne Google skopírujte „odkaz na stretnutie“ a prilepte ho sem ako odkaz na hlavnú miestnosť. Ak je napríklad váš odkaz na Meet https://meet.google.com/lookup/g45j4fubqb, skopírujte celý tento odkaz ako odkaz na hlavnú miestnosť a potom rozšírenie uloží posledných 10 znakov ako vašu prezývku "
+  },
+  "roomsHowGc2": {
+    "message": "g45j4fubqb"
+  },
+  "roomsHowGc3": {
+    "message": "Ak najprv otvoríte hlavnú miestnosť pomocou rozšírenia, automaticky sa synchronizuje s Učebňou Google. Ak najprv otvoríte hlavnú miestnosť pomocou Učebne Google, budete musieť kliknúť na položku Otvoriť hlavnú miestnosť, aby ste synchronizovali rozšírenie s Učebňou Google."
+  },
+  "roomsHowTypes": {
+    "message": "Prezývka, kód, URL:"
+  },
+  "roomsHowTypes1": {
+    "message": "Vysvetlenie pre tieto 3 typy:"
+  },
+  "roomsHowNick": {
+    "message": "Prezývka: "
+  },
+  "roomsHowNick1": {
+    "message": "Príklad prezývky "
+  },
+  "roomsHowNick2": {
+    "message": "Prezývka nesmie obsahovať webovú adresu, ako napríklad g.co/meet/ , meet.google.com/lookup/ . Prezývka je voľne zvolená, ale musí byť jedinečná v rámci školy a musí byť v angličtine (požiadavka Google Meet)"
+  },
+  "roomsHowNick3": {
+    "message": "Prezývka je zelenej farby. Prezývka je dynamický odkaz, pretože pri každom otvorení vytvorí novú adresu URL odkazu. Prezývka je dostupná iba vtedy, ak má váš účet Google túto funkciu (závisí od vášho školského účtu u Google)"
+  },
+  "roomsHowGcnick": {
+    "message": "Prezývka v triede Google: "
+  },
+  "roomsHowGcnick1": {
+    "message": "Príkladom je meet link address"
+  },
+  "roomsHowGcnick2": {
+    "message": "alebo posledných 10 znakov pre prezývku"
+  },
+  "roomsHowGcnick3": {
+    "message": "Pri zadávaní adresy odkazu môžete zadať adresu webového odkazu stretnutia alebo posledných 10 znakov prezývky, napríklad g45j4fubqb"
+  },
+  "roomsHowGcnick4": {
+    "message": "Prezývka Učebne Google má zelenú farbu"
+  },
+  "roomsHowCode": {
+    "message": "Kód: "
+  },
+  "roomsHowCode1": {
+    "message": "Kód má vždy 12 znakov tvaru: 3 znaky, -, 4 znaky, -, 3 znaky. Príkladom je "
+  },
+  "roomsHowCode2": {
+    "message": "Kód sa používa zriedka. Kód sa nevyberá voľne a automaticky ho prideľuje služba Google Meet. Napríklad webová stránka https://meet/google.com/new vám poskytne nový odkaz a ako kód môžete použiť posledných 12 znakov tohto odkazu."
+  },
+  "roomsHowCode3": {
+    "message": "Kód je statický odkaz, pretože sa nikdy nemení."
+  },
+  "roomsHowUrl": {
+    "message": "Meet Url"
+  },
+  "roomsHowUrl1": {
+    "message": "Toto môžete nechať prázdne (nezadávajte nič) a rozšírenie ho automaticky doplní za vás. Toto je najjednoduchší spôsob"
+  },
+  "roomsHowUrl2": {
+    "message": "Automaticky"
+  },
+  "roomsHowUrl3": {
+    "message": "vyžiadajte si od Google odkaz a vyplňte ho za vás. Alebo môžete vyplniť odkaz, ak už poznáte odkaz na stretnutie alebo ak chcete zadať akúkoľvek adresu URL.  "
+  },
+  "roomsHowUrl4": {
+    "message": "Webové adresy služby Meet sú statické, pretože sa nikdy nemenia. Je tu však jedna výnimka. Ak vo všeobecných nastaveniach zvolíte 'Automaticky požiadať o nový odkaz', potom pri každom otvorení stretnutia dostanete úplne nový, iný odkaz. Táto možnosť všeobecných nastavení sa používa zriedka, ale je k dispozícii, ak ju potrebujete"
+  },
+  "roomsHowUrl5": {
+    "message": "URL zdroja:"
+  },
+  "roomsHowUrl6": {
+    "message": "Adresa URL zdroja, zadajte celú webovú adresu URL vrátane https://. Príkladom je"
+  },
+  "roomsHowUrl7": {
+    "message": "Adresa URL zdroja je veľmi flexibilná, môžete zadať webovú stránku o vede, matematike alebo histórii a rozšírenie vám ju otvorí ako zdroj výučby."
+  },
+  "courseEnter": {
+    "message": "Zadajte názov kurzu"
+  },
+  "courseCourse": {
+    "message": " Kurz"
+  },
+  "courseDesc": {
+    "message": " Popis kurzu"
+  },
+  "coursesDupe": {
+    "message": " Nedá sa uložiť: Názov nie je jedinečný."
+  },
+  "coursesSaved": {
+    "message": " Uložené"
+  },
+  "coursesNotYetSaved": {
+    "message": "Údaje sa zmenili, ale neuložili sa"
+  },
+  "genSliderImg": {
+    "message": "Pozadie ovládacieho posúvača"
+  },
+  "genSliderPos": {
+    "message": "Pozícia obrázka"
+  },
+  "genSliderSize": {
+    "message": "Veľkosť obrazu"
+  },
+  "genSliderTextColor": {
+    "message": "Veľkosť textu"
+  },
+  "genSliderBackColor": {
+    "message": "Farba pozadia"
+  },
+  "genBroadImg": {
+    "message": "Vysielaný obrázok na pozadí"
+  },
+  "genBroadPos": {
+    "message": "Pozícia obrázka"
+  },
+  "genBroadSize": {
+    "message": "Veľkosť obrazu"
+  },
+  "genBroadTextColor": {
+    "message": "Farba textu"
+  },
+  "genBroadBackColor": {
+    "message": "Farba pozadia"
+  },
+  "genAutoEnter": {
+    "message": "Umožnite „outsiderom“ vstúpiť do triedy"
+  },
+  "genAutoEnter1": {
+    "message": "Ak je vybratá možnosť, „outsideri“ môžu vstúpiť automaticky"
+  },
+  "genAutoEnter2": {
+    "message": "Odporúčanie nie je vybraté "
+  },
+  "genAutoEnter3": {
+    "message": "Z bezpečnostných dôvodov "
+  },
+  "genAutoJoin": {
+    "message": "Ide o pohodlnú možnosť, ktorá vám umožní vstúpiť do izieb, keď sú otvorené. Odporúčam začiarknuté"
+  },
+  "genAutoJoinMain": {
+    "message": "Hlavná izba"
+  },
+  "genAutoJoinBreak": {
+    "message": "Samostatné izby"
+  },
+  "genAutoNewUrl": {
+    "message": "V prípade „statických“ odkazov, ako sú napríklad fialové odkazy, automaticky vytvorte nový odkaz na stretnutie pri každom otvorení. Táto možnosť sa často nevyberá."
+  },
+  "genAutoNewUrl1": {
+    "message": "Vždy, keď otvoríte stretnutie, automaticky vytvoríte nový odkaz na stretnutie. Toto nie je bežná možnosť, ale niektorí učitelia to požadovali z bezpečnostných dôvodov, aby mali vždy úplne nový odkaz. Upozorňujeme, že pri tejto možnosti budete musieť NAJPRV otvoriť hlavnú miestnosť, aby ste sa dozvedeli úplne nový odkaz na informovanie študentov prostredníctvom e-mailu alebo inej formy komunikácie. Nový odkaz bude po otvorení uložený na karte Trieda. Opäť to nie je bežná možnosť, ale je k dispozícii, ak ju potrebujete"
+  },
+  "genAutoNewUrl2": {
+    "message": "Upozorňujeme, že táto možnosť je relevantná iba pre „statické“ odkazy, ktoré majú fialovú farbu na karte Trieda"
+  },
+  "genAutoNewUrl3": {
+    "message": "Táto možnosť neovplyvňuje odkazy na prezývky (zelená farba) ani odkazy na kód (modrá farba)"
+  },
+  "genAutoNewUrlMain": {
+    "message": "Hlavná izba"
+  },
+  "genAutoNewUrlBreak": {
+    "message": "Samostatné izby"
+  },
+  "coursesExpimp": {
+    "message": "Export alebo Import všetkých údajov rozšírenia"
+  },
+  "coursesExpimpWarn": {
+    "message": "Poznámka: Importovaním sa prepíše celý obsah rozšírenia"
+  },
+  "coursesExp1": {
+    "message": "Exportujte všetky údaje rozšírenia"
+  },
+  "coursesExp2": {
+    "message": "File（.txt)"
+  },
+  "coursesExp3": {
+    "message": "Export"
+  },
+  "coursesImp1": {
+    "message": "Import all the extension data"
+  },
+  "coursesImp2": {
+    "message": "Súbor（.txt)"
+  },
+  "coursesImp3": {
+    "message": "Importovať"
+  },
+  "coursesBuiltWith": {
+    "message": "Vytvorené s ❤️ by Robert Hudek"
+  },
+  "roomsExpimp": {
+    "message": "Export Importovať odkazy tohto kurzu"
+  },
+  "roomsPopupTitle": {
+    "message": "Kurz: "
+  },
+  "roomsExp1": {
+    "message": "Exportujte informácie o tomto kurze"
+  },
+  "roomsExp2": {
+    "message": "Súbor（.txt)"
+  },
+  "roomsExp3": {
+    "message": "Export"
+  },
+  "roomsImp1": {
+    "message": "Importujte informácie o tomto kurze"
+  },
+  "roomsImp2": {
+    "message": "Súbor（.txt)"
+  },
+  "roomsImp3": {
+    "message": "Importovať"
+  },
+  "roomsBuiltWith": {
+    "message": "Vytvorené s ❤️ by Robert Hudek"
+  },
+  "errorAutoCreateLink": {
+    "message": "Problém so žiadosťou o odkaz na stretnutie. Potvrďte, že ste sa prihlásili do svojho správneho účtu google meet, ktorý je prvým účtom v zozname účtov google. Tento zoznam môžete skontrolovať pomocou tohto odkazu: https://accounts.google.com/SignoutOptions。Ak prvý účet v zozname nie je vaším hlavným vyučovacím účtom, odhláste sa zo všetkých účtov (prepáčte, ale toto je google proces) a potom sa prihláste do prvého účtu pomocou svojho hlavného vyučovacieho účtu. Potom sa môžete prihlásiť na svoje ďalšie účty. "
+  },
+  "errorNick1": {
+    "message": "Problém s vytvorením odkazu pomocou vašej prezývky:"
+  },
+  "errorNick2": {
+    "message": "Overte, či váš účet Google obsahuje funkciu prezývky. Túto funkciu má napríklad google suite a google education a iné typy účtov môžu tiež. Potvrďte tiež, že ste sa prihlásili do svojho správneho účtu google meet, ktorý je prvým účtom v zozname účtov google. Tento zoznam môžete skontrolovať pomocou tohto odkazu: https://accounts.google.com/SignoutOptions。Ak prvý účet v zozname nie je vaším hlavným vyučovacím účtom, odhláste sa zo všetkých účtov (prepáčte, ale toto je google proces) a potom sa prihláste do prvého účtu pomocou svojho hlavného vyučovacieho účtu. Potom sa môžete prihlásiť na svoje ďalšie účty. Ak váš účet Google nepodporuje prezývky, použite statické typy odkazov (fialové typy odkazov) na karte Trieda."
+  },
+  "errorBouncingBalls": {
+    "message": "Existuje okno stretnutia, ktoré sa nedá synchronizovať. V takom prípade zatvorte všetky okná stretnutia a tiež zatvorte okno rozšírenia ovládacieho panela. Potom znova otvorte okno rozšírenia a znova otvorte všetky okná stretnutia. Ak problémy pretrvávajú, možno bude potrebné zatvoriť prehliadač Chrome a potom ho znova otvoriť. *** Prosím, NEODINŠTALUJTE rozšírenie, pretože to nie je potrebné a odstránili by ste tým údaje rozšírenia. Stačí zavrieť a znova otvoriť okná."
+  },
+  "msgAllSync": {
+    "message": "Úspech: Všetky okná stretnutí boli synchronizované"
+  },
+  "msgBreakoutSync": {
+    "message": "Úspech: Všetky miestnosti boli synchronizované"
+  },
+  "msgMainSync": {
+    "message": "Úspech: Hlavná miestnosť synchronizovaná"
+  }
+}

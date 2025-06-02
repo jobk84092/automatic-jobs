@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>AddToAny Options</title>
+		<link href="menu.css" rel="stylesheet" type="text/css">
+		<link href="icons.38.svg.css" rel="stylesheet" type="text/css">
+		<script src="lib/jquery-3.7.1.min.js"></script>
+		<script src="lib/jquery-ui-1.13.2.min.js"></script>
+		<style>
+			html {
+				/* Minimum size for Chrome's embedded dialogue in new options (v2) */
+				min-width: 780px;
+			}
+			body {
+				background: white;
+				color: #2a2a2a;
+				font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+				font-size: 16px;
+				margin: 8px;
+			}
+			a:link,
+			a:visited {
+				color: #0166ff;
+			}
+			a:active,
+			a:hover {
+				color: #82b0ff;
+			}
+			#header {
+				display: inline-block;
+				line-height: 128px;
+				margin: 50px 0 25px;
+				text-align: center;
+				vertical-align: top;
+				width: 100%;
+			}
+			#header div {
+				background-size: 128px;
+				border-radius: 18px; /* ~ 128px * 14% */
+				display: inline-block;
+				height: 128px;
+				line-height: 128px;
+				margin-right: 10px;
+				vertical-align: top;
+				width: 128px;
+			}
+			#content {
+				margin: 25px;
+			}
+			#services {
+				/* display: flex applied in menu.css */
+				border: 1px solid #bfbfbf;
+				float: left;
+				margin: 0 0 25px 0;
+				border-radius: 3px;
+				width: 168px; /* 150px + (16px padding and 2px border)  */
+				box-shadow: 0 0 10px #bfbfbf;
+			}
+			#services div.row {
+				cursor: move;
+			}
+			#available {
+				/* display: flex applied in menu.css */
+				margin-left: 195px; /* Same as "Save" button */
+			}
+			#available div.row {
+				border-radius: 6px;
+				cursor: pointer;
+			}
+			#available .selected {
+				border: 1px dashed #0166ff;
+			}
+			#instructional_header {
+				margin-bottom: 10px;
+			}
+			#instructional_header span {
+				color: #333;
+				display: inline-block;
+			}
+			#instructional_header span:first-child {
+				width: 192px;
+			}
+			#custom_services,
+			.custom_service,
+			.file_input {
+				display: none;
+			}
+			#custom_services label:nth-last-child(2) {
+				margin-bottom: 8px;
+			}
+			#custom_services input {
+				margin-left: 10px;
+			}
+			#custom_services .custom_icon {
+				border-radius: 4px;
+				cursor: pointer;
+				margin: 10px 0;
+				height: 24px;
+				width: 24px;
+			}
+			#custom_services .custom_icon img {
+				border-radius: 4px;
+			}
+			#custom_services .custom_icon,
+			#custom_services .custom_icon_error {
+				color: #FF4136;
+				display: inline-block;
+				vertical-align: middle;
+			}
+			#custom_services .custom_url_tip_show {
+				text-decoration: none;
+			}
+			#custom_services .custom_url_tip {
+				display: none;
+				margin: 0 0 10px;
+			}
+			#custom_services .custom_delete,
+			#custom_services .custom_save {
+				display: none;
+				margin: 10px 0 20px;
+			}
+			#custom_services .custom_save {
+				margin-right: 10px;
+			}
+			#one_click_option,
+			#email_new_tab_option {
+				display: none;
+			}
+			.options_checkboxes {
+				margin: 0 0 10px;
+			}
+			.options_container {
+				margin: 30px 0 0 204px; /* margin-left of #available + icon:hover padding */
+			}
+			.options_row {
+				margin: 20px 0;
+			}
+			button {
+				background-color: rgba(12, 12, 13, 0.1);
+				border: 1px solid transparent;
+				border-radius: 2px;
+				color: #0c0c0d;
+				font-family: inherit;
+				font-size: 13px;
+				height: 32px;
+				padding: 0 8px;
+			}
+			button:hover {
+				background-color: rgba(12, 12, 13, 0.2);
+			}
+			button:active {
+				background-color: rgba(12, 12, 13, 0.3);
+			}
+			button:focus {
+				box-shadow: 0 0 0 1px #0a84ff inset, 0 0 0 1px #0a84ff, 0 0 0 4px rgba(10, 132, 255, 0.3);
+			}
+			button#close {
+				margin-right: 10px;
+			}
+			label {
+				color: #0c0c0d;
+				display: block;
+				padding: 8px 0;
+			}
+			input[type="text"],
+			input[type="url"] {
+				border: 1px solid rgba(12, 12, 13, 0.2);
+				border-radius: 2px;
+				font: inherit;
+				height: 32px;
+				padding: 0 8px;
+			}
+			input[type="text"]:hover,
+			input[type="url"]:hover {
+				border-color: rgba(12, 12, 13, 0.3);
+			}
+			input[type="text"]:focus,
+			input[type="url"]:focus {
+				border-color: #0a84ff;
+				box-shadow: 0 0 0 1px #0a84ff, 0 0 0 4px rgba(10, 132, 255, 0.3);
+			}
+			input[type="text"]:focus:invalid,
+			input[type="url"]:focus:invalid {
+				border-color: #d70022;
+				box-shadow: 0 0 0 1px #d70022, 0 0 0 4px rgba(251, 0, 34, 0.3);
+			}
+			::placeholder {
+				color: #737373;
+			}
+			#footer {
+				clear: left;
+				margin: 50px;
+				text-align: center;
+			}
+			.ui-sortable-placeholder {
+				border: 1px dashed #0166ff;
+				height: 40px;
+				width: 168px;
+			}
+			@media (prefers-color-scheme: dark) {
+				body {
+					background: #2a2a2a;
+					color: #fff;
+				}
+				button,
+				label {
+					color: #fff;
+				}
+				button {
+					background-color: rgba(249, 249, 250, 0.1);
+				}
+				button:hover {
+					background-color: rgba(249, 249, 250, 0.15);
+				}
+				button:active {
+					background-color: rgba(249, 249, 250, 0.2);
+				}
+				input[type="text"],
+				input[type="url"] {
+					background-color: #202023;
+					border-color: rgba(249,249,250,0.2);
+					color: #fff;
+				}
+				input[type="text"]:hover,
+				input[type="url"]:hover {
+					border-color: rgba(249,249,250,0.3);
+				}
+				a:link,
+				a:visited {
+					color: #fff;
+				}
+				a:active,
+				a:hover {
+					color: #ccc;
+				}
+				#instructional_header span {
+					color: #fff;
+				}
+				#available .selected,
+				.ui-sortable-placeholder {
+					border: 1px dashed #fff;
+				}
+				#custom_services .custom_icon {
+					border: 1px dashed white;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		
+		<h1 id="header">
+			<div class="a2a_s_a2a" style="background-color:#0166FF"></div>
+			AddToAny Options
+		</h1>
+		
+		<div id="content">
+			<div id="instructional_header">
+				<span>Drag to sort services</span>
+				<span>Click to add or remove services</span>
+			</div>	
+			
+			<div class="services_container" id="services"></div>
+			
+			<div class="services_container" id="available"></div>
+			
+			<div class="options_container">
+				<div class="options_row">
+					<div id="custom_services">
+						<h3>Custom services</h3>
+					</div>
+					<button id="add_custom_service">Add custom service&#8230;</button>
+				</div>
+				<div class="options_checkboxes">
+					<label>
+						<input type="checkbox" id="context_menu" class="save_on_change">
+						Enable AddToAny in the context menu
+					</label>
+					<label id="one_click_option">
+						<input type="checkbox" id="one_click" class="save_on_change">
+						Enable one-click to <span class="one_click_single_service">the single service</span> instead of the AddToAny menu
+					</label>
+					<label id="email_new_tab_option" class="save_on_change">
+						<input type="checkbox" id="email_new_tab">
+						Open Email service in a new tab
+					</label>
+				</div>
+				<div class="options_row">
+					<button id="close">Close</button>
+					<button id="reset">Reset</button>
+				</div>
+			</div>
+			
+			<div class="clear"></div>
+			
+		</div>
+		
+		<div id="footer">
+			&copy; <a href="https://www.addtoany.com/" target="_blank">AddToAny</a>
+		</div>
+		
+		<script src="options.js" type="module"></script>
+	</body>
+</html>

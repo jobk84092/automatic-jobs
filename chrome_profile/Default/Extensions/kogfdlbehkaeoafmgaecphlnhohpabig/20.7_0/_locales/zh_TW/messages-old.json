@@ -1,0 +1,792 @@
+{
+  "extName": {
+    "message": "Google Meet 分組 by 胡浩洋"
+  },
+  "extDesc": {
+    "message": "同時看所有討論室的學生，全面免費，資料不外洩，中文板的說明影片， 與谷歌教室整合, 滑桿控制, 控制面板，暱稱連結"
+  },
+  "title": {
+    "message": "分組"
+  },
+  "myCourse": {
+    "message": "我的課"
+  },
+  "myCourseDesc": {
+    "message": "我自己的課"
+  },
+  "headline1a": {
+    "message": "免費使用，資料不外洩，"
+  },
+  "headline1b": {
+    "message": "胡浩洋"
+  },
+  "headline1c": {
+    "message": "用"
+  },
+  "headline1d": {
+    "message": "創作的，"
+  },
+  "headline1e": {
+    "message": "注釋"
+  },
+  "toolTipRetile": {
+    "message": "重新視窗格式"
+  },
+  "toolTipToolbar": {
+    "message": "隱藏/顯示Meet下面Toolbar"
+  },
+  "onlineVideoTitle": {
+    "message": "說明操作的影片（中文版 v17.3）"
+  },
+  "onlineVideoHref": {
+    "message": "https://youtu.be/5oGmIL3pmP4"
+  },
+  "audioHeadline": {
+    "message": "如何解決喇叭的斷斷續續問題，請按這裡"
+  },
+  "audioFixTitle": {
+    "message": "新解法針對喇叭斷斷續續隨機的問題"
+  },
+  "audioFixIntro": {
+    "message": "我建議把這個選擇給打勾(默認的狀態），所以不用改就留著打勾（X）的狀態。如果你使用這個解法（打勾）後，發現喇叭不穩定，不好控制等等 請email robert@hudektech.com 通知我。 不打勾的話（o)是使用舊的解法（不建議）。如果想換成打勾的狀態（x 或 o）,請記得打勾後需要把所有的meet 給關掉重新開因為打勾是換成喇叭的方式，會使meet擴充功能不太知道喇叭現在的狀態（開或關），所以換成狀態後需要重新開。重複一次，建議留著打勾（X)的狀態，不要改"
+  },
+  "audioFixFirst": {
+    "message": "怎麼自願選這個解法？"
+  },
+  "audioFixOptin": {
+    "message": "怎麼自願選這個解法？"
+  },
+  "audioFixOptin1": {
+    "message": "請打勾 (x)"
+  },
+  "audioFixOptin2": {
+    "message": "若有已開的meets都必須關掉 （可能沒有）"
+  },
+  "audioFixOptin3": {
+    "message": "把關掉的meets重新開 （可能沒有）"
+  },
+  "audioFixSecond": {
+    "message": "如果使用新的解法後發生喇叭問題，就能退回原本解法"
+  },
+  "audioFixFallback": {
+    "message": "怎麼自願選這個解法？"
+  },
+  "audioFixFallback1": {
+    "message": "請打勾 (空的)"
+  },
+  "audioFixFallback2": {
+    "message": "若有已開的meets都必須關掉 （可能沒有）"
+  },
+  "audioFixFallback3": {
+    "message": "把關掉的meets重新開 （可能沒有）"
+  },
+  "audioFixCheckbox": {
+    "message": "使用新的解法"
+  },
+  "audioFixRecommend": {
+    "message": "(建議) "
+  },
+  "meet": {
+    "message": "快樂上課"
+  },
+  "rooms": {
+    "message": "教室設定"
+  },
+  "courses": {
+    "message": "課程設定"
+  },
+  "settings": {
+    "message": "一般設定"
+  },
+  "btnStudentsReport": {
+    "message": "學生"
+  },
+  "btnRoomsReport": {
+    "message": "教室"
+  },
+  "broadcast": {
+    "message": "廣播到所有討論室"
+  },
+  "sliderDefault": {
+    "message": "分組"
+  },
+  "defaultAccount": {
+    "message": "你的帳戶是 "
+  },
+  "startClass": {
+    "message": "開始上課"
+  },
+  "assignBreakoutsAdhoc": {
+    "message": "現場分組"
+  },
+  "assignBreakoutsPre": {
+    "message": "預先分組"
+  },
+  "adhoc0": {
+    "message": "請注意，在同學不能被推入分組室。老師需要傳給他們連結，然後學生自願按該連結進入分組室。為了在一個google meet裡看您所有的學生，我建議裝這件擴充功能："
+  },
+  "adhoc1": {
+    "message": "第一步驟：分組學生，有幾個方式"
+  },
+  "adhoc1a": {
+    "message": "隨機分組：請按 「隨機」按鈕。能繼續按按鈕幾次才看到妳喜歡的隨機形成的小組。如果想調整小組，能直接在兩個小組之間拖放人交換 （第二個方法）"
+  },
+  "adhoc1b": {
+    "message": "手動調整：把學生的名字按住，然後在組之間拖放移動"
+  },
+  "adhoc1c": {
+    "message": "排除被隨機分組：在學生的名字上按一下，可切換排除加入"
+  },
+  "adhoc1d": {
+    "message": "手動排除：把學生的名字按住，然後往左邊拖放"
+  },
+  "adhoc11a": {
+    "message": "如果在下面名單沒看到任何的學生名字，可能是因為你的大教室裡面沒有學生"
+  },
+  "adhoc11b": {
+    "message": "這裡"
+  },
+  "adhoc12a": {
+    "message": "如果在下面名單漏掉一些學生，可能因為你的google meet畫面不顯示所有的學生，請確認在google meet 最下面右邊的「。。。」更多選項按鈕，裡面的「變更版面配置」你選了圖塊， 並選了顯示 49 參與者，（拉滑幹到最右邊）"
+  },
+  "adhoc12b": {
+    "message": "這裡"
+  },
+  "adhoc13a": {
+    "message": "Google Classroom 使用者，"
+  },
+  "adhoc13b": {
+    "message": "請確認在「教室設定」標籤裡，大教室的連結是綠色的，並連結「暱稱」是google classroom meet link 的尾10個字, 然後你按了發起大教室按鈕"
+  },
+  "adhoc2": {
+    "message": "第2與3步驟：複製討論室連結及學生分組名單"
+  },
+  "adhoc2a": {
+    "message": "在你妥善分組好後，請按"
+  },
+  "adhoc2b": {
+    "message": "這裡"
+  },
+  "adhoc2c": {
+    "message": "。"
+  },
+  "btnRandom": {
+    "message": "隨機分組"
+  },
+  "lblStudents": {
+    "message": "學生"
+  },
+  "lblBreakoutRooms": {
+    "message": "討論室"
+  },
+  "lblBreakoutAssigns": {
+    "message": "分組"
+  },
+  "popupHelpAdhoc": {
+    "message": "現場分組"
+  },
+  "popupHelpAdhocStep2": {
+    "message": "第二步驟：複製貼上討論室連結"
+  },
+  "popupHelpAdhocStep2a": {
+    "message": "請按"
+  },
+  "popupHelpAdhocStep2b": {
+    "message": "這裡"
+  },
+  "popupHelpAdhocStep2c": {
+    "message": "為了複製討論室連結，然後在大教室即時通訊貼上 (command/control v)"
+  },
+  "popupHelpAdhocNumwords2a": {
+    "message": "這個複製只有"
+  },
+  "popupHelpAdhocNumwords2b": {
+    "message": "個字，是低於500個字一次複製貼上限制，所以能一次複製貼上"
+  },
+  "popupHelpAdhocNumwords2c": {
+    "message": "這個複製有"
+  },
+  "popupHelpAdhocNumwords2d": {
+    "message": "個字，是超越500個字一次複製貼上限制，所以需要在下面的報告，幾次：突出幾行，複製粘貼在大教室即時通訊裡。每次不超過500個字。"
+  },
+  "popupHelpAdhocStep3": {
+    "message": "第三步驟：複製貼上學生分組"
+  },
+  "popupHelpAdhocStep3a": {
+    "message": "請按"
+  },
+  "popupHelpAdhocStep3b": {
+    "message": "這裡"
+  },
+  "popupHelpAdhocStep3c": {
+    "message": "為了複製學生分組，然後在大教室即時通訊貼上 (command/control v)"
+  },
+  "popupHelpAdhocNumwords3a": {
+    "message": "這個複製只有"
+  },
+  "popupHelpAdhocNumwords3b": {
+    "message": "個字，是低於500個字一次複製貼上限制，所以能一次複製貼上"
+  },
+  "popupHelpAdhocNumwords3c": {
+    "message": "這個複製有"
+  },
+  "popupHelpAdhocNumwords3d": {
+    "message": "個字，是超越500個字一次複製貼上限制，所以需要在下面的報告，幾次：突出幾行，複製粘貼在大教室即時通訊裡。每次不超過500個字。"
+  },
+  "pre1": {
+    "message": "第一步驟：複製你事先分組的名單"
+  },
+  "pre1a": {
+    "message": "比方說，從MS Word 檔案複製分組名單，然後在大教室即時通訊貼上。這樣做，學生們會知道他們被分組的聊天教室"
+  },
+  "pre1b": {
+    "message": "每次複製粘貼，請注意google meet的即時通訊有500個字限制，所以可能需要複製粘貼幾次"
+  },
+  "pre2": {
+    "message": "第二步驟：複製討論室連結"
+  },
+  "pre2a": {
+    "message": "請按"
+  },
+  "pre2b": {
+    "message": "這裡"
+  },
+  "pre2c": {
+    "message": "然後在大教室即時通訊貼上"
+  },
+  "preNumwords2a": {
+    "message": "這個複製只有"
+  },
+  "preNumwords2b": {
+    "message": "個字，是低於500個字一次複製貼上限制，所以能一次複製貼上"
+  },
+  "preNumwords2c": {
+    "message": "這個複製有"
+  },
+  "preNumwords2d": {
+    "message": "個字，是超越500個字一次複製貼上限制，所以需要在下面的報告，幾次：突出幾行，複製粘貼在大教室即時通訊裡。每次不超過500個字。"
+  },
+  "helpNickname": {
+    "message": "什麼是：暱稱、代碼、URL？"
+  },
+  "helpNickname1a": {
+    "message": "暱稱："
+  },
+  "helpNickname1b": {
+    "message": "暱稱是一個老師自由選的名稱，用它來方便發起一個meet。 在一個使用者的組織內（比方說學校）「暱稱」是獨一無二的名稱，小心不要重複用別老師的名稱，要不讓會干擾該老師的meet。 為了避免同名的暱稱，學校能設一個製作暱稱的格式規則：全名，課程，自由。比方說：huhaoyang_math1_050810。兩個學校因為是不同組織不會有互相衝突。\n\n\r請注意：暱稱必須用 english."
+  },
+  "helpNickname1c": {
+    "message": "You must use english for nicknames"
+  },
+  "helpNickname1d": {
+    "message": "另外，在暱稱的名字內，請不要輸入任何的網站字首。譬如說在暱稱名字內 g.co/meet/ 或 meet.google.com/lookup/ 都是不行。例外是 Google Classroom 老師能輸入全meet link, 解釋下面"
+  },
+  "helpNickname2": {
+    "message": "請注意 Google Classroom 的老師： "
+  },
+  "helpNickname2a": {
+    "message": " 在這裏老師能把Google Classroom 'meet link:' 的全部輸入，擴充功能軟體會自動從這個 meet link 篩選出來最後10個字，就是你的google classroom 系統隨機定義給你的「暱稱」。"
+  },
+  "helpNickname3": {
+    "message": "比方說，我的 Google Classroom meet link 是 https://meet.google.com/lookup/g45j4fubqb。 我把這個網址的全部複製粘貼輸入，然後軟體會自動地篩選留著最後10個字：g45j4fubqb.  這是我google classroom 隨機給我的「暱稱」，g45j4fubqb"
+  },
+  "helpCode": {
+    "message": " 代碼： "
+  },
+  "helpCode1a": {
+    "message": "代碼是總共12個字的：三個字，一個「-」，四個字，一個「-」，三個字。一個例子是：abc-defg-hij. 請注意留著兩個分割「-」。  這個代碼是google meet 網址「https://meet.google.com/」後面12個子，比方說： https://meet.google.com/sik-akes-ilq？user=0. 在這裡代碼是 sik-akes-ilq"
+  },
+  "helpUrl": {
+    "message": "URL： "
+  },
+  "helpUrl1a": {
+    "message": "URL 很有彈性用途。一個例子是 google meet 的全網址： https://meet.google.com/abc-defg-hij.  或許老師在課堂上想使用的網站，比方說：https://en.wikipedia.org/wiki/Astronomy, 或 https://www.freecodecamp.org/， 或 YouTube https://youtu.be/C4_uJmH9hmc"
+  },
+
+  "muteRemove": {
+    "message": "靜音，移除學生"
+  },
+  "reports": {
+    "message": "報告"
+  },
+  "dropdownCourse": {
+    "message": "課程"
+  },
+  "dropdownBreakouts": {
+    "message": "幾個分組"
+  },
+  "default1": {
+    "message": "若上述的帳戶是對的，不需要做什麼"
+  },
+  "default2": {
+    "message": "若帳戶不是對的，請照下面的指示處理"
+  },
+  "default3a": {
+    "message": "請按"
+  },
+  "default3b": {
+    "message": "這裏"
+  },
+  "default3c": {
+    "message": "為了管理google帳號的順序"
+  },
+  "default4": {
+    "message": "登出所有的帳戶"
+  },
+  "default5a": {
+    "message": "你的google meet 帳戶是你登入了第一個帳戶。如果你想用的帳戶不是順序第一個，只能先把所有的帳戶登出，重新登入了，這次第一個帳戶是你想用的google meet 帳戶"
+  },
+  "default5b": {
+    "message": "很重要注意並使用同樣的帳戶設計與發起視訊會議"
+  },
+  "default5c": {
+    "message": "設計與發起的視訊會議算你的google meet 帳戶的主人"
+  },
+  "default6": {
+    "message": "重新登入準確的順序，你就能設計與發起視訊會議"
+  },
+  "btnOpenMain": {
+    "message": "發起大教室（與google classroom 會議整合）"
+  },
+  "btnOpenMain1": {
+    "message": "發起大教室（與google classroom 會議整合）"
+  },
+  "btnOpenMainRam": {
+    "message": "大教室"
+  },
+  "btnOpenBreakouts": {
+    "message": "發起分組討論室"
+  },
+  "btnOpenAll": {
+    "message": "發起全部室（大教室與google classroom 會議整合）"
+  },
+  "checkRam": {
+    "message": "平常不勾選。若記憶體（RAM）低於8G 能勾選。勾選後，大教室和分組室仍會開啟，但一次只能觀看一個視窗。用滑桿操作會同步關閉目前視訊與開啟接下來的視訊"
+  },
+  "btnRam": {
+    "message": "開 視訊，用滑桿輪流開視訊"
+  },
+  "muteAllMain": {
+    "message": "靜音所有學生：在大教室"
+  },
+  "muteAllBreakouts": {
+    "message": "靜音所有學生：在所有分組討論室"
+  },
+  "muteAllRooms": {
+    "message": "靜音所有學生：在大教室與所有分組討論室"
+  },
+  "muteAllThis": {
+    "message": "靜音所有學生：在這件教室"
+  },
+  "removeAllThis": {
+    "message": "移除所有學生：從這件教室"
+  },
+  "removeBreakouts": {
+    "message": "*** 討論完畢： 移除學生從所有討論室"
+  },
+  "hangupBreakouts": {
+    "message": "*** 討論完畢：關閉所有討論室"
+  },
+  "removeMain": {
+    "message": "*** 下課了：移除學生從大教室"
+  },
+  "hangupMain": {
+    "message": "*** 下課了：關閉大教室"
+  },
+  "reportsClipboard": {
+    "message": "複製到剪貼板"
+  },
+  "reportsCsv": {
+    "message": "同時下載csv檔案"
+  },
+  "reportsLinks": {
+    "message": "分組視訊的網址"
+  },
+  "reportsAttendance": {
+    "message": "出席名單"
+  },
+  "reportsAssignments": {
+    "message": "學生分配的小組"
+  },
+  "reportsGroups": {
+    "message": "小組的學生"
+  },
+  "instructRoomLinks": {
+    "message": "說明怎麼輸入教室連結"
+  },
+  "subHeadingRooms": {
+    "message": "教室"
+  },
+  "code": {
+    "message": "代碼"
+  },
+  "url": {
+    "message": "網址"
+  },
+  "nickname": {
+    "message": "暱稱（English)"
+  },
+  "nicknameHelplink": {
+    "message": "說明"
+  },
+  "genDisplay": {
+    "message": "分組討論室的格式"
+  },
+  "genTiles": {
+    "message": "Tiles: 獨立的視窗"
+  },
+  "genTabs": {
+    "message": "Tabs: 視窗內標籤"
+  },
+  "genToolbarColor": {
+    "message": "Meet Toolbar 顏色"
+  },
+  "genSolid": {
+    "message": "純色"
+  },
+  "genGrad": {
+    "message": "漸變色"
+  },
+  "genDropSolid": {
+    "message": "純色"
+  },
+  "genDropEnd": {
+    "message": "兩邊"
+  },
+  "genDropMid": {
+    "message": "中間"
+  },
+  "rptYes": {
+    "message": "是"
+  },
+  "rptNo": {
+    "message": "否"
+  },
+  "rptTitleSSR": {
+    "message": "學生狀態"
+  },
+  "rptStudent": {
+    "message": "學生"
+  },
+  "rptMain": {
+    "message": "在大教室裡"
+  },
+  "rptActualRoom": {
+    "message": "實際的討論室"
+  },
+  "rptAssignRoom": {
+    "message": "分組的討論室"
+  },
+  "rptTitleBRSR": {
+    "message": "討論室狀態"
+  },
+  "rptBreakoutRoom": {
+    "message": "討論室"
+  },
+  "rptActualStudent": {
+    "message": "實際的學生"
+  },
+  "rptAssignStudent": {
+    "message": "分組的學生"
+  },
+  "setTimer": {
+    "message": "設計計時器"
+  },
+  "timerHrs": {
+    "message": "小時"
+  },
+  "timerMin": {
+    "message": "分鐘"
+  },
+  "timerSec": {
+    "message": "秒鐘"
+  },
+  "timerStart": {
+    "message": "開始"
+  },
+  "timerStop": {
+    "message": "暫停"
+  },
+  "timerReset": {
+    "message": "重置"
+  },
+  "enterCourses": {
+    "message": "請輸入你的課程"
+  },
+  "firstRoomMain": {
+    "message": "第一行教室是大教室，第二行之後是討論室"
+  },
+  "linksSaved": {
+    "message": "教室連接儲存了"
+  },
+  "mainName": {
+    "message": "大教室"
+  },
+  "roomsDupe": {
+    "message": "無法儲存：教室名字重複或連結重複。都必須獨一無二的"
+  },
+  "roomsCreatingUrl": {
+    "message": "正在製作教室的連結並儲存"
+  },
+  "roomsSaved": {
+    "message": "教室與連結儲存了"
+  },
+  "roomsNotYetSaved": {
+    "message": "注意：更改還沒儲存了"
+  },
+  "roomsUndo": {
+    "message": "改回來了"
+  },
+  "roomsNeedName": {
+    "message": "無法儲存：每一間教室需要名字"
+  },
+  "roomsHowStart": {
+    "message": "最簡單的方法: "
+  },
+  "roomsHowStart1": {
+    "message": "在連結欄位裡，不填寫任何的東西。按（藍色的）儲存按鈕，系統會自動向google 申請一個meet 網址並在這裡儲存。您只要填寫教室的名字而已。這個自動的連結是一個靜態的連結，不會變"
+  },
+  "roomsHowGc": {
+    "message": "Google Classroom 老師： "
+  },
+  "roomsHowGc1": {
+    "message": "請從google classroom 首頁，複製meet link 然後在這裡的連結欄位粘貼。比方說，我的Meet link 是 https://meet.google.com/lookup/g45j4fubqb.  在連結欄位粘貼後，擴充功能會把前面的字 https://meet.google.com/lookup/ 除掉，留著後面的10個子。在我的例子留著 "
+  },
+  "roomsHowGc2": {
+    "message": "g45j4fubqb"
+  },
+  "roomsHowGc3": {
+    "message": "如果大教室是在這個擴充功能發起的，擴充功能軟體與google classroom 已經sync （聯繫）。如果大教室是在google classroom 網頁發起的，必須在擴充功能的「快樂上課」的標籤，「開始上課」部分，按「發起大教室」的按鈕，就會讓google classroom 與 擴充功能軟體 sync （聯繫）。"
+  },
+  "roomsHowTypes": {
+    "message": "暱稱，代碼，URLs： "
+  },
+  "roomsHowTypes1": {
+    "message": "有三種的連結，解釋如下 "
+  },
+  "roomsHowNick": {
+    "message": "暱稱： "
+  },
+  "roomsHowNick1": {
+    "message": "暱稱例子是 "
+  },
+  "roomsHowNick2": {
+    "message": "暱稱不能包含任何網址字首，比方說 g.co/meet/ ，meet.google.com/lookup/ 都不行。暱稱是自由選的，可以包含數字，不過暱稱必須要用英文 (must use english nicknames, no chinese characters)"
+  },
+  "roomsHowNick3": {
+    "message": "教室暱稱是綠色的。暱稱是變態的，每次發起，會有不一樣的網址 "
+  },
+  "roomsHowGcnick": {
+    "message": "Google Classroom 暱稱： "
+  },
+  "roomsHowGcnick1": {
+    "message": "例子是meet 全網址"
+  },
+  "roomsHowGcnick2": {
+    "message": "或最後10個子 "
+  },
+  "roomsHowGcnick3": {
+    "message": "在連結欄位裡，能輸入全meet link，或最後10個字。如果輸入全網址，擴充功能軟體會除掉前面的字，只留著最後10個字。在這個例子裡，就是 g45j4fubqb "
+  },
+  "roomsHowGcnick4": {
+    "message": "Google Classroom 暱稱是綠色的因為他們是變態的，因為每次發起會變成不同的網址 "
+  },
+  "roomsHowCode": {
+    "message": "代碼： "
+  },
+  "roomsHowCode1": {
+    "message": "代碼總共有12個字，按照這個格式：三個字，一個「-」，四個字，一個「-」，三個字「-」。例子是"
+  },
+  "roomsHowCode2": {
+    "message": "代碼不是你自己隨機做的，而是google meet製作的。比方說如果用這個網址：https://meet/google.com/new 會有一個新的meet 發起，在網址能看得出來這個12個字，就是你的代碼"
+  },
+  "roomsHowCode3": {
+    "message": "代碼是靜態的因為總是發起同樣的meet網址。"
+  },
+  "roomsHowUrl": {
+    "message": "Meet Url"
+  },
+  "roomsHowUrl1": {
+    "message": "如果在連結欄位留著空的，擴充功能軟體會"
+  },
+  "roomsHowUrl2": {
+    "message": "自動地"
+  },
+  "roomsHowUrl3": {
+    "message": "向google 申請一個連結網址並儲存. 或許你能直接輸入一個全網址，在這個格式："
+  },
+  "roomsHowUrl4": {
+    "message": "Meet URLs 是靜態的因為他們總是發起同樣的網址沒變。不過在「一般設計」的標籤裡，有一個「自動發起新的網址】勾子，如果打勾這個選項，每次發起會自動換新的網址。如果你選這個選項，要注意發起後通知學生這個新的網址。這個選項可能比較適合討論室也不是大教室"
+  },
+  "roomsHowUrl5": {
+    "message": "資料 URL： "
+  },
+  "roomsHowUrl6": {
+    "message": "資料URL 需要全部網址，包含 https://. 例子是"
+  },
+  "roomsHowUrl7": {
+    "message": "資料 URL 很有彈性，可能一個科學網站，數學網站，歷史網站，音樂的，等等"
+  },
+  "courseEnter": {
+    "message": "請輸入您的課程名單"
+  },
+  "courseCourse": {
+    "message": " 課程"
+  },
+  "courseDesc": {
+    "message": " 課程說明"
+  },
+  "coursesDupe": {
+    "message": " 無法儲存：名字是重複了，名字需要獨一無二的"
+  },
+  "coursesSaved": {
+    "message": " 儲存了"
+  },
+  "coursesNotYetSaved": {
+    "message": "變改還沒儲存了"
+  },
+  "genSliderImg": {
+    "message": "滑桿控制背景畫面"
+  },
+  "genSliderPos": {
+    "message": "畫面位置"
+  },
+  "genSliderSize": {
+    "message": "畫面大小"
+  },
+  "genSliderTextColor": {
+    "message": "字體顏色"
+  },
+  "genSliderBackColor": {
+    "message": "背景顏色"
+  },
+  "genBroadImg": {
+    "message": "廣播背景畫面"
+  },
+  "genBroadPos": {
+    "message": "畫面位置"
+  },
+  "genBroadSize": {
+    "message": "畫面大小"
+  },
+  "genBroadTextColor": {
+    "message": "字體顏色"
+  },
+  "genBroadBackColor": {
+    "message": "背景顏色"
+  },
+  "genAutoEnter": {
+    "message": "讓「外人」自動進入教室"
+  },
+  "genAutoEnter1": {
+    "message": "若勾選的話，外人能透過教室的連結自動近來"
+  },
+  "genAutoEnter2": {
+    "message": "平常建議不勾選（留空的）"
+  },
+  "genAutoEnter3": {
+    "message": "因為安全的關係"
+  },
+  "genAutoJoin": {
+    "message": "關於這個擴充功管理的教室，發起時候會自動按「加入」按鈕。這是方便的功能"
+  },
+  "genAutoJoinMain": {
+    "message": "大教室"
+  },
+  "genAutoJoinBreak": {
+    "message": "討論室"
+  },
+  "genAutoNewUrl": {
+    "message": "關於「靜態」教室連結（紫色的）自動換新的"
+  },
+  "genAutoNewUrl1": {
+    "message": "每次發起會議，自動換新的meet網址連結，這個選項算一個安全的方法但管理教室過程會變成有一點複雜。要先發起會議才能夠知道該會議的連結是什麼，然後把新的連結通知（傳給）學生。平常這個功能比較適合討論室用的。如果勾選大教室的話，要先發起大教室，知道新的網址連結，把新的連結傳給學生（透過email,簡訊，等等）學生才知道怎麼進入大教室（網址是什麼）。"
+  },
+  "genAutoNewUrl2": {
+    "message": "請注意：這個選項只是針對教室設定標籤裡面的「靜態」類型的教室連結（紫色的）。"
+  },
+  "genAutoNewUrl3": {
+    "message": "其他的教室連結類型（暱稱綠色的，代碼藍色的）就不理會這個選項，完全不影響。"
+  },
+  "genAutoNewUrlMain": {
+    "message": "大教室"
+  },
+  "genAutoNewUrlBreak": {
+    "message": "討論室"
+  },
+  "coursesExpimp": {
+    "message": "這個擴充功能的資料全部導出或導入"
+  },
+  "coursesExpimpWarn": {
+    "message": "特別注意：導入會取代這個擴充功能資料所有的一切"
+  },
+  "coursesExp1": {
+    "message": "導出這個擴充功能所有的資料"
+  },
+  "coursesExp2": {
+    "message": "檔案（.txt)"
+  },
+  "coursesExp3": {
+    "message": "導出"
+  },
+  "coursesImp1": {
+    "message": "導入這個擴充功能所有的資料"
+  },
+  "coursesImp2": {
+    "message": "檔案（.txt)"
+  },
+  "coursesImp3": {
+    "message": "導人"
+  },
+  "coursesBuiltWith": {
+    "message": "胡浩洋用 ❤️ 創作的"
+  },
+  "roomsExpimp": {
+    "message": "導出導入這個課程的討論室資料"
+  },
+  "roomsPopupTitle": {
+    "message": "課程： "
+  },
+  "roomsExp1": {
+    "message": "導出這間討論室的資料"
+  },
+  "roomsExp2": {
+    "message": "檔案（.txt)"
+  },
+  "roomsExp3": {
+    "message": "導出"
+  },
+  "roomsImp1": {
+    "message": "導入這間討論室的資料"
+  },
+  "roomsImp2": {
+    "message": "檔案（.txt)"
+  },
+  "roomsImp3": {
+    "message": "導人"
+  },
+  "roomsBuiltWith": {
+    "message": "胡浩洋用 ❤️ 創作的"
+  },
+  "errorAutoCreateLink": {
+    "message": "發生了問題自動向google為您申請meet連結。請確認您是登入了您的google帳號。如果已經登入了，請用這個連結登出重新登入： https://accounts.google.com/SignoutOptions。這樣會把您所有現在登入的帳戶登出 (pai-sei pai-sei)，然後請注意您第一個重新登入的帳號是您的教書的 google 帳號 。登入順序很重要，您第一個登入的是您的google meet 帳號。"
+  },
+  "errorNick1": {
+    "message": "發生了問題自動製作了連結為了暱稱："
+  },
+  "errorNick2": {
+    "message": "請確認您是登入了您的google帳號。如果已經登入了，並確認您的google 帳號是google suite, education ,等等提供暱稱的功能，一般免費的google帳號沒有提供暱稱功能。如果您的帳號提供這個功能及已經登入了，請用這個連結登出重新登入： https://accounts.google.com/SignoutOptions。這樣會把您所有現在登入的帳戶登出 (pai-sei pai-sei)，然後請注意您第一個重新登入的帳號是您的教書的 google 帳號 。登入順序很重要，您第一個登入的是您的google meet 帳號。如果您的google 帳號沒有提供暱稱功能，請只製作靜態（紫色的）或代碼（藍色的）連結"
+  },
+  "errorBouncingBalls": {
+    "message": "有一個meet 視窗沒辦法同步聯繫（cannot sync). 請把您所有現在已開meet的視窗關掉，包含此控制面板，然後重新開此控制面板，重新發起大教室與討論室。放心關掉meet視窗並不會把裡面的學生刪除干擾等等。如果您有蠻多已開的視窗，可能不找所有的meet視窗。這樣的話，建議簡單的方法，乾脆把您現在所有的視窗全部關掉，重新開，因為如果還是留著一個舊的meet視窗, 擴充功能還是會無法練習同步。***不需要刪掉擴充功能重新下載。只要先關掉所有已開的meet視窗，再重新開此控制面板，用此控制面板開大教室與討論室"
+  },
+  "msgAllSync": {
+    "message": "成功： 所有meet視窗同步聯繫 （All successfully synced)"
+  },
+  "msgBreakoutSync": {
+    "message": "成功： 所有討論室同步聯繫 （Breakouts successfully synced)"
+  },
+  "msgMainSync": {
+    "message": "成功： 大教室同步聯繫 （Main room synced)"
+  }
+}

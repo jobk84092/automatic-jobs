@@ -1,0 +1,82 @@
+2025-06-02 16:22:04,789 - ERROR - Error in job application process: [Errno 2] No such file or directory: 'credentials.json'
+2025-06-02 16:23:50,242 - ERROR - Error in job application process: [Errno 2] No such file or directory: 'credentials.json'
+2025-06-02 16:42:49,616 - INFO - Starting job application process
+2025-06-02 16:42:49,616 - INFO - ====== WebDriver manager ======
+2025-06-02 16:42:49,829 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-02 16:42:50,298 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-02 16:42:50,510 - INFO - Driver [/Users/jobkimani/.wdm/drivers/chromedriver/mac64/137.0.7151.55/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-06-02 16:42:50,517 - ERROR - Error in job application process: [Errno 8] Exec format error: '/Users/jobkimani/.wdm/drivers/chromedriver/mac64/137.0.7151.55/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-02 16:43:16,439 - INFO - Starting job application process
+2025-06-02 16:43:16,439 - INFO - ====== WebDriver manager ======
+2025-06-02 16:43:16,580 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-02 16:43:16,796 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-02 16:43:17,102 - INFO - Driver [/Users/jobkimani/.wdm/drivers/chromedriver/mac64/137.0.7151.55/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-06-02 16:43:17,106 - ERROR - Error in job application process: [Errno 8] Exec format error: '/Users/jobkimani/.wdm/drivers/chromedriver/mac64/137.0.7151.55/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-02 16:43:42,834 - INFO - Starting job application process
+2025-06-02 16:43:42,834 - INFO - ====== WebDriver manager ======
+2025-06-02 16:43:42,983 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-02 16:43:43,219 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-02 16:43:43,444 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-02 16:43:44,007 - INFO - WebDriver version 137.0.7151.55 selected
+2025-06-02 16:43:44,009 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.55/mac-arm64/chromedriver-mac-arm64.zip
+2025-06-02 16:43:44,009 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.55/mac-arm64/chromedriver-mac-arm64.zip
+2025-06-02 16:43:44,682 - INFO - Driver downloading response is 200
+2025-06-02 16:43:48,089 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-02 16:43:48,730 - INFO - Driver has been saved in cache [/Users/jobkimani/.wdm/drivers/chromedriver/mac64/137.0.7151.55]
+2025-06-02 16:43:48,735 - ERROR - Error in job application process: [Errno 8] Exec format error: '/Users/jobkimani/.wdm/drivers/chromedriver/mac64/137.0.7151.55/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-02 16:44:33,878 - INFO - Starting job application process
+2025-06-02 16:44:33,878 - INFO - ====== WebDriver manager ======
+2025-06-02 16:44:34,017 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-02 16:44:34,254 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-02 16:44:34,487 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-02 16:44:35,356 - INFO - WebDriver version 137.0.7151.55 selected
+2025-06-02 16:44:35,360 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.55/mac-arm64/chromedriver-mac-arm64.zip
+2025-06-02 16:44:35,360 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.55/mac-arm64/chromedriver-mac-arm64.zip
+2025-06-02 16:44:35,560 - INFO - Driver downloading response is 200
+2025-06-02 16:44:38,444 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-02 16:44:38,749 - INFO - Driver has been saved in cache [/Users/jobkimani/.wdm/drivers/chromedriver/mac64/137.0.7151.55]
+2025-06-02 16:44:38,754 - ERROR - Error in job application process: [Errno 8] Exec format error: '/Users/jobkimani/.wdm/drivers/chromedriver/mac64/137.0.7151.55/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-02 16:45:33,641 - ERROR - Error in job application process: Message: 'chromedriver' executable may have wrong permissions.
+
+2025-06-02 16:46:24,618 - ERROR - Error in job application process: Message: session not created: probably user data directory is already in use, please specify a unique value for --user-data-dir argument, or don't use --user-data-dir
+Stacktrace:
+0   chromedriver                        0x00000001008d0708 cxxbridge1$str$ptr + 2729312
+1   chromedriver                        0x00000001008c896c cxxbridge1$str$ptr + 2697156
+2   chromedriver                        0x000000010041a728 cxxbridge1$string$len + 90444
+3   chromedriver                        0x000000010044d938 cxxbridge1$string$len + 299868
+4   chromedriver                        0x000000010044a0ac cxxbridge1$string$len + 285392
+5   chromedriver                        0x000000010048f1e8 cxxbridge1$string$len + 568332
+6   chromedriver                        0x000000010048ea9c cxxbridge1$string$len + 566464
+7   chromedriver                        0x0000000100455bc0 cxxbridge1$string$len + 333284
+8   chromedriver                        0x0000000100894298 cxxbridge1$str$ptr + 2482416
+9   chromedriver                        0x000000010089752c cxxbridge1$str$ptr + 2495364
+10  chromedriver                        0x0000000100875ae0 cxxbridge1$str$ptr + 2357560
+11  chromedriver                        0x0000000100897db4 cxxbridge1$str$ptr + 2497548
+12  chromedriver                        0x0000000100866dec cxxbridge1$str$ptr + 2296900
+13  chromedriver                        0x00000001008b7c4c cxxbridge1$str$ptr + 2628260
+14  chromedriver                        0x00000001008b7dd8 cxxbridge1$str$ptr + 2628656
+15  chromedriver                        0x00000001008c85b8 cxxbridge1$str$ptr + 2696208
+16  libsystem_pthread.dylib             0x0000000182665c0c _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000182660b80 thread_start + 8
+
+2025-06-02 16:50:59,160 - ERROR - Error in job application process: Message: session not created: probably user data directory is already in use, please specify a unique value for --user-data-dir argument, or don't use --user-data-dir
+Stacktrace:
+0   chromedriver                        0x0000000104bd4708 cxxbridge1$str$ptr + 2729312
+1   chromedriver                        0x0000000104bcc96c cxxbridge1$str$ptr + 2697156
+2   chromedriver                        0x000000010471e728 cxxbridge1$string$len + 90444
+3   chromedriver                        0x0000000104751938 cxxbridge1$string$len + 299868
+4   chromedriver                        0x000000010474e0ac cxxbridge1$string$len + 285392
+5   chromedriver                        0x00000001047931e8 cxxbridge1$string$len + 568332
+6   chromedriver                        0x0000000104792a9c cxxbridge1$string$len + 566464
+7   chromedriver                        0x0000000104759bc0 cxxbridge1$string$len + 333284
+8   chromedriver                        0x0000000104b98298 cxxbridge1$str$ptr + 2482416
+9   chromedriver                        0x0000000104b9b52c cxxbridge1$str$ptr + 2495364
+10  chromedriver                        0x0000000104b79ae0 cxxbridge1$str$ptr + 2357560
+11  chromedriver                        0x0000000104b9bdb4 cxxbridge1$str$ptr + 2497548
+12  chromedriver                        0x0000000104b6adec cxxbridge1$str$ptr + 2296900
+13  chromedriver                        0x0000000104bbbc4c cxxbridge1$str$ptr + 2628260
+14  chromedriver                        0x0000000104bbbdd8 cxxbridge1$str$ptr + 2628656
+15  chromedriver                        0x0000000104bcc5b8 cxxbridge1$str$ptr + 2696208
+16  libsystem_pthread.dylib             0x0000000182665c0c _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000182660b80 thread_start + 8
+

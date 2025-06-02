@@ -1,0 +1,53 @@
+{
+   "add_tags": {
+      "message": "Add Tags ++"
+   },
+   "article_present": {
+      "message": "Article already exists"
+   },
+   "article_success": {
+      "message": "Article has been successfully added to MyLOFT"
+   },
+   "browser_action_save_button": {
+      "message": "Save"
+   },
+   "browser_action_title": {
+      "message": "Save to MyLOFT"
+   },
+   "manifest_description": {
+      "message": "This extension lets you save articles to MyLOFT"
+   },
+   "notification_logout_failed": {
+      "message": "Logout Failed"
+   },
+   "notification_logout_success": {
+      "message": "Logged out Successfully"
+   },
+   "notification_successfull_login": {
+      "message": "Logged in Successfully"
+   },
+   "notification_successfull_login_msg": {
+      "message": "Welcome to MyLOFT"
+   },
+   "options_login_button": {
+      "message": "Login"
+   },
+   "options_logout_button": {
+      "message": "Logout"
+   },
+   "please_try_again": {
+      "message": "Please try again"
+   },
+   "select_collection": {
+      "message": "Search and Select a Collection..."
+   },
+   "something_went_wrong": {
+      "message": "Sorry, something went wrong"
+   },
+   "usage_policy_declined": {
+      "message": "Usage Policy declined"
+   },
+   "usage_policy_reject": {
+      "message": "Please accept the usage policy to access subscribed eContent of your Library"
+   }
+}

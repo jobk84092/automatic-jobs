@@ -1,0 +1,629 @@
+{
+   "adhoc1": {
+      "message": "Paso 1：Asignar estudiantes"
+   },
+   "adhoc11a": {
+      "message": "(haga clic aquí) ¿Por qué no puedo ver a ninguno de mis alumnos?"
+   },
+   "adhoc11b": {
+      "message": "Aquí"
+   },
+   "adhoc12a": {
+      "message": "(haga clic aquí) ¿Por qué no puedo ver a todos mis estudiantes?"
+   },
+   "adhoc1a": {
+      "message": "Aleatorio: haga clic en el botón 'Aleatorio'. Puede hacer clic repetidamente en Aleatorio hasta que vea una agrupación que le guste, luego puede arrastrar y soltar manualmente para refinar aún más."
+   },
+   "adhoc1b": {
+      "message": "Arrastrar y soltar: arrastre y suelte manualmente a los estudiantes en grupos"
+   },
+   "adhoc1c": {
+      "message": "Eliminar (hacer clic): haga clic en el nombre del estudiante para eliminarlo de la agrupación"
+   },
+   "adhoc1d": {
+      "message": "Eliminar (arrastrar): haga clic y mantenga presionado el nombre de un estudiante para arrastrar y eliminar del grupo"
+   },
+   "adhoc2": {
+      "message": "Paso 2 y 3: copie los enlaces de las salas y las tareas de los estudiantes"
+   },
+   "adhoc2a": {
+      "message": "Después de asignar estudiantes, haga clic en"
+   },
+   "adhoc2b": {
+      "message": "Aquí"
+   },
+   "adhoc2c": {
+      "message": "."
+   },
+   "adhocAutosend": {
+      "message": "¡Nuevo! Envía automáticamente las asignaciones de salas de grupos al chat de Meet"
+   },
+   "assignBreakoutsAdhoc": {
+      "message": "Ad Hoc (ahora)"
+   },
+   "assignBreakoutsPre": {
+      "message": "Pre-asignar"
+   },
+   "broadcast": {
+      "message": "Transmitir a todas las salas"
+   },
+   "btnAutosend": {
+      "message": "1. Enviar al chat"
+   },
+   "btnOpenAll": {
+      "message": "Todas"
+   },
+   "btnOpenBreakouts": {
+      "message": "Salas"
+   },
+   "btnOpenMain": {
+      "message": "Principal"
+   },
+   "btnOpenMain1": {
+      "message": "Sala principal abierta (o integración con Google Classroom)"
+   },
+   "btnOpenMainRam": {
+      "message": "Principal"
+   },
+   "btnRam": {
+      "message": "Abra la ventana de la sala, use el control deslizante para pasar a la siguiente ventana de la sala"
+   },
+   "btnRandom": {
+      "message": "Asignar aleatoriamente"
+   },
+   "btnRoomsReport": {
+      "message": "Salas"
+   },
+   "btnStudentsReport": {
+      "message": "Estudiantes"
+   },
+   "checkRam": {
+      "message": "Opción de memoria baja (RAM): normalmente no marque esta casilla, para RAM inferior a 8G"
+   },
+   "checkRam2": {
+      "message": "Ayuda"
+   },
+   "code": {
+      "message": "Código"
+   },
+   "courseCourse": {
+      "message": "Curso"
+   },
+   "courseDesc": {
+      "message": "Descripción del curso"
+   },
+   "courseEnter": {
+      "message": "Por favor ingrese el nombre de su curso"
+   },
+   "courses": {
+      "message": "Cursos"
+   },
+   "coursesBuiltWith": {
+      "message": "Creado con ❤️ por Robert Hudek"
+   },
+   "coursesDupe": {
+      "message": "No se puede guardar: el nombre no es único."
+   },
+   "coursesExp1": {
+      "message": "Exportar todos los datos de la extensión"
+   },
+   "coursesExp2": {
+      "message": "Archivo (.txt)"
+   },
+   "coursesExp3": {
+      "message": "Exportar"
+   },
+   "coursesExpimp": {
+      "message": "Exportar o importar todos los datos de la extensión"
+   },
+   "coursesExpimpWarn": {
+      "message": "Tenga en cuenta: la importación sobrescribirá todo el contenido de la extensión"
+   },
+   "coursesImp1": {
+      "message": "Importar todos los datos de la extensión"
+   },
+   "coursesImp2": {
+      "message": "Archivo (.txt)"
+   },
+   "coursesImp3": {
+      "message": "Importar"
+   },
+   "coursesNotYetSaved": {
+      "message": "Datos cambiados pero no guardados"
+   },
+   "coursesSaved": {
+      "message": "Guardado"
+   },
+   "default1": {
+      "message": "Si la cuenta es correcta, entonces todo está bien."
+   },
+   "default2": {
+      "message": "Si la cuenta no es correcta, haga lo siguiente:"
+   },
+   "default3a": {
+      "message": "Clic"
+   },
+   "default3b": {
+      "message": "Aquí"
+   },
+   "default3c": {
+      "message": "Para administrar el orden de la lista de su cuenta de Google"
+   },
+   "default4": {
+      "message": "Cierre sesión en todas sus cuentas"
+   },
+   "default5a": {
+      "message": "Su cuenta de Google Meet es la PRIMERA cuenta en la lista en la que inició sesión. Si la primera cuenta no es su cuenta de Google deseada para la enseñanza, lamentablemente deberá cerrar sesión en todas sus cuentas y volver a iniciar sesión. Chrome debería haber guardado su nombre de usuario y contraseñas para cada una de sus cuentas, así que con suerte no será una molestia volver a iniciar sesión."
+   },
+   "default5b": {
+      "message": "Es muy importante utilizar la misma cuenta principal de Google (la primera cuenta de la lista) para ejecutar la extensión de reuniones y salas de reuniones, a fin de mantener la coherencia de los datos de la extensión."
+   },
+   "default5c": {
+      "message": "La configuración y la apertura de las reuniones están de acuerdo con su cuenta principal de Google (primera cuenta en la lista)"
+   },
+   "default6": {
+      "message": "Una vez que vuelva a iniciar sesión con el orden correcto (la primera cuenta es su cuenta principal), puede iniciar sesión en todas sus otras cuentas de Google"
+   },
+   "defaultAccount": {
+      "message": "Su cuenta es"
+   },
+   "dropdownBreakouts": {
+      "message": "Salas"
+   },
+   "dropdownCourse": {
+      "message": "Cursos"
+   },
+   "enterCourses": {
+      "message": "Ingresar Cursos"
+   },
+   "errorAutoCreateLink": {
+      "message": "Problema con la solicitud de un enlace de reunión. Confirme que inició sesión en su cuenta correcta de Google Meet, que es la primera cuenta en la lista de cuentas de Google. Puede consultar esta lista utilizando este enlace: https://accounts.google.com/SignoutOptions. Si la primera cuenta en la lista no es su cuenta de enseñanza principal, cierre sesión en todas las cuentas (lo siento, pero ese es el proceso de Google) y luego inicie sesión en la primera cuenta usando su cuenta de enseñanza principal. Luego puede iniciar sesión en sus otras cuentas."
+   },
+   "errorBouncingBalls": {
+      "message": "Hay una ventana de reunión que no se puede sincronizar. En este caso, cierre todas sus ventanas de reunión y también cierre la ventana de extensión del panel de control. Luego, vuelva a abrir la ventana de extensión y abra todas sus ventanas de reunión nuevamente. Si aún tiene problemas, es posible que deba cerrar Chrome y luego volver a abrirlo. *** NO desinstale la extensión porque no es necesario y, al hacerlo, se eliminarían los datos de la extensión. Simplemente cierre y vuelva a abrir las ventanas."
+   },
+   "errorNick1": {
+      "message": "Problema al crear un enlace usando su apodo:"
+   },
+   "errorNick2": {
+      "message": "Verifique si su cuenta de Google tiene la función de apodo. Por ejemplo, Google Suite y Google Education tienen esta funcionalidad y otros tipos de cuentas también pueden hacerlo. Además, confirme que inició sesión en su cuenta correcta de Google Meet, que es la primera cuenta en la lista de cuentas de Google. Puede consultar esta lista utilizando este enlace: https://accounts.google.com/SignoutOptions. Si la primera cuenta en la lista no es su cuenta de enseñanza principal, cierre sesión en todas las cuentas (lo siento, pero ese es el proceso de Google) y luego inicie sesión en la primera cuenta usando su cuenta de enseñanza principal. Luego puede iniciar sesión en sus otras cuentas. Si su cuenta de Google no admite apodos, utilice los enlaces de tipo URL (tipos de enlace azul oscuro) en la pestaña Clase."
+   },
+   "extDesc": {
+      "message": "Solo el profesor necesita instalarlo. Completamente gratuito y tus datos son privados. "
+   },
+   "extName": {
+      "message": "Google Meet Salas de Grupos por Alejandro (Robert) Hudek"
+   },
+   "firstRoomMain": {
+      "message": "La primera fila es la sala principal, la segunda fila es Salas"
+   },
+   "genAutoEnter": {
+      "message": "Permitir que 'forasteros' entren al salón de clases"
+   },
+   "genAutoEnter1": {
+      "message": "Si se selecciona, los 'forasteros' pueden ingresar automáticamente"
+   },
+   "genAutoEnter2": {
+      "message": "Recomendar no seleccionado"
+   },
+   "genAutoEnter3": {
+      "message": "Por cuestiones de privacidad"
+   },
+   "genAutoJoin": {
+      "message": "Esta es una opción de conveniencia que le permite ingresar a las salas una vez que están abiertas. Recomendar marcado"
+   },
+   "genAutoJoinBreak": {
+      "message": "Salas"
+   },
+   "genAutoJoinMain": {
+      "message": "Sala principal"
+   },
+   "genAutoNewUrl": {
+      "message": "Para enlaces URL (color azul oscuro), crea automáticamente un nuevo enlace de reunión cada vez que se abre. Esta opción no se selecciona a menudo."
+   },
+   "genAutoNewUrl1": {
+      "message": "Normalmente, no marque esta casilla; esta no es una opción común. Si está marcada, cada vez que abre una reunión, crea automáticamente un nuevo enlace de reunión. Tenga en cuenta que con esta opción, PRIMERO deberá abrir la sala principal para saber el nuevo enlace para informar a los estudiantes por correo electrónico o alguna otra forma de comunicación."
+   },
+   "genAutoNewUrl2": {
+      "message": "Tenga en cuenta que esta opción solo es relevante para los enlaces URL que son de color azul oscuro en la pestaña Clase"
+   },
+   "genAutoNewUrl3": {
+      "message": "Esta opción no afecta los enlaces de apodo (color verde) ni los enlaces de código (color azul claro)"
+   },
+   "genAutoNewUrlBreak": {
+      "message": "Salas"
+   },
+   "genAutoNewUrlMain": {
+      "message": "Sala principal"
+   },
+   "genDisplay": {
+      "message": "Disposición de las salas"
+   },
+   "genDropEnd": {
+      "message": "Finaliza"
+   },
+   "genDropMid": {
+      "message": "Media"
+   },
+   "genDropSolid": {
+      "message": "Color sólido"
+   },
+   "genGrad": {
+      "message": "Gradiente"
+   },
+   "genSolid": {
+      "message": "Color sólido"
+   },
+   "genTabs": {
+      "message": "Pestañas: Pestañas de ventana"
+   },
+   "genTiles": {
+      "message": "Azulejos: Ventanas independientes"
+   },
+   "genToolbarColor": {
+      "message": "Color de la barra de herramientas de Meet"
+   },
+   "hangupBreakouts": {
+      "message": "*** Discusión terminada: Cerrar todas las salas"
+   },
+   "hangupMain": {
+      "message": "*** Clase terminada：Cerrar la sala principal"
+   },
+   "lblBreakoutAssigns": {
+      "message": "Grupo pequeño"
+   },
+   "lblBreakoutRooms": {
+      "message": "Salas de Grupos"
+   },
+   "lblStudents": {
+      "message": "Estudiantes"
+   },
+   "linksSaved": {
+      "message": "Enlaces guardados"
+   },
+   "mainName": {
+      "message": "Sala principal"
+   },
+   "meet": {
+      "message": "Comenzar la clase"
+   },
+   "msgAllSync": {
+      "message": "Éxito：Todas las ventanas de encuentro fueron sincronizadas"
+   },
+   "msgBreakoutSync": {
+      "message": "Éxito：Todas las salas fueron sincronizadas"
+   },
+   "msgMainSync": {
+      "message": "Éxito：Sala principal sincronizada"
+   },
+   "muteAllBreakouts": {
+      "message": "Silenciar a todos los estudiantes: en todas las salas de grupo"
+   },
+   "muteAllMain": {
+      "message": "Silenciar a todos los alumnos: Solo en la Sala Principal"
+   },
+   "muteAllRooms": {
+      "message": "Silenciar a todos los estudiantes: sala principal y todas las salas de grupo"
+   },
+   "muteAllThis": {
+      "message": "Silenciar a todos los alumnos: Solo en esta sala"
+   },
+   "muteRemove": {
+      "message": "Silenciar, eliminar alumnos"
+   },
+   "myCourse": {
+      "message": "Mi curso"
+   },
+   "myCourseDesc": {
+      "message": "Descripción de mi curso"
+   },
+   "myName": {
+      "message": "Robert Hudek"
+   },
+   "nickname": {
+      "message": "Apodo"
+   },
+   "nicknameHelplink": {
+      "message": "Ayuda"
+   },
+   "popupHelpAdhoc": {
+      "message": "Asignación ad hoc"
+   },
+   "popupHelpAdhocNumwords2a": {
+      "message": "Esto es sólo"
+   },
+   "popupHelpAdhocNumwords2b": {
+      "message": "caracteres, que es menos de 500 caracteres como máximo. Aceptar para copiar todo a la vez"
+   },
+   "popupHelpAdhocNumwords2c": {
+      "message": "Esto es"
+   },
+   "popupHelpAdhocNumwords2d": {
+      "message": "caracteres, que es más que el máximo de 500 caracteres, lo que significa que tendrá que copiar/pegar en secciones para estar por debajo del límite máximo de 500 caracteres del mensaje de chat de Google Meet para una sola copia/pegado. Es posible que deba copiar en quizás 2 o 3 secciones. Resalte algunas filas, luego copie / pegue en el chat de la sala principal, repita para las filas restantes hasta que todo esté copiado y pegado en el mensaje de chat de la sala principal."
+   },
+   "popupHelpAdhocNumwords3a": {
+      "message": "Esto es sólo"
+   },
+   "popupHelpAdhocNumwords3b": {
+      "message": "caracteres, que es menos de 500 caracteres como máximo. Aceptar para copiar todo a la vez"
+   },
+   "popupHelpAdhocNumwords3c": {
+      "message": "Esto es"
+   },
+   "popupHelpAdhocNumwords3d": {
+      "message": "caracteres, que es más que el máximo de 500 caracteres, lo que significa que tendrá que copiar/pegar en secciones para estar por debajo del límite máximo de 500 caracteres del mensaje de chat de Google Meet para una sola copia/pegado. Es posible que deba copiar en quizás 2 o 3 secciones."
+   },
+   "popupHelpAdhocStep2": {
+      "message": "Paso 2: copie los enlaces a las salas de grupos pequeños"
+   },
+   "popupHelpAdhocStep2a": {
+      "message": "Por favor haz clic"
+   },
+   "popupHelpAdhocStep2b": {
+      "message": "Aquí"
+   },
+   "popupHelpAdhocStep2c": {
+      "message": "para copiar los enlaces de la sala de reuniones y luego pegarlos en el mensaje de chat de la sala principal (comando/control v)"
+   },
+   "popupHelpAdhocStep3": {
+      "message": "Paso 3: Copie y pegue las tareas de los estudiantes"
+   },
+   "popupHelpAdhocStep3a": {
+      "message": "Por favor haz clic"
+   },
+   "popupHelpAdhocStep3b": {
+      "message": "Aquí"
+   },
+   "popupHelpAdhocStep3c": {
+      "message": "para copiar las asignaciones de los estudiantes y luego pegarlas en el mensaje de chat de la sala principal (comando/control v)"
+   },
+   "pre1": {
+      "message": "Paso 1: copie su lista preasignada de asignaciones de estudiantes/salas de reuniones"
+   },
+   "pre1a": {
+      "message": "Por ejemplo, desde cualquier archivo de texto puede copiar la lista de asignaciones en el chat de mensajes de la sala principal."
+   },
+   "pre1b": {
+      "message": "Cada vez que copie/pegue, asegúrese de no exceder el límite de mensajes de chat de Google Meet de 500 caracteres para una sola copia/pegado. Si su lista tiene más de 500 caracteres, deberá copiar/pegar en secciones para estar por debajo del límite de 500 caracteres para una sola copia/pegado."
+   },
+   "pre2": {
+      "message": "Paso 2: copie/pegue los enlaces de las salas de reuniones"
+   },
+   "pre2a": {
+      "message": "Por favor haz clic"
+   },
+   "pre2b": {
+      "message": "Aquí"
+   },
+   "pre2c": {
+      "message": "luego, en el mensaje de chat de la sala principal, pegue (comando/control v)"
+   },
+   "preNumwords2a": {
+      "message": "Esto es sólo"
+   },
+   "preNumwords2b": {
+      "message": "caracteres, que es menos de 500 caracteres como máximo. Aceptar para copiar todo a la vez"
+   },
+   "preNumwords2c": {
+      "message": "Esto es"
+   },
+   "preNumwords2d": {
+      "message": "caracteres, que es más que el máximo de 500 caracteres, lo que significa que tendrá que copiar/pegar en secciones para estar por debajo del límite máximo de 500 caracteres del mensaje de chat de Google Meet para una sola copia/pegado. Es posible que deba copiar en quizás 2 o 3 secciones."
+   },
+   "removeAllThis": {
+      "message": "Quitar a todos los estudiantes：Solo en esta sala"
+   },
+   "removeBreakouts": {
+      "message": "*** Discusión terminada: Elimine a los estudiantes de todas las salas"
+   },
+   "removeMain": {
+      "message": "*** Clase terminada：Eliminar a todos los estudiantes de la sala principal"
+   },
+   "reports": {
+      "message": "Informes"
+   },
+   "reportsAssignments": {
+      "message": "Asignaciones de estudiantes/grupos de trabajo"
+   },
+   "reportsAttendance": {
+      "message": "Asistencia Estudiantil"
+   },
+   "reportsClipboard": {
+      "message": "Copiar al portapapeles"
+   },
+   "reportsCsv": {
+      "message": "Descargar archivos CSV"
+   },
+   "reportsGroups": {
+      "message": "Miembros de las salas de reuniones"
+   },
+   "reportsLinks": {
+      "message": "Enlaces de salas"
+   },
+   "rooms": {
+      "message": "Salas"
+   },
+   "roomsBuiltWith": {
+      "message": "Creado con ❤️ por Robert Hudek"
+   },
+   "roomsCreatingUrl": {
+      "message": "Creando URL ..."
+   },
+   "roomsDupe": {
+      "message": "No se puede guardar: error porque el nombre de la sala o los enlaces no son únicos. Todas las salas deben tener un nombre."
+   },
+   "roomsExp1": {
+      "message": "Exportar la información de este curso"
+   },
+   "roomsExp2": {
+      "message": "Archivo (.txt)"
+   },
+   "roomsExp3": {
+      "message": "Exportar"
+   },
+   "roomsExpimp": {
+      "message": "Exportar o importar los enlaces de este curso"
+   },
+   "roomsImp1": {
+      "message": "Importar la información de este curso"
+   },
+   "roomsImp2": {
+      "message": "Archivo (.txt)"
+   },
+   "roomsImp3": {
+      "message": "Importar"
+   },
+   "roomsNeedName": {
+      "message": "No se puede guardar: todas las salas necesitan un nombre (único)"
+   },
+   "roomsNotYetSaved": {
+      "message": "Salas aún no guardadas"
+   },
+   "roomsPopupTitle": {
+      "message": "Curso: "
+   },
+   "roomsSaved": {
+      "message": "Salas guardadas"
+   },
+   "roomsUndo": {
+      "message": "Deshacer"
+   },
+   "rptActualRoom": {
+      "message": "Sala Real"
+   },
+   "rptActualStudent": {
+      "message": "Estudiantes Reales"
+   },
+   "rptAssignRoom": {
+      "message": "Sala Asignada"
+   },
+   "rptAssignStudent": {
+      "message": "Estudiantes Asignados"
+   },
+   "rptBreakoutRoom": {
+      "message": "Salas"
+   },
+   "rptMain": {
+      "message": "Principal"
+   },
+   "rptNo": {
+      "message": "No"
+   },
+   "rptStudent": {
+      "message": "Estudiante"
+   },
+   "rptTitleBRSR": {
+      "message": "Estado de la Sala"
+   },
+   "rptTitleSSR": {
+      "message": "Estado del estudiante"
+   },
+   "rptYes": {
+      "message": "Sí"
+   },
+   "setTimer": {
+      "message": "Poner Cronómetro"
+   },
+   "settings": {
+      "message": "Ajustes"
+   },
+   "sim1": {
+      "message": "Practica usando la extensión"
+   },
+   "sim10": {
+      "message": "Paso 2:"
+   },
+   "sim11": {
+      "message": "En la pestaña Meet de este panel de control, abre la sala principal y tus salas de grupos (por ejemplo, 3 salas de grupos). Si aún no has creado los enlaces de las salas de grupos, ve a la pestaña 'Salas' y crea tus salas y enlaces allí."
+   },
+   "sim12": {
+      "message": "Paso 3:"
+   },
+   "sim13": {
+      "message": "Selecciona el número de estudiantes simulados. Si solo estás probándolo, te recomendamos abrir 3 salas de grupos con un total de 6 estudiantes simulados, asignando 2 estudiantes a cada sala."
+   },
+   "sim14": {
+      "message": "Nota:"
+   },
+   "sim15": {
+      "message": "Google Meet ha implementado recientemente una restricción que limita a 8 el número de reuniones activas con un micrófono en funcionamiento en una sola computadora. Esto significa que en tu computadora puedes abrir 1 sala principal y hasta 7 salas de grupos y aún tener un micrófono funcionando en cada una de estas salas. Sin embargo, puedes tener tantos estudiantes como desees en tu sala principal o salas de grupos, por ejemplo, 50 o más estudiantes, sin afectar la funcionalidad del micrófono."
+   },
+   "sim16": {
+      "message": "Para esta simulación, que se realiza en una sola computadora, si abres 1 sala principal, 3 salas de grupos y 6 estudiantes simulados, algunos de los estudiantes simulados no tendrán micrófonos en funcionamiento, pero esto es totalmente aceptable para fines de prueba. Dado que todas las reuniones están en la misma computadora, es probable que no uses tu micrófono debido a posibles problemas de retroalimentación. Sin embargo, aún puedes experimentar con los botones del panel de control y ver cómo controlan las diferentes reuniones."
+   },
+   "sim17": {
+      "message": "Consejo:"
+   },
+   "sim18": {
+      "message": "Para estas sesiones de práctica, ya que tendrás muchas reuniones abiertas en tu pantalla, te recomendamos seleccionar el formato de las salas de grupos como 'Pestañas' en lugar del formato predeterminado de 'Cuadrículas'. Puedes elegirlo utilizando el botón de opción en la sección 'Formato de salas de grupos' justo arriba. Esto ayudará a organizar tus reuniones de 'profesor' en el lado izquierdo de la pantalla en una sola ventana con pestañas, mientras que el lado derecho mostrará las reuniones de los estudiantes simulados en una sola ventana con múltiples pestañas. Al impartir tu clase real, puedes seleccionar 'Cuadrículas' o 'Pestañas', dependiendo de tu preferencia, ya que solo se mostrarán las reuniones del profesor en tu pantalla, lo que te dará más espacio para trabajar."
+   },
+   "sim2": {
+      "message": "Si eres nuevo en esta extensión y quieres tener una idea de cómo funciona, puedes probarla usando estudiantes simulados. Esta simulación se puede hacer completamente en tu computadora."
+   },
+   "sim3": {
+      "message": "Recordatorio:"
+   },
+   "sim4": {
+      "message": "Al usar esta extensión para enseñar tu clase, solo tú, como profesor, necesitas instalarla. Los estudiantes no necesitan instalar la extensión ya que no la usarán."
+   },
+   "sim5": {
+      "message": "Instrucciones para configurar la simulación"
+   },
+   "sim6": {
+      "message": "Paso 1:"
+   },
+   "sim7": {
+      "message": "Ve a tu página de extensiones de Chrome"
+   },
+   "sim7a": {
+      "message": "Encuentra la extensión Google Meet Breakout, haz clic en el botón de 'Detalles' y desplázate hacia abajo para activar la opción 'Permitir en modo incógnito'."
+   },
+   "sim8": {
+      "message": "Nota:"
+   },
+   "sim9": {
+      "message": "Una vez que hayas terminado de practicar, puedes desactivar la configuración de 'Permitir en modo incógnito'. En el uso normal de esta extensión, no necesitarás usar el modo incógnito para tus estudiantes."
+   },
+   "sliderDefault": {
+      "message": "Salas"
+   },
+   "startClass": {
+      "message": "Comenzar la clase"
+   },
+   "subHeadingRooms": {
+      "message": "Salas"
+   },
+   "timerHrs": {
+      "message": "Horas"
+   },
+   "timerMin": {
+      "message": "Minutos"
+   },
+   "timerReset": {
+      "message": "Reiniciar"
+   },
+   "timerSec": {
+      "message": "Segundos"
+   },
+   "timerStart": {
+      "message": "Comienzo"
+   },
+   "timerStop": {
+      "message": "Finalizar"
+   },
+   "title": {
+      "message": "Salas de Grupos"
+   },
+   "toolTipRetile": {
+      "message": "Volver a Mosaico"
+   },
+   "toolTipToolbar": {
+      "message": "Ocultar/Mostrar la barra de herramientas de Meet"
+   },
+   "url": {
+      "message": "URL"
+   },
+   "warning8Rooms": {
+      "message": "El micrófono de Google Meet tiene un límite de 7 salas de grupos"
+   }
+}

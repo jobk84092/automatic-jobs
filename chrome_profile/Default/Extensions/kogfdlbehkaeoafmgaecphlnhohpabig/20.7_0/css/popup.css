@@ -1,0 +1,1353 @@
+:root {
+  --border-radius: 0.25rem;
+  --btn-on: rgb(102, 187, 106);
+  --btn-on-text: white;
+  --btn-off: rgb(239, 83, 80);
+  --btn-off-text: white;
+
+  --dracula-dark-black: #282a36;
+  --dracula-black: #44475a;
+  --dracula-white: #f8f8f2;
+  --dracula-dark-blue: #6272a4;
+  --dracula-light-blue: #8be9fd;
+  --dracula-green: #50fa7b;
+  --dracula-orange: #ffb86c;
+  --dracula-pink: #ff79c6;
+  --dracula-red: #ff5555;
+  --dracula-yellow: #f1fa8c;
+  --violet: violet;
+
+  --mat-red: #ef5350;
+  --mat-pink: #ec407a;
+  --mat-purple: #ab47bc;
+  --mat-deep-purple: #7e57c2;
+  --mat-indigo: #5c6bc0;
+  --mat-blue: #42a5f5;
+  --mat-light-blue: #29b6f6;
+  --mat-cyan: #26c6da;
+  --mat-teal: #26a69a;
+  --mat-green: #66bb6a;
+  --mat-light-green: #9ccc65;
+  --mat-lime: #d4e157;
+  --mat-yellow: #ffee58;
+  --mat-amber: #ffca28;
+  --mat-orange: #ffa726;
+  --mat-deep-orange: #ff7043;
+  --mat-brown: #8d6e63;
+  --mat-grey: #bdbdbd;
+  --mat-blue-grey: #78909c;
+
+  --background: white;
+  --background-text: black;
+  /* --tab-border: lime lime transparent; */
+  --tab-border: #44475a #44475a transparent;
+  --tab-active: white;
+  --tab-active-text: black;
+  --tab-inactive: white;
+  --tab-inactive-text: #8fcaf9;
+  --tab-border-bottom: #44475a;
+
+  --headline: #d1ebf1;
+  --headline-text: black;
+
+  --course-list-even: rgba(0, 0, 0, 0);
+  --course-list-odd: rgba(0, 0, 0, 0.1);
+
+  --course-list-even-dark: rgba(255, 255, 255, 1);
+  --course-list-odd-dark: rgba(255, 255, 255, 0.8);
+
+  --slider: #b1dfdb;
+  /* --slider: #a7ffeb; */
+  --slider-text: black;
+  --slider-dot: yellow;
+
+  --btn-account: #eff3c2;
+  --btn-account-text: black;
+  --btn-instructions: grey;
+  --btn-instructions-text: black;
+  --btn-start-class: #a7ffeb;
+  --btn-start-class-text: black;
+  --btn-assign-adhoc: #baa5dd;
+  --btn-assign-adhoc-text: black;
+  --btn-assign-pre: #baa5dd;
+  --btn-assign-pre-text: black;
+  --btn-mute: #ff81aa;
+  --btn-mute-text: black;
+  --btn-reports: #8fcaf9;
+  --btn-reports-text: black;
+
+  --settings-background: whitesmoke;
+  --settings-background-text: black;
+}
+
+.yellow {
+  color: var(--dracula-yellow);
+}
+
+a.href-help:hover {
+  color: var(--dracula-yellow) !important;
+}
+.rooms-url-code-nickname {
+  margin-bottom: 10px;
+}
+
+.btn-inset {
+  border: 1px solid black !important;
+  box-shadow: 1px 1px 1px grey !important;
+}
+
+.close,
+[data-msg-rooms-built-with],
+[data-msg-courses-built-with],
+.modal-background,
+.modal-content,
+.modal-body {
+  background-color: var(--background) !important;
+  color: var(--background-text) !important;
+  background-color: var(--dracula-black) !important;
+  color: var(--dracula-white) !important;
+}
+#ad-hoc-list-groups-link,
+#ad-hoc-list-groups-ppt {
+  color: teal;
+  /* color: var(--dracula-pink); */
+}
+[data-msg-default-room-5b] {
+  color: var(--dracula-red);
+}
+[data-msg-nickname-helplink] {
+  /* background-color: var(--dracula-red); */
+  color: var(--dracula-red) !important;
+}
+div[data-assign-ppts-hook],
+div[data-assign-rooms-hook] {
+  background-color: rgba(248, 248, 242, 0.9) !important;
+  color: var(--dracula-black) !important;
+}
+div[data-assign-ppts-hook] {
+  border-radius: 5px 0 0 5px;
+  padding-left: 5px !important;
+  padding-bottom: 5px !important;
+}
+div[data-assign-rooms-hook] {
+  border-radius: 0 5px 5px 0;
+  padding-right: 10px !important;
+  padding-bottom: 5px !important;
+}
+body.background {
+  background-color: var(--background);
+  color: var(--background-text) !important;
+  height: 100vh;
+}
+.alert-info,
+.alert-info > p,
+.alert-info > a,
+.alert-info > p > a,
+#meet-tab-message {
+  background-color: var(--headline) !important;
+  color: var(--headline-text) !important;
+  border: none !important;
+  /* border-radius: 2.5px !important; */
+}
+/* override bootstrap  */
+.nav-tabs .nav-link.active {
+  background-color: transparent !important;
+}
+.my-nav-tabs-dark {
+  border-bottom: 1px solid transparent !important;
+}
+.my-nav-link-dark {
+  background-color: var(--tab-inactive) !important;
+  color: var(--tab-inactive-text) !important;
+}
+.my-nav-link-dark.active {
+  border-color: var(--tab-border) !important;
+  box-shadow: 1px 1px 2px var(--dracula-black);
+  background-color: var(--tab-active) !important;
+  color: var(--tab-active-text) !important;
+}
+/* save override bootstrap  */
+.nav-tabs2 {
+  border-bottom: 1px solid transparent !important;
+}
+.nav-link2 {
+  background-color: var(--tab-inactive) !important;
+  color: var(--tab-inactive-text) !important;
+  /* border-bottom: 1px solid var(--tab-border-bottom) !important; */
+}
+.nav-link.active2 {
+  border-color: var(--tab-border) !important;
+  /* border-color: transparent !important; */
+  /* border-bottom: 1px solid var(--tab-border-bottom) !important; */
+  box-shadow: 1px 1px 2px var(--dracula-black);
+  background-color: var(--tab-active) !important;
+  color: var(--tab-active-text) !important;
+}
+/* save override bootstrap  */
+
+.slider-section {
+  background-color: lightgrey;
+  background-color: var(--slider) !important;
+  color: black;
+  color: var(--slider-text) !important;
+  box-shadow: 1px 1px 2px grey;
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
+  border: 1px solid black;
+  border-bottom: none;
+}
+.status-reports-section {
+  background-color: #e8eaf6;
+  background-color: var(--slider) !important;
+  color: black;
+  color: var(--slider-text) !important;
+  box-shadow: 1px 1px 2px grey;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+.broadcast-section {
+  background-color: lightgrey;
+  background-color: var(--slider) !important;
+  box-shadow: 1px 1px 2px grey;
+  border-bottom-left-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+  border: 1px solid black;
+  border-top: none;
+}
+.broadcast-section-text {
+  color: black;
+  color: var(--slider-text) !important;
+}
+
+.btn-account {
+  background-color: var(--btn-account) !important;
+  color: var(--btn-account-text) !important;
+}
+.btn-start-class {
+  background-color: var(--btn-start-class) !important;
+  color: var(--btn-start-class-text) !important;
+}
+.btn-assign-adhoc {
+  background-color: var(--btn-assign-adhoc) !important;
+  color: var(--btn-assign-adhoc-text) !important;
+}
+.btn-assign-pre {
+  background-color: var(--btn-assign-pre) !important;
+  color: var(--btn-assign-pre-text) !important;
+}
+.btn-mute {
+  background-color: var(--btn-mute) !important;
+  color: var(--btn-mute-text) !important;
+}
+.btn-reports {
+  background-color: var(--btn-reports) !important;
+  color: var(--btn-reports-text) !important;
+}
+.list-report {
+  background-color: var(--background) !important;
+  color: var(--background-text) !important;
+}
+form.settings-background {
+  background-color: var(--settings-background) !important;
+  color: var(--settings-background-text) !important;
+  border: 1px solid var(--dracula-dark-black) !important;
+}
+.settings-background {
+  background-color: var(--settings-background);
+  color: var(--settings-background-text);
+}
+input[data-type="link"] {
+  background-color: var(--dracula-white) !important;
+}
+
+/* Other */
+#try-themes-click {
+  color: var(--dracula-red);
+  font-size: 16px;
+  text-decoration: underline dotted var(--dracula-red);
+}
+#try-themes-click:hover {
+  color: var(--dracula-red);
+  text-decoration: underline solid var(--dracula-red);
+  cursor: pointer;
+}
+[data-mute-part]:hover,
+[data-remove-part]:hover {
+  color: black !important;
+  /* background-color: var(--dracula-green) !important; */
+  /* background-color: #98FF98 !important; */
+  background-color: #90ee90 !important;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button#copy-all-links:hover,
+button#copy-ppt-list:hover,
+button#copy-ppt-assignments:hover,
+button#copy-breakout-groups:hover {
+  color: black !important;
+  background-color: var(--dracula-green) !important;
+}
+
+#popup-help {
+  background-color: var(--dracula-yellow);
+  box-shadow: 1px 1px 2px var(--dracula-dark-black);
+  border-color: var(--dracula-dark-black);
+}
+#popup-retile {
+  color: var(--dracula-white);
+  background-color: var(--dracula-red);
+  box-shadow: 1px 1px 2px var(--dracula-dark-black);
+  border-color: var(--dracula-dark-black);
+}
+.toggle-compress {
+  color: black !important;
+  background-color: aquamarine !important;
+}
+.toggle-expand {
+  color: white !important;
+  background-color: forestgreen !important;
+}
+.alert {
+  padding: 0.5rem 0.5rem !important;
+}
+.btn-success {
+  background-color: var(--mat-green) !important;
+}
+.btn-primary {
+  background-color: var(--mat-indigo) !important;
+}
+.btn-danger {
+  background-color: var(--mat-red) !important;
+}
+.btn-info {
+  background-color: var(--mat-blue) !important;
+}
+.btn-dark {
+  background-color: var(--dracula-dark-black) !important;
+}
+h4 {
+  font-weight: 300 !important;
+}
+h5 {
+  font-weight: 400;
+}
+h5.sub-title {
+  font-weight: 300;
+}
+.sub-title {
+  font-weight: 300;
+}
+.popup-dark-font {
+  color: black;
+}
+.slider-arrow {
+  font-size: 30px;
+}
+.btn.av:hover {
+  color: white;
+  color: var(--dracula-dark-black);
+}
+.href-help {
+  color: inherit;
+}
+
+.my-breakout-span-normal {
+  font-weight: 400;
+  font-weight: 300;
+  font-family: Sans-Serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.span-small {
+  font-weight: 300;
+  font-size: 16px;
+  font-family: Sans-Serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.red {
+  color: var(--dracula-red);
+}
+
+.red-help {
+  cursor: pointer;
+  background-color: var(--dracula-dark-blue);
+  color: var(--dracula-white);
+}
+
+.blue {
+  color: blue;
+}
+
+@media print {
+  #my-help {
+    display: block;
+    background-color: pink;
+  }
+}
+
+.code-url {
+  background-color: lightgreen !important;
+}
+
+.alert-progress {
+  color: white;
+  background-color: teal;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.group-btn {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.btn-ppt {
+  z-index: 10;
+  color: red;
+  padding: 0.25rem 0.5rem;
+  font-size: 75%;
+  color: #818a91;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.btn-assigned {
+  z-index: 10;
+  padding: 0.25rem 0.5rem;
+  font-size: 75%;
+  color: #818a91;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.btn-groups {
+  z-index: 10;
+  padding: 0.25rem 0.5rem;
+  font-size: 75%;
+  color: #818a91;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.btn-clipboard2 {
+  position: absolute;
+  top: 0.5rem;
+  top: -1rem;
+  right: -0.5rem;
+  z-index: 10;
+  display: block;
+  padding: 0.25rem 0.5rem;
+  font-size: 75%;
+  color: #818a91;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.btn-clipboard2.bounce,
+.btn-assigned.bounce,
+.btn-ppt.bounce {
+  transform-origin: 50% 50%;
+  animation: bounce 0.5s ease-in-out;
+}
+
+.btn-assigned.bounce {
+  transform-origin: 50% 50%;
+  animation: bounce 0.5s ease-in-out;
+}
+
+.btn-groups.bounce {
+  transform-origin: 50% 50%;
+  animation: bounce 0.5s ease-in-out;
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes bounce2 {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+input[type="text"] {
+  background: transparent;
+}
+
+#meet-room-controls > div > div:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#meet-room-controls > div > div:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+[data-rooms-ppts-lines]:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+[data-rooms-ppts-lines]:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+[data-main-ppts-hook] > [data-main-ppts-lines]:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+[data-main-ppts-hook] > [data-main-ppts-lines]:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+[data-assign-ppts-hook] div:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+[data-assign-ppts-hook] div:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+[data-assign-room] {
+  background-color: mediumslateblue;
+  background-color: var(--dracula-pink);
+  color: var(--dracula-dark-black);
+  box-shadow: 1px 1px 2px grey;
+  border-color: yellow;
+}
+
+.autosend-assignments-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn.btn-autosend {
+  color: var(--dracula-dark-black);
+  /* background-color: #98ff98; */
+  background-color: var(--dracula-green);
+  border-color: grey;
+  text-align: left;
+}
+
+.btn.btn-autosend:hover {
+  color: var(--dracula-dark-black);
+  background: linear-gradient(145deg, #7bd787, #66c967);
+  border-color: grey;
+}
+
+.autosend-assignments-group {
+  border: 2px solid #4caf50; /* Green border */
+  padding: 20px; /* Space inside the border */
+  background-color: #f9f9f9; /* Light grey background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  max-width: 400px; /* Optional: Set a max-width for the div */
+  margin: 20px auto; /* Center the div horizontally */
+}
+
+.autosend-assignments-group p {
+  margin: 0 0 10px; /* Remove margin at the top, add space below */
+  font-weight: bold; /* Make the text bold */
+  color: #333; /* Darker text color for contrast */
+}
+
+.autosend-assignments-group button {
+  background-color: #4caf50; /* Green background */
+  color: white; /* White text color */
+  padding: 10px 15px; /* Padding inside the button */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners for the button */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Slightly larger text */
+
+  background-color: #4caf50; /* Green background */
+  color: white; /* White text color */
+  padding: 10px 20px; /* Padding inside the button */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners for the button */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Slightly larger text */
+  font-weight: bold; /* Bold text */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Shadow for 3D effect */
+  transition: all 0.2s ease; /* Smooth transition for the hover effect */
+}
+
+/* .btn-autosend {
+  background: linear-gradient(145deg, #5cbf60, #4caf50); 
+  background: linear-gradient(145deg, #7bd787, #66c967);
+} */
+
+.autosend-assignments-group button:hover {
+  background-color: #45a049; /* Darker green on hover */
+  background-color: var(--dracula-green);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+  transform: translateY(-2px); /* Slightly move the button up for a 3D effect */
+}
+
+.autosend-assignments-group button:active {
+  background-color: #39903d; /* Even darker green when clicked */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Reduce shadow to simulate press */
+  transform: translateY(2px); /* Slightly move the button down when clicked */
+}
+
+/* #autosend-assignments-group #btn-autosend-ok:hover {
+  background-color: var(--dracula-white) !important;
+  color: white;
+} */
+#autosend-assignments-group #btn-autosend-ok {
+  margin-top: 10px;
+  background-color: var(--dracula-dark-blue);
+  color: white;
+  background-color: var(--dracula-green);
+  color: black;
+  text-align: left;
+}
+
+.btn[data-meet-assign] {
+  color: var(--dracula-dark-black);
+  /* background-color: #bf5700; */
+  /* background-color: var(--dracula-orange); */
+  /* background-color: var(--dracula-green); */
+  background-color: var(--dracula-light-blue);
+  border-color: grey;
+}
+
+.btn[data-meet-assign]:hover {
+  background-color: cornflowerblue;
+  /* background-color: #39FF14;
+  background-color: #98FF98; */
+  color: black;
+}
+
+.btn.dropdown-color {
+  background-color: var(--dracula-dark-blue) !important;
+  background-color: var(--dracula-dark-black) !important;
+  color: white;
+}
+
+button.btn[data-btn-type="goto"] {
+  background-color: mediumslateblue;
+  color: white;
+  border-color: yellow;
+}
+
+.btn.main {
+  color: white;
+  background-color: mediumblue;
+  border-color: yellow;
+  box-shadow: 1px 1px 1px grey;
+}
+
+.btn.main:hover {
+  color: white;
+  font-weight: 400;
+  background-color: forestgreen;
+  border-color: mediumblue;
+}
+
+.btn.main.room-open {
+  background-color: navy;
+  border-color: aquamarine;
+  border-width: 5px;
+}
+
+.btn.main.room-open:hover {
+  color: white;
+  font-weight: 400;
+  background-color: forestgreen !important;
+  border-color: lime;
+}
+
+.btn.breakout {
+  color: white;
+  background-color: mediumslateblue;
+  border-color: yellow;
+  box-shadow: 1px 1px 2px grey;
+}
+
+.btn.breakout:hover {
+  color: white;
+  background-color: forestgreen;
+  border-color: yellow;
+  box-shadow: 1px 1px 2px grey;
+}
+
+.btn.breakout.room-open {
+  background-color: indigo;
+  border-color: aquamarine;
+  border-width: 5px;
+}
+
+.btn.breakout.room-open:hover {
+  background-color: indigo;
+  background-color: forestgreen !important;
+  border-color: lime;
+  border-width: 5px;
+}
+
+.btn.ok {
+  color: black;
+  background-color: lightgreen;
+  border-color: black;
+  box-shadow: 2px 2px 4px grey;
+}
+
+.btn.ok:hover {
+  color: white;
+  font-weight: 400;
+  background-color: forestgreen;
+  border-color: mediumblue;
+}
+
+.rooms-collapse {
+  color: black !important;
+  color: var(--btn-instructions-text) !important;
+  text-shadow: 0.1px 0.1px 0.1px grey;
+  background-color: yellow !important;
+  background-color: #fff59d !important;
+  background-color: #c5cae9 !important;
+  background-color: var(--btn-instructions) !important;
+  border-color: black !important;
+  box-shadow: 1px 1px 2px grey !important;
+}
+
+.rooms-collapse:hover {
+  color: white !important;
+  background-color: black !important;
+}
+
+.btn.google-account {
+  text-shadow: 0.1px 0.1px 0.1px grey;
+  border-color: black;
+  box-shadow: 1px 1px 2px grey;
+}
+
+.btn.google-account:hover {
+  color: white !important;
+  background-color: cornflowerblue !important;
+  background-color: black !important;
+}
+
+.btn.open-buttons-collapse {
+  border-color: black;
+  box-shadow: 1px 1px 2px grey;
+}
+
+.btn.open-buttons-collapse:hover {
+  color: white !important;
+  background-color: black !important;
+}
+
+.btn.open-all {
+  color: black !important;
+  background-color: #00e676;
+  background-color: #1de9b6;
+  border-color: forestgreen;
+  box-shadow: 1px 1px 2px grey;
+}
+
+.btn.open-all:hover {
+  color: white !important;
+  background-color: #43a047 !important;
+}
+
+.btn.ppt-collapse {
+  border-color: black;
+  box-shadow: 1px 1px 2px grey;
+}
+
+.btn.ppt-collapse:hover,
+.btn.room-ppt-controls:hover,
+.btn.copy-buttons-collapse:hover {
+  color: white !important;
+  background-color: black !important;
+}
+
+.btn.room-ppt-controls {
+  border-color: black;
+  box-shadow: 1px 1px 2px grey;
+}
+
+/* .btn.room-ppt-controls:hover {
+  color: white !important;
+  background-color: indigo !important;
+  background-color: #333f48 !important;
+} */
+
+.btn.copy-buttons-collapse {
+  border-color: black;
+  box-shadow: 1px 1px 2px grey;
+}
+
+/* .btn.copy-buttons-collapse:hover {
+  color: white !important;
+  background-color: indigo !important;
+  background-color: #333f48 !important;
+} */
+
+.btn.all-rooms-collapse {
+  color: white !important;
+  background-color: darkslateblue !important;
+  border-color: black;
+  box-shadow: 1px 1px 2px grey;
+}
+
+.btn.all-rooms-collapse:hover {
+  color: white !important;
+  background-color: black !important;
+}
+
+.btn.copy-all.bounce {
+  transform-origin: 50% 50%;
+  animation: bounce2 0.5s ease-in-out;
+}
+
+.btn.copy-all-pre.bounce {
+  transform-origin: 50% 50%;
+  animation: bounce 0.5s ease-in-out;
+}
+
+/* .btn[data-btn-type="exp-all"] {
+  box-shadow: 2px 2px 2px grey;
+} */
+
+#general-toolbar-grad-left-ex,
+#general-toolbar-grad-right-ex,
+#general-toolbar-solid-color-ex {
+  box-shadow: 2px 2px 4px black;
+}
+
+button.remove,
+button.close-room {
+  margin-left: -25px;
+  text-align: center;
+  display: none;
+
+  font-size: 12px;
+  border-radius: 20%;
+  background-color: mediumvioletred;
+
+  color: white;
+}
+
+div.lines2 > :nth-child(even) {
+  /* background-color: rgba(0, 0, 0, 0) !important; */
+  /* background-color: rgba(255, 255, 255, 1) !important; */
+  background-color: var(--course-list-even) !important;
+}
+
+div.lines2 > :nth-child(odd) {
+  /* background-color: rgba(0, 0, 0, 0.1) !important; */
+  /* background-color: rgba(255, 255, 255, 0.8) !important; */
+  background-color: var(--course-list-odd) !important;
+}
+
+div[data-room-id]:first-child > div:first-child > input:first-child {
+  /* color: white;
+  background-color: mediumblue !important; */
+  font-weight: bold;
+  border-color: grey;
+  box-shadow: 2px 2px 2px grey;
+}
+
+div[data-room-id] > div:first-child > input:first-child {
+  /* color: white;
+  background-color: mediumslateblue; */
+  border-color: grey;
+  box-shadow: 2px 2px 2px grey;
+}
+
+/* div.rooms-section {
+  color: white;
+  background-color: teal;
+} */
+
+button.btn.btn-sm.btn-outline-dark.rooms-section {
+  color: black !important;
+  background-color: white !important;
+}
+
+[data-meet-main-row] > button {
+  box-shadow: 1px 1px 1px grey;
+}
+
+[data-meet-room-row] > button {
+  box-shadow: 1px 1px 1px grey;
+}
+
+.card-columns {
+  column-count: 2;
+}
+
+.card-columns:nth-child(even) {
+  padding-right: 0;
+}
+
+/* body {
+  min-width: 600px;
+  min-height: 100vh;
+} */
+
+/* h1,
+h2,
+h3,
+h4 {
+  font-family: "Oswald", sans-serif;
+} */
+
+.jscolor,
+.drop-down2 {
+  width: 110px;
+}
+
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  /* -webkit-appearance: none; */
+  width: 100%;
+  height: 15px;
+  border-radius: 5px;
+  background: black;
+  background: linear-gradint(to right, red, orange, yellow, green, blue, indigo, violet);
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+  box-shadow: 2px 2px 4px grey;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: var(--slider-dot);
+  /* background-color: orange; */
+  /* background-color: #f1fa8c	; */
+  background-color: linear-gradint(to right, red, orange, yellow, green, blue, indigo, violet);
+  box-shadow: 2px 2px 4px grey;
+  cursor: pointer;
+}
+
+.btn.av-mute {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  /* color: #f8f8f2 !important; */
+  color: var(--btn-off-text) !important;
+  /* background-color: crimson !important; */
+  /* background-color: #ff5252 !important; */
+  background-color: var(--btn-off) !important;
+}
+
+.status-reports-button {
+  background-color: #c5cae9 !important;
+  box-shadow: 1px 1px 1px grey;
+}
+
+.status-reports-button.running {
+  background-color: var(--dracula-dark-blue) !important;
+  color: white !important;
+  box-shadow: 1px 1px 1px grey;
+}
+
+.status-reports-button.five {
+  background-color: #fff9c4 !important;
+  color: black !important;
+  box-shadow: 1px 1px 1px grey;
+}
+
+.status-reports-button.one {
+  background-color: var(--dracula-yellow) !important;
+  color: black !important;
+  box-shadow: 1px 1px 1px grey;
+}
+
+.status-reports-button.zero {
+  background-color: var(--dracula-red) !important;
+  color: white !important;
+  box-shadow: 1px 1px 1px grey;
+}
+
+.status-reports-button:hover {
+  background-color: black !important;
+  color: white !important;
+}
+
+.broadcast-label-off {
+  color: black;
+}
+
+.broadcast-spk-off {
+  background-color: lightgreen;
+}
+
+.broadcast-mic-off {
+  background-color: lightgreen;
+}
+
+.broadcast-vid-off {
+  background-color: lightgreen;
+}
+
+i.av {
+  /* font-size: 22px; */
+  text-align: center;
+}
+
+.btn.av {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  /* color: #282a36; */
+  color: var(--btn-on-text) !important;
+  /* background-color: lightgreen; */
+  /* background-color: #50fa7b; */
+  background-color: var(--btn-on);
+  border-radius: 50%;
+  border: #282a36;
+  width: 40px;
+  height: 40px;
+
+  box-shadow: 1px 1px 2px black;
+}
+
+.slider2.round {
+  border-radius: 34px;
+}
+
+.slider2.round:before {
+  border-radius: 50%;
+}
+
+.switch2 {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+/* The Modal (background) */
+.modal-help {
+  display: none;
+  position: fixed;
+  z-index: 100;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /* overflow: auto; */
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+.modal-timer {
+  height: inherit;
+}
+
+#set-hrs,
+#set-min,
+#set-sec {
+  background-color: white;
+}
+
+/* Modal Content */
+.modal-help-content {
+  border-radius: 20px;
+  border: solid;
+  /* background-color: #fefefe; */
+  margin: auto;
+  padding: 20px;
+
+  border: 1px solid #888;
+  width: 90%;
+  max-width: 600px;
+  /* height: 500px; */
+  height: 75vh;
+  /* font-family: 'Merriweather', serif; */
+  /* font-family: "Montserrat", sans-serif; */
+  font-weight: normal;
+  background-color: var(--dracula-white);
+  overflow: auto;
+  overflow-y: scroll;
+}
+
+.modal-timer-content {
+  height: inherit;
+  overflow: hidden;
+}
+
+/* .modal-help-content {
+  background-color: lightblue;
+  height: 40px;
+  width: 200px;
+  overflow-y: scroll;
+} */
+.modal-help-content h1 {
+  font-size: 1.5rem;
+  color: black;
+  text-shadow: none;
+  /* overflow-y: scroll; */
+}
+
+.modal-help-content h2 {
+  font-size: 1.2rem;
+  color: black;
+  text-shadow: none;
+  /* overflow-y: scroll; */
+}
+
+.modal-help-content p,
+.modal-help-content pre,
+xmp,
+.modal-help-p {
+  font-size: 1rem;
+  color: black;
+  text-shadow: none;
+}
+
+/* The Close Button */
+.close-help {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  padding-right: 20px;
+}
+
+.close-help:hover,
+.close-help:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+span.span-course {
+  color: blue;
+  font-size: 20px;
+}
+
+.hide-button {
+  display: none;
+}
+
+.room-nick,
+.room-nickGC {
+  background-color: lightgreen !important;
+  background-color: #69f0ae !important;
+  background-color: #1de9b6 !important;
+  /* background-color: var(--dracula-green) !important; */
+  color: black !important;
+}
+
+.room-code {
+  background-color: darkcyan !important;
+  background-color: #2979ff !important;
+  background-color: #1e88e5 !important;
+  background-color: var(--dracula-light-blue) !important;
+  color: black !important;
+}
+
+.room-url {
+  background-color: #6200ee !important;
+  background-color: navy !important;
+  background-color: mediumslateblue !important;
+  background-color: #7c4dff !important;
+  background-color: #651fff !important;
+  background-color: var(--mat-indigo) !important;
+  color: white !important;
+}
+
+.font300 {
+  font-weight: 300;
+}
+[data-msg-nickname] {
+  background-color: #1de9b6;
+  color: black;
+}
+[data-msg-code] {
+  /* font-weight: 200; */
+  background-color: var(--dracula-light-blue);
+  background-color: var(--dracula-yellow);
+  color: black;
+}
+[data-msg-url] {
+  /* font-weight: 200; */
+  background-color: var(--mat-indigo);
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .btn.dropdown-color {
+    font-size: 0.9rem;
+  }
+}
+
+/* New Stuff 08-2024 */
+.btn-rooms {
+  padding: 0.375rem 0.5rem;
+}
+/* Add your custom hover styles */
+.btn-rooms:hover,
+.btn-classes:hover {
+  transition: background-color 0.3s ease;
+}
+
+#btn-rooms-add:hover,
+#btn-classes-add:hover {
+  background-color: #28a745 !important; /* Bootstrap success */
+  border-color: #28a745 !important;
+  color: #fff;
+}
+
+#btn-rooms-save:hover,
+#btn-classes-save:hover {
+  background-color: #007bff !important; /* Bootstrap primary */
+  border-color: #007bff !important;
+  color: #fff;
+}
+
+#btn-rooms-recycle:hover,
+#btn-classes-recycle:hover {
+  background-color: #ffc107 !important; /* Bootstrap warning */
+  border-color: #ffc107 !important;
+  color: #212529; /* Text color should contrast well */
+}
+
+#btn-rooms-undo:hover,
+#btn-classes-undo:hover {
+  background-color: #17a2b8 !important; /* Bootstrap info */
+  border-color: #17a2b8 !important;
+  color: #fff;
+}
+
+#btn-rooms-delete:hover,
+#btn-classes-delete:hover {
+  background-color: #dc3545 !important; /* Bootstrap danger */
+  border-color: #dc3545 !important;
+  color: #fff;
+}
+
+#btn-rooms-export-import:hover,
+#btn-classes-export-import:hover {
+  background-color: #343a40 !important; /* Bootstrap dark */
+  border-color: #343a40 !important;
+  color: #fff;
+}
+
+/* new stuff */
+
+#fullscreen-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* High z-index to cover everything */
+  transition: opacity 0.5s ease-in-out; /* Transition for smooth fading */
+}
+
+#fullscreen-overlay.visible {
+  opacity: 1; /* Fully visible when the class 'visible' is added */
+}
+
+#meet-main-assign-hook {
+  display: flex;
+  justify-content: space-between;
+}
+#overlay-content {
+  position: relative;
+  text-align: center;
+}
+
+#overlay img {
+  max-width: 80%;
+  height: auto;
+}
+
+.no-display {
+  display: none !important;
+}
+
+.white {
+  color: white;
+}
+
+#dropdown-meet-room-hook .dropdown-item:nth-child(n + 8) {
+  color: red;
+}
+.p-inherit {
+  font-size: inherit; /* Inherit font size from the parent */
+  line-height: inherit; /* Inherit line height */
+  color: inherit; /* Inherit text color */
+  font-weight: inherit; /* Inherit font weight, if needed */
+  font-family: inherit; /* Inherit font family */
+  /* Add more inherited styles if required */
+}

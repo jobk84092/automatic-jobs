@@ -1,0 +1,117 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-y: hidden;
+}
+
+.extension-animation {
+  --angle: 0deg;
+  cursor: pointer;
+  margin: 0px;
+  width: 25rem;
+  min-height: 9.8rem;
+  background-color: #fff;
+  box-shadow: 0px 1.75px 14px 0px #00000033;
+  transition: height 0.3s linear;
+  border: 3px solid transparent;
+  background: linear-gradient(#ffffff, #ffffff) padding-box, linear-gradient(var(--angle), #EB479D, #7169F0) border-box;
+  animation: rotate 4s linear infinite;
+}
+
+.extension-animation.active {
+  width: 25rem;
+  height: 35rem;
+}
+
+@keyframes rotate {
+  from {
+    --angle: 0deg;
+  }
+
+  to {
+    --angle: 360deg;
+  }
+}
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+@keyframes textColor {
+  0% {
+    color: #7169F0;
+  }
+  50% {
+    color: #EB479D;
+  }
+  100% {
+    color: #7169F0;
+  }
+}
+
+/*  */
+
+#access-text {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+#access-url {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 10px;
+  text-align: center;
+  color: #43BEE2;
+  text-decoration: underline;
+}
+
+#start-chat {
+  --angle: 0deg;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  padding-bottom: 1rem;
+  color: #ffffff;
+  background: linear-gradient(var(--angle), #EB479D, #7169F0);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: rotate 4s linear infinite, textColor 4s linear infinite;
+}
+
+#start-chat::after {
+  content: ' ➔';
+  font-size: 1rem;
+}
+
+#myloft-chatbot-popup-window {
+  border: none;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  z-index: 2147483647;
+  overflow: hidden;
+}
+
+#footer-text {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 0px;
+  text-align: center;
+}
+
+#footer-text img {
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+}

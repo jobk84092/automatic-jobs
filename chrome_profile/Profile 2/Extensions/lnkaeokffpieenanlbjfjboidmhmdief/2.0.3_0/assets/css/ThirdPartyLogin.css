@@ -1,0 +1,148 @@
+.third_party_login {
+	margin-bottom: 38px;
+	margin-top: 24px;
+}
+.goole_login,
+.apple_login {
+	position: relative;
+	margin: 0 auto;
+	width: 320px;
+	margin-top: 10px;
+}
+.goole_login_div,
+.apple_login_div {
+	height: 44px;
+	background-color: white;
+	border-radius: 5px;
+	color: #333333;
+	text-align: center;
+	display: block;
+	font-size: 14px;
+	line-height: 44px;
+	border: 1px solid #e6e6e6;
+	display: flex;
+	justify-content: center;
+	transition: all 0.2s;
+	user-select: none;
+	cursor: pointer;
+}
+.goole_login_div:hover,
+.apple_login_div:hover {
+	border-color: #2c67ff;
+	color: #2c67ff;
+}
+.google_login_icon,
+.apple_login_icon {
+	transform: scale(0.8);
+	align-self: center;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.third_party_login_btn_active {
+	pointer-events: none;
+}
+
+/* loading */
+.third_party_login .bar {
+	display: inline-block;
+	width: 10px;
+	height: 4px;
+	border-radius: 5px;
+}
+.third_party_login .el1 {
+	background-color: #fff;
+	animation: el1_a 0.5s ease-in-out 0s,
+		el1_a_b 1.5s ease-in-out 0.5s infinite normal;
+}
+.third_party_login .btn_loading {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.third_party_login .btn_loading .el1 {
+	background-color: #ffad4c;
+}
+.third_party_login .el2 {
+	margin-right: 6px;
+	margin-left: 6px;
+	background-color: #fff;
+	animation: el2_a 0.5s ease-in-out 0s,
+		el2_a_b 1.5s ease-in-out 0.5s infinite normal;
+}
+.third_party_login .btn_loading .el2 {
+	background-color: #2c67ff;
+}
+.third_party_login .el3 {
+	background-color: #fff;
+	animation: el3_a 0.5s ease-in-out 0s,
+		el3_a_b 1.5s ease-in-out 0.5s infinite normal;
+}
+.third_party_login .btn_loading .el3 {
+	background-color: #3bba54;
+}
+@keyframes el1_a {
+	from {
+		width: 6px;
+	}
+	to {
+		width: 26px;
+	}
+}
+@keyframes el2_a {
+	from {
+		width: 6px;
+	}
+	to {
+		width: 26px;
+	}
+}
+@keyframes el3_a {
+	from {
+		width: 6px;
+	}
+	to {
+		width: 6px;
+	}
+}
+@keyframes el1_a_b {
+	0% {
+		width: 26px;
+	}
+	33% {
+		width: 6px;
+	}
+	66% {
+		width: 6px;
+	}
+	100% {
+		width: 26px;
+	}
+}
+@keyframes el2_a_b {
+	0% {
+		width: 6px;
+	}
+	33% {
+		width: 26px;
+	}
+	66% {
+		width: 6px;
+	}
+	100% {
+		width: 6px;
+	}
+}
+@keyframes el3_a_b {
+	0% {
+		width: 6px;
+	}
+	33% {
+		width: 6px;
+	}
+	66% {
+		width: 26px;
+	}
+	100% {
+		width: 6px;
+	}
+}

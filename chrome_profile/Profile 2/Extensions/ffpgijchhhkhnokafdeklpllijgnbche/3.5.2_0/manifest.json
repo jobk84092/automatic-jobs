@@ -1,0 +1,43 @@
+{
+   "action": {
+      "default_icon": {
+         "19": "images/addtoany_19.png",
+         "38": "images/addtoany_38.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "AddToAny"
+   },
+   "background": {
+      "service_worker": "worker.js",
+      "type": "module"
+   },
+   "commands": {
+      "_execute_action": {
+         "description": "Open AddToAny to share the current page",
+         "suggested_key": {
+            "default": "Ctrl+Shift+S",
+            "mac": "MacCtrl+Shift+S"
+         }
+      }
+   },
+   "description": "Share to Facebook, Mastodon, email, and any other sharing or saving service quickly and easily with one share button.",
+   "icons": {
+      "128": "images/addtoany_128.png",
+      "16": "images/addtoany_16.png",
+      "32": "images/addtoany_32.png",
+      "48": "images/addtoany_48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDV35+iXlWWZCpk/T0AWRbFLuYpEIYQwW/q/hI+u5cZxyXDPV7LGcxwJ/XSy3/Fy/N9JqY6oaGs076FXGmSHFjieQ+lEPftcWifw/+gMix/Ka/xjIitmwCFzlNUIHRdzjW9GpWI431GM2jCl/SUUemmN+ce0MDpzvJkL47npib/2wIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "88",
+   "name": "AddToAny: Share Anywhere",
+   "options_page": "options.html",
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "options.html"
+   },
+   "permissions": [ "activeTab", "contextMenus", "scripting", "storage" ],
+   "short_name": "AddToAny",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.5.2"
+}

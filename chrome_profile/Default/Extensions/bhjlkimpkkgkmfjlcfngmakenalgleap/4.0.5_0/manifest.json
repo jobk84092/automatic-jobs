@@ -1,0 +1,41 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "icons/knight128.png",
+         "16": "icons/knight16.png",
+         "256": "icons/knight256.png",
+         "32": "icons/knight32.png",
+         "512": "icons/knight512.png",
+         "64": "icons/knight64.png"
+      }
+   },
+   "background": {
+      "service_worker": "src/bg/background.js",
+      "type": "module"
+   },
+   "content_scripts": [ {
+      "js": [ "js/jquery-3.5.1.min.js", "src/bg/analysis.js" ],
+      "matches": [ "https://*.lichess.org/paste" ]
+   }, {
+      "css": [ "css/getpgn.css" ],
+      "js": [ "js/jquery-3.5.1.min.js", "src/bg/getpgn.js" ],
+      "matches": [ "https://www.chess.com/live*", "https://www.chess.com/play/computer", "https://www.chess.com/live/game/*", "https://www.chess.com/game/live/*", "https://www.chess.com/analysis/game/live/*", "https://www.chess.com/game/daily/*", "https://www.chess.com/game/computer/*", "https://www.chess.com/events/*/*", "https://www.chess.com/play/online", "https://www.chess.com/game/*", "https://www.chessgames.com/perl/chessgame*", "https://chessgames.com/perl/chessgame*", "https://chess-db.com/public/game.jsp*", "https://chesstempo.com/gamedb/*/*", "https://old.chesstempo.com/gamedb/*/*", "https://old.chesstempo.com/game-database.html" ]
+   } ],
+   "default_locale": "en",
+   "description": "Opens PGN of a game from chess.com or chessgames.com in lichess.org analysis",
+   "homepage_url": "http://www.zerosharp.com",
+   "icons": {
+      "128": "icons/knight128.png",
+      "16": "icons/knight16.png",
+      "256": "icons/knight256.png",
+      "32": "icons/knight32.png",
+      "512": "icons/knight512.png",
+      "64": "icons/knight64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApCedoKBt9P1v6FISfX8It1c/CVD/cIc6ydHoyK/7MQis6BURsaW48gwjE1UDycbo7FxuWvIP/QPNGGN2LifWn43rCwrSRBqOXjP/ZVYUow4h/0rkvW/Pz0vKd3UWNzTnMLYltEj/si/1ryEHNISzSVLTPKS2e1y16oLvb6YWBuEOlU6upni3XArWPoaSSQsJRzGnckiQwbK33TmbjSD+mTiJPXfJUmmnK8TkVk0/QgF5Kn9fpW4WPw0SZWVj/YQdwp7Poakcd+QSGxjtVrgw2zNZs/kGoHQbChvlElDKHoNh6NBfvUAOIy7oMz5RUW6NBFTfxLMMOGtukI4RmWKmewIDAQAB",
+   "manifest_version": 3,
+   "name": "Chess.com Analysis at Lichess",
+   "permissions": [ "activeTab" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.0.5"
+}

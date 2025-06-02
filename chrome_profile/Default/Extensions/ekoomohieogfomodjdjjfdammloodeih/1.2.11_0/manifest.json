@@ -1,0 +1,38 @@
+{
+   "action": {
+      "default_icon": {
+         "19": "assets/icon19.png",
+         "38": "assets/icon38.png"
+      }
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "commands": {
+      "_execute_action": {
+         "suggested_key": {
+            "chromeos": "Ctrl+Shift+P",
+            "linux": "Ctrl+Shift+P",
+            "mac": "Command+Shift+P",
+            "windows": "Ctrl+Shift+P"
+         }
+      }
+   },
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'"
+   },
+   "default_locale": "en",
+   "description": "__MSG_desc__",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "assets/icon128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlbBJYXSZbg92LNp17IwLLCu5t9jte2PQhsUtjzWA3pIw5YfcbQufzHLBbIh2r6ZnYi63DVSWTw8Oye5/mRJbNUelfD6oNjpaLxE3hYU2eKxQlXDZ18ES/QByeq8+Fns8yJxv/HGO2bns0tVj3cq4GZSw5B9zd6K3RPf/w3lPUqJwF4QGr2vactPPzhQgS8nNl99+431HLaMGwpu7+ukkYKDLa+/WLaPYWzkEA2ejkJpG8OUBgfZRGQfoBiDw1bzEbfO/41dWIyjDB6D1chyOzzQq7fZy8fFMfWSv7g//FkClt7/X8b+tJDMtF4JhUTVN6nVPSWYlnHHKt70Jwsg8YwIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "88.0.0",
+   "name": "__MSG_name__",
+   "permissions": [ "scripting" ],
+   "short_name": "__MSG_name__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2.11"
+}

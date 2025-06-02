@@ -1,0 +1,869 @@
+{
+   "adhoc0": {
+      "message": "참고: 선생님이 링크를 전송해야 하며, 학생들은 자발적으로 해당 링크를 클릭하여 그룹에 참여해야 합니다."
+   },
+   "adhoc1": {
+      "message": "1단계: 학생을 그룹으로 나누는 방법"
+   },
+   "adhoc11a": {
+      "message": "분할 그룹 영역에 학생이 보이지 않는 이유는?"
+   },
+   "adhoc11b": {
+      "message": "여기 클릭"
+   },
+   "adhoc12a": {
+      "message": "모든 학생이 보이지 않는 이유는?"
+   },
+   "adhoc12b": {
+      "message": "여기 클릭"
+   },
+   "adhoc13a": {
+      "message": "Google Classroom 사용자,"
+   },
+   "adhoc13b": {
+      "message": "'교실 설정' 탭에서 메인 교실의 링크가 녹색으로 표시되어 있고, 별명이 Google Classroom meet 링크의 마지막 10자리와 연결되어 있는지 확인한 후 메인 교실 시작 버튼을 클릭하세요."
+   },
+   "adhoc1a": {
+      "message": "무작위 그룹: '무작위' 버튼을 클릭하세요. 원하는 무작위 그룹이 나올 때까지 여러 번 클릭할 수 있습니다. 그룹을 조정하려면 두 그룹 간에 학생을 드래그하여 교환할 수 있습니다 (두 번째 방법)."
+   },
+   "adhoc1b": {
+      "message": "수동 조정: 학생의 이름을 클릭한 상태에서 그룹 간에 드래그하여 이동하세요."
+   },
+   "adhoc1c": {
+      "message": "무작위 그룹에서 제외: 학생의 이름을 클릭하여 포함 여부를 전환하세요."
+   },
+   "adhoc1d": {
+      "message": "수동 제외: 학생의 이름을 클릭한 상태에서 왼쪽으로 드래그하여 제외하세요."
+   },
+   "adhoc2": {
+      "message": "2단계 및 3단계: 토론방 링크 및 학생 그룹 목록 복사"
+   },
+   "adhoc2a": {
+      "message": "그룹을 적절히 나눈 후, 클릭하세요"
+   },
+   "adhoc2b": {
+      "message": "여기"
+   },
+   "adhoc2c": {
+      "message": "."
+   },
+   "adhocAutosend": {
+      "message": "새로운 기능! 분할 그룹 할당을 Meet 채팅으로 자동 전송"
+   },
+   "assignBreakoutsAdhoc": {
+      "message": "즉석 그룹"
+   },
+   "assignBreakoutsPre": {
+      "message": "사전 그룹"
+   },
+   "audioFixCheckbox": {
+      "message": "새로운 해결 방법 사용"
+   },
+   "audioFixFallback": {
+      "message": "이 방법을 자발적으로 선택하는 방법?"
+   },
+   "audioFixFallback1": {
+      "message": "선택 (비어 있음)"
+   },
+   "audioFixFallback2": {
+      "message": "열려 있는 meet가 있다면 모두 종료해야 합니다 (없을 수도 있음)"
+   },
+   "audioFixFallback3": {
+      "message": "종료된 meet를 다시 시작하세요 (없을 수도 있음)"
+   },
+   "audioFixFirst": {
+      "message": "이 방법을 자발적으로 선택하는 방법?"
+   },
+   "audioFixIntro": {
+      "message": "이 옵션을 선택하는 것을 권장합니다 (기본 설정). 따라서 변경하지 않고 선택된 상태(X)를 그대로 유지하세요. 이 방법을 사용한 후 스피커가 불안정하거나 제어하기 어려운 경우 robert@hudektech.com으로 이메일을 보내주세요. 선택하지 않으면(o) 이전 방법을 사용합니다 (권장하지 않음). 상태를 변경하고 싶다면(선택하거나 해제), 모든 meet을 종료하고 다시 시작해야 합니다. 왜냐하면 선택이 스피커 모드를 변경하여 meet 확장 기능이 스피커 상태를 알지 못하기 때문입니다. 다시 한 번, 선택된 상태(X)를 그대로 유지하고 변경하지 않는 것이 좋습니다."
+   },
+   "audioFixOptin": {
+      "message": "이 방법을 자발적으로 선택하는 방법?"
+   },
+   "audioFixOptin1": {
+      "message": "선택 (x)"
+   },
+   "audioFixOptin2": {
+      "message": "열려 있는 meet가 있다면 모두 종료해야 합니다 (없을 수도 있음)"
+   },
+   "audioFixOptin3": {
+      "message": "종료된 meet를 다시 시작하세요 (없을 수도 있음)"
+   },
+   "audioFixRecommend": {
+      "message": "(권장됨)"
+   },
+   "audioFixSecond": {
+      "message": "새로운 방법을 사용한 후 스피커 문제가 발생하면 이전 방법으로 되돌릴 수 있습니다."
+   },
+   "audioFixTitle": {
+      "message": "스피커 끊김 랜덤 문제를 해결하는 새로운 방법"
+   },
+   "audioHeadline": {
+      "message": "스피커 끊김 문제 해결 방법, 여기를 클릭하세요"
+   },
+   "broadcast": {
+      "message": "모든 토론방에 방송"
+   },
+   "btnAutosend": {
+      "message": "1. 채팅으로 보내기"
+   },
+   "btnOpenAll": {
+      "message": "전체 열기"
+   },
+   "btnOpenBreakouts": {
+      "message": "토론방"
+   },
+   "btnOpenMain": {
+      "message": "메인 교실"
+   },
+   "btnOpenMain1": {
+      "message": "메인 교실"
+   },
+   "btnOpenMainRam": {
+      "message": "메인 교실"
+   },
+   "btnRam": {
+      "message": "비디오 열기, 슬라이더를 사용하여 비디오를 순차적으로 열기"
+   },
+   "btnRandom": {
+      "message": "무작위 그룹"
+   },
+   "btnRoomsReport": {
+      "message": "교실"
+   },
+   "btnStudentsReport": {
+      "message": "학생"
+   },
+   "checkRam": {
+      "message": "낮은 메모리(RAM) 옵션: 일반적으로 선택하지 않음, 8GB 미만의 메모리에 대해."
+   },
+   "checkRam2": {
+      "message": "설명"
+   },
+   "checkRamOld": {
+      "message": "낮은 메모리(RAM) 옵션: 일반적으로 선택하지 않음. 메모리(RAM)가 8GB 미만인 경우 선택할 수 있습니다. 선택하면 메인 교실과 분할 그룹이 여전히 열리지만, 한 번에 하나의 창만 볼 수 있습니다. 슬라이더 제어를 사용하여 현재 비디오를 닫고 다음 비디오를 여는 방식으로 동기화됩니다."
+   },
+   "code": {
+      "message": "코드"
+   },
+   "courseCourse": {
+      "message": "강의"
+   },
+   "courseDesc": {
+      "message": "강의 설명"
+   },
+   "courseEnter": {
+      "message": "강의 목록을 입력하세요"
+   },
+   "courses": {
+      "message": "강의 설정"
+   },
+   "coursesBuiltWith": {
+      "message": "胡浩洋이 ❤️ 로 만든"
+   },
+   "coursesDupe": {
+      "message": "저장 불가: 이름이 중복됩니다. 이름은 고유해야 합니다."
+   },
+   "coursesExp1": {
+      "message": "이 확장 기능의 모든 데이터 내보내기"
+   },
+   "coursesExp2": {
+      "message": "파일(.txt)"
+   },
+   "coursesExp3": {
+      "message": "내보내기"
+   },
+   "coursesExpimp": {
+      "message": "이 확장 기능의 데이터를 모두 내보내거나 가져오기"
+   },
+   "coursesExpimpWarn": {
+      "message": "특히 주의: 가져오기는 이 확장 기능의 모든 데이터를 대체합니다."
+   },
+   "coursesImp1": {
+      "message": "이 확장 기능의 모든 데이터 가져오기"
+   },
+   "coursesImp2": {
+      "message": "파일(.txt)"
+   },
+   "coursesImp3": {
+      "message": "가져오기"
+   },
+   "coursesNotYetSaved": {
+      "message": "변경 사항이 아직 저장되지 않았습니다."
+   },
+   "coursesSaved": {
+      "message": "저장됨"
+   },
+   "default1": {
+      "message": "위의 계정이 맞다면, 아무 조치도 필요 없습니다."
+   },
+   "default2": {
+      "message": "계정이 맞지 않다면, 아래 지침을 따르세요."
+   },
+   "default3a": {
+      "message": "클릭하세요"
+   },
+   "default3b": {
+      "message": "여기"
+   },
+   "default3c": {
+      "message": "Google 계정 순서 관리"
+   },
+   "default4": {
+      "message": "모든 계정 로그아웃"
+   },
+   "default5a": {
+      "message": "Google meet 계정은 첫 번째로 로그인한 계정입니다. 원하는 계정이 첫 번째로 로그인되지 않았다면, 모든 계정을 로그아웃하고 다시 로그인해야 합니다. 이때 원하는 Google meet 계정을 첫 번째로 로그인하세요."
+   },
+   "default5b": {
+      "message": "계정 설계 및 화상 회의 시작 시 동일한 계정을 사용하는 것이 중요합니다."
+   },
+   "default5c": {
+      "message": "설계 및 시작된 화상 회의는 Google meet 계정의 소유자로 간주됩니다."
+   },
+   "default6": {
+      "message": "정확한 순서로 다시 로그인하면 화상 회의를 설계하고 시작할 수 있습니다."
+   },
+   "defaultAccount": {
+      "message": "당신의 계정은"
+   },
+   "dropdownBreakouts": {
+      "message": "분할 그룹 수"
+   },
+   "dropdownCourse": {
+      "message": "강의"
+   },
+   "enterCourses": {
+      "message": "강의를 입력하세요"
+   },
+   "errorAutoCreateLink": {
+      "message": "문제가 발생하여 Google에서 meet 링크를 자동으로 요청할 수 없습니다. Google 계정에 로그인했는지 확인하세요. 이미 로그인했다면, 이 링크를 사용하여 로그아웃하고 다시 로그인하세요: https://accounts.google.com/SignoutOptions. 이 방법은 현재 로그인된 모든 계정을 로그아웃합니다 (미안해요). 그런 다음 처음으로 로그인하는 계정이 Google meet 계정인지 확인하세요. 로그인 순서가 중요하며, 처음 로그인한 계정이 Google meet 계정이어야 합니다."
+   },
+   "errorBouncingBalls": {
+      "message": "동기화할 수 없는 meet 창이 하나 있습니다. 모든 열린 meet 창을 닫고 이 제어판을 포함하여, 이 제어판을 다시 열고 메인 교실과 토론방을 다시 시작하세요. 창을 닫아도 학생이 삭제되거나 방해받지 않으니 안심하세요. 열려 있는 창이 많은 경우 모든 meet 창을 찾지 못할 수 있습니다. 이 경우, 모든 창을 닫고 다시 여는 것이 좋습니다. 여전히 오래된 meet 창이 남아 있다면, 확장 기능이 동기화되지 않습니다. ***확장 기능을 삭제하고 다시 다운로드할 필요는 없습니다. 모든 열린 meet 창을 먼저 닫고 이 제어판을 다시 열어 메인 교실과 토론방을 여세요."
+   },
+   "errorNick1": {
+      "message": "문제가 발생하여 별명을 위한 링크를 자동으로 생성할 수 없습니다: "
+   },
+   "errorNick2": {
+      "message": "Google 계정에 로그인했는지 확인하세요. 이미 로그인했으며 Google Suite, 교육용 등 별명 기능을 제공하는 Google 계정을 사용하는 경우, 이 기능이 제공됩니다. 무료 Google 계정에는 별명 기능이 제공되지 않습니다. 계정이 이 기능을 제공하며 이미 로그인한 경우, 이 링크를 사용하여 로그아웃하고 다시 로그인하세요: https://accounts.google.com/SignoutOptions. 이 방법은 현재 로그인된 모든 계정을 로그아웃합니다 (미안해요). 그런 다음 처음으로 로그인하는 계정이 Google meet 계정인지 확인하세요. 로그인 순서가 중요하며, 처음 로그인한 계정이 Google meet 계정이어야 합니다. Google 계정에 별명 기능이 없는 경우, 고정(깊은 파란색) 또는 코드(연파란색) 링크만 생성하세요."
+   },
+   "extDesc": {
+      "message": "교사만 설치해야 합니다. 완전히 무료이며 귀하의 데이터는 비공개입니다. "
+   },
+   "extName": {
+      "message": "Google Meet 분할 그룹 by 胡浩洋"
+   },
+   "firstRoomMain": {
+      "message": "첫 번째 줄은 메인 교실, 그 이후는 토론방"
+   },
+   "genAutoEnter": {
+      "message": "외부인이 교실에 자동으로 들어오도록 허용"
+   },
+   "genAutoEnter1": {
+      "message": "선택된 경우 외부인은 교실 링크를 통해 자동으로 입장할 수 있습니다."
+   },
+   "genAutoEnter2": {
+      "message": "일반적으로 선택하지 않음 (비어 있음)"
+   },
+   "genAutoEnter3": {
+      "message": "안전상의 이유로"
+   },
+   "genAutoJoin": {
+      "message": "이 확장 기능에서 관리하는 교실에 대해 시작 시 '참여' 버튼을 자동으로 클릭합니다. 이것은 편리한 기능입니다."
+   },
+   "genAutoJoinBreak": {
+      "message": "토론방"
+   },
+   "genAutoJoinMain": {
+      "message": "메인 교실"
+   },
+   "genAutoNewUrl": {
+      "message": "고정된 교실 링크 (깊은 파란색)에 대한 새 URL 자동 생성"
+   },
+   "genAutoNewUrl1": {
+      "message": "매번 회의 시작 시 자동으로 새 Meet URL로 변경됩니다. 이 옵션은 안전한 방법이지만, 교실 관리가 약간 복잡해질 수 있습니다. 새 링크를 알기 위해 회의를 시작해야 하며, 그 후 학생들에게 새 링크를 알려야 합니다."
+   },
+   "genAutoNewUrl2": {
+      "message": "참고: 이 옵션은 '교실 설정' 탭의 고정 링크(깊은 파란색) 유형에만 적용됩니다."
+   },
+   "genAutoNewUrl3": {
+      "message": "다른 링크 유형(별명 녹색, 코드 연파란색)에는 이 옵션이 영향을 미치지 않습니다."
+   },
+   "genAutoNewUrlBreak": {
+      "message": "토론방"
+   },
+   "genAutoNewUrlMain": {
+      "message": "메인 교실"
+   },
+   "genBroadBackColor": {
+      "message": "배경 색상"
+   },
+   "genBroadImg": {
+      "message": "방송 배경 이미지"
+   },
+   "genBroadPos": {
+      "message": "이미지 위치"
+   },
+   "genBroadSize": {
+      "message": "이미지 크기"
+   },
+   "genBroadTextColor": {
+      "message": "텍스트 색상"
+   },
+   "genDisplay": {
+      "message": "분할 그룹 토론방의 레이아웃"
+   },
+   "genDropEnd": {
+      "message": "양 끝"
+   },
+   "genDropMid": {
+      "message": "중간"
+   },
+   "genDropSolid": {
+      "message": "단색"
+   },
+   "genGrad": {
+      "message": "그라데이션"
+   },
+   "genSliderBackColor": {
+      "message": "배경 색상"
+   },
+   "genSliderImg": {
+      "message": "슬라이더 배경 이미지"
+   },
+   "genSliderPos": {
+      "message": "이미지 위치"
+   },
+   "genSliderSize": {
+      "message": "이미지 크기"
+   },
+   "genSliderTextColor": {
+      "message": "텍스트 색상"
+   },
+   "genSolid": {
+      "message": "단색"
+   },
+   "genTabs": {
+      "message": "탭: 창의 탭"
+   },
+   "genTiles": {
+      "message": "타일: 독립된 창"
+   },
+   "genToolbarColor": {
+      "message": "Meet 툴바 색상"
+   },
+   "hangupBreakouts": {
+      "message": "*** 토론 완료: 모든 토론방 종료"
+   },
+   "hangupMain": {
+      "message": "*** 수업 종료: 메인 교실 종료"
+   },
+   "headline1a": {
+      "message": "무료 사용, 데이터 유출 없음,"
+   },
+   "headline1b": {
+      "message": "胡浩洋"
+   },
+   "headline1c": {
+      "message": "이 사용"
+   },
+   "headline1d": {
+      "message": "창작의, 주석:"
+   },
+   "headline1e": {
+      "message": "주석"
+   },
+   "headlineTryThemes": {
+      "message": "새로운 테마를 시도해보세요"
+   },
+   "helpCode": {
+      "message": " 코드: "
+   },
+   "helpCode1a": {
+      "message": "코드는 총 12자입니다: 세 글자, 하나의 ' - ', 네 글자, 하나의 ' - ', 세 글자. 예를 들어: abc-defg-hij. 두 개의 하이픈이 포함되어야 합니다. 이 코드는 google meet URL 'https://meet.google.com/' 뒤에 위치한 12자입니다. 예를 들어: https://meet.google.com/sik-akes-ilq?user=0. 여기서 코드는 sik-akes-ilq입니다."
+   },
+   "helpNickname": {
+      "message": "별명, 코드, URL이란 무엇인가요?"
+   },
+   "helpNickname1a": {
+      "message": "별명:"
+   },
+   "helpNickname1b": {
+      "message": "별명은 교사가 자유롭게 선택한 이름으로, meet을 시작할 때 편리하게 사용됩니다. 사용자 조직 내(예: 학교)에서 별명은 고유해야 하므로 다른 교사의 별명을 사용하지 않도록 주의하세요. 중복된 별명을 사용하면 해당 교사의 meet에 방해가 될 수 있습니다. 별명의 중복을 방지하기 위해 학교는 전체 이름, 과목명 등을 포함하는 별명 형식 규칙을 설정할 수 있습니다. 예를 들어: huhaoyang_math1_050810. 두 학교는 다른 조직이기 때문에 충돌이 발생하지 않습니다.\n\n\r참고: 별명은 반드시 영어로 입력해야 합니다."
+   },
+   "helpNickname1c": {
+      "message": "별명은 영어로만 입력해야 합니다."
+   },
+   "helpNickname1d": {
+      "message": "또한 별명에 웹사이트 접두사를 입력하지 마세요. 예를 들어 별명에 g.co/meet/ 또는 meet.google.com/lookup/을 포함할 수 없습니다. 예외로, Google Classroom 교사는 전체 meet 링크를 입력할 수 있습니다."
+   },
+   "helpNickname2": {
+      "message": "Google Classroom 교사 참고:"
+   },
+   "helpNickname2a": {
+      "message": "여기에서 교사는 Google Classroom 'meet 링크' 전체를 입력할 수 있으며, 확장 기능은 이 meet 링크에서 마지막 10자를 자동으로 필터링하여 Google Classroom 시스템이 무작위로 정의한 별명을 제공합니다."
+   },
+   "helpNickname3": {
+      "message": "예를 들어, 내 Google Classroom meet 링크가 https://meet.google.com/lookup/g45j4fubqb인 경우, 이 URL을 전체 복사하여 붙여넣으면, 확장 기능이 자동으로 마지막 10자 g45j4fubqb를 필터링하여 이 별명을 제공합니다."
+   },
+   "helpUrl": {
+      "message": "URL: "
+   },
+   "helpUrl1a": {
+      "message": "URL은 유연하게 사용될 수 있습니다. 예를 들어, 전체 google meet URL: https://meet.google.com/abc-defg-hij. 또는 수업 중에 사용하려는 웹사이트, 예를 들어: https://en.wikipedia.org/wiki/Astronomy, 또는 https://www.freecodecamp.org/, 또는 YouTube https://youtu.be/C4_uJmH9hmc"
+   },
+   "instructRoomLinks": {
+      "message": "교실 링크 입력 방법"
+   },
+   "lblBreakoutAssigns": {
+      "message": "분할 그룹"
+   },
+   "lblBreakoutRooms": {
+      "message": "토론방"
+   },
+   "lblStudents": {
+      "message": "학생"
+   },
+   "linksSaved": {
+      "message": "교실 링크가 저장되었습니다"
+   },
+   "mainName": {
+      "message": "메인 교실"
+   },
+   "meet": {
+      "message": "즐거운 수업"
+   },
+   "msgAllSync": {
+      "message": "성공: 모든 meet 창이 동기화되었습니다 (All successfully synced)"
+   },
+   "msgBreakoutSync": {
+      "message": "성공: 모든 토론방이 동기화되었습니다 (Breakouts successfully synced)"
+   },
+   "msgMainSync": {
+      "message": "성공: 메인 교실이 동기화되었습니다 (Main room synced)"
+   },
+   "muteAllBreakouts": {
+      "message": "모든 학생 음소거: 모든 토론방에서"
+   },
+   "muteAllMain": {
+      "message": "모든 학생 음소거: 메인 교실에서"
+   },
+   "muteAllRooms": {
+      "message": "모든 학생 음소거: 메인 교실 및 모든 토론방에서"
+   },
+   "muteAllThis": {
+      "message": "모든 학생 음소거: 이 교실에서"
+   },
+   "muteRemove": {
+      "message": "음소거, 학생 제거"
+   },
+   "myCourse": {
+      "message": "내 강의"
+   },
+   "myCourseDesc": {
+      "message": "내 강의 설명"
+   },
+   "myName": {
+      "message": "胡浩洋"
+   },
+   "nickname": {
+      "message": "별명 English"
+   },
+   "nicknameHelplink": {
+      "message": "설명"
+   },
+   "onlineVideoHref": {
+      "message": "https://youtu.be/5oGmIL3pmP4"
+   },
+   "onlineVideoTitle": {
+      "message": "사용 방법 설명 비디오 (한국어 버전 v17.3)"
+   },
+   "popupHelpAdhoc": {
+      "message": "즉석 그룹"
+   },
+   "popupHelpAdhocNumwords2a": {
+      "message": "이 복사는 총"
+   },
+   "popupHelpAdhocNumwords2b": {
+      "message": "글자입니다. 500글자 제한을 초과하지 않으므로 한 번에 복사하여 붙여넣을 수 있습니다."
+   },
+   "popupHelpAdhocNumwords2c": {
+      "message": "이 복사는 총"
+   },
+   "popupHelpAdhocNumwords2d": {
+      "message": "글자입니다. 500글자 제한을 초과하므로 보고서에 나와 있는 대로 여러 번 복사 및 붙여넣기 해야 합니다. 각 번마다 500글자를 초과하지 않도록 하세요."
+   },
+   "popupHelpAdhocNumwords3a": {
+      "message": "이 복사는 총"
+   },
+   "popupHelpAdhocNumwords3b": {
+      "message": "글자입니다. 500글자 제한을 초과하지 않으므로 한 번에 복사하여 붙여넣을 수 있습니다."
+   },
+   "popupHelpAdhocNumwords3c": {
+      "message": "이 복사는 총"
+   },
+   "popupHelpAdhocNumwords3d": {
+      "message": "글자입니다. 500글자 제한을 초과하므로 보고서에 나와 있는 대로 여러 번 복사 및 붙여넣기 해야 합니다. 각 번마다 500글자를 초과하지 않도록 하세요."
+   },
+   "popupHelpAdhocStep2": {
+      "message": "2단계: 토론방 링크 복사 및 붙여넣기"
+   },
+   "popupHelpAdhocStep2a": {
+      "message": "클릭하세요"
+   },
+   "popupHelpAdhocStep2b": {
+      "message": "여기"
+   },
+   "popupHelpAdhocStep2c": {
+      "message": "토론방 링크를 복사한 다음, 메인 교실 채팅에 붙여넣기 (command/control v)"
+   },
+   "popupHelpAdhocStep3": {
+      "message": "3단계: 학생 그룹 복사 및 붙여넣기"
+   },
+   "popupHelpAdhocStep3a": {
+      "message": "클릭하세요"
+   },
+   "popupHelpAdhocStep3b": {
+      "message": "여기"
+   },
+   "popupHelpAdhocStep3c": {
+      "message": "학생 그룹을 복사한 다음, 메인 교실 채팅에 붙여넣기 (command/control v)"
+   },
+   "pre1": {
+      "message": "1단계: 사전에 준비된 그룹 목록 복사"
+   },
+   "pre1a": {
+      "message": "예를 들어, MS Word 파일에서 그룹 목록을 복사한 후 메인 교실 채팅에 붙여넣기. 이렇게 하면 학생들이 자신이 속한 토론방을 알 수 있습니다."
+   },
+   "pre1b": {
+      "message": "복사 및 붙여넣기를 할 때 Google Meet 채팅의 500글자 제한에 주의하세요. 따라서 여러 번 복사 및 붙여넣기가 필요할 수 있습니다."
+   },
+   "pre2": {
+      "message": "2단계: 토론방 링크 복사"
+   },
+   "pre2a": {
+      "message": "클릭하세요"
+   },
+   "pre2b": {
+      "message": "여기"
+   },
+   "pre2c": {
+      "message": "그리고 메인 교실 채팅에 붙여넣기"
+   },
+   "preNumwords2a": {
+      "message": "이 복사는 총"
+   },
+   "preNumwords2b": {
+      "message": "글자입니다. 500글자 제한을 초과하지 않으므로 한 번에 복사하여 붙여넣을 수 있습니다."
+   },
+   "preNumwords2c": {
+      "message": "이 복사는 총"
+   },
+   "preNumwords2d": {
+      "message": "글자입니다. 500글자 제한을 초과하므로 보고서에 나와 있는 대로 여러 번 복사 및 붙여넣기 해야 합니다. 각 번마다 500글자를 초과하지 않도록 하세요."
+   },
+   "removeAllThis": {
+      "message": "모든 학생 제거: 이 교실에서"
+   },
+   "removeBreakouts": {
+      "message": "*** 토론 완료: 모든 토론방에서 학생 제거"
+   },
+   "removeMain": {
+      "message": "*** 수업 종료: 메인 교실에서 학생 제거"
+   },
+   "reports": {
+      "message": "보고서"
+   },
+   "reportsAssignments": {
+      "message": "학생 그룹 할당"
+   },
+   "reportsAttendance": {
+      "message": "출석 목록"
+   },
+   "reportsClipboard": {
+      "message": "클립보드에 복사"
+   },
+   "reportsCsv": {
+      "message": "CSV 파일로 다운로드"
+   },
+   "reportsGroups": {
+      "message": "그룹의 학생"
+   },
+   "reportsLinks": {
+      "message": "분할 그룹 비디오 URL"
+   },
+   "rooms": {
+      "message": "교실 설정"
+   },
+   "roomsBuiltWith": {
+      "message": "胡浩洋이 ❤️ 로 만든"
+   },
+   "roomsCreatingUrl": {
+      "message": "교실 링크를 생성하고 저장 중"
+   },
+   "roomsDupe": {
+      "message": "저장 불가: 교실 이름 또는 링크가 중복됩니다. 모두 고유해야 합니다."
+   },
+   "roomsExp1": {
+      "message": "이 강의 데이터 내보내기"
+   },
+   "roomsExp2": {
+      "message": "파일(.txt)"
+   },
+   "roomsExp3": {
+      "message": "내보내기"
+   },
+   "roomsExpimp": {
+      "message": "이 강의의 토론방 데이터를 내보내기 또는 가져오기"
+   },
+   "roomsHowCode": {
+      "message": "코드: "
+   },
+   "roomsHowCode1": {
+      "message": "코드는 총 12자로, 다음 형식을 따릅니다: 세 글자, 하나의 ' - ', 네 글자, 하나의 ' - ', 세 글자 ' - '. 예를 들어: "
+   },
+   "roomsHowCode2": {
+      "message": "코드는 임의로 생성되는 것이 아니라 Google meet에서 생성됩니다. 예를 들어, 이 URL https://meet/google.com/new를 사용하면 새로운 meet가 시작되며, URL에서 12자를 확인할 수 있으며, 이는 코드입니다."
+   },
+   "roomsHowCode3": {
+      "message": "코드는 고정되어 있으며, 항상 동일한 meet URL을 생성합니다."
+   },
+   "roomsHowGc": {
+      "message": "Google Classroom 교사: "
+   },
+   "roomsHowGc1": {
+      "message": "Google Classroom 홈 페이지에서 meet 링크를 복사하여 여기에 붙여넣기. 예를 들어, 내 Meet 링크는 https://meet.google.com/lookup/g45j4fubqb입니다. 링크 필드에 붙여넣으면 확장 기능이 앞부분의 https://meet.google.com/lookup/을 제거하고 마지막 10자만 남깁니다. 내 예에서는 "
+   },
+   "roomsHowGc2": {
+      "message": "g45j4fubqb"
+   },
+   "roomsHowGc3": {
+      "message": "메인 교실이 이 확장 기능에서 시작된 경우, 확장 기능과 Google Classroom이 이미 동기화됩니다. Google Classroom 웹사이트에서 메인 교실을 시작한 경우, 확장 기능의 '즐거운 수업' 탭에서 '수업 시작' 섹션에서 '메인 교실 시작' 버튼을 클릭하여 Google Classroom과 확장 기능을 동기화해야 합니다."
+   },
+   "roomsHowGcnick": {
+      "message": "Google Classroom 별명: "
+   },
+   "roomsHowGcnick1": {
+      "message": "전체 meet URL 예:"
+   },
+   "roomsHowGcnick2": {
+      "message": "또는 마지막 10자 "
+   },
+   "roomsHowGcnick3": {
+      "message": "링크 필드에 전체 meet 링크 또는 마지막 10자를 입력할 수 있습니다. 전체 URL을 입력하면 확장 기능이 앞부분을 제거하고 마지막 10자만 남깁니다. 이 예에서는 g45j4fubqb."
+   },
+   "roomsHowGcnick4": {
+      "message": "Google Classroom 별명은 녹색입니다. 매번 새로운 링크를 생성하기 때문에 동적입니다."
+   },
+   "roomsHowNick": {
+      "message": "별명: "
+   },
+   "roomsHowNick1": {
+      "message": "별명 예: "
+   },
+   "roomsHowNick2": {
+      "message": "별명에는 웹사이트 접두사를 포함할 수 없습니다. 예를 들어 g.co/meet/ 또는 meet.google.com/lookup/는 사용할 수 없습니다. 별명은 자유롭게 선택할 수 있으며 숫자를 포함할 수 있습니다. 그러나 별명은 영어로만 입력해야 합니다 (별명은 영어로 입력해야 하며, 한자는 사용할 수 없음)."
+   },
+   "roomsHowNick3": {
+      "message": "교실 별명은 녹색입니다. 별명은 동적이며, 매번 새로운 링크를 생성합니다."
+   },
+   "roomsHowStart": {
+      "message": "가장 쉬운 방법: "
+   },
+   "roomsHowStart1": {
+      "message": "링크 필드를 비워둡니다. (파란색) 저장 버튼을 클릭하면 시스템이 자동으로 Google에서 meet URL을 요청하고 여기에 저장합니다. 교실 이름만 입력하면 됩니다. 이 자동 링크는 고정된 링크이며 변경되지 않습니다."
+   },
+   "roomsHowTypes": {
+      "message": "별명, 코드, URL: "
+   },
+   "roomsHowTypes1": {
+      "message": "세 가지 링크 유형이 있습니다, 설명은 다음과 같습니다."
+   },
+   "roomsHowUrl": {
+      "message": "Meet URL"
+   },
+   "roomsHowUrl1": {
+      "message": "링크 필드를 비워두면 확장 기능이"
+   },
+   "roomsHowUrl2": {
+      "message": "자동으로"
+   },
+   "roomsHowUrl3": {
+      "message": "Google에서 링크 URL을 요청하고 저장합니다. 또는 전체 URL을 직접 입력할 수 있습니다. 예를 들어:"
+   },
+   "roomsHowUrl4": {
+      "message": "Meet URL은 고정되어 있으며, 항상 동일한 URL을 생성합니다. 그러나 '일반 설정' 탭에는 '자동으로 새 URL 생성' 옵션이 있으며, 이 옵션을 선택하면 매번 새로운 URL을 생성합니다. 이 옵션을 선택하면 회의 시작 후 학생에게 새로운 URL을 알려야 합니다. 이 옵션은 메인 교실보다는 토론방에 적합할 수 있습니다."
+   },
+   "roomsHowUrl5": {
+      "message": "데이터 URL: "
+   },
+   "roomsHowUrl6": {
+      "message": "데이터 URL은 전체 URL이 필요합니다. 예를 들어 https://를 포함하여: "
+   },
+   "roomsHowUrl7": {
+      "message": "데이터 URL은 유연하게 사용할 수 있으며, 과학 웹사이트, 수학 웹사이트, 역사 웹사이트, 음악 웹사이트 등이 될 수 있습니다."
+   },
+   "roomsImp1": {
+      "message": "이 강의 데이터 가져오기"
+   },
+   "roomsImp2": {
+      "message": "파일(.txt)"
+   },
+   "roomsImp3": {
+      "message": "가져오기"
+   },
+   "roomsNeedName": {
+      "message": "저장 불가: 각 교실에는 이름이 필요합니다"
+   },
+   "roomsNotYetSaved": {
+      "message": "주의: 변경 사항이 아직 저장되지 않았습니다"
+   },
+   "roomsPopupTitle": {
+      "message": "강의: "
+   },
+   "roomsSaved": {
+      "message": "교실 및 링크가 저장되었습니다"
+   },
+   "roomsUndo": {
+      "message": "되돌리기"
+   },
+   "rptActualRoom": {
+      "message": "실제 토론방"
+   },
+   "rptActualStudent": {
+      "message": "실제 학생"
+   },
+   "rptAssignRoom": {
+      "message": "할당된 토론방"
+   },
+   "rptAssignStudent": {
+      "message": "할당된 학생"
+   },
+   "rptBreakoutRoom": {
+      "message": "토론방"
+   },
+   "rptMain": {
+      "message": "메인 교실에 있음"
+   },
+   "rptNo": {
+      "message": "아니오"
+   },
+   "rptStudent": {
+      "message": "학생"
+   },
+   "rptTitleBRSR": {
+      "message": "토론방 상태"
+   },
+   "rptTitleSSR": {
+      "message": "학생 상태"
+   },
+   "rptYes": {
+      "message": "예"
+   },
+   "setTimer": {
+      "message": "타이머 설정"
+   },
+   "settings": {
+      "message": "일반 설정"
+   },
+   "sim1": {
+      "message": "확장 기능 사용 연습"
+   },
+   "sim10": {
+      "message": "2단계:"
+   },
+   "sim11": {
+      "message": "이 제어판의 Meet 탭에서 메인 룸과 브레이크아웃 룸(예: 브레이크아웃 룸 3개)을 엽니다. 아직 브레이크아웃 룸 링크를 생성하지 않았다면, '룸' 탭으로 이동하여 그곳에서 룸과 링크를 생성하세요."
+   },
+   "sim12": {
+      "message": "3단계:"
+   },
+   "sim13": {
+      "message": "시뮬레이션 학생 수를 선택하세요. 만약 처음 사용해보는 경우라면, 브레이크아웃 룸 3개를 열고, 각 브레이크아웃 룸에 2명의 학생을 배치하여 총 6명의 시뮬레이션 학생을 배치하는 것을 추천합니다."
+   },
+   "sim14": {
+      "message": "참고:"
+   },
+   "sim15": {
+      "message": "Google Meet는 최근 단일 컴퓨터에서 작동하는 마이크를 가진 활성 미팅 수를 8개로 제한하는 규제를 시행했습니다. 즉, 컴퓨터에서 1개의 메인 룸과 최대 7개의 브레이크아웃 룸을 열어도 각 룸에서 마이크가 정상 작동합니다. 하지만 메인 룸이나 브레이크아웃 룸에 학생을 50명 이상 배치해도 마이크 기능에는 영향을 주지 않습니다."
+   },
+   "sim16": {
+      "message": "이 시뮬레이션에서는 모든 작업이 한 대의 컴퓨터에서 수행되므로, 메인 룸 1개, 브레이크아웃 룸 3개, 시뮬레이션 학생 6명을 열면 일부 시뮬레이션 학생은 마이크를 사용할 수 없지만, 테스트 목적으로는 문제가 없습니다. 모든 미팅이 동일한 컴퓨터에서 실행되므로 마이크를 사용하지 않을 가능성이 큽니다. 그러나 제어판 버튼을 사용하여 다양한 미팅을 제어하는 방법을 실험할 수 있습니다."
+   },
+   "sim17": {
+      "message": "팁:"
+   },
+   "sim18": {
+      "message": "이 연습 세션에서는 화면에 많은 미팅이 열리므로, 기본 '타일' 대신 '탭' 형식을 선택하는 것이 좋습니다. '브레이크아웃 룸 형식' 섹션에서 라디오 버튼을 사용하여 선택할 수 있습니다. 이를 통해 화면 왼쪽에 '교사' 미팅을 하나의 창에 탭으로 정리하고, 오른쪽에는 학생 시뮬레이션 미팅을 여러 탭으로 표시할 수 있습니다. 실제 수업을 진행할 때는 교사 미팅만 화면에 표시되므로, 작업 공간이 더 넓어지며 '타일' 또는 '탭' 중 원하는 형식을 선택할 수 있습니다."
+   },
+   "sim2": {
+      "message": "이 확장 기능을 처음 사용하는 경우, 시뮬레이션 학생을 사용하여 기능을 테스트해 볼 수 있습니다. 이 시뮬레이션은 컴퓨터에서 완전히 실행됩니다."
+   },
+   "sim3": {
+      "message": "알림:"
+   },
+   "sim4": {
+      "message": "이 확장 기능을 사용하여 수업을 진행할 때, 교사인 당신만 이 확장 기능을 설치하면 됩니다. 학생들은 이 확장 기능을 설치할 필요가 없습니다."
+   },
+   "sim5": {
+      "message": "시뮬레이션 설정 지침"
+   },
+   "sim6": {
+      "message": "1단계:"
+   },
+   "sim7": {
+      "message": "Chrome 확장 프로그램 페이지로 이동하세요"
+   },
+   "sim7a": {
+      "message": "Google Meet Breakout 확장 프로그램을 찾아 '세부 정보' 버튼을 클릭한 후 아래로 스크롤하여 '시크릿 모드에서 허용' 옵션을 켜세요."
+   },
+   "sim8": {
+      "message": "참고:"
+   },
+   "sim9": {
+      "message": "연습을 마친 후에는 '시크릿 모드에서 허용' 설정을 끌 수 있습니다. 이 확장 기능을 정상적으로 사용할 때는 시크릿 모드를 사용할 필요가 없습니다."
+   },
+   "sliderDefault": {
+      "message": "분할 그룹"
+   },
+   "startClass": {
+      "message": "수업 시작"
+   },
+   "subHeadingRooms": {
+      "message": "교실"
+   },
+   "timerHrs": {
+      "message": "시간"
+   },
+   "timerMin": {
+      "message": "분"
+   },
+   "timerReset": {
+      "message": "초기화"
+   },
+   "timerSec": {
+      "message": "초"
+   },
+   "timerStart": {
+      "message": "시작"
+   },
+   "timerStop": {
+      "message": "정지"
+   },
+   "title": {
+      "message": "분할 그룹"
+   },
+   "toolTipRetile": {
+      "message": "창 형식 다시 설정"
+   },
+   "toolTipToolbar": {
+      "message": "Meet 하단 툴바 숨기기/표시"
+   },
+   "url": {
+      "message": "URL"
+   },
+   "warning8Rooms": {
+      "message": "Google Meet 마이크는 7개의 소그룹 회의실로 제한됩니다"
+   }
+}

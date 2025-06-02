@@ -1,0 +1,869 @@
+{
+   "adhoc0": {
+      "message": "请注意，老师需要传给他们链接，然后学生自愿按该链接进入分组室。"
+   },
+   "adhoc1": {
+      "message": "第一步骤：分组学生，有几个方式"
+   },
+   "adhoc11a": {
+      "message": "（按这里说明）为什么在分组区域无法看任何的学生?"
+   },
+   "adhoc11b": {
+      "message": "这里"
+   },
+   "adhoc12a": {
+      "message": "（按这里说明）为什么无法看所有的学生?"
+   },
+   "adhoc12b": {
+      "message": "这里"
+   },
+   "adhoc13a": {
+      "message": "Google Classroom 使用者，"
+   },
+   "adhoc13b": {
+      "message": "请确认在「教室设置」标签里，大教室的链接是绿色的，并链接「昵称」是google classroom meet link 的尾10个字, 然后你按了发起大教室按钮"
+   },
+   "adhoc1a": {
+      "message": "随机分组：请按 「随机」按钮。能继续按按钮几次才看到你喜欢的随机形成的小组。如果想调整小组，能直接在两个小组之间拖放人交换 （第二个方法）"
+   },
+   "adhoc1b": {
+      "message": "手动调整：把学生的名字按住，然后在组之间拖放移动"
+   },
+   "adhoc1c": {
+      "message": "排除被随机分组：在学生的名字上按一下，可切换排除加入"
+   },
+   "adhoc1d": {
+      "message": "手动排除：把学生的名字按住，然后往左边拖放"
+   },
+   "adhoc2": {
+      "message": "第2与3步骤：复制讨论室链接及学生分组名单"
+   },
+   "adhoc2a": {
+      "message": "在你妥善分组好后，请按"
+   },
+   "adhoc2b": {
+      "message": "这里"
+   },
+   "adhoc2c": {
+      "message": "。"
+   },
+   "adhocAutosend": {
+      "message": "新功能！自动将分组任务发送到 Meet 聊天室"
+   },
+   "assignBreakoutsAdhoc": {
+      "message": "即时分组"
+   },
+   "assignBreakoutsPre": {
+      "message": "预先分组"
+   },
+   "audioFixCheckbox": {
+      "message": "启用新的解决方案"
+   },
+   "audioFixFallback": {
+      "message": "怎么自愿选这个解法？"
+   },
+   "audioFixFallback1": {
+      "message": "请打勾 (空的)"
+   },
+   "audioFixFallback2": {
+      "message": "若有已开的meets都必须关掉 （可能没有）"
+   },
+   "audioFixFallback3": {
+      "message": "把关掉的meets重新开 （可能没有）"
+   },
+   "audioFixFirst": {
+      "message": "怎么自愿选这个解法？"
+   },
+   "audioFixIntro": {
+      "message": "我建议把这个选择给打勾(默认的状态），所以不用改就留着打勾（X）的状态。如果你使用这个解法（打勾）后，发现喇叭不稳定，不好控制等等 请email robert@hudektech.com 通知我。 不打勾的话（o)是使用旧的解法（不建议）。如果想换成打勾的状态（x 或 o）,请记得打勾后需要把所有的meet 给关掉重新开因为打勾是换成喇叭的方式，会使meet扩充功能不太知道喇叭现在的状态（开或关），所以换成状态后需要重新开。重复一次，建议留着打勾（X)的状态，不要改"
+   },
+   "audioFixOptin": {
+      "message": "怎么自愿选这个解法？"
+   },
+   "audioFixOptin1": {
+      "message": "请打勾 (x)"
+   },
+   "audioFixOptin2": {
+      "message": "若有已开的meets都必须关掉 （可能没有）"
+   },
+   "audioFixOptin3": {
+      "message": "把关掉的meets重新开 （可能没有）"
+   },
+   "audioFixRecommend": {
+      "message": "(建议) "
+   },
+   "audioFixSecond": {
+      "message": "如果使用新的解法后发生喇叭问题，就能退回原本解法"
+   },
+   "audioFixTitle": {
+      "message": "新解法针对喇叭断断续续随机的问题"
+   },
+   "audioHeadline": {
+      "message": "如何解决喇叭的断断续续问题，请按这里"
+   },
+   "broadcast": {
+      "message": "广播到所有讨论室"
+   },
+   "btnAutosend": {
+      "message": "1. 发送到聊天"
+   },
+   "btnOpenAll": {
+      "message": "全部"
+   },
+   "btnOpenBreakouts": {
+      "message": "讨论室"
+   },
+   "btnOpenMain": {
+      "message": "大教室"
+   },
+   "btnOpenMain1": {
+      "message": "大教室"
+   },
+   "btnOpenMainRam": {
+      "message": "大教室"
+   },
+   "btnRam": {
+      "message": "开 视讯，用滑杆轮流开视讯"
+   },
+   "btnRandom": {
+      "message": "随机分组"
+   },
+   "btnRoomsReport": {
+      "message": "教室"
+   },
+   "btnStudentsReport": {
+      "message": "学生"
+   },
+   "checkRam": {
+      "message": "低记忆体(RAM)选项：平常不勾选，关于记忆体低于8G"
+   },
+   "checkRam2": {
+      "message": "说明"
+   },
+   "checkRamOld": {
+      "message": "低记忆体(RAM)选项：平常不勾选。若记忆体（RAM）低于8G 能勾选。勾选后，大教室和分组室仍会开启，但一次只能观看一个视窗。用滑杆操作会同步关闭目前视讯与开启接下来的视讯"
+   },
+   "code": {
+      "message": "代码"
+   },
+   "courseCourse": {
+      "message": " 课程"
+   },
+   "courseDesc": {
+      "message": " 课程说明"
+   },
+   "courseEnter": {
+      "message": "请输入您的课程名单"
+   },
+   "courses": {
+      "message": "课程设置"
+   },
+   "coursesBuiltWith": {
+      "message": "胡浩洋用 ❤️ 创作的"
+   },
+   "coursesDupe": {
+      "message": " 无法保存：名字是重复了，名字需要独一无二"
+   },
+   "coursesExp1": {
+      "message": "导出这个扩充功能所有的数据"
+   },
+   "coursesExp2": {
+      "message": "文件（.txt)"
+   },
+   "coursesExp3": {
+      "message": "导出"
+   },
+   "coursesExpimp": {
+      "message": "这个扩充功能的数据全部导出或导入"
+   },
+   "coursesExpimpWarn": {
+      "message": "特别注意：导入会取代这个扩充功能数据所有的一切"
+   },
+   "coursesImp1": {
+      "message": "导入这个扩充功能所有的数据"
+   },
+   "coursesImp2": {
+      "message": "文件（.txt)"
+   },
+   "coursesImp3": {
+      "message": "导入"
+   },
+   "coursesNotYetSaved": {
+      "message": "变更尚未保存"
+   },
+   "coursesSaved": {
+      "message": " 保存了"
+   },
+   "default1": {
+      "message": "若上述的账户是对的，不需要做什么"
+   },
+   "default2": {
+      "message": "若账户不是对的，请照下面的指示处理"
+   },
+   "default3a": {
+      "message": "请按"
+   },
+   "default3b": {
+      "message": "这里"
+   },
+   "default3c": {
+      "message": "为了管理google账户的顺序"
+   },
+   "default4": {
+      "message": "登出所有的账户"
+   },
+   "default5a": {
+      "message": "你的google meet 账户是你登入了第一个账户。如果你想用的账户不是顺序第一个，只能先把所有的账户登出，重新登入了，这次第一个账户是你想用的google meet 账户"
+   },
+   "default5b": {
+      "message": "很重要注意并使用同样的账户设计与发起视讯会议"
+   },
+   "default5c": {
+      "message": "设计与发起的视讯会议算你的google meet 账户的主人"
+   },
+   "default6": {
+      "message": "重新登入准确的顺序，你就能设计与发起视讯会议"
+   },
+   "defaultAccount": {
+      "message": "你的账户是 "
+   },
+   "dropdownBreakouts": {
+      "message": "几个分组"
+   },
+   "dropdownCourse": {
+      "message": "课程"
+   },
+   "enterCourses": {
+      "message": "请输入你的课程"
+   },
+   "errorAutoCreateLink": {
+      "message": "发生问题时，无法自动向 Google 申请 Meet 链接。请确认您已登录您的google账户。如果已经登录，请用这个链接登出重新登录： https://accounts.google.com/SignoutOptions。这样会把您所有现在登录的账户登出 (pai-sei pai-sei)，然后请确保您首先登录的是您的教学 Google 账户 。登录顺序很重要，您第一个登录的是您的google meet 账户。"
+   },
+   "errorBouncingBalls": {
+      "message": "有一个meet 视窗无法同步连接（cannot sync). 请关闭您所有现在已开meet的视窗，包括此控制面板，然后重新打开此控制面板，重新发起大教室与讨论室。放心关闭meet视窗并不会把里面的学生删除或干扰。如果您有很多已开的视窗，可能无法找到所有的meet视窗。这种情况下，建议简单的方法是关闭您现在所有的视窗，重新打开，因为如果还有一个旧的meet视窗, 扩充功能还是无法练习同步。***不需要删除扩充功能重新下载。只需先关闭所有已开的meet视窗，再重新打开此控制面板，用此控制面板开启大教室与讨论室"
+   },
+   "errorNick1": {
+      "message": "发生了问题，无法自动创建链接用于昵称："
+   },
+   "errorNick2": {
+      "message": "请确认您已登录 Google 账户。如果已登录，并且确定您的 Google 账户具有 Google Suite、教育版等提供昵称功能，免费 Google 账户通常没有此功能。如果您的账户提供这个功能且已登录，请用这个链接登出重新登录： https://accounts.google.com/SignoutOptions。这样会把您所有现在登录的账户登出 (pai-sei pai-sei)，然后请确保您首先登录的是您的教学 Google 账户 。登录顺序很重要，您第一个登录的是您的google meet 账户。如果您的google 账户没有提供昵称功能，请只创建固定（深蓝色的）或代码（浅蓝色的）链接"
+   },
+   "extDesc": {
+      "message": "只有老师需要安装。完全免费，并且您的数据是私密的。集成 Google Classroom、滑块控制、昵称、帮助教程。"
+   },
+   "extName": {
+      "message": "Google Meet 分组 by 胡浩洋"
+   },
+   "firstRoomMain": {
+      "message": "第一行教室是大教室，第二行之后是讨论室"
+   },
+   "genAutoEnter": {
+      "message": "允许外部人员自动进入教室"
+   },
+   "genAutoEnter1": {
+      "message": "若勾选的话，外人能通过教室的链接自动进入"
+   },
+   "genAutoEnter2": {
+      "message": "平常建议不勾选（留空的）"
+   },
+   "genAutoEnter3": {
+      "message": "因为安全的关系"
+   },
+   "genAutoJoin": {
+      "message": "关于这个扩充功能管理的教室，发起时会自动按「加入」按钮。这是方便的功能"
+   },
+   "genAutoJoinBreak": {
+      "message": "讨论室"
+   },
+   "genAutoJoinMain": {
+      "message": "大教室"
+   },
+   "genAutoNewUrl": {
+      "message": "关于「固定」教室链接（深蓝色的）自动换新的"
+   },
+   "genAutoNewUrl1": {
+      "message": "每次发起会议时，自动更换新的 Meet 链接。这个选项是一种安全的方法，但管理教室过程可能会变得有点复杂。必须先发起会议才能知道新链接，然后再通知学生。"
+   },
+   "genAutoNewUrl2": {
+      "message": "请注意：这个选项只是针对教室设置标签里的「固定」类型的教室链接（深蓝色的）。"
+   },
+   "genAutoNewUrl3": {
+      "message": "其他的教室链接类型（昵称绿色的，代码浅蓝色的）不受此选项影响。"
+   },
+   "genAutoNewUrlBreak": {
+      "message": "讨论室"
+   },
+   "genAutoNewUrlMain": {
+      "message": "大教室"
+   },
+   "genBroadBackColor": {
+      "message": "背景颜色"
+   },
+   "genBroadImg": {
+      "message": "广播背景画面"
+   },
+   "genBroadPos": {
+      "message": "画面位置"
+   },
+   "genBroadSize": {
+      "message": "画面大小"
+   },
+   "genBroadTextColor": {
+      "message": "字体颜色"
+   },
+   "genDisplay": {
+      "message": "分组讨论室的格式"
+   },
+   "genDropEnd": {
+      "message": "两边"
+   },
+   "genDropMid": {
+      "message": "中间"
+   },
+   "genDropSolid": {
+      "message": "纯色"
+   },
+   "genGrad": {
+      "message": "渐变色"
+   },
+   "genSliderBackColor": {
+      "message": "背景颜色"
+   },
+   "genSliderImg": {
+      "message": "滑杆控制背景画面"
+   },
+   "genSliderPos": {
+      "message": "画面位置"
+   },
+   "genSliderSize": {
+      "message": "画面大小"
+   },
+   "genSliderTextColor": {
+      "message": "字体颜色"
+   },
+   "genSolid": {
+      "message": "纯色"
+   },
+   "genTabs": {
+      "message": "Tabs: 视窗的分页"
+   },
+   "genTiles": {
+      "message": "Tiles: 独立的视窗"
+   },
+   "genToolbarColor": {
+      "message": "Meet Toolbar 颜色"
+   },
+   "hangupBreakouts": {
+      "message": "*** 讨论完毕：关闭所有讨论室"
+   },
+   "hangupMain": {
+      "message": "*** 下课了：关闭大教室"
+   },
+   "headline1a": {
+      "message": "免费使用，资料不外泄，"
+   },
+   "headline1b": {
+      "message": "胡浩洋"
+   },
+   "headline1c": {
+      "message": "用"
+   },
+   "headline1d": {
+      "message": "创作的，注解："
+   },
+   "headline1e": {
+      "message": "注释"
+   },
+   "headlineTryThemes": {
+      "message": "试试看新的"
+   },
+   "helpCode": {
+      "message": " 代码： "
+   },
+   "helpCode1a": {
+      "message": "代码是总共12个字的：三个字，一个「-」，四个字，一个「-」，三个字。一个例子是：abc-defg-hij. 请注意留着两个分割「-」。  这个代码是google meet 网址「https://meet.google.com/」后面12个字，比方说： https://meet.google.com/sik-akes-ilq？user=0. 在这里代码是 sik-akes-ilq"
+   },
+   "helpNickname": {
+      "message": "什么是：昵称、代码、URL？"
+   },
+   "helpNickname1a": {
+      "message": "昵称："
+   },
+   "helpNickname1b": {
+      "message": "昵称是一个老师自由选的名称，用它来方便发起一个meet。 在一个使用者的组织内（比方说学校）「昵称」是独一无二的名称，小心不要重复用别老师的名称，要不然会干扰该老师的meet。 为了避免同名的昵称，学校能设一个制作昵称的格式规则：全名，课程，自由。比方说：huhaoyang_math1_050810。两个学校因为是不同组织不会有互相冲突。\n\n\r请注意：昵称必须用 english."
+   },
+   "helpNickname1c": {
+      "message": "You must use english for nicknames"
+   },
+   "helpNickname1d": {
+      "message": "另外，在昵称的名字内，请不要输入任何的网站字首。譬如说在昵称名字内 g.co/meet/ 或 meet.google.com/lookup/ 都是不行。例外是 Google Classroom 老师能输入全meet link, 解释下面"
+   },
+   "helpNickname2": {
+      "message": "请注意 Google Classroom 的老师： "
+   },
+   "helpNickname2a": {
+      "message": " 在这里老师能把Google Classroom 'meet link:' 的全部输入，扩充功能软件会自动从这个 meet link 筛选出来最后10个字，就是你的google classroom 系统随机定义给你的「昵称」。"
+   },
+   "helpNickname3": {
+      "message": "比方说，我的 Google Classroom meet link 是 https://meet.google.com/lookup/g45j4fubqb。 我把这个网址的全部复制粘贴输入，然后软件会自动地筛选留着最后10个字：g45j4fubqb.  这是我google classroom 随机给我的「昵称」，g45j4fubqb"
+   },
+   "helpUrl": {
+      "message": "URL： "
+   },
+   "helpUrl1a": {
+      "message": "URL 很有弹性用途。一个例子是 google meet 的全网址： https://meet.google.com/abc-defg-hij.  或许老师在课堂上想使用的网站，比方说：https://en.wikipedia.org/wiki/Astronomy, 或 https://www.freecodecamp.org/， 或 YouTube https://youtu.be/C4_uJmH9hmc"
+   },
+   "instructRoomLinks": {
+      "message": "说明怎么输入教室链接"
+   },
+   "lblBreakoutAssigns": {
+      "message": "分组"
+   },
+   "lblBreakoutRooms": {
+      "message": "讨论室"
+   },
+   "lblStudents": {
+      "message": "学生"
+   },
+   "linksSaved": {
+      "message": "教室链接已保存"
+   },
+   "mainName": {
+      "message": "大教室"
+   },
+   "meet": {
+      "message": "快乐上课"
+   },
+   "msgAllSync": {
+      "message": "成功： 所有meet视窗同步连接 （All successfully synced)"
+   },
+   "msgBreakoutSync": {
+      "message": "成功： 所有讨论室同步连接 （Breakouts successfully synced)"
+   },
+   "msgMainSync": {
+      "message": "成功： 大教室同步连接 （Main room synced)"
+   },
+   "muteAllBreakouts": {
+      "message": "静音所有学生：在所有分组讨论室"
+   },
+   "muteAllMain": {
+      "message": "静音所有学生：在大教室"
+   },
+   "muteAllRooms": {
+      "message": "静音所有学生：在大教室与所有分组讨论室"
+   },
+   "muteAllThis": {
+      "message": "静音所有学生：在这间教室"
+   },
+   "muteRemove": {
+      "message": "静音，移除学生"
+   },
+   "myCourse": {
+      "message": "我的课"
+   },
+   "myCourseDesc": {
+      "message": "我自己的课"
+   },
+   "myName": {
+      "message": "胡浩洋"
+   },
+   "nickname": {
+      "message": "昵称 English"
+   },
+   "nicknameHelplink": {
+      "message": "说明"
+   },
+   "onlineVideoHref": {
+      "message": "https://youtu.be/5oGmIL3pmP4"
+   },
+   "onlineVideoTitle": {
+      "message": "说明操作的影片（中文版 v17.3）"
+   },
+   "popupHelpAdhoc": {
+      "message": "现场分组"
+   },
+   "popupHelpAdhocNumwords2a": {
+      "message": "这个复制只有"
+   },
+   "popupHelpAdhocNumwords2b": {
+      "message": "个字，是低于500个字一次复制贴上限制，所以能一次复制贴上"
+   },
+   "popupHelpAdhocNumwords2c": {
+      "message": "这个复制有"
+   },
+   "popupHelpAdhocNumwords2d": {
+      "message": "个字，是超越500个字一次复制贴上限制，所以需要在下面的报告，几次：突出几行，复制粘贴在大教室即时通讯里。每次不超过500个字。"
+   },
+   "popupHelpAdhocNumwords3a": {
+      "message": "这个复制只有"
+   },
+   "popupHelpAdhocNumwords3b": {
+      "message": "个字，是低于500个字一次复制贴上限制，所以能一次复制贴上"
+   },
+   "popupHelpAdhocNumwords3c": {
+      "message": "这个复制有"
+   },
+   "popupHelpAdhocNumwords3d": {
+      "message": "个字，是超越500个字一次复制贴上限制，所以需要在下面的报告，几次：突出几行，复制粘贴在大教室即时通讯里。每次不超过500个字。"
+   },
+   "popupHelpAdhocStep2": {
+      "message": "第二步骤：复制贴上讨论室链接"
+   },
+   "popupHelpAdhocStep2a": {
+      "message": "请按"
+   },
+   "popupHelpAdhocStep2b": {
+      "message": "这里"
+   },
+   "popupHelpAdhocStep2c": {
+      "message": "为了复制讨论室链接，然后在大教室即时通讯贴上 (指令/控制键 V)"
+   },
+   "popupHelpAdhocStep3": {
+      "message": "第三步骤：复制贴上学生分组"
+   },
+   "popupHelpAdhocStep3a": {
+      "message": "请按"
+   },
+   "popupHelpAdhocStep3b": {
+      "message": "这里"
+   },
+   "popupHelpAdhocStep3c": {
+      "message": "为了复制学生分组，然后在大教室即时通讯贴上 (指令/控制键 V)"
+   },
+   "pre1": {
+      "message": "第一步骤：复制你事先分组的名单"
+   },
+   "pre1a": {
+      "message": "比方说，从MS Word 档案复制分组名单，然后在大教室即时通讯贴上。这样做，学生们会知道他们被分组的聊天教室"
+   },
+   "pre1b": {
+      "message": "每次复制粘贴，请注意google meet的即时通讯有500个字限制，所以可能需要复制粘贴几次"
+   },
+   "pre2": {
+      "message": "第二步骤：复制讨论室链接"
+   },
+   "pre2a": {
+      "message": "请按"
+   },
+   "pre2b": {
+      "message": "这里"
+   },
+   "pre2c": {
+      "message": "然后在大教室即时通讯贴上"
+   },
+   "preNumwords2a": {
+      "message": "这个复制只有"
+   },
+   "preNumwords2b": {
+      "message": "个字，是低于500个字一次复制贴上限制，所以能一次复制贴上"
+   },
+   "preNumwords2c": {
+      "message": "这个复制有"
+   },
+   "preNumwords2d": {
+      "message": "个字，是超越500个字一次复制贴上限制，所以需要在下面的报告，几次：突出几行，复制粘贴在大教室即时通讯里。每次不超过500个字。"
+   },
+   "removeAllThis": {
+      "message": "移除所有学生：从这间教室"
+   },
+   "removeBreakouts": {
+      "message": "*** 讨论完毕： 移除学生从所有讨论室"
+   },
+   "removeMain": {
+      "message": "*** 下课了：移除学生从大教室"
+   },
+   "reports": {
+      "message": "报告"
+   },
+   "reportsAssignments": {
+      "message": "学生分配的小组"
+   },
+   "reportsAttendance": {
+      "message": "出席名单"
+   },
+   "reportsClipboard": {
+      "message": "复制到剪贴板"
+   },
+   "reportsCsv": {
+      "message": "同时下载csv档案"
+   },
+   "reportsGroups": {
+      "message": "小组的学生"
+   },
+   "reportsLinks": {
+      "message": "分组视讯的网址"
+   },
+   "rooms": {
+      "message": "教室设置"
+   },
+   "roomsBuiltWith": {
+      "message": "胡浩洋用 ❤️ 创作的"
+   },
+   "roomsCreatingUrl": {
+      "message": "正在创建教室的链接并保存"
+   },
+   "roomsDupe": {
+      "message": "无法保存：教室名字重复或链接重复。都必须独一无二"
+   },
+   "roomsExp1": {
+      "message": "导出这门课的数据"
+   },
+   "roomsExp2": {
+      "message": "文件（.txt)"
+   },
+   "roomsExp3": {
+      "message": "导出"
+   },
+   "roomsExpimp": {
+      "message": "导出导入这门课的讨论室数据"
+   },
+   "roomsHowCode": {
+      "message": "代码： "
+   },
+   "roomsHowCode1": {
+      "message": "代码总共有12个字，按照这个格式：三个字，一个「-」，四个字，一个「-」，三个字「-」。例子是"
+   },
+   "roomsHowCode2": {
+      "message": "代码不是你自己随机生成的，而是google meet制作的。比方说如果用这个网址：https://meet/google.com/new 会有一个新的meet 发起，在网址能看得出这个12个字，就是你的代码"
+   },
+   "roomsHowCode3": {
+      "message": "代码是固定的因为总是发起同样的meet网址。"
+   },
+   "roomsHowGc": {
+      "message": "Google Classroom 老师： "
+   },
+   "roomsHowGc1": {
+      "message": "请从google classroom 首页，复制meet link 然后在此链接栏位粘贴。比方说，我的Meet link 是 https://meet.google.com/lookup/g45j4fubqb.  在链接栏位粘贴后，扩充功能会把前面的字 https://meet.google.com/lookup/ 删除，留着后面的10个字。在我的例子留着 "
+   },
+   "roomsHowGc2": {
+      "message": "g45j4fubqb"
+   },
+   "roomsHowGc3": {
+      "message": "如果大教室是在这个扩充功能发起的，扩充功能软件与google classroom 已经同步（sync）。如果大教室是在google classroom 网页发起的，必须在扩充功能的「快乐上课」的标签，「开始上课」部分，按「发起大教室」的按钮，就会让google classroom 与扩充功能软件同步（sync）。"
+   },
+   "roomsHowGcnick": {
+      "message": "Google Classroom 昵称： "
+   },
+   "roomsHowGcnick1": {
+      "message": "例子是meet 全网址"
+   },
+   "roomsHowGcnick2": {
+      "message": "或最后10个字 "
+   },
+   "roomsHowGcnick3": {
+      "message": "在链接栏位里，能输入全meet link，或最后10个字。如果输入全网址，扩充功能软件会删除前面的字，只留着最后10个字。在这个例子里，就是 g45j4fubqb "
+   },
+   "roomsHowGcnick4": {
+      "message": "Google Classroom 昵称是绿色的因为他们是动态的，因为每次发起会变成不同的链接 "
+   },
+   "roomsHowNick": {
+      "message": "昵称： "
+   },
+   "roomsHowNick1": {
+      "message": "昵称例子是 "
+   },
+   "roomsHowNick2": {
+      "message": "昵称不能包含任何网址字首，比方说 g.co/meet/ ，meet.google.com/lookup/ 都不行。昵称是自由选的，可以包含数字，不过昵称必须要用英文 (must use english nicknames, no chinese characters)"
+   },
+   "roomsHowNick3": {
+      "message": "教室昵称是绿色的。昵称是动态的，每次发起，网址都会不一样 "
+   },
+   "roomsHowStart": {
+      "message": "最简单的方法: "
+   },
+   "roomsHowStart1": {
+      "message": "在链接栏位里，不填写任何东西。按（蓝色的）保存按钮，系统会自动向google 申请一个meet 网址并在此保存。您只需填写教室的名字即可。这个自动的链接是一个固定的链接，不会变"
+   },
+   "roomsHowTypes": {
+      "message": "昵称，代码，URLs： "
+   },
+   "roomsHowTypes1": {
+      "message": "有三种的链接，解释如下 "
+   },
+   "roomsHowUrl": {
+      "message": "Meet Url"
+   },
+   "roomsHowUrl1": {
+      "message": "如果在链接栏位留着空的，扩充功能软件会"
+   },
+   "roomsHowUrl2": {
+      "message": "自动地"
+   },
+   "roomsHowUrl3": {
+      "message": "向google 申请一个链接网址并保存. 或许你能直接输入一个全网址，在这个格式："
+   },
+   "roomsHowUrl4": {
+      "message": "Meet URLs 是固定的因为他们总是发起同样的链接没变。不过在「一般设计」的标签里，有一个「自动发起新的链接」选项，如果打勾这个选项，每次发起会自动换新的链接。如果你选这个选项，要注意发起后通知学生这个新的链接。这个选项可能比较适合讨论室而不是大教室"
+   },
+   "roomsHowUrl5": {
+      "message": "数据 URL： "
+   },
+   "roomsHowUrl6": {
+      "message": "数据URL 需要全链接，包含 https://. 例子是"
+   },
+   "roomsHowUrl7": {
+      "message": "数据 URL 很有弹性，可能是一个科学网站，数学网站，历史网站，音乐的，等等"
+   },
+   "roomsImp1": {
+      "message": "导入这门课的数据"
+   },
+   "roomsImp2": {
+      "message": "文件（.txt)"
+   },
+   "roomsImp3": {
+      "message": "导入"
+   },
+   "roomsNeedName": {
+      "message": "无法保存：每间教室需要名字"
+   },
+   "roomsNotYetSaved": {
+      "message": "注意：更改尚未保存"
+   },
+   "roomsPopupTitle": {
+      "message": "课程： "
+   },
+   "roomsSaved": {
+      "message": "教室与链接已保存"
+   },
+   "roomsUndo": {
+      "message": "撤销更改"
+   },
+   "rptActualRoom": {
+      "message": "实际的讨论室"
+   },
+   "rptActualStudent": {
+      "message": "实际的学生"
+   },
+   "rptAssignRoom": {
+      "message": "分组的讨论室"
+   },
+   "rptAssignStudent": {
+      "message": "分组的学生"
+   },
+   "rptBreakoutRoom": {
+      "message": "讨论室"
+   },
+   "rptMain": {
+      "message": "在大教室里"
+   },
+   "rptNo": {
+      "message": "否"
+   },
+   "rptStudent": {
+      "message": "学生"
+   },
+   "rptTitleBRSR": {
+      "message": "讨论室状态"
+   },
+   "rptTitleSSR": {
+      "message": "学生状态"
+   },
+   "rptYes": {
+      "message": "是"
+   },
+   "setTimer": {
+      "message": "设计计时器"
+   },
+   "settings": {
+      "message": "一般设置"
+   },
+   "sim1": {
+      "message": "练习使用扩展功能"
+   },
+   "sim10": {
+      "message": "步骤 2："
+   },
+   "sim11": {
+      "message": "在这个控制面板的 Meet 标签上，打开主会议室和您的分组讨论室（例如，3 个分组讨论室）。如果您还没有创建分组讨论室的链接，请前往「房间」标签并在那里创建房间和链接。"
+   },
+   "sim12": {
+      "message": "步骤 3："
+   },
+   "sim13": {
+      "message": "选择模拟学生的人数。如果您只是尝试使用，我们建议打开 3 个分组讨论室，并分配 6 名模拟学生，将 2 名学生分配到每个分组讨论室。"
+   },
+   "sim14": {
+      "message": "注意："
+   },
+   "sim15": {
+      "message": "Google Meet 最近实施了一项限制，将同一台电脑上具有运行麦克风的会议限制为 8 个。这意味着在您的电脑上，您可以打开 1 个主会议室和最多 7 个分组讨论室，并且在每个会议室中麦克风都能正常工作。不过，您可以在主会议室或分组讨论室中放置任意多的学生，例如 50 名以上的学生，而不会影响麦克风功能。"
+   },
+   "sim16": {
+      "message": "在这次模拟中，所有操作都在同一台电脑上进行。如果您打开 1 个主会议室、3 个分组讨论室和 6 名模拟学生，则部分模拟学生将无法使用运行中的麦克风，但这对测试来说是完全可以接受的。由于所有会议都在同一台电脑上运行，您可能无法使用自己的麦克风，以避免潜在的回音问题。不过，您仍然可以使用控制面板的按钮来尝试控制不同的会议。"
+   },
+   "sim17": {
+      "message": "提示："
+   },
+   "sim18": {
+      "message": "在这些练习课程中，由于您的屏幕上会有许多会议开启，我们建议将分组格式设为「Tabs」而不是预设的「Tiles」。您可以在『分组讨论室格式』区域使用单选按钮进行选择，该区域位于本区域的上方。这样可以将您的「教师」会议整理在屏幕左侧的单一窗口中，并以多个分页显示，而右侧则会显示模拟学生的会议，同样位于单一窗口中的多个分页中。当您实际授课时，您可以依照个人喜好选择「Tiles」或「Tabs」，因为那时您的屏幕上只会显示教师的会议，这样您会有更多屏幕空间。"
+   },
+   "sim2": {
+      "message": "如果您是第一次使用这个扩展功能，并且想要了解它的运作方式，您可以使用模拟学生进行测试。这个模拟完全可以在您的电脑上进行。"
+   },
+   "sim3": {
+      "message": "提醒："
+   },
+   "sim4": {
+      "message": "当您使用这个扩展功能进行授课时，只有您作为老师需要安装它。学生无需安装这个扩展功能，因为他们不会使用它。"
+   },
+   "sim5": {
+      "message": "模拟设置说明"
+   },
+   "sim6": {
+      "message": "步骤 1："
+   },
+   "sim7": {
+      "message": "前往您的 Chrome 扩展功能页面"
+   },
+   "sim7a": {
+      "message": "找到 Google Meet Breakout 扩展功能，点击「详细资料」按钮，然后向下滚动以开启「允许无痕模式」选项。"
+   },
+   "sim8": {
+      "message": "注意："
+   },
+   "sim9": {
+      "message": "练习完毕后，您可以关闭「允许无痕模式」设置。正常使用这个扩展功能时，您不需要为学生使用无痕模式。"
+   },
+   "sliderDefault": {
+      "message": "分组"
+   },
+   "startClass": {
+      "message": "开始上课"
+   },
+   "subHeadingRooms": {
+      "message": "教室"
+   },
+   "timerHrs": {
+      "message": "小时"
+   },
+   "timerMin": {
+      "message": "分钟"
+   },
+   "timerReset": {
+      "message": "重置"
+   },
+   "timerSec": {
+      "message": "秒钟"
+   },
+   "timerStart": {
+      "message": "开始"
+   },
+   "timerStop": {
+      "message": "暂停"
+   },
+   "title": {
+      "message": "分组"
+   },
+   "toolTipRetile": {
+      "message": "重新视窗格式"
+   },
+   "toolTipToolbar": {
+      "message": "隐藏/显示Meet下面Toolbar"
+   },
+   "url": {
+      "message": "网址"
+   },
+   "warning8Rooms": {
+      "message": "Google Meet 麦克风限制为 7 个分组讨论室"
+   }
+}

@@ -1,0 +1,45 @@
+Completamente Gratis y sus Datos son Privados. Integración de Google Classroom, control deslizante, apodos, tutoriales de ayuda
+
+Te damos la bienvenida a la extensión de salas de reuniones de Google Meet
+
+***** Solo el profesor necesita instalar esta extensión *****
+
+Demostración de tres minutos: https://youtu.be/HY5eZw-gsKU
+
+La extensión de Google Meet Breakout Rooms tiene 5 características clave:
+
+1) Ver a todos los estudiantes: el maestro siempre puede ver a TODOS los estudiantes en TODAS los cuartos de grupos.
+
+2) Gratis: la extensión es de uso completamente gratuito. Soy ingeniero de software y creé esto para mi uso personal como maestro y luego lo mejoré para que lo usen todos los maestros. 
+
+3) Privado: los datos de sus salas de reuniones se almacenan de forma privada en el navegador Chrome de su computadora personal. Los datos de sus cuartos de reuniones NO se comparten con nadie y NO se almacenan en un servidor. Incluso el creador de esta extensión no tiene conocimiento de ninguno de sus datos.
+
+4) Sin complicaciones: SÓLO el profesor debe instalar la extensión.
+
+5) Ayuda en línea: el menú de ayuda en línea está completamente actualizado y ahora tiene capturas de pantalla de cada paso del proceso de configuración y operación.
+
+*** Video de demostración de 3 minutos https://www.youtube.com/watch?v=HY5eZw-gsKU
+
+***Tutorial https://www.youtube.com/watch?v=mLag62gSUMY
+
+Este software es creado por Robert Hudek y todos los derechos están reservados. No se puede copiar ninguna parte de esta extensión sin el consentimiento expreso por escrito de Robert Hudek de Hudek Tech LLc. Esta extensión no está afiliada a Google, Inc.
+
+Funciones:
+
+1) Dividir cuartos se pueden ver en modo de pestaña o mosaico
+2) Se puede usar un control deslizante para moverse rápidamente entre cuartos
+3) Las asignaciones de grupo se pueden crear en cualquier momento o con anticipación si se desea
+4) Los maestros pueden transmitir su video y audio a todas los cuartos de grupos
+5) Personaliza temas :)
+6) Puede usar apodos de Google Meet (si su suscripción de Google admite apodos)
+7) Informes básicos
+8) Botones Silenciar y Eliminar Estudiantes
+9) Funciones de importación y exportación
+10) Integración del aula de Google
+
+*** Español: Muchas gracias a Hazel Diaz (puede incluir su escuela o correo electrónico si lo desea, totalmente opcional) por la traducción al español
+
+*** Slovak: A big thank you to Lenka Zustiaková from SOŠ GaHS, Farského 9 in Petržalka (www.farskeho.sk) for the translation into Slovak.
+
+*** Ukrainian: A big thank you to Igor Kozachuk (email: disk.igor@gmail.com) for the translation into Ukrainian
+

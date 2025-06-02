@@ -1,0 +1,174 @@
+.anti-captcha-blocker {
+    display: flex;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: #F4F6FA;
+    border: 1px solid #DAE1EE;
+    box-shadow: 0 0 4px 1px rgba(0,0,0,0.08);
+    transition: background-color .2s ease;
+    max-width: 304px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #2F2F2F;
+}
+.anti-captcha-blocker:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+.anti-captcha-blocker[data-state=solving] {
+    background: #F4F6FA;
+    border: 1px solid #DAE1EE;
+    cursor: not-allowed;
+    color: #8188A4;
+}
+.anti-captcha-blocker[data-state=solving]:hover {
+    opacity: 0.8;
+}
+.anti-captcha-blocker[data-state=solved] {
+    background: #F4F6FA;
+    border: 1px solid #FF6400;
+    cursor: not-allowed;
+    color: #FF6400;
+}
+.anti-captcha-blocker[data-state=error] {
+    background-color: #ffcaca;
+    border-color: #970606 !important;
+    color: #df4343;
+}
+.anti-captcha-blocker[data-state=error]:hover {
+    background-color: #f6c0c0;
+}
+.anti-captcha-blocker-image {
+    width: 38px;
+    flex: 0 0 38px;
+}
+.anti-captcha-blocker-image img {
+    display: block;
+    margin: 8px auto !important;
+    width: 18px !important;
+    height: 18px !important;
+}
+.anti-captcha-blocker[data-state=solving] .anti-captcha-blocker-image {
+
+}
+.anti-captcha-blocker[data-state=solving] .anti-captcha-blocker-image img {
+    animation: blink 1s linear infinite;
+}
+.anti-captcha-blocker[data-state=solved] .anti-captcha-blocker-image {
+
+}
+.anti-captcha-blocker[data-state=error] .anti-captcha-blocker-image {
+
+}
+@keyframes blink {
+    50% {
+        opacity: .2;
+    }
+}
+.anti-captcha-blocker-info {
+    padding: 6px 8px !important;
+    word-break: break-word;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    color: inherit;
+}
+.grecaptcha-badge .anti-captcha-blocker {
+    text-align: left;
+    margin-bottom: 0;
+}
+.anti-captcha-blocker-hcaptcha {
+    margin: 0 auto;
+}
+.anti-captcha-blocker-hcaptcha-helper {
+    display: none !important;
+}
+.anti-captcha-blocker-geetest {
+    margin: 5px auto 0 auto;
+}
+.anti-captcha-blocker-keycaptcha {
+    margin: 5px auto 0 auto;
+    width: 300px;
+}
+.anti-captcha-blocker-keycaptcha-working {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+
+/* TOAST */
+.anti-captcha-toast-container {
+    display: inline-block;
+    width: 300px;
+    position: fixed;
+    z-index: 1031;
+    right: 20px;
+    top: 20px;
+}
+.anti-captcha-toast {
+    padding: 10px 20px 10px 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-out;
+    background-color: #fff;
+    color: #2F2F2F;
+    opacity: 0;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.anti-captcha-toast.visible {
+    opacity: 0.99;
+    margin-top: 0px;
+}
+.anti-captcha-toast-logo {
+    height: 13px !important;
+	width: 115px !important;
+    vertical-align: baseline !important;
+}
+.anti-captcha-toast-message {
+    color: inherit;
+    font-size: 13px !important;
+    font-family: 'Open Sans' !important;
+    font: 13px Verdana, arial, sans-serif !important;
+    line-height: 1.5 !important;
+    margin-left: 10px;
+}
+.anti-captcha-toast-message a {
+    color: #0075ff !important;
+    text-decoration: underline !important;
+}
+.anti-captcha-toast-message a:hover {
+    text-decoration: none !important;
+}
+
+.anti-captcha-inner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.anti-captcha-toast > .close {
+    position: relative;
+    top: -2px;
+    right: -8px;
+    float: right;
+    font-size: 20px;
+    font-weight: 500 !important;
+    line-height: 1;
+    background: #FF6400;
+    border-radius: 5px;
+    outline: none;
+    color: #fff;
+    border: none;
+}
+
+.anti-captcha-toast > .close:hover {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: .5;
+}

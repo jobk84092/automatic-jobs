@@ -1,0 +1,24 @@
+{
+	"type": "object",
+	"properties": {
+		"initOptions": {
+			"type": "object",
+			"properties": {
+				"clipboardMode": { "type": "string" },
+				"enableInputMethods": { "type": "boolean"},
+				"overrideAllShortcuts": { "type": "boolean" },
+				"licenseKey": { "type": "string" },
+				"tailscaleControlUrl": { "type": "string"},
+				"tailscaleAuthKey": { "type": "string"}
+			}
+		},
+		"userAgent": {
+			"title": "Custom user-agent string and platform",
+			"type": "object",
+			"properties": {
+				"uaString": {"type": "string"},
+				"platform": {"type": "string"}
+			}
+		}
+	}
+}
