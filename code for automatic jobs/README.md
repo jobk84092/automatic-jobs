@@ -1,91 +1,62 @@
-# Job Scraper and Application Automation
+# Automatic Job Application System
 
-This script automates the process of finding and applying to jobs on Kenyan job boards. It scrapes job listings, automatically fills out application forms, and tracks your applications in a local JSON file.
+This project automates the process of job searching and application tracking. It includes scripts for scraping job listings, managing applications, and sending email digests of new opportunities.
 
 ## Features
 
-- Scrapes jobs from BrighterMonday Kenya
-- Automatically fills application forms using Selenium
-- Tracks applications in a local JSON file
-- Runs weekly via scheduler
-- Comprehensive logging system
-- Error handling and retry mechanisms
+- Job scraping from multiple sources
+- Application tracking
+- Email digest of new job opportunities
+- URL validation for job listings
 
-## Prerequisites
+## Setup
 
-- Python 3.x
-- Chrome browser installed
-- Internet connection
+1. Clone the repository:
+```bash
+git clone https://github.com/jobkimani/automatic-jobs.git
+cd automatic-jobs
+```
 
-## Installation
+2. Create and activate a virtual environment:
+```bash
+python -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+```
 
-1. Clone this repository or download the files
-2. Install the required packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
+3. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
 
-## Configuration
-
-1. Open `job_scraper.py` and update the `APPLICANT_INFO` dictionary with your personal information:
-   ```python
-   APPLICANT_INFO = {
-       "full_name": "Your Full Name",
-       "email": "your.email@example.com",
-       "phone": "+254700000000",
-       "resume_path": "/path/to/your/resume.pdf",
-       "cover_letter": "Your cover letter text..."
-   }
-   ```
-
-2. Make sure your resume file exists at the specified path
+4. Set up environment variables:
+```bash
+export GMAIL_APP_PASSWORD='your-16-digit-app-password'
+```
 
 ## Usage
 
-### One-time Run
-
-To run the script once:
-
+1. Run the job scraper:
 ```bash
 python job_scraper.py
 ```
 
-### Weekly Scheduler
+2. Run the job digest:
+```bash
+python job_digest.py
+```
 
-To run the script weekly:
+## Configuration
 
-1. Uncomment the `schedule_weekly()` line in `job_scraper.py`
-2. Run the script:
-   ```bash
-   python job_scraper.py
-   ```
+- Update `applied_jobs.json` to track your job applications
+- Configure email settings in `job_digest.py`
+- Modify scraping parameters in `job_scraper.py`
 
-The script will run every Monday at 9:00 AM.
+## Security
 
-## Files Generated
-
-- `applied_jobs.json`: Tracks all applications made
-- `job_scraper.log`: Contains detailed logs of the script's operation
-
-## Customization
-
-- Adjust `MAX_JOBS_PER_RUN` to change the number of jobs to apply for per run
-- Modify the CSS selectors in `scrape_jobs()` if the job board's HTML structure changes
-- Update form field names in `autofill_apply()` to match different application forms
-
-## Troubleshooting
-
-1. Check `job_scraper.log` for detailed error messages
-2. Ensure Chrome is installed and up to date
-3. Verify your internet connection
-4. Make sure your resume file exists at the specified path
-
-## Security Notes
-
-- Keep your personal information secure
-- Don't share your `applied_jobs.json` file as it contains your application history
-- Consider using environment variables for sensitive information
+- Never commit sensitive information like passwords or API keys
+- Use environment variables for credentials
+- Keep your Chrome profile and credentials files in .gitignore
 
 ## License
 
-This project is open source and available under the MIT License. 
+MIT License 
